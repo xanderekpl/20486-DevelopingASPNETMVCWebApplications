@@ -95,7 +95,7 @@ The main tasks for this exercise are as follows:
 5. Add a **P** elementto display the **Description**  property from the model by using the following information:
 
    - Helper: **Html.DisplayFor**
-   - Lamda expression: **model => **model.Description**
+   - Lamda expression: **model => model.Description**
 
 6. Add a **P** elementto display the **UserName** property from the model by using the following information:
 
@@ -104,7 +104,7 @@ The main tasks for this exercise are as follows:
      - **Html.DisplayNameFor**
      - **HtmlDisplayFor**
 
-   - Lamda expression: **model => ** model.UserName**
+   - Lamda expression: **model => model.UserName**
 
 7. Add a **P** elementto display the **CreatedDate** property from the model by using the following information:
 
@@ -113,7 +113,7 @@ The main tasks for this exercise are as follows:
      - **Html.DisplayNameFor**
      - **Html.DisplayFor**
 
-   - Lamda expression: **model => ** model.CreatedDate**
+   - Lamda expression: **model => model.CreatedDate**
 
 8. Add a **P** elementto display a link to the **Index** controller action by using the following information:
 
