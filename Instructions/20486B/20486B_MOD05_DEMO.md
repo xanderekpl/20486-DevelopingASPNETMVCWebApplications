@@ -100,7 +100,7 @@
 21. In the **Year** box of the Add an Opera page, type **1851**.
 22. In the **Composer** box of the Add an Opera page, type **Verdi** , and then click **Create**.
 
-   >** Note**:  The Opera is created with the mentioned values.
+   >** Note** :  The Opera is created with the mentioned values.
 
 23. In the Windows Internet Explorer window, click the **Close** button.
 24. In the **OperasWebSite - Microsoft Visual Studio** window, click the **Close** button.
