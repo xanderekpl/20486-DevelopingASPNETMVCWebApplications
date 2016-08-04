@@ -30,7 +30,7 @@ User Name: **Admin**
 
 Password: **Pa$$w0rd**
 
-   >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running. ** **
+     >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running. ** **
 
 Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
 
@@ -120,7 +120,7 @@ The main tasks for this exercise are as follows:
    - Helper: **HTML.ActionLink**
    - Content: **Back to List**
 
-   >**Note:** You will create the **Index** action and view for the **PhotoController** later in this lab.
+     >**Note:** You will create the **Index** action and view for the **PhotoController** later in this lab.
 
 9. Save the Display.cshtml file.
 
