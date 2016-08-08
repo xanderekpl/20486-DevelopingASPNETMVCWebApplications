@@ -26,7 +26,7 @@
 10. Place the mouse cursor at the end of the **&lt;/h2&gt;** tag, press Enter twice, and then type the following code.
 
   ```cs
-		@using (Html.BeginForm(
+	@using (Html.BeginForm(
             "Create", "Opera",
             FormMethod.Post))
         {
@@ -36,7 +36,7 @@
 11. In the **using** code block, type the following code.
 
   ```cs
-		<p>
+	<p>
            @Html.LabelFor(model =>
               model.Title):
            @Html.EditorFor(model =>
