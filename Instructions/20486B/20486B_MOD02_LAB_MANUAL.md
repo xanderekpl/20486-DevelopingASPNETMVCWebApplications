@@ -75,7 +75,7 @@ The main tasks for this exercise are as follows:
 8. Add attributes to the new Class shape for each of the properties you planned for the photos.
 9. Save the created diagram by using the following information:
 
-   - Folder path: **Allfiles**** (D):\Labfiles\Mod02**
+   - Folder path: **Allfiles (D):\Labfiles\Mod02**
    - File name: **PhotoSharingLDM**
 
 #### Task 3: Plan the comment model class.
@@ -139,7 +139,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Plan the single photo view.
 
-1. Add a controller to the **Table 3:**** MVC Views** table.
+1. Add a controller to the **Table 3: MVC Views** table.
 
 2. Add the required views to the Controllers.
 3. Add a description to the views.
