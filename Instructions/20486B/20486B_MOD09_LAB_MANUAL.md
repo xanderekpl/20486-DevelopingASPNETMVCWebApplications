@@ -63,7 +63,7 @@ The main tasks for this exercise are as follows:
     - Return type: **PartialViewResult**
     - Name: **_CommentsForPhoto**
 	- Parameter: an integer named **PhotoId**.
-2.	In the **_CommentsForPhoto** action, select all the comments in the database that have a **PhotoID** value equal to the **PhotoId** parameter, by using a LINQ query.
+2.	In the **_CommentsForPhoto** action, select all the comments in the database that have a **PhotoID** value equal to the  **PhotoId** parameter, by using a LINQ query.
 3.	Save the **PhotoId** parameter value in the **ViewBag** collection to use it later in the view.
 4.	Return a partial view as the result of the **_CommentsForPhoto** action by using the following information:
 	- View name: **_CommentsForPhoto**
@@ -79,7 +79,7 @@ The main tasks for this exercise are as follows:
 	- Heading: **Comments**
 8.	After the heading, create a **DIV** element with the ID **comments-tool**. Within this **DIV** element, create a second **DIV** element with the ID **all-comments**.
 9.	For each item in the model, render a **DIV** element with the **photo-comment** class.
-10.	Within the **&lt;div class=&quot;photo-comment&quot;&gt;** element, add a **DIV** element with the **photo-comment-from** class. Within this **DIV** element, render the **UserName** value of the model item by using the **Html.DisplayFor()** helper.
+10.	Within the **&lt;div class=&quot;photo-comment&quot;&gt;** element, add a **DIV** element with the **photo-comment-from**  class. Within this **DIV** element, render the **UserName** value of the model item by using the **Html.DisplayFor()** helper.
 11.	Add a **DIV** element with the **photo-comment-subject** class. Within this **DIV** element, render the **Subject** value of the model item by using the **Html.DisplayFor()** helper.
 12.	Add a **DIV** element with the **photo-comment-body** class. Within this **DIV** element, render the **Body** value of the model item by using the **Html.DisplayFor()** helper.
 13.	Render a link to the **Delete** action by using the **Html.ActionLink()** helper. Pass the **item.CommentID** value as the **id** parameter.
@@ -106,7 +106,7 @@ The main tasks for this exercise are as follows:
 	- View type: **Strong**
 	- Model class: **Comment**
 	- Create partial view: **Yes**
-6.	In the **_CreateAComment** view, render validation messages by using the **Html.ValidationSummary()**  helper. For the **excludePropertyErrors** parameter, pass true.
+6.	In the **_CreateAComment** view, render validation messages by using the **Html.ValidationSummary()**  helper. For the  **excludePropertyErrors** parameter, pass true.
 7.	After the validation messages, add a **DIV** element with the **add-comment-tool** class.
 8.	Within the **&lt;div class=&quot;add-comment-tool&quot;&gt;** element, add a **DIV** element with no class or ID.
 9.	Within the **DIV** element you just created, add a **SPAN** element with the **editor-label** class and content **Subject:**
@@ -162,7 +162,7 @@ You have been asked to configure the ASP.NET caches in the Photo Sharing applica
 In this exercise, you will:
 •	Configure the output cache to store the photo index view. 
 •	Use the developer tools in Internet Explorer to examine the speed at which image files and pages render with and without caching.
-•	Configure the output cache to store the results of the GetImage action so that image files can be returned from the cache.
+•	Configure the output cache to store the results of the GetImage action so that image files can be returned from the cache.  
 Complete this exercise if time permits.
 
 The main tasks for this exercise are as follows:
@@ -175,7 +175,7 @@ The main tasks for this exercise are as follows:
 #### Task 1: Test the All Photos page with no caching.
 1.	Start the application in debugging mode and configure the browser to always refresh the **page** from the server by using the Internet Explorer developer tools.
 2.	Capture traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
-3.	Record the time taken by the server to render the **/Photo** page and return the page to the browser. This value is the **Request** duration, which you can find on the **Timings** tab.
+3.	Record the time taken by the server to render the **/Photo** page and return the page to the browser. This value is the  **Request** duration, which you can find on the **Timings** tab.
 4.	Clear the first network capture, and capture a second request to the **All Photos** page.
 5.	Record the second instance of time taken by the server to render the **/Photo** page and return the page to the browser. Observe if the duration is more or less than the first instance.
 6.	Stop debugging.
@@ -191,7 +191,7 @@ The main tasks for this exercise are as follows:
 #### Task 3: Retest the All Photos page with Index caching.
 1.	Start the application in debugging mode, and configure the browser to always refresh the page from the server, by using the Internet Explorer developer tools.
 2.	Capture the traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
-3.	Record the time taken by the server to render the **/Photo** page and return the page to the browser. This value is the **Request** duration, which you can find on the **Timings** tab.
+3.	Record the time taken by the server to render the **/Photo** page and return the page to the browser. This value is the  **Request** duration, which you can find on the **Timings** tab.
 4.	Clear the first network capture, and capture a second request to the **All Photos** page.
 5.	Record the second instance of the time taken by the server to render the **/Photo** page and return the page to the browser. Observe if the duration is more or less than the first instance.
 6.	Record the time taken by the server to render the **/Photo/GetImage/1** request. 
