@@ -6,7 +6,7 @@
 
 #### Demonstration Steps
 
-1. In the Solution Explorer pane of the **OperasWebSite - Microsoft Visual Studio** window, expand **Controllers** , and then click **OperaController.cs**.
+1. In the Solution Explorer pane of the **OperasWebSite - Microsoft Visual Studio** window, expand **Controllers** , and then click  **OperaController.cs**.
 2. On the **BUILD** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**.
 3. In the **OperaController.cs** code window, locate the following code, right-click the code, and then click **Add View**.
 
@@ -26,7 +26,7 @@
 
   ```cs
 		@using (Html.BeginForm(
-           "Create", "Opera" ,
+           "Create", "Opera",
            FormMethod.Post))
         {
         }
@@ -59,12 +59,12 @@
 
   ```cs
 		<p>
-        	@Html.LabelFor(model =>;
+        	@Html.LabelFor(model =>
         	   model.Composer):
-        	@Html.EditorFor(model =>;
+        	@Html.EditorFor(model =>
         	   model.Composer)
         	@Html.ValidationMessageFor(
-        	   model =>; model.Composer)
+        	   model => model.Composer)
         </p>
 ```
 14. Place the mouse cursor at the end of the **&lt;/p&gt;** tag corresponding to the **model.Composer** property, press Enter twice, and then type the following code.
