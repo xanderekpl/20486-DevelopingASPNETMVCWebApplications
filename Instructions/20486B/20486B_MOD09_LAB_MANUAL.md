@@ -145,7 +145,7 @@ The main tasks for this exercise are as follows:
 2.	In the form code block, in the **&lt;div class=&quot;comments-tool&quot;&gt;** element, add a new **DIV** element with the **add-comment-box** class and the ID add-comment.
 3.	In the **DIV** element you just created, render the **_Create** action of the **Comment** controller by using the **Html.Action()** helper. Pass the **ViewBag.PhotoId** value as the **PhotoId** parameter.
 4.	Add script tags to the **_MainLayout.cshtml** page that reference the following content delivery network (CDN) locations:
-	http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.0.min.js
+	http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.0.min.js  
 	http://ajax.aspnetcdn.com/ajax/mvc/3.0/jquery.unobtrusive-ajax.js
 5.	Start the web application in debugging mode, browse to **Sample Photo 1**, and observe the comments displayed.
 6.	Add a new comment to Sample Photo 1.
