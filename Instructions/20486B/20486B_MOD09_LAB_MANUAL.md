@@ -20,9 +20,9 @@ Password: **Pa$$w0rd**
 
    >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
 
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps: 
-a.	On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**. 
-b.	In the navigation pane of the **Options** dialog box, click **Package Manager**. 
+Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:     
+a.	On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.   
+b.	In the navigation pane of the **Options** dialog box, click **Package Manager**.   
 c.	Under the Package Restore section, select the **Allow NuGet to download missing packages during build**  checkbox, and then click **OK**.
 
 ### Exercise 1: Using Partial Page Updates
@@ -166,11 +166,11 @@ In this exercise, you will:
 Complete this exercise if time permits.
 
 The main tasks for this exercise are as follows:
-1. Test the All Photos page with no caching.
-2. Configure caching for the Index action.
-3. Retest the All Photos page with Index caching.
-4. Configure caching for the GetImage action.
-5. Retest the All Photo page with GetImage caching.
+1. Test the All Photos page with no caching.  
+2. Configure caching for the Index action.  
+3. Retest the All Photos page with Index caching.  
+4. Configure caching for the GetImage action.  
+5. Retest the All Photo page with GetImage caching.  
 
 #### Task 1: Test the All Photos page with no caching.
 1.	Start the application in debugging mode and configure the browser to always refresh the **page** from the server by using the Internet Explorer developer tools.
@@ -205,12 +205,12 @@ The main tasks for this exercise are as follows:
 2.	Save all your changes.
 
 #### Task 5: Retest the All Photo page with GetImage caching.
-1.	Start the application in debugging mode and configure the browser to always refresh the page from the server, by using the Internet Explorer developer tools.
-2.	Capture the traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
-3.	Record the time taken by the server to render the **/Photo/GetImage/1** request.
-4.	Clear the first network capture, and capture a second request to the **All Photos** page.
-5.	Record the second instance of the time taken by the server to render the **/Photo/GetImage/1** request and return the page to the browser.
-6.	Close the developer tools, stop debugging, and close Visual Studio.
+1. Start the application in debugging mode and configure the browser to always refresh the page from the server, by using the Internet Explorer developer tools.
+2. Capture the traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
+3. Record the time taken by the server to render the **/Photo/GetImage/1** request.
+4. Clear the first network capture, and capture a second request to the **All Photos** page.
+5. Record the second instance of the time taken by the server to render the **/Photo/GetImage/1** request and return the page to the browser.
+6. Close the developer tools, stop debugging, and close Visual Studio.
 
     >**Results**: At the end of this exercise, you will create a Photo Sharing application with the Output Cache configured for caching photos.
 
