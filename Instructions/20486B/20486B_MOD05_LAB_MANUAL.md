@@ -79,7 +79,7 @@ The main tasks for this exercise are as follows:
 #### Task 2: Complete the photo display view.
 
 1. Add a title to the display view by using the **Title** property of the **Model** object.
-2. Add an **H2** element to the body page to display the photo title on the page by using the **Title** property of the **Model** object.
+2. Add an **H2** element to the body page to display the photo title on the page by using the **Title** property of the **Model**  object.
 3. Add an **&lt;img&gt;** tag to display the photo on the page by using the following information:
 
    - Width: **800**
@@ -92,27 +92,27 @@ The main tasks for this exercise are as follows:
    - Controller name: **Photo**
    - Route values: **new { id=Model.PhotoID }**
 
-5. Add a **P** elementto display the **Description**  property from the model by using the following information:
+5. Add a **P** element to display the **Description**  property from the model by using the following information:
 
    - Helper: **Html.DisplayFor**
    - Lamda expression: **model =&gt;**
    - **model.Description**
 
-6. Add a **P** elementto display the **UserName** property from the model by using the following information:
+6. Add a **P** element to display the **UserName** property from the model by using the following information:
 
    - Helpers:
      - **Html.DisplayNameFor**
      - **HtmlDisplayFor**
    - Lamda expression: **model => model.UserName**
 
-7. Add a **P** elementto display the **CreatedDate** property from the model by using the following information:
+7. Add a **P** element to display the **CreatedDate** property from the model by using the following information:
 
    - Helpers:
      - **Html.DisplayNameFor**
      - **Html.DisplayFor**
    - Lamda expression: **model => model.CreatedDate**
 
-8. Add a **P** elementto display a link to the **Index** controller action by using the following information:
+8. Add a **P** element to display a link to the **Index** controller action by using the following information:
 
    - Helper: **HTML.ActionLink**
    - Content: **Back to List**
@@ -278,7 +278,7 @@ The main tasks for this exercise are as follows:
    - Parameters: for the **id** parameter, pass **item.PhotoID**
 
 6. After the **if** statement, add a **P** element, and call the **@Html.DisplayFor** helper to render the words **Created By:** followed by the value of the **item.UserName** property.
-7. After the **UserName** display controls, add a **P** element, and call the **@Html.DisplayFor** helper to render the words **Created On:** followed by the value of the **item.CreatedDate** property.
+7. After the **UserName** display controls, add a **P** element, and call the **@Html.DisplayFor** helper to render the words  **Created On:** followed by the value of the **item.CreatedDate** property.
 8. After the **CreatedDate** display controls, call the **Html.ActionLink** helper to render a link by using the following information:
 
    - Link text: **Display**
