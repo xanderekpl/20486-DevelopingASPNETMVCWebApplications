@@ -45,9 +45,9 @@ In this exercise, you will create the MVC controller that handles photo operatio
 - _Index_. This action gets a list of all the Photo objects and passes the list to the Index view for display.
 - _Display_.This action takes an ID to find a single Photo object. It passes the Photo to the Display view for display.
 - _Create (GET)_.This action creates a new Photo object and passes it to the Create view, which displays a form that the visitor can use to upload a photo and describe it.
-- _Create (POST)_. This action receives a Photo object from the Createview and saves the details to the database.
-- _Delete (GET)_.This action displays a Photoobject and requests confirmation from the user to delete the Photo object.
-- _DeleteConfirmed (POST)_.This action deletes a Photoobject after confirmation.
+- _Create (POST)_. This action receives a Photo object from the Create view and saves the details to the database.
+- _Delete (GET)_.This action displays a Photo object and requests confirmation from the user to delete the Photo object.
+- _DeleteConfirmed (POST)_.This action deletes a Photo object after confirmation.
 - _GetImage:_ This action returns the photo image from the database as a JPEG file. This method is called by multiple views to display the image.
 
 The main tasks for this exercise are as follows:
@@ -122,7 +122,7 @@ The main tasks for this exercise are as follows:
    - Return type: **ActionResult**
    - Name: **Create**
 
-2. Add code to the **Create** actionthat creates a new Photo and sets its **CreatedDate** property to today&#39;s date.
+2. Add code to the **Create** action that creates a new Photo and sets its **CreatedDate** property to today&#39;s date.
 3. Pass the new **Photo** to a view called **Create**.
 4. Add another method for the **Create** action by using the following information:
 
@@ -133,9 +133,9 @@ The main tasks for this exercise are as follows:
    - First parameter: a **Photo** object called **photo**.
    - Second parameter: an **HttpPostedFileBase** object called **image**.
 
-5. Add code to the **Create** actionthat sets the **photo.CreatedDate** property to today&#39;s date.
+5. Add code to the **Create** action that sets the **photo.CreatedDate** property to today&#39;s date.
 6. If the **ModelState** is not valid, pass the **photo** object to the **Create** view. Else, if the image parameter is not null, set the **photo.ImageMimeType** property to the value of **image.ContentType** , set the **photo.PhotoFile** property to be a new byte array of length, **image.ContextLength** , and then save the file that the user posted to the **photo.PhotoFile** property by using the **image.InputStream.Read()** method.
-7. Add the **photo** objectto the context, save the changes, and then redirect to the **Index** action.
+7. Add the **photo** object to the context, save the changes, and then redirect to the **Index** action.
 
 #### Task 5: Create the Delete actions for GET and POST HTTP verbs
 
@@ -149,7 +149,7 @@ The main tasks for this exercise are as follows:
 2. In the **Delete** action, add code to find a single **photo** object from its **id**.
 3. If no Photo with the right **id** is found, return the **HttpNotFound** value
 4. If a Photo with the right **id** is found, pass it to a view called **Delete**.
-5. Add a method called **DeleteConfirmed** by usingthe following information:
+5. Add a method called **DeleteConfirmed** by using the following information:
 
    - HTTP verb: **HTTP Post**
    - ActionName: **Delete**
@@ -174,7 +174,7 @@ The main tasks for this exercise are as follows:
 3. If the **photo** object is not null, return a **File** result constructed from the **photo.PhotoFile** and **photo.ImageMimeType** properties, else return the **null** value.
 4. Save the file.
 
->**Results** : After completing this exercise, you will be able to create an MVC controller that implements common actions for the Photomodel class in the Photo Sharing application.
+>**Results** : After completing this exercise, you will be able to create an MVC controller that implements common actions for the Photo model class in the Photo Sharing application.
 
 ### Exercise 2: Optional—Writing the Action Filters in a Controller
 
@@ -297,7 +297,7 @@ The main tasks for this exercise are as follows:
 
 2. If you completed Exercise 2, in the **Output** pane of the **PhotoSharingApplication - Microsoft Visual Studio** window, locate the last entry in the **Action Values** category to verify whether there are any calls to the **Display** and the **GetImage** actions.
 3. Display an image.
-4. If you completed Exercise 2, in the **Output** pane of the **PhotoSharingApplication - Microsoft Visual Studio** window, locate the last entry in the **Action Values** category to verify whether there are any calls to the **Display** and the** GetImage** actions.
+4. If you completed Exercise 2, in the **Output** pane of the **PhotoSharingApplication - Microsoft Visual Studio** window, locate the last entry in the **Action Values** category to verify whether there are any calls to the **Display** and the **GetImage** actions.
 5. Stop debugging and close Microsoft Visual Studio.
 
 >**Results** : After completing this exercise, you should have created an MVC application with views that you can use to test controllers, actions, and action filters.
