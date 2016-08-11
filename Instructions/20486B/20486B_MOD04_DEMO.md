@@ -6,7 +6,7 @@
 
 #### Demonstration Steps
 
-1. In the Solution Explorer pane of the **OperasWebSite - Microsoft Visual Studio** window, right-click **Controllers** , point to **Add** , and then click **Controller**.
+1. In the Solution Explorer pane of the **OperasWebSite - Microsoft Visual Studio** window, right-click **Controllers** , point to  **Add** , and then click **Controller**.
 2. In the **Controller Name** text box of the **Add Controller** dialog box, type **OperaController**.
 3. In the **Template** box, click **Empty MVC controller** , and then click **Add**.
 4. In the OperaController.cs code window, locate the following code.
@@ -34,7 +34,7 @@
 8. Replace the selected code with the following code.
 
   ```cs
-       return View(&quot;Index&quot;,
+       return View("Index",
           contextDB.Operas.ToList());
 ```
 9. Ensure that the cursor is at the end of the **Index** action code block, press Enter, and then type the following code.
@@ -44,14 +44,14 @@
        {
        }
 ```
-10. n the **Details** action code block, type the following code.
+10. In the **Details** action code block, type the following code.
 
   ```cs
         Opera opera =
            contextDB.Operas.Find(id);
         if (opera != null)
         {
-           return View(&quot;Details&quot;, opera);
+           return View("Details", opera);
         }
         else
         {
@@ -69,7 +69,7 @@
 
   ```cs
         Opera newOpera = new Opera();
-        return View(&quot;Create&quot;, newOpera);
+        return View("Create", newOpera);
 ```
 13. Place the mouse cursor at the end of the **Create** action code block, press Enter twice, and then type the following code.
 
@@ -88,11 +88,11 @@
            contextDB.Operas.Add(newOpera);
            contextDB.SaveChanges();
            return
-              RedirectToAction(&quot;Index&quot;);
+              RedirectToAction("Index");
         }
         else
         {
-           return View(&quot;Create&quot;, newOpera);
+           return View("Create", newOpera);
         }
 ```
 15. On the **FILE** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Save Controllers\OperaControllers.cs**.
