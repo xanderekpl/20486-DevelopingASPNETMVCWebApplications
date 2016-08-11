@@ -147,7 +147,7 @@ The main tasks for this exercise are as follows:
    - Parameter: an integer called **id**
 
 2. In the **Delete** action, add code to find a single **photo** object from its **id**.
-3. If no Photo with the right **id** is found, return the **HttpNotFound** value
+3. If no Photo with the right **id** is found, return the **HttpNotFound** value.
 4. If a Photo with the right **id** is found, pass it to a view called **Delete**.
 5. Add a method called **DeleteConfirmed** by using the following information:
 
