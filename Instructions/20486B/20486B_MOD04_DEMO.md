@@ -23,8 +23,7 @@
 6. In the **OperaController** class code block, press Enter, type the following code, and then press Enter.
 
   ```cs
-       private OperasDB contextDB =
-          new OperasDB();
+       private OperasDB contextDB = new OperasDB();
 ```
 7. In the **Index** action code block, select the following code.
 
@@ -34,8 +33,7 @@
 8. Replace the selected code with the following code.
 
   ```cs
-       return View("Index",
-          contextDB.Operas.ToList());
+       return View("Index", contextDB.Operas.ToList());
 ```
 9. Ensure that the cursor is at the end of the **Index** action code block, press Enter, and then type the following code.
 
@@ -47,8 +45,7 @@
 10. In the **Details** action code block, type the following code.
 
   ```cs
-        Opera opera =
-           contextDB.Operas.Find(id);
+        Opera opera = contextDB.Operas.Find(id);
         if (opera != null)
         {
            return View("Details", opera);
