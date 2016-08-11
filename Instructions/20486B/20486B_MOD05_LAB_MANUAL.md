@@ -61,11 +61,11 @@ The main tasks for this exercise are as follows:
    - User name: **Admin**
    - Password: **Pa$$w0rd**
 
-2. Open the Photo Sharing Application solution from the following location:
+2. Open the **Photo Sharing Application** solution from the following location:
 
    - File location: **Allfiles (D):\Labfiles\Mod05\Starter\PhotoSharingApplication**
 
-3. Open the PhotoController.cs code window.
+3. Open the **PhotoController.cs** code window.
 4. Build the solution
 5. Add a new view to the **Display** action in the **PhotoController** by using the following information:
 
@@ -95,8 +95,7 @@ The main tasks for this exercise are as follows:
 5. Add a **P** element to display the **Description**  property from the model by using the following information:
 
    - Helper: **Html.DisplayFor**
-   - Lamda expression: **model =&gt;**
-   - **model.Description**
+   - Lamda expression: **model =&gt; model.Description**
 
 6. Add a **P** element to display the **UserName** property from the model by using the following information:
 
@@ -119,7 +118,7 @@ The main tasks for this exercise are as follows:
 
    >**Note:** You will create the **Index** action and view for the **PhotoController** later in this lab.
 
-9. Save the Display.cshtml file.
+9. Save the **Display.cshtml** file.
 
 >**Results** : After completing this exercise, you will be able to add a single display view to the Photo Sharing web application and display the properties of a photo.
 
@@ -152,7 +151,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 2: Complete the photo create view.
 
-1. Add the following title to the Create view:
+1. Add the following title to the **Create** view:
 
    - Title: **Create New Photo**
 
@@ -208,7 +207,7 @@ The main tasks for this exercise are as follows:
     - Value: **Create**
     - Add an action link to the **Index** action with the text **Back to List**.
 
-11. Save the Create.cshtml file.
+11. Save the **Create.cshtml** file.
 
 >**Results** : After completing this exercise, you will be able to create a web application with a Razor view to display new photos.
 
@@ -235,7 +234,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Add a gallery action to the Photo Controller.
 
-1. Add a new action to the PhotoController.cs file by using the following information:
+1. Add a new action to the **PhotoController.cs** file by using the following information:
 
    - Annotation: **ChildActionOnly**
    - Scope: **public**
@@ -246,7 +245,7 @@ The main tasks for this exercise are as follows:
 2. Create a new **List** of **Photo** objects named **photos**. Add an **if** statement, to set **photos** to include all the **Photos** in the **context** object, if the **number** parameter is zero.
 3. If the **number** parameter is not zero, set **photos** to list the most recent **Photo** objects. The number of **Photo** objects in the list should be the **number** attribute.
 4. Pass the **photos** object to the partial view **_PhotoGallery** and return the view.
-5. Save the PhotoController.cs file.
+5. Save the **PhotoController.cs** file.
 
 #### Task 2: Add a photo gallery partial view.
 
@@ -258,16 +257,16 @@ The main tasks for this exercise are as follows:
    - Scaffold template: **Empty**
    - Layout or master page: **None**
 
-2. Create a new folder in the PhotoSharingApplication project by using the following information:
+2. Create a new folder in the **PhotoSharingApplication** project by using the following information:
 
    - Parent folder: **Views**
    - Folder name: **Shared**
 
-3. Move the _PhotoGallery.cshtml view file from the Photo folder to the Shared folder.
+3. Move the **_PhotoGallery.cshtml** view file from the **Photo folder** to the Shared folder.
 
 #### Task 3: Complete the photo gallery partial view.
 
-1. In the _PhotoGallery.cshtml partial view file, bind the view to an enumerable list of **Photo** model objects.
+1. In the **_PhotoGallery.cshtml** partial view file, bind the view to an enumerable list of **Photo** model objects.
 2. In the _PhotoGallery.cshtml partial view file, add a **For Each** statement that loops through all the items in the **Model**.
 3. In the **For Each** statement, add an **H3** element that renders the **item.Title** property.
 4. After the **H3** element, add an **if** statement that checks that the **item.PhotoFile** value is not null.
@@ -285,7 +284,7 @@ The main tasks for this exercise are as follows:
    - View name: **Display**
    - Parameters: pass the **item.PhotoID** value as the **id** parameter
 
-9. Save the _PhotoGallery.cshtml file.
+9. Save the **_PhotoGallery.cshtml** file.
 
 #### Task 4: Use the photo gallery partial view.
 
@@ -296,7 +295,7 @@ The main tasks for this exercise are as follows:
    - View type: **Not strongly typed**
    - Layout or master page: **None**
 
-3. In the Index.cshtml file, change the title to **All Photos**.
+3. In the **Index.cshtml** file, change the title to **All Photos**.
 4. Add an **H2** element to the page body to display the heading as **All Photos**
 5. Add a **P** element to add a link to the **Create** action in the **Photo** controller by using the following information:
 
@@ -305,13 +304,13 @@ The main tasks for this exercise are as follows:
    - Action name: **Create**
    - Controller name: **Photo**
 
-6. Insert the **\_PhotoGallery** partial view by using the following information:
+6. Insert the **_PhotoGallery** partial view by using the following information:
 
    - Helper: **Html.Action**
    - Action name: **_PhotoGallery**
    - Controller name: **Photo**
 
-7. Save the Index.cshtml file.
+7. Save the **Index.cshtml** file.
 
 >**Results** : After completing this exercise, you will be able to create a web application with a partial view to display multiple photos.
 
@@ -334,7 +333,7 @@ The main tasks for this exercise are as follows:
    - Controller name: **HomeController**
    - Template: **Empty MVC Controller**
 
-2. Add a new view to the **Index  ** action in **HomeController** by using the following information:
+2. Add a new view to the **Index** action in **HomeController** by using the following information:
 
    - View name: **Index**
    - View type: **Not strongly typed**
@@ -353,7 +352,7 @@ The main tasks for this exercise are as follows:
    - Controller name: **Photo**
    - Parameters: for the **number** parameter, pass the value **3**
 
-7. Save the Index.cshtmlfile.
+7. Save the **Index.cshtml** file.
 
 #### Task 2: Use the web application.
 
@@ -363,7 +362,7 @@ The main tasks for this exercise are as follows:
 4. Verify the number of photos displayed on the **All Photos** page.
 5. Add a new photo of your choice to the application by using the following information:
 
-   - Title: **My**  **First Photo**
+   - Title: **My First Photo**
    - Description: **This is the first test of the Create photo view**.
    - File path: **Allfiles (D):\Labfiles\Mod05\SamplePhotos**
 
