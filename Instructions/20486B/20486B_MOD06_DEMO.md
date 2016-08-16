@@ -1,6 +1,6 @@
 # Module 6: Testing and Debugging ASP.NET MVC 4 Web Applications
 
-# Lesson 1:Unit Testing MVC Components
+# Lesson 1: Unit Testing MVC Components
 
 ### Demonstration: How to run unit tests
 
