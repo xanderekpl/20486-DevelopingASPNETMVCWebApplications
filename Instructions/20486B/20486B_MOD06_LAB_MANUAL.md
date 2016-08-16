@@ -41,10 +41,10 @@ In this exercise, you will:
 - Create a test project and write the following tests.
 
 - **Test\_Index\_Return\_View:** This test checks that the **Index** action returns a view named Index.
-- **Test\_PhotoGallery\_Model\_Type:** This test checks that the **\_PhotoGallery** action passes an enumerable list of **Photo** objects to the **\_PhotoGallery** partial view.
+- **Test\_PhotoGallery\_Model\_Type:** This test checks that the **\_PhotoGallery** action passes an enumerable list of **Photo**  objects to the **\_PhotoGallery** partial view.
 - **Test\_GetImage\_Return\_Type:** This test checks that the **GetImage** action returns a file and not a view.
 - **Test\_PhotoGallery\_No\_Parameter:** This test checks that when you call the \_ **PhotoGallery** action without any parameters, the action passes all the photos in the context to the **\_PhotoGallery** partial view.
-- **Test\_PhotoGallery\_Int\_Parameter:** This test checks that when you call the **\_PhotoGallery** action with an **integer** parameter, the action passes the corresponding number of photos to the **\_PhotoGallery** action.
+- **Test\_PhotoGallery\_Int\_Parameter:** This test checks that when you call the **\_PhotoGallery** action with an **integer**  parameter, the action passes the corresponding number of photos to the **\_PhotoGallery** action.
 
 - Implement a repository.
 - Refactor the PhotoController to use a repository.
@@ -167,24 +167,24 @@ The main tasks for this exercise are as follows:
 11. In the **PhotoSharingContext** class, implement the **Photos** property from the **IPhotoSharingContext** interface and return the **Photos** collection for the **get** method.
 12. In the **PhotoSharingContext** class, implement the **Comments** property from the **IPhotoSharingContext** interface and return the **Comments** collection for the **get** method.
 13. In the **PhotoSharingContext** class, implement the **SaveChanges** method from the **IPhotoSharingContext** interface and return the results of the **SaveChanges** method.
-14. In the **PhotoSharingContext** class, implement the **Add** method from the **IPhotoSharingContext** interface and return a **Set&lt;T&gt;** collection with **entity** added.
+14. In the **PhotoSharingContext** class, implement the **Add** method from the **IPhotoSharingContext** interface and return a  **Set&lt;T&gt;** collection with **entity** added.
 15. In the **PhotoSharingContext** class, implement the **FindPhotoById** method from the **IPhotoSharingContext** interface and return the **Photo** object with requested **ID**.
 16. In the **PhotoSharingContext** class, implement the **FindCommentById** method from the **IPhotoSharingContext** interface and return the **Comment** object with requested **ID**.
-17. In the **PhotoSharingContext** class, implement the **Delete** method from the **IPhotoSharingContext** interface and return a **Set&lt;T&gt;** collection with **entity** removed.
+17. In the **PhotoSharingContext** class, implement the **Delete** method from the **IPhotoSharingContext** interface and return a  **Set&lt;T&gt;** collection with **entity** removed.
 18. Save all the changes and build the project.
 
 #### Task 4: Refactor the photo controller to use the repository
 
-1. In the **PhotoController** class, change the declaration of the **context** object so it is an instance of the **IPhotoSharingContext**. Do not instantiate the **context** object.
+1. In the **PhotoController** class, change the declaration of the **context** object so it is an instance of the  **IPhotoSharingContext**. Do not instantiate the **context** object.
 
-2. Add a new constructor to the **PhotoController** class. In the controller, instantiate **context** to be a new **PhotoSharingContext** object.
-3. Add a second constructor to the **PhotoController** class that accepts an **IPhotoSharingContext** implementation named **Context** as a parameter. In the constructor, instantiate **context** to be the **Context** object.
+2. Add a new constructor to the **PhotoController** class. In the controller, instantiate **context** to be a new  **PhotoSharingContext** object.
+3. Add a second constructor to the **PhotoController** class that accepts an **IPhotoSharingContext** implementation named **Context**  as a parameter. In the constructor, instantiate **context** to be the **Context** object.
 4. In the PhotoController Display action, replace the call to context.Photos.Find() with a similar call to context.FindPhotoById().
-5. In the **PhotoController Create** action for the POST verb, replace the call to **context.Photos.Add()** with a similar call to **context.Add&lt;Photo&gt;**.
-6. In the **PhotoController Delete** action, replace the call to **context.Photos.Find()** with a similar call to **context.FindPhotoById()**.
-7. In the **PhotoController DeleteConfirmed** action, replace the call to **context.Photos.Find()** with a similar call to **context.FindPhotoById()**.
-8. In the **PhotoController DeleteConfirmed** action, replace the call to **context.Photos.Remove()** with a similar call to **context.Delete&lt;Photo&gt;**.
-9. In the **PhotoController GetImage** action, replace the call to **context.Photos.Find()** with a similar call to **context.FindPhotoById()**.
+5. In the **PhotoController Create** action for the POST verb, replace the call to **context.Photos.Add()** with a similar call to  **context.Add&lt;Photo&gt;**.
+6. In the **PhotoController Delete** action, replace the call to **context.Photos.Find()** with a similar call to  **context.FindPhotoById()**.
+7. In the **PhotoController DeleteConfirmed** action, replace the call to **context.Photos.Find()** with a similar call to  **context.FindPhotoById()**.
+8. In the **PhotoController DeleteConfirmed** action, replace the call to **context.Photos.Remove()** with a similar call to  **context.Delete&lt;Photo&gt;**.
+9. In the **PhotoController GetImage** action, replace the call to **context.Photos.Find()** with a similar call to  **context.FindPhotoById()**.
 10. Run the application with debugging to ensure that the changes are consistent.
 
 #### Task 5: Refactor the tests to use a mock repository
@@ -202,10 +202,10 @@ The main tasks for this exercise are as follows:
    - **System.Linq**
    - **PhotoSharingTests.Doubles**
 
-4. In the **Test\_Index\_Return\_View** method, create a new instance of the **FakePhotoSharingContext** class and pass it to the **PhotoController** constructor.
+4. In the **Test\_Index\_Return\_View** method, create a new instance of the **FakePhotoSharingContext** class and pass it to the  **PhotoController** constructor.
 5. In the **Test\_PhotoGallery\_Model\_Type** method, create a new instance of the **FakePhotoSharingContext** class, add four new **Photo** objects to the class, and then pass them to the **PhotoController** constructor.
 6. In the **Test\_GetImage\_Return\_Type** method, create a new instance of the **FakePhotoSharingContext** class.
-7. Add four new **Photo** objects to the **context.Photos** collection. Use the following information to add each new **Photo** object:
+7. Add four new **Photo** objects to the **context.Photos** collection. Use the following information to add each new **Photo**  object:
 
    - PhotoID: a unique integer value
    - PhotoFile: a new byte array of length 1
@@ -328,7 +328,7 @@ The main tasks for this exercise are as follows:
 
    - URL: **/Photo/SlideShow**
 
-4. Use the IntelliTracepane to investigate the exception.
+4. Use the IntelliTrace pane to investigate the exception.
 5. Stop debugging and close Visual Studio.
 
   >**Results** : After completing this exercise, you will be able to:  
