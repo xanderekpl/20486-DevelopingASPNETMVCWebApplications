@@ -53,7 +53,7 @@
    >**Note:** The **Add an Opera** page is displayed because the request is authenticated.
 
 19. In the Windows Internet Explorer window, click the **Close** button.
-20. In the **OperasWebSite - Microsoft**** Visual Studio **window, click the** Close** button.
+20. In the **OperasWebSite - Microsoft Visual Studio** window, click the **Close** button.
 
 
 ## Lesson 2: Assigning Roles and Membership
