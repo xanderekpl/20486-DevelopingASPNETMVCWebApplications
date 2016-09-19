@@ -86,7 +86,7 @@ The main tasks for this exercise are as follows:
 
 4. Add a reference from the **Photo Sharing Tests** project to the **System.Web** assembly.
 5. Add a new **Unit Test** item to the **PhotoSharingTests** project. Name the file, **RoutingTests.cs**.
-6. Add **using** statements to the RoutingTests.csfile for the following namespaces:
+6. Add **using** statements to the RoutingTests.cs file for the following namespaces:
 
     - **System.Web.Routing**
     - **System.Web.Mvc**
@@ -275,8 +275,8 @@ The main tasks for this exercise are as follows:
 
 4. Render a breadcrumb trail on the **Photo Index** view by using the following information:
 
-- Helper: **Html.MvcSiteMap()**
-- Method: **SiteMapPath**
+    - Helper: **Html.MvcSiteMap()**
+    - Method: **SiteMapPath**
 
 #### Task 4: Try out the menus.
 
