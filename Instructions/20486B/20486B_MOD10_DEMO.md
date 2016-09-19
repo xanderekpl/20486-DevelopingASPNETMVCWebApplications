@@ -24,6 +24,7 @@
 
     >**Note:** NuGet Package Manager has added five files for jquery and jqueryUI to the application. Note the version number for jquery and jqueryUI.
 
+
 6. In the **Solution Explorer** pane, under **Contents**, expand **themes**, expand **base**, and then click **jquery-ui.css**.
 
     >**Note:** NuGet Package Manager has added style sheets to the **Content** folder. These styles are used to set the styles for jQueryUI widgets, and the most important of these style sheets is **jquery-ui.css**.
