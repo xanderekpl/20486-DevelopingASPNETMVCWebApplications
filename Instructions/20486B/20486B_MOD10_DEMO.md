@@ -17,7 +17,7 @@
 3. On the **Tools** menu of the **OperasWebSite - Microsoft Visual Studio** window, point to **Library Package Manager**, and then click **Package Manager Console**.
 4. In **Package Manager Console** window, type the following command, and then press Enter
 
-```cs
+  ```cs
        install-package jQuery.UI.Combined – version 1.8.17
 ```
 5. In the **Solution Explorer** pane, expand **Scripts**.
@@ -33,22 +33,22 @@
 8. In the **Solution Explorer** pane, under **Shared**, click **_SiteTemplate.cshtml**.
 9. In the **_SiteTemplate.cshtml** code window, locate the following code.
 
-```cs
+  ```cs
     </head>
 ```
 10. Place the mouse cursor before the located code, type the following code, and then press Enter.
 
-```cs
+  ```cs
       <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-ui-1.8.17js")"></scripts>
 ```
 11. In the **_SiteTemplate.cshtml** code window, locate the following code.
 
-```cs
+  ```cs
     <title>@ViewBag.Title</title>
 ```
 12. Place the mouse cursor at the end of the located code, press Enter, and then type the following code.
 
-```cs
+  ```cs
     <link type="text/css" rel="stylesheet" 
         href="@Url.Content("~/Content/themes/base/jquery-ui.css")" />
 ```
@@ -71,12 +71,12 @@
 6. In the **Solution Explorer** pane of the **OperasWebsite – Microsoft Visual Studio** window, under **Shared**, click **_ReviewsForOpera.cshtml**.
 7. In the **_ReviewsForOpera.cshtml** code window, locate the following code.
 
-```cs
+  ```cs
     <h3>Reviews</h3>
 ```
 8. Place the mouse cursor immediately before the located code, type the following code, and then press Enter.
 
-```cs
+  ```cs
     <script>
         $(function() {
                 $("#reviews-tool").accordion();
