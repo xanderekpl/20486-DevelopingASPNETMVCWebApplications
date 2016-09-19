@@ -22,11 +22,11 @@
 ```
 5. In the **Solution Explorer** pane, expand **Scripts**.
 
-   >**Note:** NuGet Package Manager has added five files for jquery and jqueryUI to the application. Note the version number for jquery and jqueryUI.
+    >**Note:** NuGet Package Manager has added five files for jquery and jqueryUI to the application. Note the version number for jquery and jqueryUI.
 
 6. In the **Solution Explorer** pane, under **Contents**, expand **themes**, expand **base**, and then click **jquery-ui.css**.
 
-   >**Note:** NuGet Package Manager has added style sheets to the **Content** folder. These styles are used to set the styles for jQueryUI widgets, and the most important of these style sheets is **jquery-ui.css**.
+    >**Note:** NuGet Package Manager has added style sheets to the **Content** folder. These styles are used to set the styles for jQueryUI widgets, and the most important of these style sheets is **jquery-ui.css**.
 
 7. In the **Solution Explorer** pane, collapse **base**, expand **Views**, and then expand **Shared**.
 8. In the **Solution Explorer** pane, under **Shared**, click **_SiteTemplate.cshtml**.
@@ -51,7 +51,7 @@
     <link type="text/css" rel="stylesheet" 
         href="@Url.Content("~/Content/themes/base/jquery-ui.css")" />
 ```
-   >**Note:** You can now use jQueryUI calls on any views in the application. 
+    >**Note:** You can now use jQueryUI calls on any views in the application. 
 
 13. On the **FILE** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Save All**.
 14. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
@@ -87,7 +87,7 @@
 11. In the **Main Opera List** section, click the **Details** link corresponding to **Cosi Fan Tutte**.
 12. Under **Reviews**, note that there are three expandable sections, and each section contains a review.
 
-    >**Note:** You can expand each section and then read the review content. 
+     >**Note:** You can expand each section and then read the review content. 
 
 13. In the **Internet Explorer** window, click **Close**.
 14. In the **OperasWebSite – Microsoft Visual Studio** window, click the **Close** button.
