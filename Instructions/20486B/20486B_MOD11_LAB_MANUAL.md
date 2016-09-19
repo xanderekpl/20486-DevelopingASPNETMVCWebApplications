@@ -286,7 +286,7 @@ The main tasks for this exercise are as follows:
     - Name: **Register**
     - Parameter: a **Register** object named **model**.
 
-17. Within the **Register** action method code block for the **HTTP POST **verb, check if the** ModelState** is valid.
+17. Within the **Register** action method code block for the **HTTP POST** verb, check if the **ModelState** is valid.
 18. If the **ModelState** is valid, create a **try…catch** block that catches exceptions of the type **MembershipCreateUserException e**.
 19. In the **try** block, create a new user with the right user name and password by using the **Membership.CreateUser** method. Store the result in a **MembershipUser** object named **NewUser**.
 20. Authenticate the new user and redirect the browser to the **Index** action of the **Home** controller.
@@ -513,11 +513,11 @@ The main tasks for this exercise are as follows:
 9. If the **ModelState** is valid, create a new Boolean variable named **changePasswordSucceeded** , and then add a **try… catch** block that catches all exceptions.
 10. In the **try** block, change the user&#39;s password by using the following information:
 
-- Method: **Membership.Provider.ChangePassword**
-- User name: **User.Identity.Name**
-- Old password: **model.OldPassword**
-- New password: **model.NewPassword**
-- Store the result in **changePasswordSucceeded**
+    - Method: **Membership.Provider.ChangePassword**
+    - User name: **User.Identity.Name**
+    - Old password: **model.OldPassword**
+    - New password: **model.NewPassword**
+    - Store the result in **changePasswordSucceeded**
 
 11. In the **catch** block, set the **changePasswordSucceeded** variable to **false**.
 12. After the **try…catch** code block, if **changePasswordSucceeded** is true, redirect to the **ResetPassword** action and pass the **ManageMessageId.ChangePasswordSucccess** value to the **message** parameter.
