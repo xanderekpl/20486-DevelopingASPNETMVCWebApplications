@@ -185,7 +185,7 @@ The main tasks for this exercise are as follows:
 3. Go to **Sample Photo 1** webpage and verify that the site title, menu, and breadcrumb trail are available on this page.
 4. Stop debugging.
 
- >**Results** : After completing this exercise, you will be able to create an ASP.NET MVC 4 web application that uses a single layout to display every page of the application.
+ >**Results**: After completing this exercise, you will be able to create an ASP.NET MVC 4 web application that uses a single layout to display every page of the application.
 
 ### Exercise 2: Applying Styles to an MVC Web Application
 
@@ -257,7 +257,7 @@ The main tasks for this exercise are as follows:
 3. Display a photo of your choice to examine the new style that is applied.
 4. Stop debugging.
 
- >**Results** : After completing this exercise, you will be able to create a Photo Sharing application with a consistent look and feel.
+ >**Results**: After completing this exercise, you will be able to create a Photo Sharing application with a consistent look and feel.
 
 ### Exercise 3: Optional—Adapting Webpages for Mobile Browsers
 
@@ -323,4 +323,4 @@ The main tasks for this exercise are as follows:
 4. Close the developer window and refresh the web application to examine if the problem persists in the mobile view of the application.
 5. Stop debugging and close Visual Studio.
 
- >**Results** : After completing this exercise, you will be able to create a Photo Sharing application that displays well on mobile devices and devices with small screens.
+ >**Results**: After completing this exercise, you will be able to create a Photo Sharing application that displays well on mobile devices and devices with small screens.
