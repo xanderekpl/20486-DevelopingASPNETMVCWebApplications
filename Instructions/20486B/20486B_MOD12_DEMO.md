@@ -66,7 +66,7 @@
 
   ```cs
         <p>
-        Choose a background color:
+           Choose a background color:
         </p>
 ```
 12. Place the mouse cursor at the end of the text in the **P** element, press Enter, and then type the following code.
