@@ -1,6 +1,6 @@
-## Module 8: Applying Styles to ASP.NET MVC 4 Web Applications
+# Module 8: Applying Styles to ASP.NET MVC 4 Web Applications
 
-## Lab: Applying Styles to MVC 4 Web Applications
+# Lab: Applying Styles to MVC 4 Web Applications
 
 #### Scenario
 
