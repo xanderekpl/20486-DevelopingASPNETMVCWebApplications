@@ -143,7 +143,7 @@ The main tasks for this exercise are as follows:
 3. Start the application in debugging mode and go to the **Slideshow** view. Observe the fade effects.
 4. Stop debugging.
 
-  >**Results** : After completing this exercise, you should have successfully created a Photo Sharing application with a slideshow page that displays all the photos in the application, sequentially.
+  >**Results**: After completing this exercise, you should have successfully created a Photo Sharing application with a slideshow page that displays all the photos in the application, sequentially.
 
 ### Exercise 2: Optional—Adding a jQueryUI ProgressBar Widget
 
@@ -195,4 +195,4 @@ The main tasks for this exercise are as follows:
 1. Start the web application in debugging mode and clear the browser cache. Go to the **Slideshow** view and examine the results.
 2. Stop debugging and close Visual Studio.
 
-  >**Results** : After completing this exercise, you should have successfully created a slideshow page with a progress bar that displays the position of the current photo in the list of photos.
+  >**Results**: After completing this exercise, you should have successfully created a slideshow page with a progress bar that displays the position of the current photo in the list of photos.
