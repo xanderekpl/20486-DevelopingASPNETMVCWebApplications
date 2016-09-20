@@ -13,7 +13,7 @@
 5. In the **New Project** dialog box, click **Browse**.
 6. In the **Location** text box, go to **Allfiles (D):\Democode\Mod03**, and then click **Select Folder**.
 7. In the **New Project** dialog box, click **OK**.
-8. In the **Select a Template** list of the **New**** ASP.NET MVC 4 Project **dialog box, click** Empty **, and then click** OK**.
+8. In the **Select a Template** list of the **New ASP.NET MVC 4 Project** dialog box, click **Empty**, and then click **OK**.
 9. Inthe **Solution Explorer** pane of the **OperasWebSites - Microsoft Visual Studio** window, right-click **Models**, point to **Add**, and then click **Class**.
 10. In the **Name** text box of the **Add New Item - OperasWebSites** dialog box, type **Opera.cs**, and then click **Add**.
 11. In the **Opera** class of the **Opera.cs** code window, type the following code.
