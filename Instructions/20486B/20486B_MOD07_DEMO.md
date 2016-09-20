@@ -26,8 +26,8 @@
 
   ```cs
        Opera opera = (Opera)(from o in contextDB.Operas
-       where o.Title == title
-       select o).FirstOrDefault();
+          where o.Title == title
+          select o).FirstOrDefault();
 ```
 9. In the **DetailsByTitle** action code block, after the code that you just typed, type the following code.
 
@@ -48,9 +48,9 @@
 
   ```cs
         routes.MapRoute(
-        name: "OperaTitleRoute",
-        url: "opera/title/{title}",
-        defaults: new { controller = "Opera", action = "DetailsByTitle" }
+           name: "OperaTitleRoute",
+           url: "opera/title/{title}",
+           defaults: new { controller = "Opera", action = "DetailsByTitle" }
         );
 ```
 13. On the **FILE** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Save All**.
