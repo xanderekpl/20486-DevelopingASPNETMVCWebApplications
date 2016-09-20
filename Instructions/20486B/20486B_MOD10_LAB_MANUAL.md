@@ -78,7 +78,7 @@ The main tasks for this exercise are as follows:
 
    - Tag: **&lt;mvcSiteMapNode&gt;**
    - Title: **Slideshow**
-   - Visibility: **\***
+   - Visibility: *****
    - Controller: **Photo**
    - Action: **SlideShow**
 
