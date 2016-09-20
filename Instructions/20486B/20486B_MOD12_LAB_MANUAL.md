@@ -33,7 +33,7 @@ Password: **Pa$$w0rd**
 Before starting the lab, you need to perform the following step:
 
 - Download **Manage Nuget packages** from the **Project** menu and note the version number for the **jquery.ui** package.
-- Enable the **Allow NuGet to download missing packages during build** ption, by performing the following steps:
+- Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
 
   a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
 b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
@@ -161,7 +161,7 @@ The main tasks for this exercise are as follows:
 7. Add a new site map node to the **Mvc.sitemap** file by using the following information:
 
     - Title: **Favorites**
-    - Visibility: **SiteMapPathHelper,!\***
+    - Visibility: **SiteMapPathHelper,!***
     - Controller: **Photo**
     - Action: **FavoritesSlideShow**
 
