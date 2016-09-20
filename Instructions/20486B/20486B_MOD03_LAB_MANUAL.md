@@ -70,7 +70,7 @@ The main tasks for this exercise are as follows:
 
    - Class name: **Comment**
 
- >**Results** : After completing this exercise, you should have successfully created an MVC 4 web application and added model classes to the web application.
+ >**Results**: After completing this exercise, you should have successfully created an MVC 4 web application and added model classes to the web application.
 
 ### Exercise 2: Adding Properties to MVC Models
 
@@ -189,7 +189,7 @@ The main tasks for this exercise are as follows:
    - Access: **Read and write**
    - Include the **virtual** keyword
 
- >**Results** : After completing this exercise, you should have successfully added properties to classes for describing them to the MVC runtime and implemented a one-to-many relationship between classes.
+ >**Results**: After completing this exercise, you should have successfully added properties to classes for describing them to the MVC runtime and implemented a one-to-many relationship between classes.
 
 ### Exercise 3: Using Data Annotations in MVC Models
 
@@ -222,7 +222,7 @@ The main tasks for this exercise are as follows:
 1. Add a validation data annotation to the **Photo** model class to ensure that the users complete the Title field.
 2. Add validation data annotations to the **Comment** model class to ensure that the users complete the **Subject** text box and type a string with a length shorter than 250 characters.
 
- >**Results** : After completing this exercise, you should have successfully added property descriptions and data annotations to the two model classes in the MVC web application.
+ >**Results**: After completing this exercise, you should have successfully added property descriptions and data annotations to the two model classes in the MVC web application.
 
 ### Exercise 4: Creating a New Microsoft Azure SQL Database
 
@@ -246,7 +246,7 @@ The main tasks for this exercise are as follows:
 
 1. Use the NuGet Package Manager to add Entity Framework 5.0 to the application.
 2. Add a new class named **PhotoSharingContext** to the **Models** folder and ensure that the new class inherits the **System.Data.Entity.DbContext** class.
-3. Add public **DbSet** properties to Photosand Comments to enable Entity Framework to create database tables called Photos and Comments.
+3. Add public **DbSet** properties to Photos and Comments to enable Entity Framework to create database tables called Photos and Comments.
 
 #### Task 2: Add an Entity Framework Initializer.
 
@@ -300,7 +300,7 @@ The main tasks for this exercise are as follows:
 4. Obtain the connection string for the **PhotoSharingDB** database and add it to the **Web.config** file.
 5. Build the Photo Sharing application.
 
- >**Results** : After completing this exercise, you should have successfully created an MVC application that uses Microsoft Azure SQL Database as its data store.
+ >**Results**: After completing this exercise, you should have successfully created an MVC application that uses Microsoft Azure SQL Database as its data store.
 
 ### Exercise 5: Testing the Model and Database
 
@@ -339,4 +339,4 @@ The main tasks for this exercise are as follows:
 
    - **/photo/index**
 
- >**Results** : After completing this exercise, you should have successfully added controllers, views, and images to an MVC web application and tested the application by displaying data from a Microsoft Azure SQL database.
+ >**Results**: After completing this exercise, you should have successfully added controllers, views, and images to an MVC web application and tested the application by displaying data from a Microsoft Azure SQL database.
