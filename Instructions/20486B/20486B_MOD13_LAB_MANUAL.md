@@ -212,7 +212,7 @@ The main tasks for this exercise are as follows:
    - Configuration: **ServiceConfiguration.Cloud.cscfg**
    - Deploy even if one or more roles contain a single instance.
 
- >**Results** : After completing this exercise, you should have successfully created a WCF cloud service and published theservice in Microsoft Azure.
+ >**Results** : After completing this exercise, you should have successfully created a WCF cloud service and published the service in Microsoft Azure.
 
 ### Exercise 3: Calling a Web Service from Controller Action
 
@@ -269,7 +269,7 @@ The main tasks for this exercise are as follows:
 9. At the start of the **Create** action method for the **HTTP POST** verb, add an **if** statement that checks if **photo.Location** is not an empty string.
 10. In the **if** statement, pass the **photo.Location** property to the **CheckLocation** method and store the result in a new **string** variable named **stringLongLat**.
 11. Add an **if** statement to check whether the **stringLongLat** variable starts with the string, **Success**.
-12. In the **if** statement, create a new array of characters named **splitChars** andadd the single character **&quot;:&quot;** to the array.
+12. In the **if** statement, create a new array of characters named **splitChars** and add the single character **&quot;:&quot;** to the array.
 13. Pass the **splitChars** array to the **Split** method of **stringLongLat**, and store the result in a new array of strings named **coordinates**.
 14. Set the **photo.Latitude** property to the second string in the **coordinates** array and set the **photo.Longitude** property to the third string in the **coordinates** array.
 15. Save all the changes.
@@ -297,6 +297,6 @@ The main tasks for this exercise are as follows:
    - Location: **Florence, OR**
 
 4. Go to the **Home** page and display your new photo to check the **Latitude** and **Longitude** properties.
-5. Stop debugging and closeVisual Studio.
+5. Stop debugging and close Visual Studio.
 
   >**Results** : After completing this exercise, you should have successfully added a service reference for a Windows Azure WCF service to a .NET Framework application. Also, you should be able to call a WCF service from an MVC controller action.
