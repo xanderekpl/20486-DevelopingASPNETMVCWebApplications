@@ -34,9 +34,9 @@ b. Go to **Allfiles (D):\Labfiles\Mod 11\Starter\PhotoSharingApplication\PhotoSh
 c. Go to **Allfiles (D):\Labfiles\Mod 13\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then paste the **web.config** file.  
 d. Enable the **Allow NuGet to download missing packages during build** ption by performing the following steps:  
 
-   i. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
-  ii. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
- iii. Under the **Package Restore** section, select **Allow NuGet to download missing packages during build**, and then click **OK**.
+     i. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
+    ii. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
+   iii. Under the **Package Restore** section, select **Allow NuGet to download missing packages during build**, and then click **OK**.
 
 After completing this lab, you need to take the snapshot of the virtual machine. You need to apply this snapshot before starting the labs in Modules 14, 15, and 16.
 
