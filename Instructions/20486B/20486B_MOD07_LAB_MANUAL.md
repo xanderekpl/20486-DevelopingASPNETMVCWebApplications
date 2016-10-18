@@ -76,12 +76,12 @@ The main tasks for this exercise are as follows:
 
 2. Open the **PhotoSharingApplication** solution from the following location:
 
-    - File location: **Allfiles (D):\Labfiles\Mod07\Starter\PhotoSharingApplication**
+    - File location: **Allfiles(D):\Mod07\Labfiles\Starter\PhotoSharingApplication**
 
 3. Add an existing code file to the **Photo Sharing Tests** project, which contains test doubles for HTTP objects, by using the following information:
 
     - Destination folder: **Doubles**
-    - Source folder: **Allfiles (D):\Labfiles\Mod07\Fake Http Classes**
+    - Source folder: **Allfiles(D):\Mod07\Labfiles\Fake Http Classes**
     - Code file: **FakeHttpClasses.cs**
 
 4. Add a reference from the **Photo Sharing Tests** project to the **System.Web** assembly.
