@@ -63,7 +63,7 @@ The main tasks for this exercise are as follows:
 
 2. Open the **Photo Sharing Application** solution from the following location:
 
-   - File location: **Allfiles (D):\Labfiles\Mod05\Starter\PhotoSharingApplication**
+   - File location: **Allfiles(D):\Mod05\Labfiles\Starter\PhotoSharingApplication**
 
 3. Open the **PhotoController.cs** code window.
 4. Build the solution
@@ -165,7 +165,7 @@ The main tasks for this exercise are as follows:
    - Parameter: Pass the HTML attribute **enctype = "multipart/form-data"**
 
 4. In the form, use the **Html.ValidationSummary** helper to render validation messages.
-5. After the **ValidationSummary** , add a **P** element to display controls for the **Title** property of the model by using the following information:
+5. After the **ValidationSummary**, add a **P** element to display controls for the **Title** property of the model by using the following information:
 
    - Helpers:
 
@@ -364,7 +364,7 @@ The main tasks for this exercise are as follows:
 
    - Title: **My First Photo**
    - Description: **This is the first test of the Create photo view**.
-   - File path: **Allfiles (D):\Labfiles\Mod05\SamplePhotos**
+   - File path: **Allfiles(D):\Mod05\Labfiles\SamplePhotos**
 
 6. Close Internet Explorer and Microsoft Visual Studio.
 
