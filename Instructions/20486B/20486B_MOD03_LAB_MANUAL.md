@@ -55,7 +55,7 @@ The main tasks for this exercise are as follows:
 2. Open Visual Studio 2012 and create a new ASP.NET MVC 4 web application by using the following information:
 
     - Name: **PhotoSharingApplication**
-    - Location: **Allfiles (D):\Labfiles\Mod03**
+    - Location: **Allfiles(D):\Mod03\Labfiles**
     - Solution name: **PhotoSharingApplication**
     - Create directory for solution: True
     - Project template: **Empty**
@@ -253,7 +253,7 @@ The main tasks for this exercise are as follows:
 1. Add a new class named **PhotoSharingInitializer** to the **Models** folder and ensure that the new class inherits the **DropCreateDatabaseAlways&lt;PhotoSharingContext&gt;** class.
 2. Open the getFileBytes.txt file from the following location and add all the text of the file as a new method to the PhotoSharingInitializer class:
 
-   - File path: **Allfiles (D):\Labfiles\Mod03\CodeSnippets**
+   - File path: **Allfiles(D):\Mod03\Labfiles\CodeSnippets**
 
 3. Override the **Seed** method in the **PhotoSharingInitializer** class.
 4. Create a new list of **Photo** objects in the **Seed** method. The list should contain one photo object with the following properties:
@@ -333,7 +333,7 @@ The main tasks for this exercise are as follows:
 
    - New folder name: **Images**
    - Image to be copied: **flower.JPG**
-   - Location of the image: **Allfiles (D):\Labfiles\Mod03\Images**
+   - Location of the image: **Allfiles(D):\Mod03\Labfiles\Images**
 
 2. Run the application by debugging, and access the following relative path:
 
