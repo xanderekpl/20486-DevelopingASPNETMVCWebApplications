@@ -54,7 +54,7 @@ The main tasks for this exercise are as follows:
 
 2. Open the **InitialInvestigation** document by using the following information:
 
-   - File location: **Allfiles (D):\Labfiles\Mod02**
+   - File location: **Allfiles(D):\Mod02\Labfiles**
 
 3. Enable the **Navigation Pane** feature.
 4. Read the contents of the Introduction section.
@@ -75,7 +75,7 @@ The main tasks for this exercise are as follows:
 8. Add attributes to the new Class shape for each of the properties you planned for the photos.
 9. Save the created diagram by using the following information:
 
-   - Folder path: **Allfiles (D):\Labfiles\Mod02**
+   - Folder path: **Allfiles(D):\Mod02\Labfiles**
    - File name: **PhotoSharingLDM**
 
 #### Task 3: Plan the comment model class.
@@ -150,7 +150,7 @@ The main tasks for this exercise are as follows:
 8. Add a panel for the photo to the wireframe diagram.
 9. Save the diagram by using the following information:
 
-   - File location: **Allfiles (D):\Labfiles\Mod02**
+   - File location: **Allfiles(D):\Mod02\Labfiles**
    - File name: **SinglePhotoWireframe**
 
 #### Task 2: Plan the gallery view.
@@ -162,7 +162,7 @@ The main tasks for this exercise are as follows:
 4. Add multiple panels to the photo to the wireframe diagram.
 5. Save the diagram by using the following information:
 
-   - File location: **Allfiles (D):\Labfiles\Mod02**
+   - File location: **Allfiles(D):\Mod02\Labfiles**
    - File name: **PhotoGalleryWireframe**
 
    >**Results** : After completing this exercise, you will create proposals for views and their layouts.
