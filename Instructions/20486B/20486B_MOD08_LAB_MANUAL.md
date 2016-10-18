@@ -70,7 +70,7 @@ The main tasks for this exercise are as follows:
 
 2. Open the **PhotoSharingApplication** solution from the following location:
 
-	- File location: **Allfiles (D):\Labfiles\Mod08\Starter\PhotoSharingApplication**
+	- File location: **Allfiles(D):\Mod08\Labfiles\Starter\PhotoSharingApplication**
 
 3. Start the web application in the debugging mode and verify that the menu and the breadcrumb trail are available on the home page.
 4. Go to the **All Photos** webpage and verify that the menu and the breadcrumb trail are not available on the page.
@@ -212,7 +212,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the mockup web application and verify the layout of the home page by using the following information:
 
-	- File path: **Allfiles (D):\Labfiles\Mod08 \Expression Web Mock Up\default.html**
+	- File path: **Allfiles(D):\Mod08\Labfiles\Expression Web Mock Up\default.html**
 
 2. Go to the **All Photos** webpage and verify the layout of the page.
 3. Go to the details of any photo and verify the layout of the page.
@@ -224,7 +224,7 @@ The main tasks for this exercise are as follows:
 
 	- Name of the folder: **Content**
 
-2. Go to **Allfiles (D):\Labfiles\Mod08\Expression Web Mock Up\Content**, and add the following existing files to the new folder:
+2. Go to **Allfiles(D):\Mod08\Labfiles\Expression Web Mock Up\Content**, and add the following existing files to the new folder:
 
 	- **PhotoSharingStyles.css**
 	- **BackgroundGradient.jpg**
