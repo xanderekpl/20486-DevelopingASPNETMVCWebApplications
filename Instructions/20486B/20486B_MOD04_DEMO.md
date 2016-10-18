@@ -6,9 +6,9 @@
 
 #### Demonstration Steps
 
-1. In the Solution Explorer pane of the **OperasWebSite - Microsoft Visual Studio** window, right-click **Controllers** , point to  **Add** , and then click **Controller**.
+1. In the Solution Explorer pane of the **OperasWebSite - Microsoft Visual Studio** window, right-click **Controllers**, point to  **Add**, and then click **Controller**.
 2. In the **Controller Name** text box of the **Add Controller** dialog box, type **OperaController**.
-3. In the **Template** box, click **Empty MVC controller** , and then click **Add**.
+3. In the **Template** box, click **Empty MVC controller**, and then click **Add**.
 4. In the OperaController.cs code window, locate the following code.
 
   ```cs
@@ -77,7 +77,7 @@
         {
         }
 ```
-14. Place the mouse cursor in the **Create** action code block with the HTTP verb **POST** , and then type the following code.
+14. Place the mouse cursor in the **Create** action code block with the HTTP verb **POST**, and then type the following code.
 
   ```cs
         if (ModelState.IsValid)
