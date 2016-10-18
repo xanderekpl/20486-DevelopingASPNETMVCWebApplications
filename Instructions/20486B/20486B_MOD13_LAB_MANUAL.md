@@ -30,8 +30,8 @@ Password: **Pa$$w0rd**
 Before starting this lab, you need to perform the following steps:
 
 a. Apply the snapshot of the virtual machine, **20486B-SEA-DEV11**, that was taken after completing the lab in Module 11.  
-b. Go to **Allfiles (D):\Labfiles\Mod 11\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then copy the **web.config** file.  
-c. Go to **Allfiles (D):\Labfiles\Mod 13\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then paste the **web.config** file.  
+b. Go to **Allfiles(D):\Mod11\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then copy the **web.config** file.  
+c. Go to **Allfiles(D):\Mod13\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then paste the **web.config** file.  
 d. Enable the **Allow NuGet to download missing packages during build** ption by performing the following steps:  
 
    i. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
@@ -70,7 +70,7 @@ The main tasks for this exercise are as follows:
 
 2. Go to the following folder:
 
-   - **Allfiles (D):\Labfiles\Mod13\Windows Azure SDK Installation**
+   - **Allfiles(D):\Mod13\Labfiles\Windows Azure SDK Installation**
 
 3. Run the **WindowsAzureAuthoringTools-x64.msi** Windows Installer Package.
 4. Run the **WindowsAzureEmulator-x64.msi** application.
@@ -130,7 +130,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication.sln** file from the following location:
 
-   - File location: **Allfiles (D):\Labfiles\Mod13\Starter\PhotoSharingApplication**
+   - File location: **Allfiles(D):\Mod13\Labfiles\Starter\PhotoSharingApplication**
 
 2. Add a new project to the **PhotoSharingApplication** web application by using the following information:
 
@@ -175,15 +175,15 @@ The main tasks for this exercise are as follows:
 
 3. Open the **Geocoding Usings.txt** file from the following location:
 
-   - **Allfiles (D):\Labfiles\Mod13\Service Code**
+   - **Allfiles(D):\Mod13\Labfiles\Service Code**
 
 4. Copy all the text from the **Geocoding Usings.txt** file, and then paste the text after the last **using** statement in the **LocationCheckerService.svc.cs** file.
 5. Open the **Geocoding Code.txt** file from the following location:
 
-   - **Allfiles (D):\Labfiles\Mod13\Service Code**
+   - **Allfiles(D):\Mod13\Labfiles\Service Code**
 
 6. Copy all the text from the **Geocoding Code.txt** file, and then paste the text into the **GetLocation** method.
-7. Open the **Geocoding Classes.txt** file from the following location: **Allfiles (D):\Labfiles\Mod13\Service Code**.
+7. Open the **Geocoding Classes.txt** file from the following location: **Allfiles(D):\Mod13\Labfiles\Service Code**.
 8. Copy all the text from the **Geocoding Classes.txt** file, and then paste the text after the declaration of the **LocationCheckerService** class.
 9. From the **Bing Maps Account Center** page, copy the key you created for the Photo Sharing application.
 10. In the **GetLocation** method, paste the key that was copied from the **Bing Maps Account Center** page as a value of the **key** variable.
@@ -207,7 +207,7 @@ The main tasks for this exercise are as follows:
 4. Upload a new staging deployment to the new cloud service by using the following information:
 
    - Name: **LocationChecker**
-   - Package location: **Allfiles (D):\Labfiles\Mod13\Starter\PhotoSharingApplication\LocationChecker\bin\Debug\app.publish**
+   - Package location: **Allfiles(D):\Mod13\Labfiles\Starter\PhotoSharingApplication\LocationChecker\bin\Debug\app.publish**
    - Package: **LocationChecker.cspkg**
    - Configuration: **ServiceConfiguration.Cloud.cscfg**
    - Deploy even if one or more roles contain a single instance.
@@ -293,7 +293,7 @@ The main tasks for this exercise are as follows:
 3. Add a new photo to the application by using the following information:
 
    - Title: **Testing Locations**
-   - Photo: **Allfiles (D):\Labfiles\Mod13\Sample Photos\Beach.jpg**
+   - Photo: **Allfiles(D):\Mod13\Labfiles\Sample Photos\Beach.jpg**
    - Location: **Florence, OR**
 
 4. Go to the **Home** page and display your new photo to check the **Latitude** and **Longitude** properties.
