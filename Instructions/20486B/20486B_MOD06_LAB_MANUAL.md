@@ -43,7 +43,7 @@ In this exercise, you will:
 - **Test\_Index\_Return\_View:** This test checks that the **Index** action returns a view named Index.
 - **Test\_PhotoGallery\_Model\_Type:** This test checks that the **\_PhotoGallery** action passes an enumerable list of **Photo**  objects to the **\_PhotoGallery** partial view.
 - **Test\_GetImage\_Return\_Type:** This test checks that the **GetImage** action returns a file and not a view.
-- **Test\_PhotoGallery\_No\_Parameter:** This test checks that when you call the \_ **PhotoGallery** action without any parameters, the action passes all the photos in the context to the **\_PhotoGallery** partial view.
+- **Test\_PhotoGallery\_No\_Parameter:** This test checks that when you call the **\_PhotoGallery** action without any parameters, the action passes all the photos in the context to the **\_PhotoGallery** partial view.
 - **Test\_PhotoGallery\_Int\_Parameter:** This test checks that when you call the **\_PhotoGallery** action with an **integer**  parameter, the action passes the corresponding number of photos to the **\_PhotoGallery** action.
 
 - Implement a repository.
@@ -76,7 +76,7 @@ The main tasks for this exercise are as follows:
 
 2. Open the **PhotoSharingApplication** solution from the following location:
 
-   - File location: **Allfiles (D):\Labfiles\Mod06\Starter\PhotoSharingApplication**
+   - File location: **Allfiles(D):\Mod06\Labfiles\Starter\PhotoSharingApplication**
 
 3. Add a new project to the solution for unit tests by using the following information:
 
@@ -100,7 +100,7 @@ The main tasks for this exercise are as follows:
    - **PhotoSharingApplication.Models**
    - **PhotoSharingApplication.Controllers**
 
-4. In the **Test\_Index\_Return\_View** test, create a new **PhotoController** , call the **Index** action, and assert that the name of the result view is **Index**.
+4. In the **Test\_Index\_Return\_View** test, create a new **PhotoController**, call the **Index** action, and assert that the name of the result view is **Index**.
 5. Add a new test method by using the following information:
 
    - Annotation: **[TestMethod]**
@@ -118,7 +118,7 @@ The main tasks for this exercise are as follows:
    - Name: **Test\_GetImage\_Return\_Type**
    - Parameters: None
 
-8. In the **Test\_GetImage\_Return\_Type** test, create a new **PhotoController** , call the **GetImage** action, and assert that the result type is **FileContentResult**.
+8. In the **Test\_GetImage\_Return\_Type** test, create a new **PhotoController**, call the **GetImage** action, and assert that the result type is **FileContentResult**.
 9. Run all the tests in the **PhotoSharingTests** project and examine the results.
 
 #### Task 3: Implement a repository
@@ -193,7 +193,7 @@ The main tasks for this exercise are as follows:
 
 2. Add the FakePhotoSharingContext.cs existing file to the Doubles folder from the following location:
 
-   - **Allfiles (D):\Labfiles\Mod06\Fake Repository\FakePhotoSharingContext.cs**
+   - **Allfiles(D):\Mod06\Labfiles\Fake Repository\FakePhotoSharingContext.cs**
 
    >**Note:** This class will be used as a test double for the Entity Framework context.
 
@@ -225,11 +225,11 @@ The main tasks for this exercise are as follows:
    - Parameters: None
 
 2. In the **Test\_PhotoGallery\_No\_Parameter** method, create a new instance of the **FakePhotoSharingContext** class, add four new **Photo** objects to the class, and then pass them to the **PhotoController** constructor.
-3. Call the \_ **PhotoGallery** action and store the **PartialViewResult** in a variable named **result**.
+3. Call the **\_PhotoGallery** action and store the **PartialViewResult** in a variable named **result**.
 4. Cast the **result.Model** property as an **IEnumerable&lt;Photo&gt;** collection and then check that the number of **Photos** in the collection is 4, which is the same as the number of photos you added to the fake context.
 5. In the PhotoControllerTests.cs code window, copy and paste the entire **Test\_PhotoGallery\_No\_Parameter** method. Rename the pasted test method as **Test\_PhotoGallery\_Int\_Parameter**.
 6. In the **Test\_Photo\_Gallery\_Int\_Parameter** method, ensure that the call to the **\_PhotoGallery** action passes the integer **3**.
-7. Assert that the number of **Photo** objects in the **modelPhotos** collection is **3** , which is the integer you passed to the **\_PhotoGallery** action.
+7. Assert that the number of **Photo** objects in the **modelPhotos** collection is **3**, which is the integer you passed to the **\_PhotoGallery** action.
 8. Run all the tests in this **PhotoSharingTests** project and verify the status of all tests.
 
    >**Results** : After completing this exercise, you will be able to add a set of PhotoController tests defined in the PhotoSharingTests project of the Photo Sharing application.
