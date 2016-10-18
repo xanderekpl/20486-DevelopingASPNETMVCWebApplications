@@ -73,7 +73,7 @@ The main tasks for this exercise are as follows:
    - Password: **Pa$$w0rd**
 
 2. Open the PhotoSharingApplication.sln file from the following location:
-3. File path: **Allfiles (D):\Labfiles\Mod04\Starter\PhotoSharingApplication**
+3. File path: **Allfiles(D):\Mod04\Labfiles\Starter\PhotoSharingApplication**
 4. Create a new controller for handling **photo** objects by using the following information:
 
    - Controller name: **PhotoController**
@@ -159,7 +159,7 @@ The main tasks for this exercise are as follows:
    - Parameter: an integer called **id**
 
 6. Find the correct **photo** object from the **context** by using the **id** parameter.
-7. Remove the **photo** object from the **context** , save your changes and redirect to the **Index** action.
+7. Remove the **photo** object from the **context**, save your changes and redirect to the **Index** action.
 
 #### Task 6: Create the GetImage action
 
