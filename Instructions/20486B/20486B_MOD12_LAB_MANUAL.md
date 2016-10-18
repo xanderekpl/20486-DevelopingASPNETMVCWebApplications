@@ -66,7 +66,7 @@ The main tasks for this exercise are as follows:
 
 2. Open the **PhotoSharingApplication.sln** file from the following location:
 
-    - File location: **Allfiles (D:)\Labfiles\Mod12\Starter\PhotoSharingApplication**
+    - File location: **Allfiles(D):\Mod12\Labfiles\Starter\PhotoSharingApplication**
 
 3. In the **PhotoController.cs** code file, add a new action by using the following information:
 
