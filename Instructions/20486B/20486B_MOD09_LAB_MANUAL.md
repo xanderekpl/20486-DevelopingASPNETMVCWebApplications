@@ -67,8 +67,7 @@ The main tasks for this exercise are as follows:
 
 2. Open the **PhotoSharingApplication.sln** file from the following location:
 
-	- File location: **Allfiles (D):\Labfiles\Mod09\Starter
-\PhotoSharingApplication**
+	- File location: **Allfiles(D):\Mod09\Labfiles\Starter\PhotoSharingApplication**
 
 3. Create a new folder in the **Views** folder by using the following information:
 
@@ -76,11 +75,11 @@ The main tasks for this exercise are as follows:
 
 4. Add an existing item to the new **Comment** folder by using the following information:
 
-	- File location of the existing item: **Allfiles (D):\Labfiles\Mod09\Comment Components\Delete.cshtml**
+	- File location of the existing item: **Allfiles(D):\Mod09\Labfiles\Comment Components\Delete.cshtml**
 
 5. Add an existing item to the **Controller** folder by using the following information:
 
-	- File location of the existing item: **Allfiles (D):\Labfiles\Mod09\Comment Components\CommentController.cs**
+	- File location of the existing item: **Allfiles(D):\Mod09\Labfiles\Comment Components\CommentController.cs**
 
 #### Task 2: Add the _CommentsForPhoto action and view.
 
@@ -202,7 +201,7 @@ The main tasks for this exercise are as follows:
 
 	http://ajax.aspnetcdn.com/ajax/mvc/3.0/jquery.unobtrusive-ajax.js
 
-5. Start the web application in debugging mode, browse to **Sample Photo 1** , and observe the comments displayed.
+5. Start the web application in debugging mode, browse to **Sample Photo 1**, and observe the comments displayed.
 6. Add a new comment to Sample Photo 1.
 
 	- Subject: **Test Comment**
@@ -272,7 +271,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 4: Configure caching for the GetImage action.
 
-1. In the **PhotoController** , configure the **GetImage** action to use the output cache, by using the following information:
+1. In the **PhotoController**, configure the **GetImage** action to use the output cache, by using the following information:
 
 	- Duration: **10 minutes**.
 	- Location: **Server**
