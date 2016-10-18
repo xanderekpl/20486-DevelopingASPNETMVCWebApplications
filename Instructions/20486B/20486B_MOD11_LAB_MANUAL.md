@@ -91,7 +91,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication.sln** file from the following location:
 
-    - File location: **Allfiles (D):\Labfiles\Mod11\Starter\PhotoSharingApplication**
+    - File location: **Allfiles(D):\Mod11\Labfiles\Starter\PhotoSharingApplication**
 
 2. Install the **Microsoft ASP.NET Universal Providers** package in the **PhotoSharingApplication** project by using the NuGet Package Manager.
 
@@ -303,11 +303,11 @@ The main tasks for this exercise are as follows:
 1. Add a new folder named **Account** to the **Views** folder.
 2. Add the **Login.cshtml** file to the **Account** folder from the following location:
 
-    - File location: **Allfiles (D):\Labfiles\Mod11\Account Views**
+    - File location: **Allfiles(D):\Mod11\Labfiles\Account Views**
 
 3. Add the **Register.cshtml** file to the **Account** folder from the following location:
 
-    - File location: **Allfiles (D):\Labfiles\Mod11\Account Views**
+    - File location: **Allfiles(D):\Mod11\Labfiles\Account Views**
 
 #### Task 4: Add authentication controls to the Template view
 
@@ -533,7 +533,7 @@ The main tasks for this exercise are as follows:
 
 - Add the **ResetPassword.cshtml** file to the **Views/Account** folder from the following location:
 
-  - **Allfiles (D):\Labfiles\Mod11\Account Views**
+  - **Allfiles(D):\Mod11\Labfiles\Account Views**
 
 #### Task 4: Add a link to the reset password view.
 
