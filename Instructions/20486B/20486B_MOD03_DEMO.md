@@ -123,7 +123,6 @@ providerName="System.Data.SqlClient" />
 
   ```cs		
         public DbSet<Opera> Operas{ get; set; }
-            
 ```
 12. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
 13. In the **Name** text box of the **Add New Item - OperasWebSite** dialog box, type **OperasInitializer**, and then click **Add**.
@@ -141,7 +140,6 @@ providerName="System.Data.SqlClient" />
 
   ```cs
 		: DropCreateDatabaseAlways<OperasDB>
-             
 ```
 17. In the **OperasInitializer** class code block, type the following code, press Spacebar, and then click, **Seed(OperasDB context)**.
 
@@ -185,8 +183,6 @@ providerName="System.Data.SqlClient" />
 
   ```cs
 		@section Scripts {@Script.Render("~/bundles/jqueryval")}
-             
-        
 ```
 30. On the **DEBUG** menu of the **OperasWebSite - Microsoft Visual** Studio window, click **Start Debugging**
 
