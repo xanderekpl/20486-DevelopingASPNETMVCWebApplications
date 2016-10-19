@@ -1,4 +1,4 @@
-# Module 3: Developing ASP.NET MVC 4 Models
+﻿# Module 3: Developing ASP.NET MVC 4 Models
 
 # Lesson 1: Creating MVC Models
 
@@ -19,7 +19,7 @@
 11. In the **Opera** class of the **Opera.cs** code window, type the following code.
 
   ```cs
-		public int OperaID { get; set; }
+		 public int OperaID { get; set; }
         public string Title { get; set; }
         public int Year { get; set; }
         public string Composer { get; set; }
@@ -85,23 +85,20 @@
 2. In the **web.config** code window, place the mouse cursor at the end of the **&lt;/appsettings&gt;** tag, press Enter, and then type the following code.
 
   ```cs
-		<connectionStrings>
-          <add name="OperasDB"
-           connectionString=
-           "Data Source=(LocalDB)\v11.0;" +
-           "AttachDbFilename=" +
-           "|DataDirectory|\Operas.mdf;" +
-           "Integrated Security=True"
-           providerName=
-            "System.Data.SqlClient" />
-        </connectionStrings>
+<connectionStrings>
+<add name="OperasDB"
+connectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Operas.mdf;Integrated Security=True;"
+providerName="System.Data.SqlClient" />
+</connectionStrings>
+
+
 ```
 3. On the **Tools** menu of the **OperasWebSite - Microsoft Visual Studio** window, point to **Library Package Manager**, and then click **Package Manager Console**.
 4. In **Package Manager Console** window, type the following command, and then press Enter.
 
   ```cs
-		install-package entityframework –
-        version 5.0.0.0
+		install-package entityframework –version 5.0.0.0
+        
 ```
 5. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
 6. In the **Name** text box of the **Add New Item - OperasWebSite** dialog box, type **OperasDB**, and then click **Add**.
@@ -128,8 +125,8 @@
 11. In the **OperaDB** class, type the following code.
 
   ```cs		
-        public DbSet<Opera> Operas
-            { get; set; }
+        public DbSet<Opera> Operas{ get; set; }
+            
 ```
 12. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
 13. In the **Name** text box of the **Add New Item - OperasWebSite** dialog box, type **OperasInitializer**, and then click **Add**.
@@ -146,8 +143,8 @@
 16. Append the following code to the existing line of code.
 
   ```cs
-		: DropCreateDatabaseAlways
-             <OperasDB>
+		: DropCreateDatabaseAlways<OperasDB>
+             
 ```
 17. In the **OperasInitializer** class code block, type the following code, press Spacebar, and then click, **Seed(OperasDB context)**.
 
@@ -165,8 +162,7 @@
                  Composer = "Mozart"
              }
         };
-        operas.ForEach(s =>
-            context.Operas.Add(s));
+        operas.ForEach(s =>context.Operas.Add(s));
         context.SaveChanges();
 ```
 19. In the **Solution Explorer** pane, click **Global.asax**.
@@ -174,28 +170,28 @@
 
   ```cs
 		using System.Data.Entity;
-        using OperasWebSite.Models;
+       using OperasWebSites.Models;
 ```
 21. In the **Application\_Start** method code block, type the following code.
 
   ```cs
-		Database.SetInitializer
-             <OperasDB>
-             (new OperasInitializer());
+		Database.SetInitializer<OperasDB>(new OperasInitializer());
+             
+             
 ```
 22. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
 23. In the **Solution Explorer** pane, right-click **Controllers**, click **Add**, and then click **Controller**.
 24. In the **Controller Name** box, type **OperaController**.
 25. In the **Template** box, click **MVC controller with read/write actions and views, using Entity Framework**.
 26. In the **Model Class** box, click **Opera (OperasWebSite.Models)**.
-27. In the **Data context class** box, click **OpersDB (OperasWebSite.Models)**, and then click **Add**.
+27. In the **Data context class** box, click **OperasDB (OperasWebSite.Models)**, and then click **Add**.
 28. In the **Solution Explorer** pane, in the **Views/Operas** folder, double-click **Create.cshtml**.
 29. In the **Create.cshtml** code window, locate and delete the following code.
 
   ```cs
-		@section Scripts {
-             @Script.Render("~/bundles/jqueryval")
-        }
+		@section Scripts {@Script.Render("~/bundles/jqueryval")}
+             
+        
 ```
 30. On the **DEBUG** menu of the **OperasWebSite - Microsoft Visual** Studio window, click **Start Debugging**
 
