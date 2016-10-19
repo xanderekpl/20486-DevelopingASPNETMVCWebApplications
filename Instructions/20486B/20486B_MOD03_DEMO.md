@@ -90,8 +90,6 @@
 connectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Operas.mdf;Integrated Security=True;"
 providerName="System.Data.SqlClient" />
 </connectionStrings>
-
-
 ```
 3. On the **Tools** menu of the **OperasWebSite - Microsoft Visual Studio** window, point to **Library Package Manager**, and then click **Package Manager Console**.
 4. In **Package Manager Console** window, type the following command, and then press Enter.
@@ -174,9 +172,7 @@ providerName="System.Data.SqlClient" />
 21. In the **Application\_Start** method code block, type the following code.
 
   ```cs
-		Database.SetInitializer<OperasDB>(new OperasInitializer());
-             
-             
+		Database.SetInitializer<OperasDB>(new OperasInitializer());           
 ```
 22. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
 23. In the **Solution Explorer** pane, right-click **Controllers**, click **Add**, and then click **Controller**.
