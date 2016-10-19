@@ -19,7 +19,7 @@
 11. In the **Opera** class of the **Opera.cs** code window, type the following code.
 
   ```cs
-		 public int OperaID { get; set; }
+		public int OperaID { get; set; }
         public string Title { get; set; }
         public int Year { get; set; }
         public string Composer { get; set; }
@@ -97,8 +97,7 @@ providerName="System.Data.SqlClient" />
 4. In **Package Manager Console** window, type the following command, and then press Enter.
 
   ```cs
-		install-package entityframework –version 5.0.0.0
-        
+		install-package entityframework –version 5.0.0.0     
 ```
 5. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
 6. In the **Name** text box of the **Add New Item - OperasWebSite** dialog box, type **OperasDB**, and then click **Add**.
