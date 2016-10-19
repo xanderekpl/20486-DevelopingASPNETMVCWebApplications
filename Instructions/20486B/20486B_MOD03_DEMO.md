@@ -164,7 +164,7 @@ providerName="System.Data.SqlClient" />
 20. In the **Global.asax** code window, place the cursor at the end of the **System.Web.Routing** namespace, press Enter, and then type the following code.
 
   ```cs
-		using System.Data.Entity;
+	   using System.Data.Entity;
        using OperasWebSites.Models;
 ```
 21. In the **Application\_Start** method code block, type the following code.
