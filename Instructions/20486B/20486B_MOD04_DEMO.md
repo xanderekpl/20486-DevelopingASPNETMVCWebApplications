@@ -1,4 +1,4 @@
-# Module 4: Developing ASP.NET MVC 4 Controllers
+﻿# Module 4: Developing ASP.NET MVC 4 Controllers
 
 # Lesson 1:Writing Controllers and Actions
 
@@ -72,8 +72,7 @@
 
   ```cs
         [HttpPost]
-        public ActionResult Create
-           (Opera newOpera)
+        public ActionResult Create(Opera newOpera)
         {
         }
 ```
