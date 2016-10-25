@@ -1,4 +1,4 @@
-# Module 5: Developing ASP.NET MVC 4 Views
+﻿# Module 5: Developing ASP.NET MVC 4 Views
 
 # Lesson 2: Using HTML Helpers
 
@@ -25,53 +25,41 @@
 10. Place the mouse cursor at the end of the **&lt;/h2&gt;** tag, press Enter twice, and then type the following code.
 
   ```cs
-		@using (Html.BeginForm(
-           "Create", "Opera",
-           FormMethod.Post))
+	@using (Html.BeginForm("Create","Opera",FormMethod.Post))   
         {
         }
 ```
 11. In the **using** code block, type the following code.
 
   ```cs
-		<p>
-        	@Html.LabelFor(model =>
-               model.Title):
-			@Html.EditorFor(model =>
-			   model.Title)
-			@Html.ValidationMessageFor(
-			   model => model.Title)
+	<p> 
+       @Html.LabelFor(model =>model.Title):        
+		@Html.EditorFor(model =>model.Title) 
+		@Html.ValidationMessageFor(model =>model.Title)   
         </p>
 ```
 12. Place the mouse cursor at the end of the **&lt;/p&gt;** tag corresponding to the **model.Title** property, press Enter twice, and then type the following code.
 
   ```cs
 		<p>
-        	@Html.LabelFor(model =>
-			   model.Year):
-			@Html.EditorFor(model =>
-		       model.Year)
-			@Html.ValidationMessageFor(
-			   model => model.Year)
+        	@Html.LabelFor(model =>model.Year): 
+			@Html.EditorFor(model =>model.Year)
+			@Html.ValidationMessageFor(model => model.Year)		   
 		</p>
 ```
 13. Place the mouse cursor at the end of the **&lt;/p&gt;** tag corresponding to the **model.Year** property, press Enter twice, and then type the following code.
 
   ```cs
 		<p>
-        	@Html.LabelFor(model =>
-        	   model.Composer):
-        	@Html.EditorFor(model =>
-        	   model.Composer)
-        	@Html.ValidationMessageFor(
-        	   model => model.Composer)
+        	@Html.LabelFor(model =>model.Composer):
+        	@Html.EditorFor(model =>model.Composer) 
+        	@Html.ValidationMessageFor(model => model.Composer)
         </p>
 ```
 14. Place the mouse cursor at the end of the **&lt;/p&gt;** tag corresponding to the **model.Composer** property, press Enter twice, and then type the following code.
 
   ```cs
-		input type="submit"
-          value="Create" />
+		<input type="submit" value="Create"/>
 ```
 15. Place the mouse cursor at the end of the **&lt;input&gt;** tag, press Enter, and then type the following code.
 
