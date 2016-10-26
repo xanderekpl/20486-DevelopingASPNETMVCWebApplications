@@ -1,4 +1,4 @@
-# Module 6: Testing and Debugging ASP.NET MVC 4 Web Applications
+﻿# Module 6: Testing and Debugging ASP.NET MVC 4 Web Applications
 
 # Lesson 1: Unit Testing MVC Components
 
@@ -38,12 +38,9 @@
 16. In the **Test\_Index\_Return\_View** code block, press Enter, and then type the following code.
 
   ```cs
-        HomeController controller = 
-            new HomeController();
-        var result = controller.Index()
-            as ViewResult;
-        Assert.AreEqual("WrongName", 
-            result.ViewName);
+        HomeController controller = new HomeController();
+        var result = controller.Index()as ViewResult;
+        Assert.AreEqual("WrongName",  result.ViewName);         
 ```
    >**Note** : This test is created to show the students a failing test.
 
