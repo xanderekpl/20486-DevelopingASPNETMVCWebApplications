@@ -1,4 +1,4 @@
-# Module 7: Structuring ASP.NET MVC 4 Web Applications
+﻿# Module 7: Structuring ASP.NET MVC 4 Web Applications
 
 # Lesson 2: Configuring Routes
 
@@ -25,9 +25,7 @@
 8. In the **DetailsByTitle** action code block, type the following code, and then press Enter.
 
   ```cs
-       Opera opera = (Opera)(from o in contextDB.Operas
-          where o.Title == title
-          select o).FirstOrDefault();
+       Opera opera = (Opera)(from o in contextDB.Operas where o.Title == title select o).FirstOrDefault();      
 ```
 9. In the **DetailsByTitle** action code block, after the code that you just typed, type the following code.
 
@@ -47,11 +45,7 @@
 12. Place the mouse cursor at the end of the call to the **IgnoreRoute()** method, press Enter twice, and then type the following code.
 
   ```cs
-        routes.MapRoute(
-           name: "OperaTitleRoute",
-           url: "opera/title/{title}",
-           defaults: new { controller = "Opera", action = "DetailsByTitle" }
-        );
+       routes.MapRoute(name: "OperaTitleRoute",url: "opera/title/{title}",defaults: new { controller = "Opera", action ="DetailsByTitle" });     
 ```
 13. On the **FILE** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Save All**.
 14. On the **DEBUG** menu of **OperasWebSite - Microsoft Visual Studio** window, click **Start Debugging**.
