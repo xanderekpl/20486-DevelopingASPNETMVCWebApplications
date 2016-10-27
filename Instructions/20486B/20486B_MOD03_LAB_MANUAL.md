@@ -244,9 +244,13 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Add an Entity Framework Context to the model.
 
-1. Use the NuGet Package Manager to add Entity Framework 5.0 to the application.
+1. Use the NuGet Package Manager to add Entity Framework 6.1.3 to the application.
+
 2. Add a new class named **PhotoSharingContext** to the **Models** folder and ensure that the new class inherits the **System.Data.Entity.DbContext** class.
-3. Add public **DbSet** properties to Photos and Comments to enable Entity Framework to create database tables called Photos and Comments.
+
+3. Add a parameterless constructor to the **PhotoSharingContext** class. In the constructor set the value of the **Database.CommandTimeout** property to **180**.
+
+4. After the constructor, add public **DbSet** properties to Photos and Comments to enable Entity Framework to create database tables called Photos and Comments.
 
 #### Task 2: Add an Entity Framework Initializer.
 
