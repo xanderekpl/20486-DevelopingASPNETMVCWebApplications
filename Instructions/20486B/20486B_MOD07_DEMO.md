@@ -80,9 +80,9 @@
 2. Open **File Explorer**.
 3. Go to **Allfiles (D):\Democode\Mod07\OperasWebSite**.
 4. Double-click **OperasWebSite.sln**.
-5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-  a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.
-  b. In the navigation pane of the **Options** dialog box, click **Package Manager**.
+5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:  
+  a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
+  b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
   c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
   
   >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
