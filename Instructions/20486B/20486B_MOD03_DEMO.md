@@ -89,6 +89,7 @@
 3. Go to **Allfiles (D):\Democode\Mod03\OperaWebSite**, and then open the **OperasWebSite.sln** project.
 
   >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running. 
+
 #### Demonstration Steps
 
 1. In the **Solution Explorer** pane of the **OperasWebSite - Microsoft Visual Studio** window, click **web.config**.
