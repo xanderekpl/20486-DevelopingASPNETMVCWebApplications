@@ -1,4 +1,4 @@
-# Module 13: Using Windows Azure Web Services in ASP.NET MVC 4 Web Applications
+﻿# Module 13: Using Windows Azure Web Services in ASP.NET MVC 4 Web Applications
 
 # Lesson 3: Consuming Windows Azure Services in a Web Application
 
@@ -45,7 +45,8 @@
 8. Place the cursor in the **SCRIPT** element code block that you just created, and then type the following code.
 
   ```cs
-		function callWebService() {
+		function callWebService()
+        {
         }
 ```
 9. Place the cursor in the **callWebService** function code block, and then type the following code.
@@ -69,7 +70,8 @@
 11. Place the cursor at the end of the **callWebService** function code block, but within the **SCRIPT** element, press Enter twice, and then type the following code.
 
   ```cs
-		function OnSuccess(response) {
+		function OnSuccess(response) 
+        {
         }
 ```
 12. Place the cursor in the **OnSuccess** function code block, and then type the following code.
@@ -82,7 +84,8 @@
 13. Place the cursor at the end of the **OnSuccess** function code block, but within the **SCRIPT** element, press Enter twice, and then type the following code.
 
   ```cs
-		function OnError(response) {
+		function OnError(response) 
+        {
         }
 ```
 14. Place the cursor within the **OnError** function, and then type the following code.
