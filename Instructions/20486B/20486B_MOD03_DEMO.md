@@ -3,6 +3,11 @@
 # Lesson 1: Creating MVC Models
 
 ### Demonstration: How to Add a Model
+#### Preparation Steps
+1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
+2. Open **Visual Studio 2012**.
+
+  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
 
 #### Demonstration Steps
 
@@ -78,7 +83,12 @@
 # Lesson 2: Working with Data
 
 ### Demonstration: How to Use Entity Framework Code
+#### Preparation Steps
+1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
+2. Open **Visual Studio 2012**. 
+3. Go to **Allfiles (D):\Democode\Mod03\OperaWebSite**, and then open the **OperasWebSite.sln** project.
 
+  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running. 
 #### Demonstration Steps
 
 1. In the **Solution Explorer** pane of the **OperasWebSite - Microsoft Visual Studio** window, click **web.config**.
