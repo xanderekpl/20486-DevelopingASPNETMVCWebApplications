@@ -4,6 +4,19 @@
 
 ### Demonstration: How to Add Routes
 
+#### Preparation Steps
+
+1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
+2. Open **File Explorer**.
+3. Go to **Allfiles (D):\Democode\Mod07\OperasWebSite**.
+4. Double-click **OperasWebSite.sln**.
+5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:  
+  a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
+  b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
+  c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
+  
+  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
+
 #### Demonstration Steps
 
 1. On the **DEBUG** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Start Debugging**.
@@ -60,6 +73,19 @@
 # Lesson 3: Creating a Navigation Structure
 
 ### Demonstration: How to Build Site Navigation
+
+#### Preparation Steps
+
+1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
+2. Open **File Explorer**.
+3. Go to **Allfiles (D):\Democode\Mod07\OperasWebSite**.
+4. Double-click **OperasWebSite.sln**.
+5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
+  a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.
+  b. In the navigation pane of the **Options** dialog box, click **Package Manager**.
+  c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
+  
+  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
 
 #### Demonstration Steps
 
