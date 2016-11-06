@@ -92,6 +92,7 @@
   - On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.   
   - In the navigation pane of the **Options** dialog box, click **Package Manager**.   
   - Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
+6. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
 
   >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running. 
 
