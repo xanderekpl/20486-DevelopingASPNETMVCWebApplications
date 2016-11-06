@@ -98,8 +98,16 @@
 
 #### Demonstration Steps
 
-1. In the **Solution Explorer** pane of the **OperasWebSite - Microsoft Visual Studio** window, click **web.config**.
-2. In the **web.config** code window, place the mouse cursor at the end of the **&lt;/appsettings&gt;** tag, press Enter, and then type the following code.
+1. On the **Tools** menu of the **OperasWebSite - Microsoft Visual Studio** window, point to **Library Package Manager**, and then click **Package Manager Console**.
+2. In **Package Manager Console** window, type the following command, and then press Enter.
+
+  ```cs
+		install-package entityframework –version 5.0.0.0     
+```
+
+3. In the **Solution Explorer** pane of the **OperasWebSite - Microsoft Visual Studio** window, click **web.config**.
+
+4. In the **web.config** code window, place the mouse cursor at the end of the **&lt;/appsettings&gt;** tag, press Enter, and then type the following code.
 
   ```cs
 <connectionStrings>
@@ -107,12 +115,6 @@
 connectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Operas.mdf;Integrated Security=True;"
 providerName="System.Data.SqlClient" />
 </connectionStrings>
-```
-3. On the **Tools** menu of the **OperasWebSite - Microsoft Visual Studio** window, point to **Library Package Manager**, and then click **Package Manager Console**.
-4. In **Package Manager Console** window, type the following command, and then press Enter.
-
-  ```cs
-		install-package entityframework –version 5.0.0.0     
 ```
 5. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
 6. In the **Name** text box of the **Add New Item - OperasWebSite** dialog box, type **OperasDB**, and then click **Add**.
