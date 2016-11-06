@@ -184,7 +184,7 @@ providerName="System.Data.SqlClient" />
 
   ```cs
 	   using System.Data.Entity;
-       using OperasWebSites.Models;
+       using OperasWebSite.Models;
 ```
 21. In the **Application\_Start** method code block, type the following code.
 
