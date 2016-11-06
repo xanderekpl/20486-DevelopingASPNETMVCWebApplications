@@ -244,13 +244,11 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Add an Entity Framework Context to the model.
 
-1. Use the NuGet Package Manager to add Entity Framework 6.1.3 to the application.
+1. Use the NuGet Package Manager to add Entity Framework version 5.0.0 to the application.
 
 2. Add a new class named **PhotoSharingContext** to the **Models** folder and ensure that the new class inherits the **System.Data.Entity.DbContext** class.
 
-3. Add a parameterless constructor to the **PhotoSharingContext** class. In the constructor set the value of the **Database.CommandTimeout** property to **180**.
-
-4. After the constructor, add public **DbSet** properties to Photos and Comments to enable Entity Framework to create database tables called Photos and Comments.
+3. Add public **DbSet** properties to Photos and Comments to enable Entity Framework to create database tables called Photos and Comments.
 
 #### Task 2: Add an Entity Framework Initializer.
 
@@ -283,10 +281,25 @@ The main tasks for this exercise are as follows:
    - **using System.Data.Entity;**
    - **using PhotoSharingApplication.Models;**
 
-#### Task 3: Create a Microsoft Azure SQL database and obtain a connection string.
+#### Task 3: Add a controller and views.
 
-1. Sign in to the Microsoft Azure portal by using the portal address: **https://manage.windowsazure.com**
-2. Create a new database server and a new database by using the following information:
+1. Add a new controller to the **PhotoSharingApplication** project by using the following information:
+
+   - Name **: PhotoController**
+   - Template: **MVC Controller with read/write actions and views, using Entity Framework**
+   - Model class: **Photo**
+   - Data context class : **PhotoSharingContext**
+   - Views: **Razor(CSHTML)**
+
+#### Task 4: Create a Microsoft Azure SQL database and obtain a connection string.
+
+1. Use the NuGet Package Manager to update Entity Framework to version 6.1.3.
+
+2. Add a parameterless constructor to the **PhotoSharingContext** class. In the constructor set the value of the **Database.CommandTimeout** property to **180**.
+
+3. Sign in to the Microsoft Azure portal by using the portal address: **https://manage.windowsazure.com**
+
+4. Create a new database server and a new database by using the following information:
 
    - Database name: **PhotoSharingDB**
    - Database server: **New SQL Database Server**
@@ -295,14 +308,14 @@ The main tasks for this exercise are as follows:
    - Login password confirmation: **Pa$$w0rd**
    - Region: &lt;_a region close to you&gt;_
 
-3. In the list of allowed IP addresses for the **PhotoSharingDB** database, add the following IP address ranges:
+5. In the list of allowed IP addresses for the **PhotoSharingDB** database, add the following IP address ranges:
 
    - Rule name: **First Address Range**
    - Start IP Address: _&lt;first address in range&gt;_
    - End IP Address: _&lt;last address in range&gt;_
 
-4. Obtain the connection string for the **PhotoSharingDB** database and add it to the **Web.config** file.
-5. Build the Photo Sharing application.
+6. Obtain the connection string for the **PhotoSharingDB** database and add it to the **Web.config** file.
+7. Build the Photo Sharing application.
 
  >**Results**: After completing this exercise, you should have successfully created an MVC application that uses Microsoft Azure SQL Database as its data store.
 
@@ -312,26 +325,13 @@ The main tasks for this exercise are as follows:
 
 In this exercise, you will:
 
-- Add a controller and views to the MVC web application.
 - Run the web application.
 
 The main tasks for this exercise are as follows:
 
-1. Add a controller and views.
+1. Add an image and run the application.
 
-2. Add an image and run the application.
-
-#### Task 1: Add a controller and views.
-
-- Add a new controller to the **PhotoSharingApplication** project by using the following information:
-
-   - Name **: PhotoController**
-   - Template: **MVC Controller with read/write actions and views, using Entity Framework**
-   - Model class: **Photo**
-   - Data context class : **PhotoSharingContext**
-   - Views: **Razor(CSHTML)**
-
-#### Task 2: Add an image and run the application.
+#### Task 1: Add an image and run the application.
 
 1. Create a new top-level folder, and copy an image to the new folder by using the following information:
 
@@ -343,7 +343,7 @@ The main tasks for this exercise are as follows:
 
    - **/photo/index**
 
- >**Results**: After completing this exercise, you should have successfully added controllers, views, and images to an MVC web application and tested the application by displaying data from a Microsoft Azure SQL database.
+ >**Results**: After completing this exercise, you should have successfully added an image to an MVC web application and tested the application by displaying data from a Microsoft Azure SQL database.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
