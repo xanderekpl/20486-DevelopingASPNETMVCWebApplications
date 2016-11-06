@@ -85,8 +85,13 @@
 ### Demonstration: How to Use Entity Framework Code
 #### Preparation Steps
 1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
-2. Open **Visual Studio 2012**. 
-3. Go to **Allfiles (D):\Democode\Mod03\OperaWebSite**, and then open the **OperasWebSite.sln** project.
+2. Start **File Explorer**. 
+3. Go to **Allfiles (D):\Democode\Mod03\OperasWebSite**.
+4. Open the **OperasWebSite.sln** project.
+5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:   
+  - On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.   
+  - In the navigation pane of the **Options** dialog box, click **Package Manager**.   
+  - Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
 
   >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running. 
 
@@ -123,14 +128,14 @@ providerName="System.Data.SqlClient" />
 9. In the **OperasDB.cs** code window, locate the following code.
 
   ```cs
-		public class OperaDB
+		public class OperasDB
 ```
 10. Append the following code to the existing line of code.
 
   ```cs
 		: DbContext
 ```
-11. In the **OperaDB** class, type the following code.
+11. In the **OperasDB** class, type the following code.
 
   ```cs		
         public DbSet<Opera> Operas{ get; set; }
