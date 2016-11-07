@@ -8,12 +8,13 @@
 
 1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
 2. Open **File Explorer**.
-3. Go to **Allfiles (D):\Democode\Mod07\OperasWebSite**.
+3. Go to **AllFiles (D):\Mod07\DemoCode\OperasWebSite**.
 4. Double-click **OperasWebSite.sln**.
 5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:  
   a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
   b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
   c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
+6. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
   
   >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
 
@@ -78,12 +79,13 @@
 
 1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
 2. Open **File Explorer**.
-3. Go to **Allfiles (D):\Democode\Mod07\OperasWebSite**.
+3. Go to **AllFiles (D):\Mod07\DemoCode\OperasWebSite**.
 4. Double-click **OperasWebSite.sln**.
 5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:  
   a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
   b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
   c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
+6. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
   
   >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
 
@@ -93,7 +95,7 @@
 2. In **Package Manager Console** window, type the following command and then press Enter
 
   ```cs
-       install-package mvcsitemapprovider – version 3.3.4.0
+       install-package mvcsitemapprovider –version 3.3.4.0
 ```
 3. In the **Solution Explorer** pane of the **OperasWebSite - Microsoft Visual Studio** window, expand **OperasWebSite**, collapse **App_Start**, and then collapse **Controllers**.
 4. In the **Solution Explorer** pane, under **Global.asax**, click **Mvc.sitemap**.

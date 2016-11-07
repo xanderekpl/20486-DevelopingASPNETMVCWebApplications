@@ -86,7 +86,7 @@
 #### Preparation Steps
 1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
 2. Start **File Explorer**. 
-3. Go to **Allfiles (D):\Democode\Mod03\OperasWebSite**.
+3. Go to **AllFiles (D):\Mod03\DemoCode\OperasWebSite**.
 4. Open the **OperasWebSite.sln** project.
 5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:   
   - On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.   
