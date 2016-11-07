@@ -234,14 +234,14 @@ The main tasks for this exercise are as follows:
 
 12. Add the **MapDisplay.js** JavaScript file to the **Scripts** folder from the following location:
 
-- **Allfiles(D):\Mod14\Labfiles\Bing Maps Script**
+    - **Allfiles(D):\Mod14\Labfiles\Bing Maps Script**
 
 13. Add a new node to the site map by using the following information:
 
-- Title: **Map**
-- Visibility: **\***
-- Controller: **Photo**
-- Action: **Map**
+    - Title: **Map**
+    - Visibility: **\***
+    - Controller: **Photo**
+    - Action: **Map**
 
 14. Save all the changes.
 
