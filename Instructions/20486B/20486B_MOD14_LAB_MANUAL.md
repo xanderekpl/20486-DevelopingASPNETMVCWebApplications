@@ -31,7 +31,7 @@ Before initiating this lab, perform the following steps:
 1. Apply the Snapshot of the virtual machine, **20486B-SEA-DEV11**, that was taken after completing the lab in module 13.
 2. Navigate to **Allfiles(D):\Mod 13\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then copy the **web.config** file.
 3. Navigate to **Allfiles(D):\Mod 14\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then paste the **web.config** file.
-4. Enable the **Allow NuGet to download missing packages during build** ption by performing the following steps:
+4. Enable the **Allow NuGet to download missing packages during build** option by performing the following steps:
 
    a.  On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
    b.  In the navigation pane of the **Options** dialog box, click **Package Manager**.  
@@ -214,9 +214,9 @@ The main tasks for this exercise are as follows:
 2. In the new **Map** action, return a **View** named **Map**.
 3. Add a new view for the **Map** action by using the following information:
 
-- View name: **Map**
-- Type: Do not create a strongly-typed view
-- Layout: **_MapLayout.cshtml**
+    - View name: **Map**
+    - Type: Do not create a strongly-typed view
+    - Layout: **_MapLayout.cshtml**
 
 4. Remove the **H2** element from the **Map.cshmtl** view.
 5. Add a new JavaScript block to the **Map.cshtml** view.
