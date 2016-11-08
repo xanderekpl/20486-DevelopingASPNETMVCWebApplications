@@ -33,7 +33,7 @@ Before initiating this lab, perform the following steps:
 
 2. Navigate to **Allfiles(D):\Labfiles\Mod 13\ Starter\PhotoSharingApplication\PhotoSharingApplication**, and then copy the **Web.config** file.
 3. Navigate to **Allfiles(D):\Labfiles\Mod 15\ Starter\PhotoSharingApplication\PhotoSharingApplication**, and then paste the **Web.config** file.
-4. Enable the **Allow NuGet to download missing packages during build** ption by performing the following steps:
+4. Enable the **Allow NuGet to download missing packages during build** option by performing the following steps:
 
   a. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
   b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
@@ -112,7 +112,7 @@ The main tasks for this exercise are as follows:
    - Second parameter: an integer named **photoId**
    - Third parameter: a string named **message**
 
-8. In the **Send** method, create a new **string** variable named **groupName** andset the value to **&quot;Photo&quot; + photoId**.
+8. In the **Send** method, create a new **string** variable named **groupName** and set the value to **&quot;Photo&quot; + photoId**.
 9. In the **Send** method, return the result of the **addMessage** method for the **groupName** group by using the following information:
 
    - Method: **Clients.Group(groupName).addMessage()**
