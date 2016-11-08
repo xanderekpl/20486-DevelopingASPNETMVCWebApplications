@@ -270,7 +270,7 @@ The main tasks for this exercise are as follows:
 
    >**Results** : After completing this exercise, you should have successfully created MVC controller actions and views to display a user interface for the SignalR functionality, linked to the JScript libraries that SignalR requires, and used JScript to connect to a SignalR hub and send messages.
    
-   ©2016 Microsoft Corporation. All rights reserved.
+©2016 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 
