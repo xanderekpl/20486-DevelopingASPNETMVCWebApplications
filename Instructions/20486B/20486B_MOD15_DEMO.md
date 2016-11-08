@@ -10,11 +10,11 @@
 2. Start **File Explorer**.
 3. Navigate to **Allfiles(D):\Democode\Mod15\OperasWebSite**.
 4. Double-click **OperasWebSite.sln**.
-5. Enable the **Allow NuGet to download missing packages during build** ption by performing the following steps:
+5. Enable the **Allow NuGet to download missing packages during build** option by performing the following steps:
 
    a. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
    b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-   c. Under the Package Restore section, select the **Allow NuGet to download missing packages during build** check box, and thenclick **OK**.
+   c. Under the Package Restore section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
 
   >**Note** : In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
 
@@ -126,7 +126,7 @@
   >**Note:** SignalR sends the message you typed to the hub. The hub broadcasts the message to all connected clients.
 
 25. On the taskbar, right-click the **Internet Explorer** icon, and then click **Internet Explorer**.
-26. In the Address bar of the Internet Explorer window, type **http://localhost:**** &lt; **_portnumber_** &gt;**,and then press Enter.
+26. In the Address bar of the Internet Explorer window, type **http://localhost:&lt; _portnumber_ &gt;**,and then press Enter.
 27. On the **Operas I Have Seen** page, click the **Enter the Operas Chat Room** link.
 28. In the **Enter your name** box of the **localhost needs some information** dialog box, type **Elisa Graceffo**, and then click **OK**.
 29. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
