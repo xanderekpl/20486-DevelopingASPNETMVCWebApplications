@@ -1,4 +1,4 @@
-# Module 10: Using JavaScript and jQuery for Responsive MVC 4 Web Applications
+﻿# Module 10: Using JavaScript and jQuery for Responsive MVC 4 Web Applications
 
 # Lesson 1: Rendering and Executing JavaScript Code
 
@@ -8,7 +8,7 @@
 
 1.	Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
 2.	Open **File Explorer**.
-3.	Go to **Allfiles (D):\Democode\Mod10\OperasWebSite**.
+3.	Go to **Allfiles (D):\Mod10\Democode\OperasWebSite**.
 4.	Double-click **OperasWebSite.sln**.
 
   >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
@@ -27,7 +27,7 @@
 4. In **Package Manager Console** window, type the following command, and then press Enter
 
   ```cs
-       install-package jQuery.UI.Combined – version 1.8.17
+       install-package jQuery.UI.Combined –version 1.8.17
 ```
 5. In the **Solution Explorer** pane, expand **Scripts**.
 
@@ -48,7 +48,7 @@
 10. Place the mouse cursor before the located code, type the following code, and then press Enter.
 
   ```cs
-      <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-ui-1.8.17js")"></scripts>
+      <script type="text/javascript" src="@Url.Content("~/Scripts/jquery-ui-1.8.17.js")"></script>
 ```
 11. In the **_SiteTemplate.cshtml** code window, locate the following code.
 
@@ -74,7 +74,7 @@
 
 1.	Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
 2.	Open **File Explorer**.
-3.	Go to **Allfiles (D):Democode\Mod10\OperasWebSite**
+3.	Go to **Allfiles (D):\Mod10\Democode\OperasWebSite**
 4.	Double-click **OperasWebSite.sln**.
 5.	Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:   
   a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  

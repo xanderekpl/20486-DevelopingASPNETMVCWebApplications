@@ -1,4 +1,4 @@
-# Module 8: Applying Styles to ASP.NET MVC 4 Web Applications
+﻿# Module 8: Applying Styles to ASP.NET MVC 4 Web Applications
 
 # Lesson 2: Applying CSS Styles to an MVC Application
 
@@ -8,7 +8,7 @@
 
 1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **Admin**, and the password, **Pa$$w0rd**.
 2. Open **File Explorer**.
-3. Navigate to **Allfiles (D):\Democode\Mod08\OperasWebSite**.
+3. Navigate to **Allfiles (D):\Mod08\Democode\OperasWebSite**.
 4. Double-click **OperasWebSite.sln**.
 5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:  
   a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  

@@ -1,4 +1,4 @@
-# Module 9: Building Responsive Pages in ASP.NET MVC 4 Web Applications
+﻿# Module 9: Building Responsive Pages in ASP.NET MVC 4 Web Applications
 
 # Lesson 2: Implementing a Caching Strategy
 
@@ -8,7 +8,7 @@
 
 1. Log on to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
 2. Start **File Explorer**.
-3. Navigate to **Allfiles (D):\Democode\Mod09\OperasWebSite**.
+3. Navigate to **Allfiles (D):\Mod09\Democode\OperasWebSite**.
 4. Double-click **OperasWebSite.sln**
 5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:  
   a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
