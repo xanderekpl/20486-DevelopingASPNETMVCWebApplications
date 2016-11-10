@@ -50,7 +50,7 @@
 9. Ensure that the cursor is at the end of the **Index** action code block, press Enter, and then type the following code.
 
   ```cs
-       public ActionResult Details (int id)
+       public ActionResult Details(int id)
        {
        }
 ```
