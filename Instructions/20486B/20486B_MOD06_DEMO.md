@@ -53,8 +53,8 @@
 
   ```cs
         HomeController controller = new HomeController();
-        var result = controller.Index()as ViewResult;
-        Assert.AreEqual("WrongName",  result.ViewName);         
+        var result = controller.Index() as ViewResult;
+        Assert.AreEqual("WrongName", result.ViewName);         
 ```
    >**Note** : This test is created to show the students a failing test.
 
