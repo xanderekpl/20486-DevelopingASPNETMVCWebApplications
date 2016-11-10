@@ -33,10 +33,10 @@ Also, before initiating this lab, perform the following steps:
 
 2. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
 
-3. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.
+   a. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
 
-4. In the navigation pane of the **Options** dialog box, click **Package Manager**.
-5. Under the Package Restore section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
+   b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
+   c. Under the Package Restore section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
 
 ### Exercise 1: Deploying a Web Application to Microsoft Azure
 
@@ -99,7 +99,7 @@ The main tasks for this exercise are as follows:
 
 1. In Windows Internet Explorer, download the publish profile for the _&lt;your username&gt;_ **PhotoSharing** web application.
 
-2. In Microsoft Visual Studio, start the Publish Webwizard and import the publish profile you just downloaded.
+2. In Microsoft Visual Studio, start the Publish Web wizard and import the publish profile you just downloaded.
 3. Preview the files that require changes, and then publish the web application.
 
   >**Results** : After completing this exercise, you will be able to prepare an ASP.NET MVC web application for production deployment, create a web application in Microsoft Azure, and deploy an MVC web application to Microsoft Azure.
