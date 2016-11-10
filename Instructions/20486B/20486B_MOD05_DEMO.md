@@ -24,7 +24,7 @@
 2. In the **OperaController.cs** code window, locate the following code, right-click the code, and then click **Add View**.
 
   ```cs
-		public ActionResult Create ()
+		public ActionResult Create()
 ```
 3. In the **View Name** box of the **Add View** dialog box, ensure that the name displayed is **Create**.
 4. In the **Add View** dialog box, ensure that the **Create a strongly-typed view** check box is selected.
@@ -39,17 +39,17 @@
 
   ```cs
 	@using (Html.BeginForm("Create","Opera",FormMethod.Post))   
-        {
-        }
+  {
+  }
 ```
 10. In the **using** code block, type the following code.
 
   ```cs
 	<p> 
-       @Html.LabelFor(model =>model.Title):        
+        @Html.LabelFor(model =>model.Title):        
 		@Html.EditorFor(model =>model.Title) 
 		@Html.ValidationMessageFor(model =>model.Title)   
-        </p>
+  </p>
 ```
 11. Place the mouse cursor at the end of the **&lt;/p&gt;** tag corresponding to the **model.Title** property, press Enter twice, and then type the following code.
 
