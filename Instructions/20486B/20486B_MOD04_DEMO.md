@@ -95,8 +95,7 @@
         {
            contextDB.Operas.Add(newOpera);
            contextDB.SaveChanges();
-           return
-              RedirectToAction("Index");
+           return RedirectToAction("Index");
         }
         else
         {
