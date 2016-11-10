@@ -49,7 +49,7 @@
         @Html.LabelFor(model =>model.Title):        
 		@Html.EditorFor(model =>model.Title) 
 		@Html.ValidationMessageFor(model =>model.Title)   
-   </p>
+    </p>
 ```
 11. Place the mouse cursor at the end of the **&lt;/p&gt;** tag corresponding to the **model.Title** property, press Enter twice, and then type the following code.
 
