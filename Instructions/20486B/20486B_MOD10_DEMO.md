@@ -101,9 +101,9 @@
   ```cs
     <script>
         $(function() {
-                $("#reviews-tool").accordion();
-            });
-        </script>
+            $("#reviews-tool").accordion();
+        });
+    </script>
 ```
 9. On the **DEBUG** menu of the **OperasWebsite – Microsoft Visual Studio** window, click **Start Debugging**.
 10. On the **Operas I Have Seen** page, click the **All Operas** link.
