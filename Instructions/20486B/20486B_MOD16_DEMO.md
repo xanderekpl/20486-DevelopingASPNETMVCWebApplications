@@ -14,7 +14,7 @@ Sign in to the **20486B-SEA-DEV11** virtual machine with the user name **admin**
 
 1. On the taskbar, click the **Internet Explorer** icon.
 
-2. In the Address bar of the Internet Explorerwindow, type **https://manage.windowsazure.com**, and then press Enter.
+2. In the Address bar of the Internet Explorer window, type **https://manage.windowsazure.com**, and then press Enter.
 3. If a page appears, prompting you to enter your email address, type your email address, and then click **Continue**. Wait for the **Sign In** page to appear, type your email address and password, and then click **Sign In**.
 
   >**Note:** During the sign-in process, if a page appears prompting you to choose from a list of previously used accounts, select the account that you previously used, and then continue to type your credentials.
@@ -23,9 +23,9 @@ Sign in to the **20486B-SEA-DEV11** virtual machine with the user name **admin**
 5. In the lower-left pane of the Microsoft Azure page, click **NEW**, and then click **CUSTOM CREATE**.
 6. In the **URL** box of the **Create Web App** page, type _&lt;your username&gt;_ **operas**.
 7. From the **APP SERVICE PLAN** drop-down list on the **Create Web App** page, select **Create new App Service plan**, and then in the **REGION** box, click _&lt;A region near you&gt;_.
-8. In the **DATABASE** box of the **Create Web App** page, click **Create a new SQL database**, in the **DB CONNECTION STRING NAME** box, type **OperasDB**, and then click the **Next**
+8. In the **DATABASE** box of the **Create Web App** page, click **Create a new SQL database**, in the **DB CONNECTION STRING NAME** box, type **OperasDB**, and then click the **Next** button.
 9. In the **NAME** box of the **Specify database settings** page, type **OperasDB**, in the **SERVER** box, click **New SQL database server**, and then, in the **SERVER LOGIN NAME** box, type _&lt;your first name&gt;_.
-10. In the **SERVER LOGIN PASSWORD** box of the **Specify database settings** page, type **Pa$$w0rd**, in the **CONFIRM PASSWORD** box, type **Pa$$w0rd**, and then click the **Complete**
+10. In the **SERVER LOGIN PASSWORD** box of the **Specify database settings** page, type **Pa$$w0rd**, in the **CONFIRM PASSWORD** box, type **Pa$$w0rd**, and then click the **Complete** button.
 
   >**Note:** Microsoft Azure creates the new web app and database to support the Operas web app.
 
@@ -42,11 +42,11 @@ Sign in to the **20486B-SEA-DEV11** virtual machine with the user name **admin**
 3. Navigate to **Allfiles(D):\Mod16\Democode\OperasWebSite**.
 4. Open the **OperasWebSite.sln** project.
 5. In the Solution Explorer pane, under **OperasWebSite\App\_Data**, delete the **aspnetdb.mdf** file. Also, delete the **aspnetdb\_log.ldf** file, if present.
-6. Enable the **Allow NuGet to download missing packages during build** ption, by performing the following steps:
+6. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
 
-7. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.
-8. In the navigation pane of the **Options** dialog box, click **Package Manager**.
-9. Under the Package Restore section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
+   a. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.     
+   b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
+   c. Under the Package Restore section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
 
   >**Note** : In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
 
@@ -54,7 +54,7 @@ Sign in to the **20486B-SEA-DEV11** virtual machine with the user name **admin**
 
 1. On the taskbar, click the **Internet Explorer** icon.
 
-2. In the Address bar of the Internet Explorerwindow, type **https://manage.windowsazure.com**, and then press Enter.
+2. In the Address bar of the Internet Explorer window, type **https://manage.windowsazure.com**, and then press Enter.
 3. If a page appears, prompting you to enter your email address, type your email address, and then click **Continue**. Wait for the **Sign In** page to appear, type your email address and password, and then click **Sign In**.
 
   >**Note:** During the sign-in process, if a page appears prompting you to choose from a list of previously used accounts, select the account that you previously used, and then continue to type your credentials. ** **
@@ -65,7 +65,7 @@ Sign in to the **20486B-SEA-DEV11** virtual machine with the user name **admin**
 
   >**Note:** If the quick start page appears, repeat steps 5 and 6 before proceeding to the next step.
 
-7. In the quick glance sectionof the Microsoft Azure page, click the **Download the publish profile** link.
+7. In the quick glance section of the Microsoft Azure page, click the **Download the publish profile** link.
 8. In the navigation bar, click **Save**, and then click the **Close** button.
 9. On the taskbar, click the **Microsoft Visual Studio** icon.
 10. In the Solution Explorer pane of the OperasWebSite - Microsoft Visual Studio window, right-click **OperasWebSite**, and then click **Publish**.
