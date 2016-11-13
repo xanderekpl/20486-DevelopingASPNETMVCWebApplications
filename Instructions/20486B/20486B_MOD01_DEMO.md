@@ -42,7 +42,7 @@
   ```cs
        <h2>@ViewBag.Title</h2>
        <p>
-       @Html.ActionLink("Create New", "Create")
+           @Html.ActionLink("Create New", "Create")
        </p>
 ```
  >**Note:** This code block represents the View that renders the home page.
@@ -55,8 +55,8 @@
 
   ```cs
         routes.MapRoute(
-        name: "Default",
-        url: "{controller}/{action}/{id}",
+            name: "Default",
+            url: "{controller}/{action}/{id}",
         )
 ```
 >**Note:** This code block represents the default route that forwards requests to the specified controller.
@@ -71,7 +71,7 @@
 16. In the Photo.cs code window, locate the following code.
 
   ```cs
-         [Required]
+        [Required]
         public string Title { get; set;}
 ```
    >**Note:** This code block represents the **Title** property for a photo stored in the application.
@@ -87,8 +87,7 @@
 19. In thePhotoController.cs code window, locate the following code.
 
   ```cs
-       public ActionResult Details
-           (int id = 0)
+       public ActionResult Details(int id = 0)
        {
          Photo photo = db.Photos.Find(id);
          if (photo == null)
@@ -96,7 +95,7 @@
            return HttpNotFound();
          }
          return View("Details", photo);
-         }
+       }
 ```
    >**Note:** This code block represents the **Details** action of the Photo Controller.
 
