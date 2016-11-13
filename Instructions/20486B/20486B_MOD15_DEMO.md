@@ -8,7 +8,7 @@
 
 1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
 2. Start **File Explorer**.
-3. Navigate to **Allfiles(D):\Democode\Mod15\OperasWebSite**.
+3. Navigate to **Allfiles(D):\Mod15\Democode\OperasWebSite**.
 4. Double-click **OperasWebSite.sln**.
 5. Enable the **Allow NuGet to download missing packages during build** option by performing the following steps:
 
