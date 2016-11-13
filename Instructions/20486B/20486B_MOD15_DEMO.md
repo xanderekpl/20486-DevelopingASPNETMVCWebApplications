@@ -99,13 +99,13 @@
 17. Place the cursor at the end of the code block you just created, press Enter, and then type the following code.
 
   ```cs
-		$.connection.hub.start().done(function () {
+		$.connection.hub.start().done(function() {
         });
 ```
 18. Within the anonymous function code block you just created, type the following code.
 
   ```cs
-		$('#sendmessage').click(function () {
+		$('#sendmessage').click(function() {
         });
 ```
 19. Within the new anonymous function code block you just created, type the following code.
