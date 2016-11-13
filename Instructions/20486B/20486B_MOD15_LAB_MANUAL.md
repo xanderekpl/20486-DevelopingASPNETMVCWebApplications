@@ -31,8 +31,8 @@ Before initiating this lab, perform the following steps:
 
 1. Apply the snapshot of the virtual machine, **20486B-SEA-DEV11**, that was taken after completing the lab in module 13.
 
-2. Navigate to **Allfiles(D):\Labfiles\Mod 13\ Starter\PhotoSharingApplication\PhotoSharingApplication**, and then copy the **Web.config** file.
-3. Navigate to **Allfiles(D):\Labfiles\Mod 15\ Starter\PhotoSharingApplication\PhotoSharingApplication**, and then paste the **Web.config** file.
+2. Navigate to **Allfiles(D):\Mod13\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then copy the **Web.config** file.
+3. Navigate to **Allfiles(D):\Mod15\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then paste the **Web.config** file.
 4. Enable the **Allow NuGet to download missing packages during build** option by performing the following steps:
 
   a. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
@@ -68,7 +68,7 @@ The main tasks for this exercise are as follows:
 
 2. Open the PhotoSharingApplication.sln file from the following location:
 
-   - File location: **Allfiles(D):\Mod15\ Labfiles\Starter\PhotoSharingApplication**
+   - File location: **Allfiles(D):\Mod15\Labfiles\Starter\PhotoSharingApplication**
 
 3. Use **NuGet Package Manager Console** to install the following package in the **PhotoSharingApplication** project:
 
