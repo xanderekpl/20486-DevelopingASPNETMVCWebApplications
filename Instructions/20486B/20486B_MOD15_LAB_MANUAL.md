@@ -171,7 +171,7 @@ The main tasks for this exercise are as follows:
 4. At the end of the action, return the **Chat** view and pass the **photo** object as the model class.
 5. Add the following view file to the **Views/Photo** folder:
 
-   - **Allfiles(D):\ Labfiles\Mod15\Chat View\Chat.cshtml**
+   - **Allfiles(D):\Mod15\Labfiles\Chat View\Chat.cshtml**
 
 6. Save all the changes.
 
