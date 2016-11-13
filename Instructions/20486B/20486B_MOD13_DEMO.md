@@ -36,8 +36,7 @@
 4. Place the cursor in the **FORM** element code block you just created, and then type the following code.
 
   ```cs
-		<input type="button" value="Get Latest Quote" name="GetLatestQuote" 
-        onclick="callWebService();" />
+		<input type="button" value="Get Latest Quote" name="GetLatestQuote" onclick="callWebService();" />
 ```
 5. Place the cursor at the end of the **INPUT** element, press Enter, and then type the following code.
 
