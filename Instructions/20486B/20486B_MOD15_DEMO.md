@@ -71,7 +71,7 @@
 12. Place the cursor at the end of the variable you just created, press Enter, and then type the following code.
 
   ```cs
-		chat.client.broadcastMessage = function (name, message) {
+		chat.client.broadcastMessage = function(name, message) {
         };
 ```
   >**Note:** This function is the implementation of the **broadcastMessage()** function that you called in the Hub code.
