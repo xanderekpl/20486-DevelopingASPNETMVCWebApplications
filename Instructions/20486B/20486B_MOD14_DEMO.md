@@ -1,6 +1,6 @@
 # Module 14: Implementing Web APIs in ASP.NET MVC 4 Web Applications
 
-# Lesson 1:Developing a Web API
+# Lesson 1: Developing a Web API
 
 ### Demonstration: How to Explore a Web API by Using Internet Explorer
 
