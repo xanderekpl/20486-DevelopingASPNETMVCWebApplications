@@ -89,12 +89,12 @@
   ```cs
        public ActionResult Details(int id = 0)
        {
-         Photo photo = db.Photos.Find(id);
-         if (photo == null)
-         {
-           return HttpNotFound();
-         }
-         return View("Details", photo);
+           Photo photo = db.Photos.Find(id);
+           if (photo == null)
+           {
+               return HttpNotFound();
+           }
+           return View("Details", photo);
        }
 ```
    >**Note:** This code block represents the **Details** action of the Photo Controller.
