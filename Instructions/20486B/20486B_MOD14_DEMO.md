@@ -1,4 +1,4 @@
-# Module 14: Implementing Web APIs in ASP.NET MVC 4 Web Applications
+﻿# Module 14: Implementing Web APIs in ASP.NET MVC 4 Web Applications
 
 # Lesson 1: Developing a Web API
 
@@ -79,7 +79,7 @@
 15. In the Address bar of the Internet Explorer window, type **http://localhost:**&lt;_yourPortNumber&gt;_**/api/OperasApi**, and then click **Go to**.
 16. In the Navigation bar, click **Open**.
 17. If the &quot;How do you want to open this type of file (.json)?&quot; message displays, click **More options**, and then click **Microsoft Visual Studio Version Selector**.
-18. On the **EIDT** menu of the **OperasApi.json – Microsoft Visual Studio** window, point to **Find and Replace**, and then click **Quick Find**.
+18. On the **EDIT** menu of the **OperasApi.json – Microsoft Visual Studio** window, point to **Find and Replace**, and then click **Quick Find**.
 19. In the **Search Item** box of the **Quick Find** dialog box, type **Rigoletto**, and then click **Find Next**.
 20. In the **Microsoft Visual Studio** dialog box, click **OK**.
 21. In the **Quick Find** dialog box, click the **Close** button.
