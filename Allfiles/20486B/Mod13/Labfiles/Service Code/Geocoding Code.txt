@@ -1,0 +1,20 @@
+            string key = "";
+            string url = "http://dev.virtualearth.net/REST/v1/Locations?query=" + address + "&key=" + key;
+            try 
+            {
+                using (var client = new WebClient())
+                {
+                    string response = client.DownloadString(url);
+                    DataContractJsonSerializer ser = new DataContractJsonSerializer(typeof(Response));
+                    using (var es = new MemoryStream(Encoding.Unicode.GetBytes(response)))
+                    {
+                        var mapResponse = (ser.ReadObject(es) as Response);
+                        Location location = (Location)mapResponse.ResourceSets.First().Resources.First();
+                        return String.Format("Success: {0}:{1}", location.Point.Coordinates[0], location.Point.Coordinates[1]);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                return "Geocoding Error: " + e.Message;
+            }
