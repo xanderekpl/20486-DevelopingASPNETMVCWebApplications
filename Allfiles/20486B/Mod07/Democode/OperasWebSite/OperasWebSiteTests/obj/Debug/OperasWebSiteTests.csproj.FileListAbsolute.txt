@@ -1,0 +1,17 @@
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\OperasWebSiteTests.dll
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\OperasWebSiteTests.pdb
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\OperasWebSite.dll
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\EntityFramework.dll
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\System.Web.Http.dll
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\System.Web.Http.WebHost.dll
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\System.Net.Http.Formatting.dll
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\Newtonsoft.Json.dll
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\OperasWebSite.pdb
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\EntityFramework.xml
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\System.Web.Http.xml
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\System.Web.Http.WebHost.xml
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\System.Net.Http.Formatting.xml
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\bin\Debug\Newtonsoft.Json.xml
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\obj\Debug\OperasWebSiteTests.csprojResolveAssemblyReference.cache
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\obj\Debug\OperasWebSiteTests.dll
+C:\AllFiles\Mod6\DemoCode\OperasWebSite\OperasWebSiteTests\obj\Debug\OperasWebSiteTests.pdb

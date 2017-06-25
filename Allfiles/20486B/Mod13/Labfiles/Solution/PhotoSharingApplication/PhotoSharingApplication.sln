@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoSharingApplication", "PhotoSharingApplication\PhotoSharingApplication.csproj", "{3953D3A4-D182-423E-8F45-64EC7B7FE248}"
@@ -43,5 +43,3 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
-
-

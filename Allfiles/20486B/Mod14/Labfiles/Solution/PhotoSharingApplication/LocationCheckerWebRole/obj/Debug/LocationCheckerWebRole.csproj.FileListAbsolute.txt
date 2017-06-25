@@ -1,0 +1,9 @@
+C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\WCFServiceWebRole1\bin\WCFServiceWebRole1.dll
+C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\WCFServiceWebRole1\bin\WCFServiceWebRole1.pdb
+C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\WCFServiceWebRole1\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\WCFServiceWebRole1\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\WCFServiceWebRole1\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\WCFServiceWebRole1\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\WCFServiceWebRole1\obj\Debug\LocationCheckerWebRole.csprojResolveAssemblyReference.cache
+C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\WCFServiceWebRole1\obj\Debug\WCFServiceWebRole1.dll
+C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\WCFServiceWebRole1\obj\Debug\WCFServiceWebRole1.pdb

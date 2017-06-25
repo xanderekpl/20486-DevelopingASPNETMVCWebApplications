@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperasWebSite", "OperasWebSite\OperasWebSite.csproj", "{4A5FC54B-4B69-44EF-816A-DF21D8D1ADB7}"
@@ -31,5 +31,3 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
-
-
