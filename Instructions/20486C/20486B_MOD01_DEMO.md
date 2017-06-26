@@ -30,7 +30,6 @@
           return View();
        }
 ```
-    >**Note:** This code block represents an action that will return a view called Index.
 
 4. In the Solution Explorer pane, expand **Views**, and then expand **Photo**.
 5. In the Solution Explorer pane, under Photo, click **Index.cshtml**.
@@ -45,7 +44,7 @@
  >**Note:** This code block represents the View that renders the home page.
 
 7. On the toolbar of the **PhotoSharingSample – Microsoft Visual Studio** window, click **Internet Explorer**.
-8. In the **http://localhost:**_&lt;yourportnumber&gt;_**/** window, note that the default home page is displayed.
+8. In the **http://localhost:[port]/** window, note that the default home page is displayed.
 9. On the taskbar, click the **Microsoft Visual Studio** icon.
 10. In the **PhotoSharingSample – Microsoft Visual Studio** window, in the Solution Explorer pane, expand **App_Start**, and then click **RouteConfig.cs**.
 11. In the RouteConfig.cs code window, locate the following code.
@@ -59,9 +58,9 @@
 >**Note:** This code block represents the default route that forwards requests to the specified controller.
 
 12. On the taskbar, click the **Internet Explorer** icon.
-13. In the Address bar of the Windows Internet Explorer window, type the URL **http://localhost:**_&lt;yourportnumber&gt;_**/home/index**, and then click the **Go to** button.
+13. In the Address bar of the Windows Internet Explorer window, type the URL **http://localhost:[port]/home/index**, and then click the **Go to** button.
 
-     >**Note:** The browser window displays the Home page of the **http://localhost:**_&lt;yourportnumber&gt;_**/home/index** web application.
+     >**Note:** The browser window displays the Home page of the **http://localhost:[port]/home/index** web application.
 
 14. On the taskbar, click the **Microsoft Visual Studio** icon.
 15. In the **PhotoSharingSample – Microsoft Visual Studio** window, in the Solution Explorer pane, expand **Models**, and then click **Photo.cs**.
@@ -105,7 +104,7 @@
    >**Note:**  The Razor view engine runs this code and renders the Photo Title property that you viewed in the model.
 
 22. On the taskbar, click the **Internet Explorer** icon.
-23. In the Address bar of the Windows Internet Explorer window, type **http://localhost:**_&lt;yourportnumber&gt;_**/photo/details/2**, and then click the **Go to** button.
+23. In the Address bar of the Windows Internet Explorer window, type **http://localhost:[port]/photo/details/2**, and then click the **Go to** button.
 
     >**Note:** The photo with ID 2 is displayed in the browser window. Note that the title of the photo is rendered at the top.
 
