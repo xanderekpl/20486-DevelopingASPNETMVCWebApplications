@@ -8,18 +8,18 @@
 
 1. On the **File** menu of the **Start Page - Microsoft Visual Studio** window, point to **New,** and then click **Project.**
 2. In the navigation pane of the **New Project** dialog box, expand **Installed**, expand **Templates**, and then expand **Visual C#**.
-3. Under **Visual C#**, click **Web**, and then, in the result pane, click **ASP.NET MVC 4 Web Application**.
+3. Under **Visual C#**, click **Web**, and then, in the result pane, click **ASP.NET Web Application**.
 4. In the **Name** text box of the **New Project** dialog box, type **OperasWebSites**.
 5. In the **New Project** dialog box, click **Browse**.
 6. In the **Location** text box, go to **Allfiles(D):\Mod03\Democode**, and then click **Select Folder**.
 7. In the **New Project** dialog box, click **OK**.
-8. In the **Select a Template** list of the **New ASP.NET MVC 4 Project** dialog box, click **Empty**, and then click **OK**.
+8. In the **Select a Template** list of the **New ASP.NET Web Application** dialog box, click **MVC**, and then click **OK**.
 9. In the **Solution Explorer** pane of the **OperasWebSites - Microsoft Visual Studio** window, right-click **Models**, point to **Add**, and then click **Class**.
 10. In the **Name** text box of the **Add New Item - OperasWebSites** dialog box, type **Opera.cs**, and then click **Add**.
 11. In the **Opera** class of the **Opera.cs** code window, type the following code.
 
   ```cs
-		public int OperaID { get; set; }
+        public int OperaID { get; set; }
         public string Title { get; set; }
         public int Year { get; set; }
         public string Composer { get; set; }
@@ -78,18 +78,6 @@
 # Lesson 2: Working with Data
 
 ### Demonstration: How to Use Entity Framework Code
-#### Preparation Steps
-1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
-2. Start **File Explorer**. 
-3. Go to **AllFiles (D):\Mod03\DemoCode\OperasWebSite**.
-4. Open the **OperasWebSite.sln** project.
-5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:   
-  - On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.   
-  - In the navigation pane of the **Options** dialog box, click **Package Manager**.   
-  - Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
-6. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
-
-  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running. 
 
 #### Demonstration Steps
 
@@ -97,7 +85,7 @@
 2. In **Package Manager Console** window, type the following command, and then press Enter.
 
   ```cs
-		install-package entityframework –version 5.0.0.0     
+		Install-Package EntityFramework -Version 6.1.3
 ```
 
 3. In the **Solution Explorer** pane of the **OperasWebSite - Microsoft Visual Studio** window, click **web.config**.
@@ -188,8 +176,8 @@ providerName="System.Data.SqlClient" />
 ```
 22. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
 23. In the **Solution Explorer** pane, right-click **Controllers**, click **Add**, and then click **Controller**.
+25. In the **Template** box, click **MVC 5 controller with views, using Entity Framework** and click **Add**.
 24. In the **Controller Name** box, type **OperaController**.
-25. In the **Template** box, click **MVC controller with read/write actions and views, using Entity Framework**.
 26. In the **Model Class** box, click **Opera (OperasWebSite.Models)**.
 27. In the **Data context class** box, click **OperasDB (OperasWebSite.Models)**, and then click **Add**.
 28. In the **Solution Explorer** pane, in the **Views/Operas** folder, double-click **Create.cshtml**.
@@ -199,9 +187,6 @@ providerName="System.Data.SqlClient" />
 		@section Scripts {@Script.Render("~/bundles/jqueryval")}
 ```
 30. On the **DEBUG** menu of the **OperasWebSite - Microsoft Visual** Studio window, click **Start Debugging**
-
-   >**Note:** An error message displays in the **Internet Explorer** window. The error message is expected because the home page view has not been added. 
-
 31. In the Address bar of the **Internet Explorer** window, append the existing URL with **opera/index**, and then click **Go to**.
 32. On the **Index** page, click **Create New**.
 33. In the **Title** text box of the result page, type **Carmen**, and then, in the **Year** text box, type **1475**.
