@@ -1,20 +1,10 @@
-﻿# Module 4: Developing ASP.NET MVC 4 Controllers
+﻿# Module 4: Developing ASP.NET MVC 5 Controllers
 
 # Lesson 1:Writing Controllers and Actions
 
 ### Demonstration: How to create a Controller
 #### Preparation Steps
-1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
-2. Start **File Explorer**.
-3. Go to **AllFiles (D):\Mod04\DemoCode\OperasWebSite**.
-4. Open the **OperasWebSite.sln** project.
-5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:   
-  - On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.   
-  - In the navigation pane of the **Options** dialog box, click **Package Manager**.   
-  - Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
-6. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
-   
-  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.  
+1. Open the **OperasWebSite.sln** project.
 
 #### Demonstration Steps
 
