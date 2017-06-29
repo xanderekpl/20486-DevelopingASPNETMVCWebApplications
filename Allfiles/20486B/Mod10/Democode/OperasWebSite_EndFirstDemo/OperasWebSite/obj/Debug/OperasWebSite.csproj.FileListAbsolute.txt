@@ -1,0 +1,1 @@
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite_EndFirstDemo\OperasWebSite\obj\Debug\OperasWebSite.csprojResolveAssemblyReference.cache

@@ -53,3 +53,17 @@ C:\AllFiles\Mod9\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\Newtonsoft.
 C:\AllFiles\Mod9\Democode\OperasWebSite\OperasWebSiteTests\obj\Debug\OperasWebSiteTests.csprojResolveAssemblyReference.cache
 C:\AllFiles\Mod9\Democode\OperasWebSite\OperasWebSiteTests\obj\Debug\OperasWebSiteTests.dll
 C:\AllFiles\Mod9\Democode\OperasWebSite\OperasWebSiteTests\obj\Debug\OperasWebSiteTests.pdb
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\OperasWebSiteTests.dll.config
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\OperasWebSiteTests.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\OperasWebSiteTests.pdb
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\OperasWebSite.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\System.Web.Mvc.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\EntityFramework.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\MvcSiteMapProvider.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\OperasWebSite.pdb
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\System.Web.Mvc.xml
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\EntityFramework.xml
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\bin\Debug\MvcSiteMapProvider.xml
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\obj\Debug\OperasWebSiteTests.csprojResolveAssemblyReference.cache
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\obj\Debug\OperasWebSiteTests.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod10\Democode\OperasWebSite\OperasWebSiteTests\obj\Debug\OperasWebSiteTests.pdb
