@@ -34,29 +34,29 @@
 9. In the **using** code block, type the following code.
 
   ```cs
-	<p> 
-        @Html.LabelFor(model =>model.Title):        
-		@Html.EditorFor(model =>model.Title) 
-		@Html.ValidationMessageFor(model =>model.Title)   
-    </p>
+		<p> 
+		    @Html.LabelFor(model =>model.Title):        
+		    @Html.EditorFor(model =>model.Title) 
+		    @Html.ValidationMessageFor(model =>model.Title)   
+		</p>
 ```
 10. Place the mouse cursor at the end of the **&lt;/p&gt;** tag corresponding to the **model.Title** property, press Enter twice, and then type the following code.
 
   ```cs
 		<p>
-        	@Html.LabelFor(model =>model.Year): 
-			@Html.EditorFor(model =>model.Year)
-			@Html.ValidationMessageFor(model => model.Year)		   
+		    @Html.LabelFor(model =>model.Year): 
+		    @Html.EditorFor(model =>model.Year)
+		    @Html.ValidationMessageFor(model => model.Year)		   
 		</p>
 ```
 11. Place the mouse cursor at the end of the **&lt;/p&gt;** tag corresponding to the **model.Year** property, press Enter twice, and then type the following code.
 
   ```cs
 		<p>
-        	@Html.LabelFor(model =>model.Composer):
-        	@Html.EditorFor(model =>model.Composer) 
-        	@Html.ValidationMessageFor(model => model.Composer)
-        </p>
+		    @Html.LabelFor(model =>model.Composer):
+		    @Html.EditorFor(model =>model.Composer) 
+		    @Html.ValidationMessageFor(model => model.Composer)
+		</p>
 ```
 12. Place the mouse cursor at the end of the **&lt;/p&gt;** tag corresponding to the **model.Composer** property, press Enter twice, and then type the following code.
 

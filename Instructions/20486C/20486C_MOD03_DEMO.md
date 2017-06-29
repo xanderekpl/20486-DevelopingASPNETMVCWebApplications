@@ -1,4 +1,4 @@
-﻿# Module 3: Developing ASP.NET MVC 4 Models
+﻿# Module 3: Developing ASP.NET MVC 5 Models
 
 # Lesson 1: Creating MVC Models
 
@@ -8,7 +8,7 @@
 
 1. On the **File** menu of the **Start Page - Microsoft Visual Studio** window, point to **New,** and then click **Project.**
 2. In the navigation pane of the **New Project** dialog box, expand **Installed**, expand **Templates**, and then expand **Visual C#**.
-3. Under **Visual C#**, click **Web**, and then, in the result pane, click **ASP.NET Web Application**.
+3. Under **Visual C#**, click **Web**, and then, in the result pane, click **ASP.NET Web Application (.NET Framework)**.
 4. In the **Name** text box of the **New Project** dialog box, type **OperasWebSites**.
 5. In the **New Project** dialog box, click **Browse**.
 6. In the **Location** text box, go to **Allfiles(D):\Mod03\Democode**, and then click **Select Folder**.
@@ -27,7 +27,7 @@
 12. Place the mouse cursor at the end of the **OperaID** property code, press Enter, and then type the following code.
 
   ```cs
-		[Required]
+        [Required]
         [StringLength(200)]
 ```
 13. In the Required data annotation, right-click **Required**, point to **Resolve**, and then click **using System.ComponentModel.DataAnnotations**.
@@ -46,7 +46,7 @@
 16. In the **CheckValidYear** class, type the following code.
 
   ```cs
-		public override bool IsValid(object value)
+        public override bool IsValid(object value)
         {
             int year = (int)value;
             if (year < 1598)
@@ -62,7 +62,7 @@
 17. In the **CheckValidYear** class, type the following code.
 
   ```cs
-		public CheckValidYear()
+        public CheckValidYear()
         {
             ErrorMessage = "The earliest opera is Daphne, 1598, by Corsi, Peri, and Rinuccini";
         }
