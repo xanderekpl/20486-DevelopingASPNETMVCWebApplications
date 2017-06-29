@@ -1,4 +1,4 @@
-﻿# Module 7: Structuring ASP.NET MVC 4 Web Applications
+﻿# Module 7: Structuring ASP.NET MVC 5 Web Applications
 
 # Lesson 2: Configuring Routes
 
@@ -6,21 +6,13 @@
 
 #### Preparation Steps
 
-1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
-2. Open **File Explorer**.
-3. Go to **AllFiles (D):\Mod07\DemoCode\OperasWebSite**.
-4. Double-click **OperasWebSite.sln**.
-5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:  
-  a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
-  b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-  c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
-6. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
-  
-  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
+1. Open **File Explorer**.
+2. Go to **AllFiles (D):\Mod07\DemoCode\OperasWebsites**.
+3. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
-1. On the **DEBUG** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Start Debugging**.
+1. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 2. On the **Operas I Have Seen** page, click the **operas I&#39;ve seen** link.
 3. On the **Index** page, click the **Details** link corresponding to **Cosi Fan Tutte**.
 4. In the Address bar of the **Internet Explorer** window, note that the URL is **http://localhost:&lt;portnumber&gt;/Opera/Details/1**.
@@ -28,7 +20,7 @@
    >**Note:** This URL indicates that the controller is **Opera**, the action is **Details**, and the ID is **1**.
 
 5. In the **Internet Explorer** window, click the **Close** button.
-6. In the **Solution Explorer** pane, expand **OperasWebSite**, expand **Controllers**, and then click **OperaController.cs**.
+6. In the **Solution Explorer** pane, expand **OperasWebsites**, expand **Controllers**, and then click **OperaController.cs**.
 7. In the **OperaController.cs** code window, place the mouse cursor at the end of the **Details** action code block, press Enter twice, and then type the following code.
 
   ```cs
@@ -50,7 +42,7 @@
        }
        return View("Details", opera);
 ```
-10. In the **Solution Explorer** pane, under OperasWebSite, expand **App_Start**, and then click **RouteConfig.cs**.
+10. In the **Solution Explorer** pane, under OperasWebsites, expand **App_Start**, and then click **RouteConfig.cs**.
 11. In the **RouteConfig.cs** code window, locate the following code.
 
   ```cs
@@ -61,15 +53,15 @@
   ```cs
        routes.MapRoute(name: "OperaTitleRoute",url: "opera/title/{title}",defaults: new { controller = "Opera", action ="DetailsByTitle" });     
 ```
-13. On the **FILE** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Save All**.
-14. On the **DEBUG** menu of **OperasWebSite - Microsoft Visual Studio** window, click **Start Debugging**.
+13. On the **FILE** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Save All**.
+14. On the **DEBUG** menu of **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 15. On the Operas I Have Seen page, click the **operas I&#39;ve seen** link.
-16. In the Address bar of the **Internet Explorer** window, append the existing URL with **/title/rigoletto**, and then click **Go**.
+16. In the Address bar of the **Internet Explorer** window, change the existing URL to **http://localhost:[port]/opera/title/Cosi%20Fan%20Tutte**, and then click **Go**.
 
-   >**Note:** The details of the **Rigoletto** opera are displayed.
+   >**Note:** The details of the **Cosi Fan Tutte** opera are displayed.
 
 17. In the **Internet Explorer** window, click **Close**.
-18. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
+18. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
 
 # Lesson 3: Creating a Navigation Structure
 
@@ -77,27 +69,19 @@
 
 #### Preparation Steps
 
-1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**.
-2. Open **File Explorer**.
-3. Go to **AllFiles (D):\Mod07\DemoCode\OperasWebSite**.
-4. Double-click **OperasWebSite.sln**.
-5. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:  
-  a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
-  b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-  c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
-6. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
-  
-  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
+1. Open **File Explorer**.
+2. Go to **AllFiles (D):\Mod07\DemoCode\OperasWebsites**.
+3. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
-1. On the **Tools** menu of the **OperasWebSite - Microsoft Visual Studio** window, point to **Library Package Manager** and then click **Package Manager Console**.
+1. On the **Tools** menu of the **OperasWebsites - Microsoft Visual Studio** window, point to **Library Package Manager** and then click **Package Manager Console**.
 2. In **Package Manager Console** window, type the following command and then press Enter
 
   ```cs
-       install-package mvcsitemapprovider –version 3.3.4.0
+       Install-Package MvcSiteMapProvider.MVC5 -Version 4.6.22
 ```
-3. In the **Solution Explorer** pane of the **OperasWebSite - Microsoft Visual Studio** window, expand **OperasWebSite**, collapse **App_Start**, and then collapse **Controllers**.
+3. In the **Solution Explorer** pane of the **OperasWebsites - Microsoft Visual Studio** window, expand **OperasWebsites**, collapse **App_Start**, and then collapse **Controllers**.
 4. In the **Solution Explorer** pane, under **Global.asax**, click **Mvc.sitemap**.
 5. In the **Mvc.sitemap** code window, locate the following code.
 
@@ -109,7 +93,7 @@
   ```cs
        <mvcSiteMapNode title="All Operas" controller="Opera" action="Index" key="AllOperas" />
 ```
-7. On the **BUILD** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**.
+7. On the **BUILD** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Build Solution**.
 8. In the **Solution Explorer** pane, expand **Views**, expand **Home**, and then click **Index.cshtml**.
 9. In the **Index.cshtml** code window, place the mouse cursor after the **&lt;div&gt;** tag, press Enter, and then type the following code.
 
@@ -132,7 +116,7 @@
   ```cs
         Breadcrumb Trail: @Html.MvcSiteMap().SiteMapPath()
 ```
-14. On the **DEBUG** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Start Debugging**.
+14. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 
     >**Note:** On the **Operas I Have Seen** page, ensure that a menu is added.
 
@@ -150,7 +134,7 @@
     >**Note:** The **About** page of the web application is displayed.
 
 19. In the **Internet Explorer** window, click the **Close** button.
-20. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
+20. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
