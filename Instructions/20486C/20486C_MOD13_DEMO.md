@@ -1,4 +1,4 @@
-﻿# Module 13: Using Windows Azure Web Services in ASP.NET MVC 4 Web Applications
+﻿# Module 13: Using Windows Azure Web Services in ASP.NET MVC 5 Web Applications
 
 # Lesson 3: Consuming Windows Azure Services in a Web Application
 
@@ -6,31 +6,25 @@
 
 #### Preparation Steps
 
-1. Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name **admin**, and the password **Pa$$w0rd**.
-2. Open **File Explorer**.
-3. Go to **Allfiles (D):\Mod13\Democode\OperasWebSite**.
-4. Double-click **OperasWebSite.sln**.
-5. Enable the **Allow NuGet to download missing packages during build** option by performing the following steps:   
-  a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.   
-  b. In the navigation pane of the **Options** dialog box, click **Package Manager**.   
-  c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
-  
-  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
+1. Open **File Explorer**.
+2. Go to **Allfiles (D):\Mod13\Democode\OperasWebsites**.
+3. Double-click **OperasWebsites.sln**.
+
 
 #### Demonstration Steps
 
-1. In the **Solution Explorer** pane of the **OperasWebSite – Microsoft Visual Studio** window, expand **OperasWebSite**, expand **Views**, expand **Home**, and then double-click **Index.cshtml**.
+1. In the **Solution Explorer** pane of the **OperasWebsites – Microsoft Visual Studio** window, expand **OperasWebsites**, expand **Views**, expand **Home**, and then double-click **Index.cshtml**.
 
 2. In the **Index.cshtml** code window, locate the following code.
 
   ```cs
-		@Html.ActionLink("operas I've seen.", "Index", "Opera")
+        @Html.ActionLink("operas I've seen.", "Index", "Opera")
         </p>
 ```
 3. Place the cursor after the located code, press Enter twice, and then type the following code.
 
   ```cs
-		<form>
+        <form>
         </form>
 ```
 4. Place the cursor in the **FORM** element code block you just created, and then type the following code.
@@ -51,14 +45,13 @@
 7. Place the cursor at the end of the located code, press Enter twice, and then type the following code.
 
   ```cs
-		<script type="text/javascript">
+        <script type="text/javascript">
         </script>
 ```
 8. Place the cursor in the **SCRIPT** element code block that you just created, and then type the following code.
 
   ```cs
-		function callWebService()
-        {
+        function callWebService() {
         }
 ```
 9. Place the cursor in the **callWebService** function code block, and then type the following code.
@@ -69,7 +62,7 @@
 10. In the **callWebService** function code block, place the cursor at the end of the variable that you just created, press Enter, and then type the following code.
 
   ```cs
-		$.ajax({
+        $.ajax({
            type: "POST",
            url: serviceUrl + "/LatestQuote",
            data: {},
@@ -82,8 +75,7 @@
 11. Place the cursor at the end of the **callWebService** function code block, but within the **SCRIPT** element, press Enter twice, and then type the following code.
 
   ```cs
-		function OnSuccess(response) 
-        {
+        function OnSuccess(response) {
         }
 ```
 12. Place the cursor in the **OnSuccess** function code block, and then type the following code.
@@ -96,8 +88,7 @@
 13. Place the cursor at the end of the **OnSuccess** function code block, but within the **SCRIPT** element, press Enter twice, and then type the following code.
 
   ```cs
-		function OnError(response) 
-        {
+        function OnError(response) {
         }
 ```
 14. Place the cursor within the **OnError** function, and then type the following code.
@@ -105,13 +96,13 @@
   ```cs
 		$('#quote-display').html("Could not obtain the latest quote");
 ```
-15. On the **DEBUG** menu of the **OperasWebSite – Microsoft Visual Studio** window, click **Start Debugging**.
+15. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
 16. On the **Operas I Have Seen** page, click **Get Latest Quote**.
 
   >**Note:** jQuery calls the web service and displays a quote on the home page. Note that you need not reload the page to display the quote.
 
 17. In the **Internet Explorer** window, click **Close**.
-18. In the **OperasWebSite – Microsoft Visual Studio** window, click **Close**.
+18. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
