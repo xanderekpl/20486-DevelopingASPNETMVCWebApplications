@@ -1,0 +1,17 @@
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\OperasWebSite.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\OperasWebSite.pdb
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\Newtonsoft.Json.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.Helpers.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.Razor.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.WebPages.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.Helpers.xml
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.Razor.xml
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.WebPages.xml
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\obj\Debug\OperasWebSite.dll
+C:\Users\eladk\dev\20486-DevelopingASPNETMVCWebApplications\Allfiles\20486B\Mod14\Democode\OperasWebSite_End\OperasWebSite\obj\Debug\OperasWebSite.pdb
