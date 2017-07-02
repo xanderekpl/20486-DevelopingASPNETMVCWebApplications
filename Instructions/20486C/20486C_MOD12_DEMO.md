@@ -1,4 +1,4 @@
-# Module 12: Building a Resilient ASP.NET MVC 4 Web Application
+# Module 12: Building a Resilient ASP.NET MVC 5 Web Application
 
 # Lesson 2: State Management
 
@@ -6,26 +6,19 @@
 
 #### Preparation Steps
 
-1.	Sign in to the virtual machine, **20486B-SEA-DEV11**, with the user name, **admin**, and the password, **Pa$$w0rd**. 
-2.	Open **File Explorer**.
-3.	Go to **Allfiles (D):\Mod12\Democode\OperasWebSite**.
-4.	Double-click **OperasWebSite.sln**.
-5.	Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:  
-  a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
-  b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-  c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
-  
-  >**Note**: In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
+1.	Open **File Explorer**.
+2.	Go to **Allfiles (D):\Mod12\Democode\OperasWebsites**.
+3.	Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
-1. In the **Solution Explorer** pane of the **OperasWebSite – Microsoft Visual Studio** window, under **OperasWebSite**, expand **Controllers**, and then click **HomeController.cs**.
+1. In the **Solution Explorer** pane of the **OperasWebsites – Microsoft Visual Studio** window, under **OperasWebsites**, expand **Controllers**, and then click **HomeController.cs**.
 2. In the **HomeController.cs** code window, locate the following code.
 
   ```cs
        public ActionResult About()
        {
-          return View();
+          return View("");
        }
 ```
 3. Place the mouse cursor at the end of the located code, press Enter twice, and then type the following code.
@@ -103,7 +96,7 @@
   ```cs
         <body style="@Html.Action("GetBackground", "Home")">
 ```
-17. On the **DEBUG** menu of the **OperasWebSite – Microsoft Visual Studio** window, click **Start Debugging**.
+17. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
 18. On the **Operas I Have Seen** page, click the **Blue** link, and then note that the blue background color has been applied to the home page.
 19. On the **Operas I Have Seen** page, click the **All Operas** link.
 
@@ -126,7 +119,7 @@
     >**Note:** The pink background preference is applied to all pages of the application.
 
 27. In the **Internet Explorer** window, click **Close**.
-28. In the **OperasWebSite – Microsoft Visual Studio** window, click **Close**.
+28. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 29. If the message **Do you want to stop debugging?** is displayed, click **Yes**.
 
 ©2016 Microsoft Corporation. All rights reserved.
