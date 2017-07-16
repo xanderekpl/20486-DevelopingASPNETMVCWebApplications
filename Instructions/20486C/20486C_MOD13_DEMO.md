@@ -16,7 +16,7 @@
 1. In the **Solution Explorer** pane of the **OperasWebsites – Microsoft Visual Studio** window, expand **OperasWebsites**, expand **Views**, expand **Home**, and then double-click **Index.cshtml**.
 
 2. In the **Index.cshtml** code window, locate the following code.
-
+ 
   ```cs
         @Html.ActionLink("operas I've seen.", "Index", "Opera")
         </p>
