@@ -4,7 +4,7 @@
 
 ### Demonstration: How to Explore an MVC Application
 
-#### Preparation Steps
+#### Preparation Steps 
 
 1. Navigate to **Allfiles(D):\Mod01\Democode\PhotoSharingSample**, and then open the **PhotoSharingSample.sln** file.
 2. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:

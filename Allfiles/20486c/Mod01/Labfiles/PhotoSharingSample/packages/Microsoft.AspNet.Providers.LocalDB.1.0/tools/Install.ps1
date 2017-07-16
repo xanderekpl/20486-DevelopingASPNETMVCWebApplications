@@ -4,8 +4,8 @@ try {
     $timestamp = (Get-Date).ToString('yyyyMMddHHmmss')
     $projectName = [IO.Path]::GetFileName($project.ProjectName.Trim([IO.PATH]::DirectorySeparatorChar, [IO.PATH]::AltDirectorySeparatorChar))
     $catalogName = "aspnet-$projectName-$timestamp"
-    $connectionString ="Data Source=(LocalDb)\v11.0;Initial Catalog=$catalogName;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\$catalogName.mdf"
-    $connectionStringToken = 'Data Source=(LocalDb)\v11.0;'
+    $connectionString ="Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=$catalogName;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\$catalogName.mdf"
+    $connectionStringToken = 'Data Source=(LocalDB)\MSSQLLocalDB;'
     $config = $project.ProjectItems | Where-Object { $_.Name -eq "Web.config" }    
     $fileName = $config.Properties | Where-Object { $_.Name -eq "FullPath" }
     
