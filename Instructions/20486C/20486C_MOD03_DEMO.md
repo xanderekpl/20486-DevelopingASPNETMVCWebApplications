@@ -39,7 +39,7 @@
 15. Place the mouse cursor at the end of the Opera class, press Enter, and then type the following code.
 
   ```cs
-		public class CheckValidYear : ValidationAttribute
+        public class CheckValidYear : ValidationAttribute
         {
         }
 ```
@@ -81,7 +81,7 @@
 
 #### Demonstration Steps
 
-1. On the **Tools** menu of the **OperasWebSite - Microsoft Visual Studio** window, point to **Library Package Manager**, and then click **Package Manager Console**.
+1. On the **Tools** menu of the **OperasWebSite - Microsoft Visual Studio** window, point to **NuGet Package Manager**, and then click **Package Manager Console**.
 2. In **Package Manager Console** window, type the following command, and then press Enter.
 
   ```cs
@@ -95,7 +95,7 @@
   ```cs
 <connectionStrings>
 <add name="OperasDB"
-connectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\Operas.mdf;Integrated Security=True;"
+connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Operas.mdf;Integrated Security=True;"
 providerName="System.Data.SqlClient" />
 </connectionStrings>
 ```

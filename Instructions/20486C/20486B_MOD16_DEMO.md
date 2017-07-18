@@ -1,20 +1,14 @@
-# Module 16: Deploying ASP.NET MVC 4 Web Applications
+# Module 16: Deploying ASP.NET MVC 5 Web Applications
 
 # Lesson 1: Deploying a Web Application
 
 ### Demonstration: How to Create a Microsoft Azure Web App
 
-#### Preparation Steps
-
-Sign in to the **20486B-SEA-DEV11** virtual machine with the user name **admin** and the password **Pa$$w0rd**.
-
-  >**Note** : In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
-
 #### Demonstration Steps
 
 1. On the taskbar, click the **Internet Explorer** icon.
 
-2. In the Address bar of the Internet Explorer window, type **https://manage.windowsazure.com**, and then press Enter.
+2. In the Address bar of the Internet Explorer window, type **https://portal.azure.com**, and then press Enter.
 3. If a page appears, prompting you to enter your email address, type your email address, and then click **Continue**. Wait for the **Sign In** page to appear, type your email address and password, and then click **Sign In**.
 
   >**Note:** During the sign-in process, if a page appears prompting you to choose from a list of previously used accounts, select the account that you previously used, and then continue to type your credentials.
@@ -31,7 +25,7 @@ Sign in to the **20486B-SEA-DEV11** virtual machine with the user name **admin**
 
 11. In the Internet Explorer window, click the **Close** button.
 
-# Lesson 2: Deploying an ASP.NET MVC 4 Web Application
+# Lesson 2: Deploying an ASP.NET MVC 5 Web Application
 
 ### Demonstration: How to Deploy a Website to Microsoft Azure
 

@@ -7,15 +7,9 @@
 #### Preparation Steps 
 
 1. Navigate to **Allfiles(D):\Mod01\Democode\PhotoSharingSample**, and then open the **PhotoSharingSample.sln** file.
-2. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-     - On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.
-     - In the navigation pane of the **Options** dialog box, click **Package Manager**.
-     - Under the Package Restore section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
-
-3. Run the **PhotoSharingSample.sln** application.
-4. In the Address bar of the Windows Internet Explorer window, note the port number that appears after "http://localhost:" You will use the port number during this demonstration.
-5. Close the Windows Internet Explorer window.
+2. Run the **PhotoSharingSample.sln** application.
+3. In the Address bar of the Windows Internet Explorer window, note the port number that appears after "http://localhost:" You will use the port number during this demonstration.
+4. Close the Windows Internet Explorer window.
 
 
 #### Demonstration Steps
