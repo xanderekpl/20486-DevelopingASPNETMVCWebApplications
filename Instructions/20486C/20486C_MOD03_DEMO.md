@@ -151,7 +151,7 @@ providerName="System.Data.SqlClient" />
 18. In the **Seed** method, place the mouse cursor after the call to **base.Seed**, press Enter, and then type the following code.
 
   ```cs
-		var operas = new List<Opera>
+        var operas = new List<Opera>
         {
              new Opera {
                  Title = "Cosi Fan Tutte",

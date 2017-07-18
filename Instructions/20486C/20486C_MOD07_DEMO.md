@@ -75,7 +75,7 @@
 
 #### Demonstration Steps
 
-1. On the **Tools** menu of the **OperasWebsites - Microsoft Visual Studio** window, point to **Library Package Manager** and then click **Package Manager Console**.
+1. On the **Tools** menu of the **OperasWebsites - Microsoft Visual Studio** window, point to **NuGet Package Manager** and then click **Package Manager Console**.
 2. In **Package Manager Console** window, type the following command and then press Enter
 
   ```cs

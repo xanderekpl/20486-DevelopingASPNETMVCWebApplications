@@ -102,7 +102,7 @@
 6. On the **FILE** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Save All**.
 7. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 8. On the **Operas I Have Seen** page, click the **Log In** link.
-9. On the **Logon** page, in the **User name** text box, type **David Johnson**, in the **Password** box, type **Pa$$w0rd**, and then click **Log in**.
+9. On the **Login** page, in the **User name** text box, type **David Johnson**, in the **Password** box, type **Pa$$w0rd**, and then click **Log in**.
 10. On the **Operas I Have Seen** page, click the **Reset Password** link.
 11. On the **ResetPassword** page, in the **Current password** text box, type **Pa$$w0rd**, and then in the **New password** text box, type **Pa$$w0rd2**.
 12. In the **Confirm new password** text box, type **Pa$$w0rd2**, and then click **Change Password**.

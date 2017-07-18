@@ -9,8 +9,8 @@
 #### Demonstration Steps
 
 1. In the Solution Explorer pane of the **OperasWebSite - Microsoft Visual Studio** window, right-click **Controllers**, point to  **Add**, and then click **Controller**.
-2. In the **Controller Name** text box of the **Add Controller** dialog box, type **OperaController**.
-3. In the **Template** box, click **Empty MVC controller**, and then click **Add**.
+2. In the **Template** box, click **Empty MVC controller**.
+3. In the **Controller Name** text box of the **Add Controller** dialog box, type **OperaController**, and then click **Add**.
 4. In the OperaController.cs code window, locate the following code.
 
   ```cs
@@ -20,7 +20,7 @@
 
   ```cs
        using System.Data.Entity;
-       using OperasWebSite.Models;
+       using OperasWebsites.Models;
 ```
 6. In the **OperaController** class code block, press Enter, type the following code, and then press Enter.
 

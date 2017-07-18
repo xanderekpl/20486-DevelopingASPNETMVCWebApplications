@@ -20,7 +20,7 @@
 
    >**Note:** The **Content** folder has only one file named **Site.css** , and there are no sub-folders.
 
-3. On the **Tools** menu of the **OperasWebsites - Microsoft Visual Studio** window, point to **Library Package Manager**, and then click **Package Manager Console**.
+3. On the **Tools** menu of the **OperasWebsites - Microsoft Visual Studio** window, point to **NuGet Package Manager**, and then click **Package Manager Console**.
 4. In **Package Manager Console** window, type the following command, and then press Enter
 
   ```cs
