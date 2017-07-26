@@ -70,7 +70,7 @@
 ```
 14. On the **FILE** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Save All**.
 15. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-16. In the Address bar of the Internet Explorer window, type **http://localhost:**&lt;_yourPortNumber&gt;_**/api/OperasApi**, and then click **Go to**.
+16. In the Address bar of the Internet Explorer window, type **http://localhost:&lt;yourPortNumber&gt;/api/OperasApi**, and then click **Go to**.
 17. In the Navigation bar, click **Open**.
 18. If the &quot;How do you want to open this type of file (.json)?&quot; message displays, click **More options**, and then click **Microsoft Visual Studio Version Selector**.
 19. On the **EDIT** menu of the **OperasApi.json – Microsoft Visual Studio** window, point to **Find and Replace**, and then click **Quick Find**.
