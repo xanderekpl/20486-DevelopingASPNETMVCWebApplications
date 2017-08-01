@@ -75,19 +75,19 @@
         }
 ```
 
-12. In the **Solution Explorer** pane, expand **Views**, expand **Home**, and then click **Chat.cshtml**.
-13. In the Chat.cshtml code window, within the final **&lt;script&gt;** element, type the following code.
+16. In the **Solution Explorer** pane, expand **Views**, expand **Home**, and then click **Chat.cshtml**.
+17. In the Chat.cshtml code window, within the final **&lt;script&gt;** element, type the following code.
 
   ```cs
         $(function() {
         });
 ```
-14. Within the anonymous function you just created, type the following code.
+18. Within the anonymous function you just created, type the following code.
 
   ```cs
 		var chat = $.connection.chatHub;
 ```
-15. Place the cursor at the end of the variable you just created, press Enter, and then type the following code.
+19. Place the cursor at the end of the variable you just created, press Enter, and then type the following code.
 
   ```cs
         chat.client.broadcastMessage = function(name, message) {
@@ -95,63 +95,63 @@
 ```
   >**Note:** This function is the implementation of the **broadcastMessage()** function that you called in the Hub code.
 
-16. Within the anonymous function you just created, type the following code.
+20. Within the anonymous function you just created, type the following code.
 
   ```cs
 		var listItem = '<li>' + name + ': ' + message + '</li>';
 ```
-17. Place the cursor at the end of the variable you just created, press Enter, and then type the following code.
+21. Place the cursor at the end of the variable you just created, press Enter, and then type the following code.
 
   ```cs
 		$('#discussion').append(listItem);
 ```
-18. Place the cursor at the end of the **broadcastMessage** function code block, press Enter, and then type the following code.
+22. Place the cursor at the end of the **broadcastMessage** function code block, press Enter, and then type the following code.
 
   ```cs
 		var displayname = prompt('Enter your name:', '');
 ```
-19. Place the cursor at the end of the **displayname** variable code block you just created, press Enter, and then type the following code.
+23. Place the cursor at the end of the **displayname** variable code block you just created, press Enter, and then type the following code.
 
   ```cs
 		$('#chat-message').focus();
 ```
-20. Place the cursor at the end of the code block you just created, press Enter, and then type the following code.
+24. Place the cursor at the end of the code block you just created, press Enter, and then type the following code.
 
   ```cs
         $.connection.hub.start().done(function() {
         });
 ```
-21. Within the anonymous function code block you just created, type the following code.
+25. Within the anonymous function code block you just created, type the following code.
 
   ```cs
         $('#sendmessage').click(function() {
         });
 ```
-22. Within the new anonymous function code block you just created, type the following code.
+26. Within the new anonymous function code block you just created, type the following code.
 
   ```cs
 		chat.server.send(displayname, $('#chat-message').val());
 ```
-23. Place the cursor at the end of the code block you just created, press Enter, and then type the following code.
+27. Place the cursor at the end of the code block you just created, press Enter, and then type the following code.
 
   ```cs
 		$('#chat-message').val('').focus();
 ```
-24. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-25. On the **Operas I Have Seen** page, click the **Enter the Operas Chat Room** link.
-26. In the **Enter your name** box of the **localhost needs some information** dialog box, type **Rebecca Laszlo** , and then click **OK**.
-27. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
+28. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
+29. On the **Operas I Have Seen** page, click the **Enter the Operas Chat Room** link.
+30. In the **Enter your name** box of the **localhost needs some information** dialog box, type **Rebecca Laszlo** , and then click **OK**.
+31. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
 
   >**Note:** SignalR sends the message you typed to the hub. The hub broadcasts the message to all connected clients.
 
-28. On the taskbar, right-click the **Internet Explorer** icon, and then click **Internet Explorer**.
-29. In the Address bar of the Internet Explorer window, type **http://localhost:&lt; _portnumber_ &gt;**,and then press Enter.
-30. On the **Operas I Have Seen** page, click the **Enter the Operas Chat Room** link.
-31. In the **Enter your name** box of the **localhost needs some information** dialog box, type **Elisa Graceffo**, and then click **OK**.
-32. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
-33. On the taskbar, click the first instance of the Internet Explorer window. Note that the message from **Elisa Graceffo** is displayed because both users are connected to the same hub.
-34. Close all the Internet Explorer windows.
-35. In the **OperasWebsites – Microsoft Visual Studio** window, click the **Close** button.
+32. On the taskbar, right-click the **Internet Explorer** icon, and then click **Internet Explorer**.
+33. In the Address bar of the Internet Explorer window, type **http://localhost:&lt; _portnumber_ &gt;**,and then press Enter.
+34. On the **Operas I Have Seen** page, click the **Enter the Operas Chat Room** link.
+35. In the **Enter your name** box of the **localhost needs some information** dialog box, type **Elisa Graceffo**, and then click **OK**.
+36. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
+37. On the taskbar, click the first instance of the Internet Explorer window. Note that the message from **Elisa Graceffo** is displayed because both users are connected to the same hub.
+38. Close all the Internet Explorer windows.
+39. In the **OperasWebsites – Microsoft Visual Studio** window, click the **Close** button.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
