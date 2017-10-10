@@ -1,6 +1,6 @@
-# Module 14: Implementing Web APIs in ASP.NET MVC 4 Web Applications
+# Module 14: Implementing Web APIs in ASP.NET MVC 5 Web Applications
 
-# Lab: Implementing APIs in ASP.NET MVC 4 Web Applications
+# Lab: Implementing APIs in ASP.NET MVC 5 Web Applications
 
 #### Scenario
 
@@ -10,32 +10,13 @@ Your manager wants to ensure that the photos and information stored in the Photo
 
 After completing this lab, you will be able to:
 
-- Create a Web API by using the new features of ASP.NET MVC 4.
+- Create a Web API by using the new features of ASP.NET MVC 5.
 - Add routes and controllers to an application to handle REST requests.
 - Call a REST Web API from jQuery client-side code.
 
 #### Lab Setup
 
 Estimated Time: **60 minutes**
-
-Virtual Machine: **20486B-SEA-DEV11**
-
-User name: **Admin**
-
-Password: **Pa$$w0rd**
-
-**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
-
-Before initiating this lab, perform the following steps:
-
-1. Apply the Snapshot of the virtual machine, **20486B-SEA-DEV11**, that was taken after completing the lab in module 13.
-2. Navigate to **Allfiles(D):\Mod 13\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then copy the **web.config** file.
-3. Navigate to **Allfiles(D):\Mod 14\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then paste the **web.config** file.
-4. Enable the **Allow NuGet to download missing packages during build** option by performing the following steps:
-
-   a.  On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
-   b.  In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-   c.  Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
 
 ### Exercise 1: Adding a Web API to the Photo Sharing Application
 
@@ -61,61 +42,55 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Add a Photo API controller.
 
-1. Start the virtual machine and sign in with the following credentials:
-
-    - Virtual machine: **20486B-SEA-DEV11**
-    - User name: **Admin**
-    - Password: **Pa$$w0rd**
-
-2. Open the **PhotoSharingApplication** solution from the following location:
+1. Open the **PhotoSharingApplication** solution from the following location:
 
     - File location: **Allfiles(D):\Mod14\Labfiles\Starter\PhotoSharingApplication**
 
-3. Add a new API controller to the **PhotoSharingApplication** project by using the following information:
+2. Add a new API controller to the **PhotoSharingApplication** project by using the following information:
 
     - Name: **PhotoApiController**
-    - Template: **Empty API controller**
+    - Template: **Web API Controller - Empty**
 
-4. In **PhotoApiController.cs**, add a **using** statement for the following namespace:
+3. In **PhotoApiController.cs**, add a **using** statement for the following namespace:
 
     - **PhotoSharingApplication.Models**
 
-5. Add a new variable to the **PhotoApiController** class by using the following information:
+4. Add a new variable to the **PhotoApiController** class by using the following information:
 
     - Scope: **private**
     - Type: **IPhotoSharingContext**
     - Name: **context**
     - Initial value: a new **PhotoSharingContext** object
 
-6. Add a new action to **PhotoApiController** by using the following information:
+5. Add a new action to **PhotoApiController** by using the following information:
 
     - Scope: **public**
     - Return type: **IEnumerable&lt;Photo&gt;**
     - Name: **GetAllPhotos**
     - Parameters: none
 
-7. In the **GetAllPhotos** action, return the **context.Photos** collection as an enumerable object.
-8. Add a new action to **PhotoApiController** by using the following information:
+6. In the **GetAllPhotos** action, return the **context.Photos** collection as an enumerable object.
+7. Add a new action to **PhotoApiController** by using the following information:
 
     - Scope: **public**
     - Return type: **Photo**
     - Name: **GetPhotoById**
     - Parameters: an integer named **id**
 
-9. In the **GetPhotoById** action, pass the **id** parameter to the **context.FindPhotoById()** method. Store the returned **Photo** object in a variable named **photo**.
-10. If the **photo** variable is **null**, throw a new **HttpResponseException** and pass the **HttpStatusCode.NotFound** value.
-11. At the end of the **GetPhotoById** action, return the **photo** object.
-12. Add a new action to **PhotoApiController** by using the following information:
+8. In the **GetPhotoById** action, pass the **id** parameter to the **context.FindPhotoById()** method. Store the returned **Photo** object in a variable named **photo**.
+9. If the **photo** variable is **null**, throw a new **HttpResponseException** and pass the **HttpStatusCode.NotFound** value.
+10. At the end of the **GetPhotoById** action, return the **photo** object.
+11. Add a new action to **PhotoApiController** by using the following information:
 
     - Scope: **public**
     - Return type: **Photo**
     - Name: **GetPhotoByTitle**
     - Parameters: a string named **title**
 
-13. In the **GetPhotoByTitle** action, pass the **title** parameter to the **context.FindPhotoByTitle()** method. Store the returned **Photo** object in a variable named **photo**.
-14. If the **photo** variable is **null**, throw a new **HttpResponseException** and pass the **HttpStatusCode.NotFound** value.
-15. At the end of the **GetPhotoByTitle** action, return the **photo** object.
-16. Save all the changes.
+12. In the **GetPhotoByTitle** action, pass the **title** parameter to the **context.FindPhotoByTitle()** method. Store the returned **Photo** object in a variable named **photo**.
+13. If the **photo** variable is **null**, throw a new **HttpResponseException** and pass the **HttpStatusCode.NotFound** value.
+14. At the end of the **GetPhotoByTitle** action, return the **photo** object.
+15. Save all the changes.
 
 #### Task 2: Configure API routes.
 
@@ -159,7 +134,7 @@ The main tasks for this exercise are as follows:
 4. Request all photos by using the Web API. Display the returned JSON file by using Visual Studio, and check that both **Sample Photo 9** and **Sample Photo 13** are present.
 5. Close Visual Studio and stop debugging.
 
->**Results**: After completing this exercise, you should have successfully created a simple Web API for an ASP.NET MVC 4 web application.
+>**Results**: After completing this exercise, you should have successfully created a simple Web API for an ASP.NET MVC 5 web application.
 
 ### Exercise 2: Using the Web API for a Bing Maps Display
 
@@ -323,7 +298,7 @@ The main tasks for this exercise are as follows:
 
 >**Results**: After completing this exercise, you should have successfully created a template view to display a Bing Map AJAX control, and created a view and script file to display a Bing Map. You should have also used jQuery to call a Web API and obtain the details of photos. You should have then mashed up the data from a web API with Bing Maps data.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

@@ -1,7 +1,7 @@
 
-# Module 11: Controlling Access to ASP.NET MVC 4 Web Applications
+# Module 11: Controlling Access to ASP.NET MVC 5 Web Applications
 
-# Lab: Controlling Access to ASP.NET MVC 4 Web Applications
+# Lab: Controlling Access to ASP.NET MVC 5 Web Applications
 
 #### Scenario
 
@@ -25,22 +25,6 @@ After completing this lab, you will be able to:
 
 Estimated Time: **90 minutes**
 
-Virtual Machine: **20486B-SEA-DEV11**
-
-User name: **Admin**
-
-Password: **Pa$$w0rd**
-
-   >**Note:** In Hyper-V Manager, start the MSL-TMG1 virtual machine if it is not already running.
-
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-- On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.
-- In the navigation pane of the **Options** dialog box, click **Package Manager**.
-- Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
-
-After completing the lab, take a Snapshot of the **20486B-SEA-DEV11** virtual machine. Ensure that this Snapshot is applied before initiating the lab in Module 13.
-
 ### Exercise 1: Configuring Authentication and Membership Providers
 
 #### Scenario
@@ -62,17 +46,11 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Configure a new Microsoft Azure SQL database.
 
-1. Start the virtual machine, and sign in with the following credentials:
+1. Sign in to the Microsoft Azure portal by using the following portal address::
 
-    - Virtual machine: **20486B-SEA-DEV11**
-    - User name: **Admin**
-    - Password: **Pa$$w0rd**
+    - **https://portal.azure.com**
 
-2. Sign in to the Microsoft Azure portal by using the following portal address::
-
-    - **https://manage.windowsazure.com**
-
-3. Create a new database server and a new custom database by using the following information:
+2. Create a new database server and a new custom database by using the following information:
 
     - Database name: **PhotoAppServices**
     - Database server: **New SQL Database Server**
@@ -81,7 +59,7 @@ The main tasks for this exercise are as follows:
     - Logon password confirmation: **Pa$$w0rd**
     - Region: _&lt;a region close to you&gt;_
 
-4. In the list of allowed IP addresses for the **PhotoAppServices** database, add the following IP address ranges:
+3. In the list of allowed IP addresses for the **PhotoAppServices** database, add the following IP address ranges:
 
     - Rule name: **First Address Range**
     - Start IP address: _&lt;first address in range&gt;_
@@ -220,7 +198,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 2: Add an account controller
 
-1. Add a new controller named **AccountController** to the MVC web application by using the **Empty MVC controller** template.
+1. Add a new controller named **AccountController** to the MVC web application by using the **MVC 5 Controller - Empty** template.
 2. Delete the default **Index** action from the **AccountController** file and add **using** statement references for the following namespaces:
 
     - System.Web.Security
@@ -558,7 +536,7 @@ The main tasks for this exercise are as follows:
 
 >**Results**: After you complete this exercise, you should have built a Photo Sharing application in which registered users can reset their own password.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

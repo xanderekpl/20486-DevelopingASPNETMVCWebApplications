@@ -1,6 +1,6 @@
-# Module 8: Applying Styles to ASP.NET MVC 4 Web Applications
+# Module 8: Applying Styles to ASP.NET MVC 5 Web Applications
 
-# Lab: Applying Styles to MVC 4 Web Applications
+# Lab: Applying Styles to MVC 5 Web Applications
 
 #### Scenario
 
@@ -23,20 +23,6 @@ After completing this lab, you will be able to:
 #### Lab Setup
 
 Estimated Time: **40 minutes**
-
-Virtual Machine: **20486B-SEA-DEV11**
-
-Username: **Admin**
-
-Password: **Pa$$w0rd**
-
-   >**Note:** In Hyper-V Manager, start the MSL-TMG1 virtual machine if it is not already running.
-
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option by performing the following steps:
-
-a. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
-b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
 
 ### Exercise 1: Creating and Applying Layouts
 
@@ -63,19 +49,14 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Open and browse through the Photo Sharing application.
 
-1. Start the **20486B-SEA-DEV11** virtual machine, and sign in with the following credentials:
-
-	- User name: **Admin**
-	- Password: **Pa$$w0rd**
-
-2. Open the **PhotoSharingApplication** solution from the following location:
+1. Open the **PhotoSharingApplication** solution from the following location:
 
 	- File location: **Allfiles(D):\Mod08\Labfiles\Starter\PhotoSharingApplication**
 
-3. Start the web application in the debugging mode and verify that the menu and the breadcrumb trail are available on the home page.
-4. Go to the **All Photos** webpage and verify that the menu and the breadcrumb trail are not available on the page.
-5. Go to the **Sample Photo 1** webpage and verify that the menu and the breadcrumb trail are not available on the page.
-6. Stop debugging.
+2. Start the web application in the debugging mode and verify that the menu and the breadcrumb trail are available on the home page.
+3. Go to the **All Photos** webpage and verify that the menu and the breadcrumb trail are not available on the page.
+4. Go to the **Sample Photo 1** webpage and verify that the menu and the breadcrumb trail are not available on the page.
+5. Stop debugging.
 
 #### Task 2: Create a new layout.
 
@@ -185,7 +166,7 @@ The main tasks for this exercise are as follows:
 3. Go to **Sample Photo 1** webpage and verify that the site title, menu, and breadcrumb trail are available on this page.
 4. Stop debugging.
 
- >**Results**: After completing this exercise, you will be able to create an ASP.NET MVC 4 web application that uses a single layout to display every page of the application.
+ >**Results**: After completing this exercise, you will be able to create an ASP.NET MVC 5 web application that uses a single layout to display every page of the application.
 
 ### Exercise 2: Applying Styles to an MVC Web Application
 
@@ -288,9 +269,9 @@ The main tasks for this exercise are as follows:
 2. Resize the browser window to the following dimensions:
 
 	- Width: **480 pixels**
-	- Height: **700 pixels**
+	- Height: **800 pixels**
 
-3. Set the **user agent string** to **IE9 for Windows Phone 7**.
+3. Set the **user agent string** to **Windows Phone**.
 4. Refresh the home page and examine the mobile view of the application.
 5. Stop debugging.
 
@@ -319,13 +300,13 @@ The main tasks for this exercise are as follows:
 1. Start the web application in a debugging mode.
 
 2. Clear the browser cache to ensure that the style sheet is reloaded.
-3. Set the user agent string to IE9 for Windows Phone 7.
+3. Set the user agent string to Windows Phone.
 4. Close the developer window and refresh the web application to examine if the problem persists in the mobile view of the application.
 5. Stop debugging and close Visual Studio.
 
  >**Results**: After completing this exercise, you will be able to create a Photo Sharing application that displays well on mobile devices and devices with small screens.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

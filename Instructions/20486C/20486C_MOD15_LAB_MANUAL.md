@@ -1,6 +1,6 @@
-## Module 15: Handling Requests in ASP.NET MVC 4 Web Applications
+## Module 15: Handling Requests in ASP.NET MVC 5 Web Applications
 
-## Lab: Handling Requests in ASP.NET MVC 4 Web Applications
+## Lab: Handling Requests in ASP.NET MVC 5 Web Applications
 
 #### Scenario
 
@@ -10,7 +10,7 @@ The Adventures Works board and managers are pleased with the Photo Sharing appli
 
 After completing this lab, you will be able to:
 
-- Install SignalR in an ASP. NET MVC 4 web application.
+- Install SignalR in an ASP. NET MVC 5 web application.
 - Configure SignalR on the server and create a SignalR hub.
 - Link to the required script files for SignalR in an MVC view.
 - Create the script for SignalR connections and send messages to groups.
@@ -18,26 +18,6 @@ After completing this lab, you will be able to:
 #### Lab Setup
 
 Estimated Time: **60 minutes**
-
-Virtual Machine: **20486B-SEA-DEV11**
-
-User Name: **Admin**
-
-Password: **Pa$$w0rd**
-
-  >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
-
-Before initiating this lab, perform the following steps:
-
-1. Apply the snapshot of the virtual machine, **20486B-SEA-DEV11**, that was taken after completing the lab in module 13.
-
-2. Navigate to **Allfiles(D):\Mod13\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then copy the **Web.config** file.
-3. Navigate to **Allfiles(D):\Mod15\Labfiles\Starter\PhotoSharingApplication\PhotoSharingApplication**, and then paste the **Web.config** file.
-4. Enable the **Allow NuGet to download missing packages during build** option by performing the following steps:
-
-  a. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
-  b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-  c. Under the Package Restore section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
 
 ### Exercise 1: Creating a SignalR Hub
 
@@ -61,20 +41,16 @@ The main tasks for this exercise are as follows:
  
 #### Task 1: Install SignalR.
 
-1. Start the **20486B-SEA-DEV11** virtual machine, and sign in with the following credentials:
-
-   - User name: **Admin**
-   - Password: **Pa$$w0rd**
-
-2. Open the PhotoSharingApplication.sln file from the following location:
+1. Open the PhotoSharingApplication.sln file from the following location:
 
    - File location: **Allfiles(D):\Mod15\Labfiles\Starter\PhotoSharingApplication**
 
-3. Use **NuGet Package Manager Console** to install the following package in the **PhotoSharingApplication** project:
+2. Use **NuGet Package Manager Console** to install the following package in the **PhotoSharingApplication** project:
 
-   - **Microsoft.AspNet.SignalR version 1.0.0-rc2**
+   - **jQuery 3.1.1**
+   - **Microsoft.AspNet.SignalR version 2.2.2**
 
-4. Notice the additions that the NuGet package made to the project references and the **Scripts** folder.
+3. Notice the additions that the NuGet package made to the project references and the **Scripts** folder.
 
 #### Task 2: Create a Hub class.
 
@@ -128,7 +104,7 @@ The main tasks for this exercise are as follows:
 2. In the **Application\_Start()** method, immediately after the **RegisterAllAreas()** code, call the **RouteTable.Routes.MapHubs()** method.
 3. Save all the changes.
 
-  >**Results** : After completing this exercise, you should have successfully installed SignalR in an MVC 4 web application, configured routes for SignalR, and created a hub to receive and forward simple text messages.
+  >**Results** : After completing this exercise, you should have successfully installed SignalR in an MVC 5 web application, configured routes for SignalR, and created a hub to receive and forward simple text messages.
 
 ### Exercise 2: Creating a Photo Chat View
 
@@ -204,7 +180,7 @@ The main tasks for this exercise are as follows:
 4. Add a new **SCRIPT** element, with type **text/javascript**, and an empty **src** attribute.
 5. In the new script element, use the **Url.Content()** helper to set the **src** attribute to the following path:
 
-   - ~/Scripts/jquery.signalR-1.0.1.js
+   - ~/Scripts/jquery.signalR-2.2.2.js
 
   >**Note:** Ensure that the name of the script file you enter matches the name of the file in the **Scripts** folder.
 
@@ -270,7 +246,7 @@ The main tasks for this exercise are as follows:
 
    >**Results** : After completing this exercise, you should have successfully created MVC controller actions and views to display a user interface for the SignalR functionality, linked to the JScript libraries that SignalR requires, and used JScript to connect to a SignalR hub and send messages.
    
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

@@ -9,7 +9,7 @@
 #### Demonstration Steps
 
 1. In the Solution Explorer pane of the **OperasWebSite - Microsoft Visual Studio** window, right-click **Controllers**, point to  **Add**, and then click **Controller**.
-2. In the **Template** box, click **Empty MVC controller**.
+2. In the **Template** box, click **MVC 5 Controller - Empty**.
 3. In the **Controller Name** text box of the **Add Controller** dialog box, type **OperaController**, and then click **Add**.
 4. In the OperaController.cs code window, locate the following code.
 

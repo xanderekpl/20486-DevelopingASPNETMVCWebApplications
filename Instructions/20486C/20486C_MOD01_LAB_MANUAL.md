@@ -1,10 +1,10 @@
-## Module 1: Exploring ASP.NET MVC 4
+## Module 1: Exploring ASP.NET MVC 5
 
-## Lab: Exploring ASP.NET MVC 4
+## Lab: Exploring ASP.NET MVC 5
 
 #### Scenario
 
-You are working as a junior developer at Adventure Works. You have been asked by a senior developer to investigate the possibility of creating a web-based photo sharing application for your organization&#39;s customers, similar to one that the senior developer has seen on the Internet. Such an application will promote a community of cyclists who use Adventure Works equipment, and the community members will be able to share their experiences. This initiative is intended to increase the popularity of Adventure Works Cycles, and thereby to increase sales. You have been asked to begin the planning of the application by examining an existing photo sharing application and evaluating its functionality. You have also been asked to examine programming models available to ASP.NET developers. To do this, you need to create basic web applications written with three different models: Web Pages, Web Forms, and MVC. Your manager has asked you to report on the following specific questions for each programming model:
+You are working as a junior developer at Adventure Works. You have been asked by a senior developer to investigate the possibility of creating a web-based photo sharing application for your organization's customers, similar to one that the senior developer has seen on the Internet. Such an application will promote a community of cyclists who use Adventure Works equipment, and the community members will be able to share their experiences. This initiative is intended to increase the popularity of Adventure Works Cycles, and thereby to increase sales. You have been asked to begin the planning of the application by examining an existing photo sharing application and evaluating its functionality. You have also been asked to examine programming models available to ASP.NET developers. To do this, you need to create basic web applications written with three different models: Web Pages, Web Forms, and MVC. Your manager has asked you to report on the following specific questions for each programming model:
 
 - How does the developer set a connection string and data provider?
 - How does the developer impose a consistent layout, with Adventure Works branding and menus, on all pages in the web application?
@@ -22,20 +22,6 @@ After completing this lab, you will be able to:
 #### Lab Setup
 
 Estimated Time: **45 minutes**
-
-Virtual Machine: **20486B-SEA-DEV11**
-
-User name: **Admin**
-
-Password: **Pa$$w0rd**
-
-   >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
-
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-- On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.
-- In the navigation pane of the **Options** dialog box, click **Package Manager**.
-- Under the Package Restore section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
 
 ### Exercise 1: Exploring a Photo Sharing Application
 
@@ -55,19 +41,12 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Register a user account.
 
-1. Start the virtual machine and log on with the following credentials:
-
-    - Virtual machine: **20486B-SEA-DEV11**
-    - User name: **Admin**
-    - Password: **Pa$$w0rd**
-
-2. On the Windows 8 Start screen, open Visual Studio 2012, and pin it to the taskbar.
-3. Navigate to the following location to open the **PhotoSharingSample.sln** file:
+1. Navigate to the following location to open the **PhotoSharingSample.sln** file:
 
     - **Allfiles(D):\Mod01\Labfiles\PhotoSharingSample**
 
-4. Run the web application in non-debugging mode.
-5. Create a new user account with the following credentials:
+2. Run the web application in non-debugging mode.
+3. Create a new user account with the following credentials:
 
     - User name: _&lt;A user name of your choice&gt;_
     - Password: _&lt;A password of your choice&gt;_
@@ -124,7 +103,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Create a Web Pages application.
 
-1. Start Visual Studio 2012 and create a new Web Pages project by using the **ASP.NET Web Site (Razor v2)** C# template.
+1. Start Visual Studio 2017 and create a new Web Pages project by using the **ASP.NET Web Site (Razor v3)** C# template.
 2. Run the new Web Pages application in Internet Explorer and review the **Contact** page.
 3. Stop debugging by closing Internet Explorer.
 
@@ -136,7 +115,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 3: Add simple functionality.
 
-1. Add a new Razor v2 webpage to the application at the root level by using the following information:
+1. Add a new Razor v3 webpage to the application at the root level by using the following information:
 
     - Webpage name: **TestPage.cshtml**
 
@@ -186,7 +165,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Create a Web Forms application.
 
-1. Start Visual Studio 2012 and create a new Web Forms project, **TestWebFormsApplication**, by using the ASP.NET Web Forms Application template.
+1. Start Visual Studio 2017 and create a new Web Forms project, **TestWebFormsApplication**, by using the ASP.NET Web Forms Application template.
 2. Run the new Web Forms application in Internet Explorer and examine the **Contact** page.
 3. Stop debugging by closing Internet Explorer.
 
@@ -245,7 +224,7 @@ In this exercise, you will create a simple MVC application and explore its struc
 
 The main tasks for this exercise are as follows:
 
-1. Create an MVC 4 application.
+1. Create an MVC 5 application.
 
 2. Explore the application structure.
 
@@ -253,9 +232,9 @@ The main tasks for this exercise are as follows:
 
 4. Apply the site layout.
 
-#### Task 1: Create an MVC 4 application.
+#### Task 1: Create an MVC 5 application.
 
-1. Start Visual Studio 2012 and create a new **MVC** project by using the **ASP.NET MVC 4 Web Application** template. Choose the **Internet Application** template.
+1. Start Visual Studio 2017 and create a new **MVC** project by using the **ASP.NET MVC 5 Web Application** template. Choose the **Internet Application** template.
 2. Run the new MVC application in Internet Explorer, and explore the **Contact** page.
 3. Stop debugging by closing Internet Explorer.
 
@@ -305,7 +284,7 @@ The main tasks for this exercise are as follows:
 
 >**Results**: At the end of this exercise, you will be able to build a simple MVC application in Visual Studio.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

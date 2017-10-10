@@ -1,6 +1,6 @@
-## Module 16: Deploying ASP.NET MVC 4 Web Applications
+## Module 16: Deploying ASP.NET MVC 5 Web Applications
 
-## Lab: Deploying ASP.NET MVC 4 Web Applications
+## Lab: Deploying ASP.NET MVC 5 Web Applications
 
 #### Scenario
 
@@ -17,26 +17,7 @@ After completing this lab, you will be able to:
 
 Estimated Time: **45 minutes**
 
-Virtual Machine: **20486B-SEA-DEV11**
-
-User name: **Admin**
-
-Password: **Pa$$w0rd**
-
-  >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
-
 In this lab, you will create a web application in Microsoft Azure that runs in Free mode. Free mode is an excellent tool for testing and running small, non-intensive web applications. However, there is a limit of data transfer per day on the Free mode tool. After completing Exercise 2, you are encouraged to further test the deployed web application. However, if you do a lot of extra testing, you may encounter the limit and the application may become unavailable.
-
-Also, before initiating this lab, perform the following steps:
-
-1. Apply the Snapshot of the virtual machine, **20486B-SEA-DEV11**, that was taken after completing the lab in module 13.
-
-2. Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-   a. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
-
-   b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-   c. Under the Package Restore section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
 
 ### Exercise 1: Deploying a Web Application to Microsoft Azure
 
@@ -58,19 +39,13 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Prepare the Photo Sharing application project for deployment.
 
-1. Start the virtual machine, and log on with the following credentials:
-
-	- Virtual machine: **20486B-SEA-DEV11**
-	- User name: **Admin**
-	- Password: **Pa$$w0rd**
-
-2. Open the Photo Sharing application solution from the following location:
+1. Open the Photo Sharing application solution from the following location:
 
 	- File location: **Allfiles(D):\Mod16\Labfiles\Starter\PhotoSharingApplication**.
 
-3. In the **Build** properties of the **PhotoSharingApplication** project, select the **Release** configuration.
+2. In the **Build** properties of the **PhotoSharingApplication** project, select the **Release** configuration.
 
-	- Sign in to the Microsoft Azure portal by using the following URL: **https://manage.windowsazure.com**
+	- Sign in to the Microsoft Azure portal by using the following URL: **https://portal.azure.com**
 
 4. Copy the **ADO.NET** connection string for the **PhotoSharingDB** to the clipboard.
 5. In the Web.config file, paste the connection string into the **connectionString** attribute of the **PhotoSharingDB** connection string. Set the password in the pasted connection string to **Pa$$w0rd**.
@@ -144,7 +119,7 @@ The main tasks for this exercise are as follows:
 
   >**Results** : After completing this exercise, you will be able to confirm that all the functionalities that you built in the Photo Sharing application run correctly in the Microsoft Azure deployment.
   
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

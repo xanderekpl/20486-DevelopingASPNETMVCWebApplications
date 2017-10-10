@@ -1,6 +1,6 @@
-# Module 9: Building Responsive Pages in ASP.NET MVC 4 Web Applications
+# Module 9: Building Responsive Pages in ASP.NET MVC 5 Web Applications
 
-# Lab: Building Responsive Pages in ASP.NET MVC 4 Web Applications
+# Lab: Building Responsive Pages in ASP.NET MVC 5 Web Applications
 
 #### Scenario
 
@@ -19,20 +19,6 @@ After completing this lab, you will be able to:
 #### Lab Setup
 
 Estimated Time: **60 minutes**
-
-Virtual Machine: **20486B-SEA-DEV11**
-
-Username: **Admin**
-
-Password: **Pa$$w0rd**
-
-   >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
-
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-a. On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.  
-b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-c. Under the Package Restore section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
 
 ### Exercise 1: Using Partial Page Updates
 
@@ -59,25 +45,19 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Import the Comment controller and Delete view.
 
-1. Start the virtual machine, and log on with the following credentials:
-
-	- Virtual Machine: **20486B-SEA-DEV11**
-	- User name: **Admin**
-	- Password: **Pa$$w0rd**
-
-2. Open the **PhotoSharingApplication.sln** file from the following location:
+1. Open the **PhotoSharingApplication.sln** file from the following location:
 
 	- File location: **Allfiles(D):\Mod09\Labfiles\Starter\PhotoSharingApplication**
 
-3. Create a new folder in the **Views** folder by using the following information:
+2. Create a new folder in the **Views** folder by using the following information:
 
 	- Name of the new folder: **Comment**
 
-4. Add an existing item to the new **Comment** folder by using the following information:
+3. Add an existing item to the new **Comment** folder by using the following information:
 
 	- File location of the existing item: **Allfiles(D):\Mod09\Labfiles\Comment Components\Delete.cshtml**
 
-5. Add an existing item to the **Controller** folder by using the following information:
+4. Add an existing item to the **Controller** folder by using the following information:
 
 	- File location of the existing item: **Allfiles(D):\Mod09\Labfiles\Comment Components\CommentController.cs**
 
@@ -291,7 +271,7 @@ The main tasks for this exercise are as follows:
 
    >**Results** : At the end of this exercise, you will create a Photo Sharing application with the Output Cache configured for caching photos.
    
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

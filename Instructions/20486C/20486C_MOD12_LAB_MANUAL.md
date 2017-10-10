@@ -1,6 +1,6 @@
-# Module 12: Building a Resilient ASP.NET MVC 4 Web Application
+# Module 12: Building a Resilient ASP.NET MVC 5 Web Application
 
-# Lab: Building a Resilient ASP.NET MVC 4 Web Application
+# Lab: Building a Resilient ASP.NET MVC 5 Web Application
 
 #### Scenario
 
@@ -22,23 +22,6 @@ After completing this lab, you will be able to:
 
 Estimated Time: **45 minutes**
 
-Virtual Machine: **20486B-SEA-DEV11**
-
-User name: **Admin**
-
-Password: **Pa$$w0rd**
-
-   >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
-
-Before starting the lab, you need to perform the following step:
-
-- Download **Manage Nuget packages** from the **Project** menu and note the version number for the **jquery.ui** package.
-- Enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-  a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
-b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
-
 ### Exercise 1: Creating Favorites Controller Actions
 
 #### Scenario
@@ -58,31 +41,25 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Create the Favorites Slideshow action.
 
-1. Start the virtual machine, and sign in with the following credentials:
-
-    - Virtual machine: **20486B-SEA-DEV11**
-    - User name: **Admin**
-    - Password: **Pa$$w0rd**
-
-2. Open the **PhotoSharingApplication.sln** file from the following location:
+1. Open the **PhotoSharingApplication.sln** file from the following location:
 
     - File location: **Allfiles(D):\Mod12\Labfiles\Starter\PhotoSharingApplication**
 
-3. In the **PhotoController.cs** code file, add a new action by using the following information:
+2. In the **PhotoController.cs** code file, add a new action by using the following information:
 
     - Scope: **public**
     - Return type: **ActionResult**
     - Name: **FavoritesSlideShow**
 
-4. In the **FavoritesSlideShow** action, create and instantiate a new enumerable list of **Photo** objects named **favPhotos**.
-5. Create a new enumerable list of integers named **favoriteIds**. Set this list to be equal to the **Session[&quot;Favorites&quot;]** variable by casting this variable as a list of integers.
-6. If **favoriteIds** is null, set **favoriteIds** to be a new enumerable list of integers.
-7. Create a new **Photo** object named **currentPhoto**. Do not instantiate the new object.
-8. Create a new **foreach** code block that loops through all the integers in the **favoriteIds** list.
-9. For each integer in the **favoriteIds** list, obtain the **Photo** object with the right ID value by using the **context.FindPhotoById()** method. Store the object in the **currentPhoto** variable.
-10. If the **currentPhoto** variable is not equal to **null**, then add **currentPhoto** to the **favPhotos** list.
-11. At the end of the **FavoritesSlideShow** action, return the **SlideShow** view and pass the **favPhotos** list as a model class.
-12. Save all the changes.
+3. In the **FavoritesSlideShow** action, create and instantiate a new enumerable list of **Photo** objects named **favPhotos**.
+4. Create a new enumerable list of integers named **favoriteIds**. Set this list to be equal to the **Session[&quot;Favorites&quot;]** variable by casting this variable as a list of integers.
+5. If **favoriteIds** is null, set **favoriteIds** to be a new enumerable list of integers.
+6. Create a new **Photo** object named **currentPhoto**. Do not instantiate the new object.
+7. Create a new **foreach** code block that loops through all the integers in the **favoriteIds** list.
+8. For each integer in the **favoriteIds** list, obtain the **Photo** object with the right ID value by using the **context.FindPhotoById()** method. Store the object in the **currentPhoto** variable.
+9. If the **currentPhoto** variable is not equal to **null**, then add **currentPhoto** to the **favPhotos** list.
+10. At the end of the **FavoritesSlideShow** action, return the **SlideShow** view and pass the **favPhotos** list as a model class.
+11. Save all the changes.
 
 #### Task 2: Create the Add Favorite action.
 
@@ -161,7 +138,7 @@ The main tasks for this exercise are as follows:
 7. Add a new site map node to the **Mvc.sitemap** file by using the following information:
 
     - Title: **Favorites**
-    - Visibility: **SiteMapPathHelper,!***
+    - Visibility: **SiteMapPathHelper,!\\***
     - Controller: **Photo**
     - Action: **FavoritesSlideShow**
 
@@ -178,7 +155,7 @@ The main tasks for this exercise are as follows:
 >- Create the user interface components for the favorite photos functionality.
 >- Test the functionality of the user interface components.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

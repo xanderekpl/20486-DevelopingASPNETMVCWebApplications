@@ -1,6 +1,6 @@
-# Module 10: Using JavaScript and jQuery for Responsive MVC 4 Web Applications
+# Module 10: Using JavaScript and jQuery for Responsive MVC 5 Web Applications
 
-# Lab: Using JavaScript and jQuery for Responsive MVC 4 Web Applications
+# Lab: Using JavaScript and jQuery for Responsive MVC 5 Web Applications
 
 #### Scenario
 
@@ -21,20 +21,6 @@ After completing this lab, you will be able to:
 #### Lab Setup
 
 Estimated Time: **40 minutes**
-
-Virtual Machine: **20486B-SEA-DEV11**
-
-User name: **Admin**
-
-Password: **Pa$$w0rd**
-
-   >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
-
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-a. On the **TOOLS** menu of the **Microsoft Visual Studio** window, click **Options**.  
-b. In the navigation pane of the **Options** dialog box, click **Package Manager**.  
-c. Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
 
 ### Exercise 1: Creating and Animating the Slideshow View
 
@@ -59,22 +45,16 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Import and test the slideshow view.
 
-1. Start the virtual machine, and sign in with the following credentials:
-
-   - Virtual machine: **20486B-SEA-DEV11**
-   - User name: **Admin**
-   - Password: **Pa$$w0rd**
-
-2. Open the **PhotoSharingApplication.sln** file from the following location:
+1. Open the **PhotoSharingApplication.sln** file from the following location:
 
    - File location: **Allfiles(D):\Mod10\Labfiles\Starter\PhotoSharingApplication**
 
-3. Add the **SlideShow.cshtml** view file to the **Photo** folder, from the following location:
+2. Add the **SlideShow.cshtml** view file to the **Photo** folder, from the following location:
 
    - File location: **Allfiles(D):\Mod10\Labfiles\Slide Show View**
 
-4. In the **PhotoController.cs** file, edit the **SlideShow** action method. Instead of throwing an exception, return the **SlideShow** view you just added. Pass a list of all the photos in the **context** object as the model.
-5. Add a new site map node to the **Mvc.sitemap** file to link to the **SlideShow** action by using the following information:
+3. In the **PhotoController.cs** file, edit the **SlideShow** action method. Instead of throwing an exception, return the **SlideShow** view you just added. Pass a list of all the photos in the **context** object as the model.
+4. Add a new site map node to the **Mvc.sitemap** file to link to the **SlideShow** action by using the following information:
 
    - Tag: **&lt;mvcSiteMapNode&gt;**
    - Title: **Slideshow**
@@ -82,8 +62,8 @@ The main tasks for this exercise are as follows:
    - Controller: **Photo**
    - Action: **SlideShow**
 
-6. Start the web application in debugging mode, clear the browser cache, and then go to the **Slideshow** view to examine the results.
-7. Stop debugging.
+5. Start the web application in debugging mode, clear the browser cache, and then go to the **Slideshow** view to examine the results.
+6. Stop debugging.
 
 #### Task 2: Modify the style sheet.
 
@@ -197,7 +177,7 @@ The main tasks for this exercise are as follows:
 
   >**Results**: After completing this exercise, you should have successfully created a slideshow page with a progress bar that displays the position of the current photo in the list of photos.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

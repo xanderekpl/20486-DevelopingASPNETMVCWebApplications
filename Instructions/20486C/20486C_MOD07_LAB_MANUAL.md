@@ -1,6 +1,6 @@
-# Module 7: Structuring ASP.NET MVC 4 Web Applications
+# Module 7: Structuring ASP.NET MVC 5 Web Applications
 
-# Lab: Structuring ASP.NET MVC 4 Web Applications
+# Lab: Structuring ASP.NET MVC 5 Web Applications
 
 #### Scenario
 
@@ -30,20 +30,6 @@ After completing this lab, you will be able to:
 
 Estimated Time: **40 minutes**
 
-Virtual Machine: **20486B-SEA-DEV11**
-
-Username: **Admin**
-
-Password: **Pa$$w0rd**
-
-   >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
-
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-- On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.
-- In the navigation pane of the **Options** dialog box, click **Package Manager**.
-- Under the Package Restore section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
-
 ### Exercise 1: Using the Routing Engine
 
 #### Scenario
@@ -68,97 +54,91 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Test the routing configuration.
 
-1. Start the virtual machine, and sign in with the following credentials:
-
-    - Virtual Machine: **20486B-SEA-DEV11**
-    - User name: **Admin**
-    - Password: **Pa$$w0rd**
-
-2. Open the **PhotoSharingApplication** solution from the following location:
+1. Open the **PhotoSharingApplication** solution from the following location:
 
     - File location: **Allfiles(D):\Mod07\Labfiles\Starter\PhotoSharingApplication**
 
-3. Add an existing code file to the **Photo Sharing Tests** project, which contains test doubles for HTTP objects, by using the following information:
+2. Add an existing code file to the **Photo Sharing Tests** project, which contains test doubles for HTTP objects, by using the following information:
 
     - Destination folder: **Doubles**
     - Source folder: **Allfiles(D):\Mod07\Labfiles\Fake Http Classes**
     - Code file: **FakeHttpClasses.cs**
 
-4. Add a reference from the **Photo Sharing Tests** project to the **System.Web** assembly.
-5. Add a new **Unit Test** item to the **PhotoSharingTests** project. Name the file, **RoutingTests.cs**.
-6. Add **using** statements to the RoutingTests.cs file for the following namespaces:
+3. Add a reference from the **Photo Sharing Tests** project to the **System.Web** assembly.
+4. Add a new **Unit Test** item to the **PhotoSharingTests** project. Name the file, **RoutingTests.cs**.
+5. Add **using** statements to the RoutingTests.cs file for the following namespaces:
 
     - **System.Web.Routing**
     - **System.Web.Mvc**
     - **PhotoSharingTests.Doubles**
     - **PhotoSharingApplication**
 
-7. Rename the **TestMethod1** test to **Test_Default_Route_ControllerOnly**.
-8. In the **Test_Default_Route_ControllerOnly** test, create a new **var** by using the following information:
+6. Rename the **TestMethod1** test to **Test_Default_Route_ControllerOnly**.
+7. In the **Test_Default_Route_ControllerOnly** test, create a new **var** by using the following information:
 
     - Name: **context**
     - Type: **FakeHttpContextForRouting**
     - Request URL: **~/ControllerName**
 
-9. Create a new **RouteCollection** object named **routes** and pass it to the **RouteConfig.RegisterRoutes()** method.
-10. Call the **routes.GetRouteData()** method to run the test by using the following information:
+8. Create a new **RouteCollection** object named **routes** and pass it to the **RouteConfig.RegisterRoutes()** method.
+9. Call the **routes.GetRouteData()** method to run the test by using the following information:
 
     - Return type: **RouteData**
     - Return object name: **routeData**
     - Method: **routes.GetRouteData**
     - HTTP context object: **context**
 
-11. Assert the following facts:
+10. Assert the following facts:
 
     - That **routeData** is not null
     - That the **controller** value in **routeData** is &quot;ControllerName&quot;
     - That the **action** value in **routeData**  is &quot;Index&quot;
 
-12. Add a new test to the **RoutingTests** class named, **Test_Photo_Route_With_PhotoID**.
-13. In the **Test_Photo_Route_With_PhotoID()** test method, create a new **var** by using the following information:
+11. Add a new test to the **RoutingTests** class named, **Test_Photo_Route_With_PhotoID**.
+12. In the **Test_Photo_Route_With_PhotoID()** test method, create a new **var** by using the following information:
 
     - Name: **context**
     - Type: **FakeHttpContextForRouting**
     - Request URL: **~/photo/2**
 
-14. Create a new **RouteCollection** object named **routes** and pass it to the **RouteConfig.RegisterRoutes()** method.
-15. Call the **routes.GetRouteData()** method to run the test by using the following information:
+13. Create a new **RouteCollection** object named **routes** and pass it to the **RouteConfig.RegisterRoutes()** method.
+14. Call the **routes.GetRouteData()** method to run the test by using the following information:
 
     - Return type: **RouteData**
     - Return object name: **routeData**
     - Method: **routes.GetRouteData**
     - Http context object: **context**
 
-16. Assert the following facts:
+15. Assert the following facts:
 
     - That **routeData** is not null
     - That the **controller** value in **routeData** is &quot;Photo&quot;
     - That the **action** value in **routeData**  is &quot;Display&quot;
     - That the **id** value in **routeData** is &quot;2&quot;
 
-17. Add a new test to the **RoutingTests** class named **Test_Photo_Title_Route**
-18. In the **Test_Photo_Title_Route** test method, create a new **var** by using the following information:
+16. Add a new test to the **RoutingTests** class named **Test_Photo_Title_Route**
+17. In the **Test_Photo_Title_Route** test method, create a new **var** by using the following information:
 
     - Name: **context**
     - Type: **FakeHttpContextForRouting**
     - Request URL: **~/photo/title/my%20title**
 
-19. Create a new **RouteCollection** object named **routes** and pass it to the **RouteConfig.RegisterRoutes()** method.
-20. Call the **routes.GetRouteData()** method to run the test by using the following information:
+18. Create a new **RouteCollection** object named **routes** and pass it to the **RouteConfig.RegisterRoutes()** method.
+19. Call the **routes.GetRouteData()** method to run the test by using the following information:
 
     - Return type: **RouteData**
     - Return object name: **routeData**
     - Method: **routes.GetRouteData**
     - HTTP context object: **context**
 
-21. Assert the following facts:
+20. Assert the following facts:
 
     - That **routeData** is not null
     - That the **controller** value in **routeData** is &quot;Photo&quot;
     - That the **action** value in **routeData**  is &quot;DisplayByTitle&quot;
     - That the **title** value in **routeData** is &quot;my%20title&quot;
 
-22. Run all the tests in the **Photo Sharing Tests** project to verify the test results.
+21. Run all the tests in the **Photo Sharing Tests** project to verify the test results.
 
    >**Note:** Two of the tests should fail because the routes that they test do not yet exist.
 
@@ -232,7 +212,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Install the MVC site map provider.
 
-- Use the NuGet Package Manager to add **MvcSiteMapProvider** 3.3.4.0 to the application.
+- Use the NuGet Package Manager to add **MvcSiteMapProvider** 4.6.22 to the application.
 
 #### Task 2: Configure the MVC site map provider.
 
@@ -287,7 +267,7 @@ The main tasks for this exercise are as follows:
 
 >**Results**: After completing this exercise, you should have successfully created a Photo Sharing application with a simple site map, menu, and breadcrumb control.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

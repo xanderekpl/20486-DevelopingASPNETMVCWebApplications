@@ -1,6 +1,6 @@
-## Module 6: Testing and Debugging ASP.NET MVC 4 Web Applications
+## Module 6: Testing and Debugging ASP.NET MVC 5 Web Applications
 
-## Lab: Testing and Debugging ASP.NET MVC 4 Web Applications
+## Lab: Testing and Debugging ASP.NET MVC 5 Web Applications
 
 #### Scenario
 
@@ -17,20 +17,6 @@ After completing this lab, you will be able to:
 #### Lab Setup
 
 Estimated Time: **90 minutes**
-
-Virtual Machine: **20486B-SEA-DEV11**
-
-User name: **Admin**
-
-Password: **Pa$$w0rd**
-
-   >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
-
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-- On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.
-- In the navigation pane of the **Options** dialog box, click **Package Manager**.
-- Under the **Package Restore** section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
 
 ### Exercise 1: Performing Unit Tests
 
@@ -68,25 +54,19 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Create a test project.
 
-1. Start the virtual machine and sign in with the following credentials:
-
-   - Virtual machine: **20486B-SEA-DEV11**
-   - User name: **Admin**
-   - Password: **Pa$$w0rd**
-
-2. Open the **PhotoSharingApplication** solution from the following location:
+1. Open the **PhotoSharingApplication** solution from the following location:
 
    - File location: **Allfiles(D):\Mod06\Labfiles\Starter\PhotoSharingApplication**
 
 3. Add a new project to the solution for unit tests by using the following information:
 
-   - Template: **Unit Test Project**
+   - Template: **Unit Test Project (.NET Framework)**
    - Name: **PhotoSharingTests**
 
 4. Add a reference to the **PhotoSharingApplication** project in the **PhotoSharingTests** project.
 5. Add a reference to the **System.Web.Mvc** assembly in the **PhotoSharingTests** project by using the following information:
 
-   - MVC version: **4.0.0.0**
+   - MVC version: **5.2.3**
 
 #### Task 2: Write the tests
 
@@ -334,7 +314,7 @@ The main tasks for this exercise are as follows:
   >**Results** : After completing this exercise, you will be able to:  
   >    - Configure a custom error handling strategy for an MVC application.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

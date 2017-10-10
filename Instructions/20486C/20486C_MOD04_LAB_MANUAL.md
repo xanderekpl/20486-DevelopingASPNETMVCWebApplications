@@ -1,6 +1,6 @@
-# Module 4: Developing ASP.NET MVC 4 Controllers
+# Module 4: Developing ASP.NET MVC 5 Controllers
 
-# Lab: Developing ASP.NET MVC 4 Controllers
+# Lab: Developing ASP.NET MVC 5 Controllers
 
 #### Scenario
 
@@ -22,19 +22,6 @@ After completing this lab, you will be able to:
 
 Estimated Time: **60 minutes**
 
-Virtual machine: **20486B-SEA-DEV11**
-
-User name: **Admin**
-
-Password: **Pa$$w0rd**
-
->**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running.
-
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-- On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.
-- In the navigation pane of the **Options** dialog box, click **Package Manager**.
-- Under the Package Restore section, select the **Allow NuGet to download missing packages during build** check box, and then click **OK**.
 
 ### Exercise 1: Adding an MVC Controller and Writing the Actions
 
@@ -66,18 +53,12 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Create a photo controller.
 
-1. Start the virtual machine, and sign in with the following credentials:
-
-   - Virtual machine: **20486B-SEA-DEV11**
-   - User name: **Admin**
-   - Password: **Pa$$w0rd**
-
-2. Open the PhotoSharingApplication.sln file from the following location:
-3. File path: **Allfiles(D):\Mod04\Labfiles\Starter\PhotoSharingApplication**
-4. Create a new controller for handling **photo** objects by using the following information:
+1. Open the PhotoSharingApplication.sln file from the following location:
+2. File path: **Allfiles(D):\Mod04\Labfiles\Starter\PhotoSharingApplication**
+3. Create a new controller for handling **photo** objects by using the following information:
 
    - Controller name: **PhotoController**
-   - Template: **Empty MVC controller**
+   - Template: **MVC 5 controller - Empty**
 
 5. Add **using** statements to the controller for the following namespaces:
 
@@ -302,7 +283,7 @@ The main tasks for this exercise are as follows:
 
 >**Results** : After completing this exercise, you should have created an MVC application with views that you can use to test controllers, actions, and action filters.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

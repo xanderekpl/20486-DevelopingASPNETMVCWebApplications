@@ -1,6 +1,6 @@
-## Module 3: Developing ASP.NET MVC 4 Models
+## Module 3: Developing ASP.NET MVC 5 Models
 
-## Lab: Developing ASP.NET MVC 4 Models
+## Lab: Developing ASP.NET MVC 5 Models
 
 #### Scenario
 
@@ -10,8 +10,8 @@ You are planning to create and code an MVC model that implements your plan for p
 
 After completing this lab, you will be able to:
 
-- Create a new ASP.NET MVC 4 project in Visual Studio 2012.
-- Add a new model to the ASP.NET MVC 4 web application and add properties to the model.
+- Create a new ASP.NET MVC 5 project in Visual Studio 2017.
+- Add a new model to the ASP.NET MVC 5 web application and add properties to the model.
 - Use display and edit data annotations in the MVC model to assign property attributes to views and controllers.
 - Use Visual Studio to create a new Microsoft Azure SQL database and connect to the database.
 - Add Entity Framework code to the model classes in the MVC model.
@@ -21,21 +21,13 @@ After completing this lab, you will be able to:
 
 Estimated Time: **30 minutes**
 
-Virtual Machine: **20486B-SEA-DEV11**
-
-Username: **Admin**
-
-Password: **Pa$$w0rd**
-
-   >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine, if it is not already running.
-
 ### Exercise 1: Creating an MVC Project and Adding a Model
 
 #### Scenario
 
 In this exercise, you will:
 
-- Create a new MVC 4 web application in Visual Studio 2012.
+- Create a new MVC 5 web application in Visual Studio 2017.
 - Add model classes to the web application.
 
 The main tasks for this exercise are as follows:
@@ -46,13 +38,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Create a new MVC project.
 
-1. Start the virtual machine, and sign in with the following credentials:
-
-    - Virtual Machine: **20486B-SEA-DEV11**
-    - User name: **Admin**
-    - Password: **Pa$$w0rd**
-
-2. Open Visual Studio 2012 and create a new ASP.NET MVC 4 web application by using the following information:
+1. Open Visual Studio 2017 and create a new ASP.NET MVC 5 web application by using the following information:
 
     - Name: **PhotoSharingApplication**
     - Location: **Allfiles(D):\Mod03\Labfiles**
@@ -70,7 +56,7 @@ The main tasks for this exercise are as follows:
 
    - Class name: **Comment**
 
- >**Results**: After completing this exercise, you should have successfully created an MVC 4 web application and added model classes to the web application.
+ >**Results**: After completing this exercise, you should have successfully created an MVC 5 web application and added model classes to the web application.
 
 ### Exercise 2: Adding Properties to MVC Models
 
@@ -244,7 +230,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Add an Entity Framework Context to the model.
 
-1. Use the NuGet Package Manager to add Entity Framework version 5.0.0 to the application.
+1. Use the NuGet Package Manager to add Entity Framework version 6.1.3.0 to the application.
 
 2. Add a new class named **PhotoSharingContext** to the **Models** folder and ensure that the new class inherits the **System.Data.Entity.DbContext** class.
 
@@ -345,7 +331,7 @@ The main tasks for this exercise are as follows:
 
  >**Results**: After completing this exercise, you should have successfully added an image to an MVC web application and tested the application by displaying data from a Microsoft Azure SQL database.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 

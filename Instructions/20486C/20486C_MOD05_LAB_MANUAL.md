@@ -1,6 +1,6 @@
-# Module 5: Developing ASP.NET MVC 4 Views
+# Module 5: Developing ASP.NET MVC 5 Views
 
-# Lab: Developing ASP.NET MVC 4 Views
+# Lab: Developing ASP.NET MVC 5 Views
 
 #### Scenario
 
@@ -24,20 +24,6 @@ After completing this lab, you will be able to:
 
 Estimated Time: **60 minutes**
 
-Virtual Machine: **20486B-SEA-DEV11**
-
-User Name: **Admin**
-
-Password: **Pa$$w0rd**
-
-**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running. 
-
-Before starting the lab, you need to enable the **Allow NuGet to download missing packages during build** option, by performing the following steps:
-
-- On the **TOOLS** menu of the Microsoft Visual Studio window, click **Options**.
-- In the navigation pane of the **Options** dialog box, click **Package Manager**.
-- Under the Package Restore section, select the **Allow NuGet to download missing packages during build** checkbox, and then click **OK**.
-
 ### Exercise 1: Adding a View for Photo Display
 
 #### Scenario
@@ -55,19 +41,13 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Add a new display view.
 
-1. Start the virtual machine, and log on with the following credentials:
-
-   - Virtual Machine: **20486B-SEA-DEV11**
-   - User name: **Admin**
-   - Password: **Pa$$w0rd**
-
-2. Open the **Photo Sharing Application** solution from the following location:
+1. Open the **Photo Sharing Application** solution from the following location:
 
    - File location: **Allfiles(D):\Mod05\Labfiles\Starter\PhotoSharingApplication**
 
-3. Open the **PhotoController.cs** code window.
-4. Build the solution
-5. Add a new view to the **Display** action in the **PhotoController** by using the following information:
+2. Open the **PhotoController.cs** code window.
+3. Build the solution
+4. Add a new view to the **Display** action in the **PhotoController** by using the following information:
 
    - Name: **Display**
    - View engine: **Razor (CSHTML)**
@@ -331,7 +311,7 @@ The main tasks for this exercise are as follows:
 1. Add a new **Controller** to the home page by using the following information:
 
    - Controller name: **HomeController**
-   - Template: **Empty MVC Controller**
+   - Template: **MVC 5 Controller - Empty**
 
 2. Add a new view to the **Index** action in **HomeController** by using the following information:
 
@@ -370,7 +350,7 @@ The main tasks for this exercise are as follows:
 
 >**Results**: After completing this exercise, you will be able to create a web application in which users can upload and view the photos.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 
