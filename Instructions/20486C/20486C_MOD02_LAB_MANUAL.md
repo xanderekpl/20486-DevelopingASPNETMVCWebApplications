@@ -1,10 +1,10 @@
-# Module 2: Designing ASP.NET MVC 4 Web Applications
+# Module 2: Designing ASP.NET MVC 5 Web Applications
 
-# Lab: Designing ASP.NET MVC 4 Web Applications
+# Lab: Designing ASP.NET MVC 5 Web Applications
 
 #### Scenario
 
-Your team has chosen ASP.NET MVC 4 as the most appropriate ASP.NET programming model to create the photo sharing application for the Adventure Works web application. You need to create a detailed project design for the application, and have been given a set of functional and technical requirements with other information. You have to plan:
+Your team has chosen ASP.NET MVC 5 as the most appropriate ASP.NET programming model to create the photo sharing application for the Adventure Works web application. You need to create a detailed project design for the application, and have been given a set of functional and technical requirements with other information. You have to plan:
 
 - An MVC model that you can use to implement the desired functionality.
 - One or more controllers and controller actions that respond to users actions.
@@ -15,20 +15,12 @@ Your team has chosen ASP.NET MVC 4 as the most appropriate ASP.NET programming m
 
 After completing this lab, you will be able to:
 
-- Design an ASP.NET MVC 4 web application that meets a set of functional requirements.
+- Design an ASP.NET MVC 5 web application that meets a set of functional requirements.
 - Record the design in an accurate, precise, and informative manner.
 
 #### Lab Setup
 
 Estimated Time: **40 minutes**
-
-Virtual Machine: **20486B-SEA-DEV11**
-
-User name: **Admin**
-
-Password: **Pa$$w0rd**
-
-  >**Note:** In Hyper-V Manager, start the **MSL-TMG1** virtual machine if it is not already running. ** **
 
 ### Exercise 1: Planning Model Classes
 
@@ -46,21 +38,15 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Examine the initial investigation.
 
-1. Start the virtual machine, and log on with the following credentials:
-
-   - Virtual machine: **20486B-SEA-DEV11**
-   - User name: **Admin**
-   - Password: **Pa$$w0rd**
-
-2. Open the **InitialInvestigation** document by using the following information:
+1. Open the **InitialInvestigation** document by using the following information:
 
    - File location: **Allfiles(D):\Mod02\Labfiles**
 
-3. Enable the **Navigation Pane** feature.
-4. Read the contents of the Introduction section.
-5. Read the contents of the General Description section.
-6. Read the Use Cases section and then examine the **Use Case Summary** diagram.
-7. Close the **InitialInvestigation** document.
+2. Enable the **Navigation Pane** feature.
+3. Read the contents of the Introduction section.
+4. Read the contents of the General Description section.
+5. Read the Use Cases section and then examine the **Use Case Summary** diagram.
+6. Close the **InitialInvestigation** document.
 
 #### Task 2: Plan the photo model class.
 
@@ -70,7 +56,7 @@ The main tasks for this exercise are as follows:
 3. Add properties to the model class you created in **Table 1: MVC Model**. The model class will have many properties
 4. Add data types to the photo properties. Each property will have one and only one data type.
 5. Merge the rows in the **Model Class** and **Description** columns and save the document.
-6. Create a new UML Logical Data Model diagram in Visio 2010.
+6. Create a new UML Logical Data Model diagram in Visio.
 7. Add a new Class shape to model photos in the UML diagram.
 8. Add attributes to the new Class shape for each of the properties you planned for the photos.
 9. Save the created diagram by using the following information:
@@ -144,7 +130,7 @@ The main tasks for this exercise are as follows:
 2. Add the required views to the Controllers.
 3. Add a description to the views.
 4. Merge rows in the **Controller** column and save the document.
-5. Create a new wireframe diagram in Visio 2010.
+5. Create a new wireframe diagram in Visio.
 6. Add a new Application Form shape to the wireframe diagram.
 7. Add a menu to the wireframe diagram.
 8. Add a panel for the photo to the wireframe diagram.
@@ -155,7 +141,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 2: Plan the gallery view.
 
-1. Create a new wireframe diagram in Visio 2010.
+1. Create a new wireframe diagram in Visio.
 
 2. Add a new Application Form shape to the wireframe diagram.
 3. Add a menu to the wireframe diagram.
@@ -189,7 +175,7 @@ The main tasks for this exercise are as follows:
 
    >**Results**: After completing this exercise, you will be able to create proposals for hosting arrangements.
 
-©2016 Microsoft Corporation. All rights reserved.
+©2017 Microsoft Corporation. All rights reserved.
 
 The text in this document is available under the  [Creative Commons Attribution 3.0 License](https://creativecommons.org/licenses/by/3.0/legalcode), additional terms may apply. All other content contained in this document (including, without limitation, trademarks, logos, images, etc.) are  **not**  included within the Creative Commons license grant. This document does not provide you with any legal rights to any intellectual property in any Microsoft product. You may copy and use this document for your internal, reference purposes.
 
