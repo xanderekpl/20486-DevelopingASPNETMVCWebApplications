@@ -8,7 +8,7 @@
 
 1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
 2. Open **File Explorer**.
-3. Navigate to **Allfiles/20486C/Mod08/Democode/OperasWebsites	**.
+3. Navigate to **Allfiles/20486C/Mod08/Democode/OperasWebsites**.
 4. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
@@ -30,7 +30,7 @@
 6. In the Solution Explorer pane, under Views, right-click **Shared**, point to **Add**, and then click **View**.
 7. In the **View name** box of the **Add View** dialog box, type **_SiteTemplate**.
 8. In the **Template** box, ensure that the value is **Empty (without model)**.
-9. In the **Add View** dialog box, clear the **User a layout page** check box.
+9. In the **Add View** dialog box, clear the **Use a layout page** check box.
 10. In the **_SiteTemplate.cshtml** code window, locate the following code, select the code, and then press Delete.
 
   ```cs
