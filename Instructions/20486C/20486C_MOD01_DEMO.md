@@ -6,10 +6,11 @@
 
 #### Preparation Steps 
 
-1. Navigate to **Allfiles(D):\Mod01\Democode\PhotoSharingSample**, and then open the **PhotoSharingSample.sln** file.
-2. Run the **PhotoSharingSample.sln** application.
-3. In the Address bar of the Windows Internet Explorer window, note the port number that appears after "http://localhost:" You will use the port number during this demonstration.
-4. Close the Windows Internet Explorer window.
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. "https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles".
+2. Navigate to **Allfiles/20486C/ Mod01/Democode/PhotoSharingSample**, and then open the **PhotoSharingSample.sln** file.
+3. Run the **PhotoSharingSample.sln** application.
+4. In the Address bar of the Windows Internet Explorer window, note the port number that appears after "http://localhost:" You will use the port number during this demonstration.
+5. Close the Windows Internet Explorer window.
 
 
 #### Demonstration Steps
