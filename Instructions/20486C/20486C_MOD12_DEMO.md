@@ -6,9 +6,10 @@
 
 #### Preparation Steps
 
-1.	Open **File Explorer**.
-2.	Go to **Allfiles (D):\Mod12\Democode\OperasWebsites**.
-3.	Double-click **OperasWebsites.sln**.
+1.	Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
+2.  Open **File Explorer**.
+3.	Go to **Allfiles/20486C/Mod12/Democode/OperasWebsites**.
+4.	Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
@@ -97,23 +98,23 @@
         <body style="@Html.Action("GetBackground", "Home")">
 ```
 17. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-18. On the **Operas I Have Seen** page, click the **Blue** link, and then note that the blue background color has been applied to the home page.
-19. On the **Operas I Have Seen** page, click the **All Operas** link.
+18. On the **Operas I Have Seen** page, click **Blue**, and then note that the blue background color has been applied to the home page.
+19. On the **Operas I Have Seen** page, click **All Operas**.
 
-    >**Note:** If the background color of the page is blue, click the **Refresh** button.
+    >**Note:** If the background color of the page is blue, click **Refresh**.
 
-20. On the **Index of Operas** page, click the **Details** link corresponding to the title, **Cosi Fan Tutte**.
+20. On the **Index of Operas** page, click **Details** corresponding to the title, **Cosi Fan Tutte**.
 21. On the **Cosi Fan Tutte** page, note that the blue background color has been applied to the page.
 
     >**Note:** The blue background preference is applied to all pages of the application.
 
 22. On the **Opera: Cosi Fan Tutte** page, click **Home**.
-23. On the **Operas I Have Seen** page, click the **Pink** link, and then note that the pink background color has been applied to the home page.
+23. On the **Operas I Have Seen** page, click **Pink**, and then note that the pink background color has been applied to the home page.
 
     >**Note:** If the background color of the page is blue, click **Refresh**.
 
 24. On the **Operas I Have Seen** page, click **All Operas**.
-25. On the **Index of Operas** page, click the **Details** link corresponding to the title, **Cosi Fan Tutte**.
+25. On the **Index of Operas** page, click **Details** corresponding to the title, **Cosi Fan Tutte**.
 26. On the **Cosi Fan Tutte** page, note that the pink background color has been applied to the page.
 
     >**Note:** The pink background preference is applied to all pages of the application.
