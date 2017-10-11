@@ -6,9 +6,10 @@
 
 #### Preparation Steps
 
-1.	Open **File Explorer**.
-2.	Go to **Allfiles (D):\Mod10\Democode\OperasWebsites**.
-3.	Double-click **OperasWebsites.sln**.
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles	
+2. Open **File Explorer**.
+3.	Go to **Allfiles/20486C/Mod10/Democode/OperasWebsites**.
+4.	Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
@@ -18,7 +19,7 @@
 
 2. In the **Solution Explorer** pane, expand **Content**.
 
-   >**Note:** The **Content** folder has only one file named **Site.css** , and there are no sub-folders.
+   >**Note:** The **Content** folder has only one file named **Site.css**, and there are no sub-folders.
 
 3. On the **Tools** menu of the **OperasWebsites - Microsoft Visual Studio** window, point to **NuGet Package Manager**, and then click **Package Manager Console**.
 4. In **Package Manager Console** window, type the following command, and then press Enter
@@ -70,15 +71,16 @@
 
 #### Preparation Steps
 
-1.	Open **File Explorer**.
-2.	Go to **Allfiles (D):\Mod10\Democode\OperasWebsites**
-3.	Double-click **OperasWebsites.sln**.
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles	
+2. Open **File Explorer**.
+3.	Go to **Allfiles/20486C/Mod10/Democode/OperasWebsites**
+4.	Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
 1. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-2. On the **Operas I Have Seen** page, click the **All Operas** link.
-3. In the **Main Opera List** section, click the **Details** link corresponding to **Cosi Fan Tutte**.
+2. On the **Operas I Have Seen** page, click **All Operas**.
+3. In the **Main Opera List** section, click **Details** corresponding to **Cosi Fan Tutte**.
 4. Under **Reviews**, note that there are three opera reviews displayed for **Cosi Fan Tutte**, simultaneously.
 5. In the **Internet Explorer** window, click **Close**.
 6. In the **Solution Explorer** pane of the **OperasWebsites – Microsoft Visual Studio** window, under **Shared**, click **_ReviewsForOpera.cshtml**.
@@ -97,14 +99,14 @@
     </script>
 ```
 9. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-10. On the **Operas I Have Seen** page, click the **All Operas** link.
-11. In the **Main Opera List** section, click the **Details** link corresponding to **Cosi Fan Tutte**.
+10. On the **Operas I Have Seen** page, click **All Operas**.
+11. In the **Main Opera List** section, click **Details** corresponding to **Cosi Fan Tutte**.
 12. Under **Reviews**, note that there are three expandable sections, and each section contains a review.
 
      >**Note:** You can expand each section and then read the review content. 
 
 13. In the **Internet Explorer** window, click **Close**.
-14. In the **OperasWebsites – Microsoft Visual Studio** window, click the **Close** button.
+14. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
