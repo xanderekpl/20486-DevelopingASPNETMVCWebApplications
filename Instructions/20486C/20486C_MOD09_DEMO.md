@@ -15,7 +15,7 @@
 
 1. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
 2. On the Operas I Have Seen page, click **Tools**, and then click **F12 developer tools**.
-3. On the **Network** tab of the developer window, click the **Always refresh from server** (fourth button from the left).
+3. On the **Network** tab of the developer window, click **Always refresh from server** (fourth button from the left).
 4. On the **Network** tab of the developer window, click **Start profiling session**.
 5. On the Operas I Have Seen page, click **All Operas**.
 6. When the page is fully loaded, in the developer window, click **Stop profiling session**.
@@ -24,7 +24,7 @@
 
    >**Note**: The time taken by the server to render the **/Opera** page and return the page to the browser is similar to the time taken by the server in the first instance. The page is not cached.
 
-9. In the Windows Internet Explorer window, click the **Close** button.
+9. In the Windows Internet Explorer window, click **Close**.
 10. In the Solution Explorer pane of the **OperasWebsites – Microsoft Visual Studio** window, expand **OperasWebsites**, expand  **Controllers**, and then click **OperaController.cs**.
 11. In the OperaController.cs code window, locate the following code.
 
