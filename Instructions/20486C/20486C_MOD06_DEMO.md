@@ -1,4 +1,4 @@
-﻿# Module 6: Testing and Debugging ASP.NET MVC 5 Web Applications
+# Module 6: Testing and Debugging ASP.NET MVC 5 Web Applications
 
 # Lesson 1: Unit Testing MVC Components
 
@@ -6,8 +6,10 @@
 
 #### Preparation Steps
 
-1. Go to **AllFiles (D):\Mod06\DemoCode\OperasWebsites**.
-2. Double-click **OperasWebsites.sln**.
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. 
+https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
+2. Go to **Allfiles/20486C/Mod06/DemoCode/OperasWebsites**.
+3. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
@@ -15,13 +17,13 @@
 2. In the navigation pane of the **Add New Project** dialog box, under Installed, expand **Visual C#**, and then click **Test**.
 3. In the result pane of the **Add New Project** dialog box, click **Unit Test Project (.NET Framework)**, in the **Name** box, type  **OperasWebsitesTests**, and then click **OK**.
 4. In the Solution Explorer pane, under OperasWebsitesTests, right-click **References**, and then click **Add Reference**.
-5. In the navigation pane of the **Reference Manager - OperasWebsitesTests** dialog box, click **Project** and then **Solution**.
+5. In the navigation pane of the **Reference Manager - OperasWebsitesTests** dialog box, click **Project**, and then click **Solution**.
 6. In the **Name** column of the result pane, click **OperasWebsites**, select the check box corresponding to OperasWebsites, and then click **OK**.
 7. In the Solution Explorer pane, under **OperasWebsitesTests**, right-click **References**, and then click **Manage NuGet Packages**.
-8. In the **NuGet: OperasWebsitesTests** window, click **Browse** and type **MVC** in the **Search** box and press enter.
+8. In the **NuGet: OperasWebsitesTests** window, click **Browse**, type **MVC** in the **Search** box, and then press enter.
 9. Select **Microsoft.AspNet.Mvc** version **v5.2.3**.
 10. Click **Install**.
-11. If a **Preview** dialogs pops up - click on **OK**.
+11. If a **Preview** dialogs box appears, click **OK**.
 12. Click on **I Accept** to install MVC version 5.
 13. Close the **NuGet: OperasWebsitesTests** window.
 
@@ -75,8 +77,8 @@
 29. On the **TEST** menu of the **OperasWebsites - Microsoft Visual Studio** window, point to **Run**, and then click **All Tests**.
 30. In the Passed Tests (1) section of the Test Explorer pane, note that **Test\_Index\_Return\_View** is listed.
 31. In the Test Explorer pane, click **Test\_Index\_Return\_View**, and then, in the lower part of the Test Explorer pane, view the test results.
-32. In the Test Explorer pane, click the **Close** button.
-33. In the **OperasWebsites - Microsoft Visual Studio** window, click the **Close** button.
+32. In the Test Explorer pane, click **Close**.
+33. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
