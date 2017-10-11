@@ -75,7 +75,7 @@
 ```
    >**Note:** This code block represents that the **PhotoController** class inherits the System.Web.MVC.Controller base class.
 
-19. In thePhotoController.cs code window, locate the following code.
+19. In the PhotoController.cs code window, locate the following code.
 
   ```cs
        public ActionResult Details(int id = 0)
