@@ -1,23 +1,27 @@
-﻿# Module 5: Developing ASP.NET MVC 5 Views
+# Module 5: Developing ASP.NET MVC 5 Views
 
 # Lesson 2: Using HTML Helpers
 
 ### Demonstration: How to Use HTML Helpers
 
-1. Start **File Explorer**.
-2. Navigate to **AllFiles (D):\Mod05\DemoCode\OperasWebsites**.
-3. Open the **OperasWebSite.sln** project.
+#### Preparation Steps
+
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. 
+https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
+2. Start **File Explorer**.
+3. Navigate to **Allfiles/20486C/Mod05/DemoCode/OperasWebsites**.
+4. Open the **OperasWebSite.sln** project.
 
 #### Demonstration Steps
 
-1. In the Solution Explorer pane of the **OperasWebsites - Microsoft Visual Studio** window, expand **Controllers** , and then click  **OperaController.cs**.
+1. In the Solution Explorer pane of the **OperasWebsites - Microsoft Visual Studio** window, expand **Controllers**, and then click  **OperaController.cs**.
 2. In the **OperaController.cs** code window, locate the following code, right-click the code, and then click **Add View**.
 
   ```cs
 		public ActionResult Create()
 ```
-3. In the **View Name** box of the **Add View** dialog box, ensure that the name displayed is **Create**.
-4. In the **Template** box, ensure that the name displayed is **Empty**
+3. In the **View Name** box of the **Add View** dialog box, ensure that the name displayed is **Empty**.
+4. In the **Template** box, ensure that the name displayed is **Empty**.
 5. In the **Model class** box, ensure that the value is **Opera (OperasWebsites.Models)**. If not, in the **Model class** box, click **Opera (OperasWebsites.Models)**.
 6. In the **Add View** dialog box, ensure that the **Use a layout page** check box is not selected, and then click **Add**.
 7. In the **DIV** element of the **Create.cshtml** code window, type the following code.
@@ -80,18 +84,18 @@
 
     >**Note** : The Add an Opera page is displayed.
 
-17. In the **Year** box of the Add an Opera page, type **1597** , and then click **Create**.
+17. In the **Year** box of the Add an Opera page, type **1597**, and then click **Create**.
 
-    >**Note** : Messages corresponding to the **Title** , **Year** , and **Composer** boxes are displayed. The web application mandates you to enter values in all the boxes. Alerts are also displayed for any inappropriate entries, with relevant messages.
+    >**Note** : Messages corresponding to the **Title**, **Year**, and **Composer** boxes are displayed. The web application mandates you to enter values in all the boxes. Alerts are also displayed for any inappropriate entries, with relevant messages.
 
 18. In the **Title** box of the Add an Opera page, type **Rigoletto**.
 19. In the **Year** box of the Add an Opera page, type **1851**.
-20. In the **Composer** box of the Add an Opera page, type **Verdi** , and then click **Create**.
+20. In the **Composer** box of the Add an Opera page, type **Verdi**, and then click **Create**.
 
     >**Note** : The Opera is created with the mentioned values.
 
-21. In the Windows Internet Explorer window, click the **Close** button.
-22. In the **OperasWebSite - Microsoft Visual Studio** window, click the **Close** button.
+21. In the Windows Internet Explorer window, click **Close**.
+22. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
