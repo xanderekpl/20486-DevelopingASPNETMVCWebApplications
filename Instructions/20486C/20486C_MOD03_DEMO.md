@@ -4,6 +4,12 @@
 
 ### Demonstration: How to Add a Model
 
+#### Preparation Steps
+
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. 
+https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
+
+
 #### Demonstration Steps
 
 1. On the **File** menu of the **Start Page - Microsoft Visual Studio** window, point to **New,** and then click **Project.**
@@ -11,7 +17,7 @@
 3. Under **Visual C#**, click **Web**, and then, in the result pane, click **ASP.NET Web Application (.NET Framework)**.
 4. In the **Name** text box of the **New Project** dialog box, type **OperasWebSites**.
 5. In the **New Project** dialog box, click **Browse**.
-6. In the **Location** text box, go to **Allfiles(D):\Mod03\Democode**, and then click **Select Folder**.
+6. In the **Location** text box, go to **Allfiles/20486C/Mod03/Democode**, and then click **Select Folder**.
 7. In the **New Project** dialog box, click **OK**.
 8. In the **Select a Template** list of the **New ASP.NET Web Application** dialog box, click **MVC**, and then click **OK**.
 9. In the **Solution Explorer** pane of the **OperasWebSites - Microsoft Visual Studio** window, right-click **Models**, point to **Add**, and then click **Class**.
@@ -73,11 +79,16 @@
 		[CheckValidYear]
 ```
 19. On the **Build** menu of the **OperasWebSites - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is being built.
-20. In the **OperasWebSites - Microsoft Visual Studio** window, click the **Close** button.
+20. In the **OperasWebSites - Microsoft Visual Studio** window, click **Close**.
 
 # Lesson 2: Working with Data
 
 ### Demonstration: How to Use Entity Framework Code
+
+#### Preparation Steps
+
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. 
+https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
 
 #### Demonstration Steps
 
@@ -176,8 +187,8 @@ providerName="System.Data.SqlClient" />
 ```
 22. On the **Build** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
 23. In the **Solution Explorer** pane, right-click **Controllers**, click **Add**, and then click **Controller**.
-25. In the **Template** box, click **MVC 5 controller with views, using Entity Framework** and click **Add**.
-24. In the **Controller Name** box, type **OperaController**.
+24. In the **Template** box, click **MVC 5 controller with views, using Entity Framework**, and then click **Add**.
+25. In the **Controller Name** box, type **OperaController**.
 26. In the **Model Class** box, click **Opera (OperasWebSite.Models)**.
 27. In the **Data context class** box, click **OperasDB (OperasWebSite.Models)**, and then click **Add**.
 28. In the **Solution Explorer** pane, in the **Views/Operas** folder, double-click **Create.cshtml**.
