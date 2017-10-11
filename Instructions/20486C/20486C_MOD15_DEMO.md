@@ -62,7 +62,7 @@
 
 12. In the **Solution Explorer** pane, right click **OperasWebsites** project, click **Add**, and then click **New class**.
 13. Name the class **Startup.cs** and click **Add**.
-14. Locate ```using System.Web;``` and add the following using statemets just after it:
+14. Locate ```using System.Web;``` and add the following using statements just after it:
   ```cs
     using Owin;
     using Microsoft.Owin;
