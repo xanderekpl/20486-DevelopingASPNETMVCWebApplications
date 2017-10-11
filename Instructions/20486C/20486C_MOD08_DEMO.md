@@ -125,7 +125,7 @@
   ```cs
 		<!DOCTYPE html>
 ```
-32. In the **_ViewStart.cshtml** code window, select from the code located to the end tag of the HTML element, and then press **Delete**.
+32. In the **_ViewStart.cshtml** code window, select from the code located to the end tag of the HTML element, and then press Delete.
 33. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 34. On the **Operas I Have Seen** page, note the main heading, the menu list, and the breadcrumb control.
 35. On the **Operas I Have Seen** page, click **All Operas**, and then, on the **Index of Operas** page, note that the main heading, the menu list, and the breadcrumb controls are displayed.
