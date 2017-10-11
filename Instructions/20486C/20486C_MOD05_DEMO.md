@@ -20,7 +20,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
   ```cs
 		public ActionResult Create()
 ```
-3. In the **View Name** box of the **Add View** dialog box, ensure that the name displayed is **Empty**.
+3. In the **View Name** box of the **Add View** dialog box, ensure that the name displayed is **Create**.
 4. In the **Template** box, ensure that the name displayed is **Empty**.
 5. In the **Model class** box, ensure that the value is **Opera (OperasWebsites.Models)**. If not, in the **Model class** box, click **Opera (OperasWebsites.Models)**.
 6. In the **Add View** dialog box, ensure that the **Use a layout page** check box is not selected, and then click **Add**.
