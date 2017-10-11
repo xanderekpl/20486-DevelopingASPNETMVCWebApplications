@@ -6,25 +6,26 @@
 
 #### Preparation Steps
 
-1. Start **File Explorer**.
-1. Navigate to **Allfiles (D):\Mod09\Democode\OperasWebsites**.
-1. Double-click **OperasWebsites.sln**
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
+2. Start **File Explorer**.
+3. Navigate to **Allfiles/20486C/ Mod09/Democode/OperasWebsites**.
+4. Double-click **OperasWebsites.sln**
 
 #### Demonstration Steps
 
 1. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-2. On the Operas I Have Seen page, click the **Tools** button, and then click **F12 developer tools**.
-3. On the **Network** tab of the developer window, click the **Always refresh from server** button (forth burron from the left).
+2. On the Operas I Have Seen page, click **Tools**, and then click **F12 developer tools**.
+3. On the **Network** tab of the developer window, click the **Always refresh from server** (fourth button from the left).
 4. On the **Network** tab of the developer window, click **Start profiling session**.
-5. On the Operas I Have Seen page, click the **All Operas** link.
+5. On the Operas I Have Seen page, click **All Operas**.
 6. When the page is fully loaded, in the developer window, click **Stop profiling session**.
 7. In the **Name/Path** column of the developer window, locate **http://localhost:**&lt;_portnumber&gt;_**/Opera**.
-8. On the **Time** column, note the value displayed.
+8. In the **Time** column, note the value displayed.
 
    >**Note**: The time taken by the server to render the **/Opera** page and return the page to the browser is similar to the time taken by the server in the first instance. The page is not cached.
 
 9. In the Windows Internet Explorer window, click the **Close** button.
-10. In the Solution Explorer pane of the **OperasWebsites – Microsoft Visual Studio** window, expand **OperasWebsites** , expand  **Controllers** , and then click **OperaController.cs**.
+10. In the Solution Explorer pane of the **OperasWebsites – Microsoft Visual Studio** window, expand **OperasWebsites**, expand  **Controllers**, and then click **OperaController.cs**.
 11. In the OperaController.cs code window, locate the following code.
 
   ```cs
@@ -46,18 +47,18 @@
         [OutputCache(Duration=600, Location=OutputCacheLocation.Server, VaryByParam="none")]
 ```
 15. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-16. On the **Network** tab of the developer window, click the **Always refresh from server** button (forth burron from the left).
+16. On the **Network** tab of the developer window, click **Always refresh from server** (fourth button from the left).
 17. On the **Network** tab of the developer window, click **Start profiling session**.
-18. On the Operas I Have Seen page, click the **All Operas** link.
+18. On the Operas I Have Seen page, click **All Operas**.
 19. When the page is fully loaded, in the developer window, click **Stop capturing**.
 20. In the **Name/Path** column of the developer window, locate **http://localhost:**&lt;_portnumber&gt;_**/Opera**.
-21. On the **Time** column, note the value displayed.
+21. In the **Time** column, note the value displayed.
 
     >**Note** : Note that the time taken by the server to render the **/Opera** page and return the page to the browser is significantly less than the time taken by the server in the first instance.
 
 22. On the **File** menu of the developer window, click **Exit**.
-23. In the Windows Internet Explorer window, click the **Close** button.
-24. In the **OperasWebsites – Microsoft Visual Studio** window, click the **Close** button.
+23. In the Windows Internet Explorer window, click **Close**.
+24. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
