@@ -6,20 +6,21 @@
 
 #### Preparation Steps
 
-1. Open **File Explorer**.
-2. Go to **AllFiles (D):\Mod07\DemoCode\OperasWebsites**.
-3. Double-click **OperasWebsites.sln**.
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
+2. Open **File Explorer**.
+3. Go to **Allfiles/20486C/Mod07/DemoCode/OperasWebsites**.
+4. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
 1. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
-2. On the **Operas I Have Seen** page, click the **operas I&#39;ve seen** link.
-3. On the **Index** page, click the **Details** link corresponding to **Cosi Fan Tutte**.
+2. On the **Operas I Have Seen** page, click **operas I&#39;ve seen** link.
+3. On the **Index** page, click **Details** link corresponding to **Cosi Fan Tutte**.
 4. In the Address bar of the **Internet Explorer** window, note that the URL is **http://localhost:&lt;portnumber&gt;/Opera/Details/1**.
 
    >**Note:** This URL indicates that the controller is **Opera**, the action is **Details**, and the ID is **1**.
 
-5. In the **Internet Explorer** window, click the **Close** button.
+5. In the **Internet Explorer** window, click **Close**.
 6. In the **Solution Explorer** pane, expand **OperasWebsites**, expand **Controllers**, and then click **OperaController.cs**.
 7. In the **OperaController.cs** code window, place the mouse cursor at the end of the **Details** action code block, press Enter twice, and then type the following code.
 
@@ -69,14 +70,15 @@
 
 #### Preparation Steps
 
-1. Open **File Explorer**.
-2. Go to **AllFiles (D):\Mod07\DemoCode\OperasWebsites**.
-3. Double-click **OperasWebsites.sln**.
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles 
+2. Open **File Explorer**.
+3. Go to **Allfiles/20486C/Mod07/\DemoCode/OperasWebsites**.
+4. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
 1. On the **Tools** menu of the **OperasWebsites - Microsoft Visual Studio** window, point to **NuGet Package Manager** and then click **Package Manager Console**.
-2. In **Package Manager Console** window, type the following command and then press Enter
+2. In **Package Manager Console** window, type the following command and then press Enter.
 
   ```cs
        Install-Package MvcSiteMapProvider.MVC5 -Version 4.6.22
@@ -120,20 +122,20 @@
 
     >**Note:** On the **Operas I Have Seen** page, ensure that a menu is added.
 
-15. On the **Operas I Have Seen** page, under **Menu**, click the **All Operas** link.
+15. On the **Operas I Have Seen** page, under **Menu**, click **All Operas**.
 16. On the **Index** page, note that the **Main Opera List** is displayed.
 
     >**Note:** On the **Index** page, you can also view the menu.
 
-17. In the **Breadcrumb Trail** section of the Index page, click the **Home** link.
+17. In the **Breadcrumb Trail** section of the Index page, click **Home**.
 
     >**Note:** The **Operas I Have Seen** page is displayed.
 
-18. On the **Operas I Have Seen** page, under **Menu**, click the **About** link.
+18. On the **Operas I Have Seen** page, under **Menu**, click **About**.
 
     >**Note:** The **About** page of the web application is displayed.
 
-19. In the **Internet Explorer** window, click the **Close** button.
+19. In the **Internet Explorer** window, click **Close**.
 20. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
