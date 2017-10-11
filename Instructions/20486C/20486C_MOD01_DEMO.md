@@ -53,7 +53,7 @@
 >**Note:** This code block represents the default route that forwards requests to the specified controller.
 
 12. On the taskbar, click the **Internet Explorer** icon.
-13. In the Address bar of the Windows Internet Explorer window, type the URL **http://localhost:[port]/home/index**, and then click the **Go to** button.
+13. In the Address bar of the Windows Internet Explorer window, type the URL **http://localhost:[port]/home/index**, and then click **Go to**.
 
      >**Note:** The browser window displays the Home page of the **http://localhost:[port]/home/index** web application.
 
@@ -99,12 +99,12 @@
    >**Note:**  The Razor view engine runs this code and renders the Photo Title property that you viewed in the model.
 
 22. On the taskbar, click the **Internet Explorer** icon.
-23. In the Address bar of the Windows Internet Explorer window, type **http://localhost:[port]/photo/details/2**, and then click the **Go to** button.
+23. In the Address bar of the Windows Internet Explorer window, type **http://localhost:[port]/photo/details/2**, and then click **Go to**.
 
     >**Note:** The photo with ID 2 is displayed in the browser window. Note that the title of the photo is rendered at the top.
 
-24. In the Windows Internet Explorer window, click the **Close** button.
-25. In the **PhotoSharingSample (Running) – Microsoft Visual Studio** window, click the **Close** button.
+24. In the Windows Internet Explorer window, click **Close**.
+25. In the **PhotoSharingSample (Running) – Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
