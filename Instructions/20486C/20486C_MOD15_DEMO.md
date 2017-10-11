@@ -5,9 +5,11 @@
 ### Demonstration: How to Add a Chat Room to a Web Application by using SignalR
 
 #### Preparation Steps
-1. Start **File Explorer**.
-2. Navigate to **Allfiles(D):\Mod15\Democode\OperasWebsites**.
-3. Double-click **OperasWebsites.sln**.
+
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
+2. Start **File Explorer**.
+3. Navigate to **Allfiles/20486C/Mod15/Democode/OperasWebsites**.
+4. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
 
@@ -58,9 +60,9 @@
 ```
   >**Note:** The **Send()** method sends any received message back to all the clients that are connected to the hub. You need to define the **broadcastMessage()** method in the client-side code to receive messages. The client-side code must also call the **Send()** method to broadcast messages.
 
-12. In the **Solution Explorer** pane, right click **OperasWebsites** project and click **Add** and then **New class**.
+12. In the **Solution Explorer** pane, right click **OperasWebsites** project, click **Add**, and then click **New class**.
 13. Name the class **Startup.cs** and click **Add**.
-14. Locate ```using System.Web;``` and add the following using statemets just after:
+14. Locate ```using System.Web;``` and add the following using statemets just after it:
   ```cs
     using Owin;
     using Microsoft.Owin;
@@ -138,7 +140,7 @@
 		$('#chat-message').val('').focus();
 ```
 28. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-29. On the **Operas I Have Seen** page, click the **Enter the Operas Chat Room** link.
+29. On the **Operas I Have Seen** page, click **Enter the Operas Chat Room**.
 30. In the **Enter your name** box of the **localhost needs some information** dialog box, type **Rebecca Laszlo** , and then click **OK**.
 31. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
 
@@ -146,12 +148,12 @@
 
 32. On the taskbar, right-click the **Internet Explorer** icon, and then click **Internet Explorer**.
 33. In the Address bar of the Internet Explorer window, type **http://localhost:&lt; _portnumber_ &gt;**,and then press Enter.
-34. On the **Operas I Have Seen** page, click the **Enter the Operas Chat Room** link.
+34. On the **Operas I Have Seen** page, click **Enter the Operas Chat Room**.
 35. In the **Enter your name** box of the **localhost needs some information** dialog box, type **Elisa Graceffo**, and then click **OK**.
 36. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
 37. On the taskbar, click the first instance of the Internet Explorer window. Note that the message from **Elisa Graceffo** is displayed because both users are connected to the same hub.
 38. Close all the Internet Explorer windows.
-39. In the **OperasWebsites – Microsoft Visual Studio** window, click the **Close** button.
+39. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
