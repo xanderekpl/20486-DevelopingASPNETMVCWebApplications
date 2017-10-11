@@ -20,11 +20,11 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 5. In the navigation pane of the **Reference Manager - OperasWebsitesTests** dialog box, click **Project**, and then click **Solution**.
 6. In the **Name** column of the result pane, click **OperasWebsites**, select the check box corresponding to OperasWebsites, and then click **OK**.
 7. In the Solution Explorer pane, under **OperasWebsitesTests**, right-click **References**, and then click **Manage NuGet Packages**.
-8. In the **NuGet: OperasWebsitesTests** window, click **Browse**, type **MVC** in the **Search** box, and then press enter.
+8. In the **NuGet: OperasWebsitesTests** window, click **Browse**, type **MVC** in the **Search** box, and then press Enter.
 9. Select **Microsoft.AspNet.Mvc** version **v5.2.3**.
 10. Click **Install**.
-11. If a **Preview** dialogs box appears, click **OK**.
-12. Click on **I Accept** to install MVC version 5.
+11. If a **Preview** dialog box appears, click **OK**.
+12. To install MVC version 5, Click **I Accept**.
 13. Close the **NuGet: OperasWebsitesTests** window.
 
 
