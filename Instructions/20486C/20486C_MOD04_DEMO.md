@@ -4,12 +4,15 @@
 
 ### Demonstration: How to create a Controller
 #### Preparation Steps
-1. Open the **OperasWebSite.sln** project.
+
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. 
+https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
+2. Open the **OperasWebSite.sln** project.
 
 #### Demonstration Steps
 
 1. In the Solution Explorer pane of the **OperasWebSite - Microsoft Visual Studio** window, right-click **Controllers**, point to  **Add**, and then click **Controller**.
-2. In the **Template** box, click **MVC 5 Controller - Empty**.
+2. In the **Template** box, click **Empty MVC controller**.
 3. In the **Controller Name** text box of the **Add Controller** dialog box, type **OperaController**, and then click **Add**.
 4. In the OperaController.cs code window, locate the following code.
 
@@ -93,7 +96,7 @@
         }
 ```
 15. On the **FILE** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Save Controllers\OperaControllers.cs**.
-16. In the **OperasWebSite - Microsoft Visual Studio** window, click the **Close** button.
+16. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**  .
 17. In the **Microsoft Visual Studio** dialog box, note that the message, **Save changes to the following items?** is displayed, and then click **Yes**.
 
 ©2016 Microsoft Corporation. All rights reserved.
