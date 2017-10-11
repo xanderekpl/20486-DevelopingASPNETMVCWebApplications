@@ -6,8 +6,9 @@
 
 #### Preparation Steps
 
+1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
 2. Open **File Explorer**.
-3. Navigate to **Allfiles (D):\Mod08\Democode\OperasWebsites**.
+3. Navigate to **Allfiles/20486C/Mod08/Democode/OperasWebsites	**.
 4. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
@@ -16,20 +17,20 @@
 
    >**Note:** On the **Operas I Have Seen** page, note that the main heading, the menu list, and the breadcrumb control are displayed. 
 
-2. On the **Operas I Have Seen** page, click the **All Operas** link.
+2. On the **Operas I Have Seen** page, click **All Operas**.
 
    >**Note:** On the localhost page, the main heading, the menu list, and the breadcrumb controls are not displayed. 
 
-3. On the localhost page, click the **Details** link corresponding to any opera.
+3. On the localhost page, click **Details** corresponding to any opera.
 
    >**Note:** On the localhost page, the details of the opera are displayed. The main heading, the menu list, and the breadcrumb controls are not displayed. 
 
-4. In the Internet Explorer window, click the **Close** button.
+4. In the Internet Explorer window, click **Close**.
 5. In the Solution Explorer pane, expand **OperasWebsites**, and then expand **Views**.
 6. In the Solution Explorer pane, under Views, right-click **Shared**, point to **Add**, and then click **View**.
 7. In the **View name** box of the **Add View** dialog box, type **_SiteTemplate**.
 8. In the **Template** box, ensure that the value is **Empty (without model)**.
-9. In the **Add View** dialog box, make sure that the check box **User a layout page** is unchecked.
+9. In the **Add View** dialog box, clear the **User a layout page** check box.
 10. In the **_SiteTemplate.cshtml** code window, locate the following code, select the code, and then press Delete.
 
   ```cs
@@ -124,13 +125,13 @@
   ```cs
 		<!DOCTYPE html>
 ```
-32. In the **_ViewStart.cshtml** code window, select from the code located to the end tag of the HTML element, and then press Delete
+32. In the **_ViewStart.cshtml** code window, select from the code located to the end tag of the HTML element, and then press **Delete**.
 33. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 34. On the **Operas I Have Seen** page, note the main heading, the menu list, and the breadcrumb control.
-35. On the **Operas I Have Seen** page, click the **All Operas** link, and then, on the **Index of Operas** page, note that the main heading, the menu list, and the breadcrumb controls are displayed.
-36. On the **Index of Operas** page, click the **Details** link corresponding to any opera, and then note that the main heading, the menu list, and the breadcrumb controls are displayed along with the details of the opera.
-37. In the Internet Explorer window, click the **Close** button.
-38. In the **OperasWebsites - Microsoft Visual Studio** window, click the **Close** button.
+35. On the **Operas I Have Seen** page, click **All Operas**, and then, on the **Index of Operas** page, note that the main heading, the menu list, and the breadcrumb controls are displayed.
+36. On the **Index of Operas** page, click **Details** corresponding to any opera, and then note that the main heading, the menu list, and the breadcrumb controls are displayed along with the details of the opera.
+37. In the Internet Explorer window, click **Close**.
+38. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
