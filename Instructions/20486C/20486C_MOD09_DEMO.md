@@ -51,7 +51,7 @@
 17. On the **Network** tab of the developer window, click **Start profiling session**.
 18. On the Operas I Have Seen page, click **All Operas**.
 19. When the page is fully loaded, in the developer window, click **Stop capturing**.
-20. In the **Name/Path** column of the developer window, locate **http://localhost:[Port]/Opera**.
+20. In the **Name/Path** column of the developer window, locate **http://localhost:[port]/Opera**.
 21. In the **Time** column, note the value displayed.
 
     >**Note** : Note that the time taken by the server to render the **/Opera** page and return the page to the browser is significantly less than the time taken by the server in the first instance.
