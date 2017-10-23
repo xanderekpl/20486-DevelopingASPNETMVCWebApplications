@@ -62,13 +62,13 @@
 
 12. In the **Solution Explorer** pane, right click **OperasWebsites** project, click **Add**, and then click **New class**.
 13. Name the class **Startup.cs** and click **Add**.
-14. Locate ```using System.Web;``` and add the following using statements just after it:
+14. Locate ```using System.Web;``` and add the following using statements just after it.
   ```cs
     using Owin;
     using Microsoft.Owin;
     [assembly: OwinStartup(typeof(OperasWebsites.Startup))]
 ```
-15. Within the **Startup** class, type the following code:
+15. Within the **Startup** class, type the following code.
   ```cs
         public void Configuration(IAppBuilder app)
         {
@@ -147,7 +147,7 @@
   >**Note:** SignalR sends the message you typed to the hub. The hub broadcasts the message to all connected clients.
 
 32. On the taskbar, right-click the **Internet Explorer** icon, and then click **Internet Explorer**.
-33. In the Address bar of the Internet Explorer window, type **http://localhost:&lt; _portnumber_ &gt;**,and then press Enter.
+33. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/**, and then press Enter.
 34. On the **Operas I Have Seen** page, click **Enter the Operas Chat Room**.
 35. In the **Enter your name** box of the **localhost needs some information** dialog box, type **Elisa Graceffo**, and then click **OK**.
 36. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
