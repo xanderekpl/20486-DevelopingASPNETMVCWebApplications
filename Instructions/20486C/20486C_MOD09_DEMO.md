@@ -8,7 +8,7 @@
 
 1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
 2. Start **File Explorer**.
-3. Navigate to **Allfiles/20486C/ Mod09/Democode/OperasWebsites**.
+3. Navigate to **Allfiles/20486C/Mod09/Democode/OperasWebsites**.
 4. Double-click **OperasWebsites.sln**
 
 #### Demonstration Steps
@@ -19,7 +19,7 @@
 4. On the **Network** tab of the developer window, click **Start profiling session**.
 5. On the Operas I Have Seen page, click **All Operas**.
 6. When the page is fully loaded, in the developer window, click **Stop profiling session**.
-7. In the **Name/Path** column of the developer window, locate **http://localhost:**&lt;_portnumber&gt;_**/Opera**.
+7. In the **Name/Path** column of the developer window, locate **http://localhost:[port]/**.
 8. In the **Time** column, note the value displayed.
 
    >**Note**: The time taken by the server to render the **/Opera** page and return the page to the browser is similar to the time taken by the server in the first instance. The page is not cached.
@@ -51,7 +51,7 @@
 17. On the **Network** tab of the developer window, click **Start profiling session**.
 18. On the Operas I Have Seen page, click **All Operas**.
 19. When the page is fully loaded, in the developer window, click **Stop capturing**.
-20. In the **Name/Path** column of the developer window, locate **http://localhost:**&lt;_portnumber&gt;_**/Opera**.
+20. In the **Name/Path** column of the developer window, locate **http://localhost:[Port]/Opera**.
 21. In the **Time** column, note the value displayed.
 
     >**Note** : Note that the time taken by the server to render the **/Opera** page and return the page to the browser is significantly less than the time taken by the server in the first instance.
