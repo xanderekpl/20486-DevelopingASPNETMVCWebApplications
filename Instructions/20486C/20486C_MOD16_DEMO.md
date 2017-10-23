@@ -47,7 +47,7 @@
 #### Preparation Steps
 
 1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles 
-2. Navigate to **Allfiles/Mod16/Democode/OperasWebSite**.
+2. Navigate to **Allfiles/20486C/Mod16/Democode/OperasWebSite**.
 3. Open the **OperasWebSite.sln** project.
 4. In the Solution Explorer pane, under **OperasWebSite\App\_Data**, delete the **aspnetdb.mdf** file. Also, delete the **aspnetdb\_log.ldf** file, if present.
 
