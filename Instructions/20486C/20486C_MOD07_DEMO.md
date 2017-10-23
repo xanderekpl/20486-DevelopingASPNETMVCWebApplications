@@ -16,7 +16,7 @@
 1. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 2. On the **Operas I Have Seen** page, click **operas I&#39;ve seen**.
 3. On the **Index** page, click **Details** corresponding to **Cosi Fan Tutte**.
-4. In the Address bar of the **Internet Explorer** window, note that the URL is **http://localhost:&lt;portnumber&gt;/Opera/Details/1**.
+4. In the Address bar of the **Internet Explorer** window, note that the URL is **http://localhost:[port]/**.
 
    >**Note:** This URL indicates that the controller is **Opera**, the action is **Details**, and the ID is **1**.
 
@@ -57,7 +57,7 @@
 13. On the **FILE** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Save All**.
 14. On the **DEBUG** menu of **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 15. On the Operas I Have Seen page, click **operas I&#39;ve seen**.
-16. In the Address bar of the **Internet Explorer** window, change the existing URL to **http://localhost:[port]/opera/title/Cosi%20Fan%20Tutte**, and then click **Go**.
+16. In the Address bar of the **Internet Explorer** window, change the existing URL to **http://localhost:[port]/opera/title/Cosi Fan Tutte**, and then click **Go**.
 
    >**Note:** The details of the **Cosi Fan Tutte** opera are displayed.
 
@@ -72,7 +72,7 @@
 
 1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles 
 2. Open **File Explorer**.
-3. Go to **Allfiles/20486C/Mod07/\DemoCode/OperasWebsites**.
+3. Go to **Allfiles/20486C/Mod07/DemoCode/OperasWebsites**.
 4. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
