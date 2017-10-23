@@ -60,7 +60,7 @@
     <link type="text/css" rel="stylesheet" 
         href="@Url.Content("~/Content/themes/base/jquery-ui.css")" />
 ```
-     >**Note:** You can now use jQueryUI calls on any views in the application. 
+   >**Note:** You can now use jQueryUI calls on any views in the application. 
 
 13. On the **FILE** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Save All**.
 14. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
