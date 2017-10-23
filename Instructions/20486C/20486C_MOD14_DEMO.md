@@ -71,7 +71,7 @@
 ```
 14. On the **FILE** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Save All**.
 15. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-16. In the Address bar of the Internet Explorer window, type **http://localhost:&lt;yourPortNumber&gt;/api/OperasApi**, and then click **Go to**.
+16. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/api/OperasApi**, and then click **Go to**.
 17. In the Navigation bar, click **Open**.
 18. If the &quot;How do you want to open this type of file (.json)?&quot; message displays, click **More options**, and then click **Microsoft Visual Studio Version Selector**.
 19. On the **EDIT** menu of the **OperasApi.json – Microsoft Visual Studio** window, point to **Find and Replace**, and then click **Quick Find**.
@@ -82,7 +82,7 @@
     >**Note:** Visual Studio finds the JSON data for the **Rigoletto** opera. Note that this is just one entry in the JSON data, which includes all operas in the web application.
 
 23. In the **OperasApi.json – Microsoft Visual Studio** window, click **Close**.
-24. In the Address bar of the Internet Explorer window, type **http://localhost:**&lt;_yourPortNumber&gt;_**/api/OperasApi/3**, and then click **Go to**.
+24. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/api/OperasApi/3**, and then click **Go to**.
 25. In the Navigation bar, click **Open**.
 26. If the &quot;How do you want to open this type of file (.json)?&quot; message displays, click **More options**, and then click **Microsoft Visual Studio Version Selector**.
 27. In the **3.json - Microsoft Visual Studio** window, note that only the information relating to the **Nixon in China** opera is displayed.
