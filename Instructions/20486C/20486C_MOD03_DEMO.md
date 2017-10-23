@@ -104,11 +104,11 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 4. In the **web.config** code window, place the mouse cursor at the end of the **&lt;/appsettings&gt;** tag, press Enter, and then type the following code.
 
   ```cs
-<connectionStrings>
-<add name="OperasDB"
-connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Operas.mdf;Integrated Security=True;"
-providerName="System.Data.SqlClient" />
-</connectionStrings>
+	<connectionStrings>
+	<add name="OperasDB"
+	connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Operas.mdf;Integrated Security=True;"
+	providerName="System.Data.SqlClient" />
+	</connectionStrings>
 ```
 5. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
 6. In the **Name** text box of the **Add New Item - OperasWebSite** dialog box, type **OperasDB**, and then click **Add**.
