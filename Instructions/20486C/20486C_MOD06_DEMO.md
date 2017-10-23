@@ -24,7 +24,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 9. Select **Microsoft.AspNet.Mvc** version **v5.2.3**.
 10. Click **Install**.
 11. If a **Preview** dialog box appears, click **OK**.
-12. To install MVC version 5, Click **I Accept**.
+12. To install MVC version 5, click **I Accept**.
 13. Close the **NuGet: OperasWebsitesTests** window.
 
 
