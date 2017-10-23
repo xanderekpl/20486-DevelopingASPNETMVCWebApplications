@@ -1,6 +1,6 @@
 ﻿# Module 4: Developing ASP.NET MVC 5 Controllers
 
-# Lesson 1:Writing Controllers and Actions
+# Lesson 1: Writing Controllers and Actions
 
 ### Demonstration: How to create a Controller
 #### Preparation Steps
@@ -96,7 +96,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
         }
 ```
 15. On the **FILE** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Save Controllers\OperaControllers.cs**.
-16. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**  .
+16. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
 17. In the **Microsoft Visual Studio** dialog box, note that the message, **Save changes to the following items?** is displayed, and then click **Yes**.
 
 ©2016 Microsoft Corporation. All rights reserved.
