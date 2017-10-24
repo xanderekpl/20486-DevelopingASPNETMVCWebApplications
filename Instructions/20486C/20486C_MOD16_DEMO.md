@@ -18,7 +18,7 @@
   >**Note:** During the sign-in process, if a page appears prompting you to choose from a list of previously used accounts, select the account that you previously used, and then continue to type your credentials.
 
 
-4. In the left pane of the Microsoft Azure page, click **New**.
+4. In the left pane of the **Microsoft Azure** page, click **New**.
 5. In the **Search the Marketplace** box, search for **Web App + SQL**, and click **Create**.
 6. In the **App name** box of the **Web Ap + SQL Create** dialog box, type _&lt;your username&gt;_ **operas**.
 
