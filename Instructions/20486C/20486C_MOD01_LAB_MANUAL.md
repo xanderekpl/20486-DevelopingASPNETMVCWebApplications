@@ -105,7 +105,7 @@ The main tasks for this exercise are as follows:
 
 1. Start Visual Studio 2017 and create a new Web Pages project by using the **ASP.NET Web Site (Razor v3)** C# template.
 2. Run the new Web Pages application in Internet Explorer and review the **Contact** page.
-3. Stop debugging by closing Internet Explorer.
+3. Stop debugging by closing Microsoft Edge.
 
 #### Task 2: Explore the application structure.
 
