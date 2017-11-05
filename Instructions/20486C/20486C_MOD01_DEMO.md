@@ -9,8 +9,8 @@
 1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles.
 2. Navigate to **Allfiles/20486C/Mod01/Democode/PhotoSharingSample**, and then open the **PhotoSharingSample.sln** file.
 3. Run the **PhotoSharingSample.sln** application.
-4. In the Address bar of the Windows Internet Explorer window, note the port number that appears after "http://localhost:" You will use the port number during this demonstration.
-5. Close the Windows Internet Explorer window.
+4. In the Address bar of the Microsoft Edge window, note the port number that appears after "http://localhost:" You will use the port number during this demonstration.
+5. Close the Microsoft Edge window.
 
 
 #### Demonstration Steps
@@ -38,7 +38,7 @@
 ```
  >**Note:** This code block represents the View that renders the home page.
 
-7. On the toolbar of the **PhotoSharingSample – Microsoft Visual Studio** window, click **Internet Explorer**.
+7. On the toolbar of the **PhotoSharingSample – Microsoft Visual Studio** window, click **Microsoft Edge**.
 8. In the **http://localhost:[port]/** window, note that the default home page is displayed.
 9. On the taskbar, click the **Microsoft Visual Studio** icon.
 10. In the **PhotoSharingSample – Microsoft Visual Studio** window, in the Solution Explorer pane, expand **App_Start**, and then click **RouteConfig.cs**.
@@ -48,12 +48,13 @@
         routes.MapRoute(
             name: "Default",
             url: "{controller}/{action}/{id}",
-        )
+            defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional}
+        );
 ```
 >**Note:** This code block represents the default route that forwards requests to the specified controller.
 
-12. On the taskbar, click the **Internet Explorer** icon.
-13. In the Address bar of the Windows Internet Explorer window, type the URL **http://localhost:[port]/home/index**, and then click **Go to**.
+12. On the taskbar, click the **Microsoft Edge** icon.
+13. In the Address bar of the Microsoft Edge window, type the URL **http://localhost:[port]/home/index**, and then click **Go to**.
 
      >**Note:** The browser window displays the Home page of the **http://localhost:[port]/home/index** web application.
 
@@ -98,13 +99,14 @@
 ```
    >**Note:**  The Razor view engine runs this code and renders the Photo Title property that you viewed in the model.
 
-22. On the taskbar, click the **Internet Explorer** icon.
-23. In the Address bar of the Windows Internet Explorer window, type **http://localhost:[port]/photo/details/2**, and then click **Go to**.
+22. On the taskbar, click the **Microsoft Edge** icon.
+23. In the Address bar of the Microsoft Edge window, type **http://localhost:[port]/photo/details/2**, and then click **Go to**.
 
     >**Note:** The photo with ID 2 is displayed in the browser window. Note that the title of the photo is rendered at the top.
 
-24. In the Windows Internet Explorer window, click **Close**.
+24. In the Microsoft Edge window, click **Close**.
 25. In the **PhotoSharingSample (Running) – Microsoft Visual Studio** window, click **Close**.
+26. On the **Microsoft Visual Studio** dialog click **Yes** to stop debugging.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
