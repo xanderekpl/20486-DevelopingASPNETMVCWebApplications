@@ -43,7 +43,7 @@ The main tasks for this exercise are as follows:
 
 1. Navigate to the following location to open the **PhotoSharingSample.sln** file:
 
-    - **Allfiles(D):\Mod01\Labfiles\PhotoSharingSample**
+    - **Allfiles\Mod01\Labfiles\PhotoSharingSample**
 
 2. Run the web application in non-debugging mode.
 3. Create a new user account with the following credentials:
@@ -61,7 +61,7 @@ The main tasks for this exercise are as follows:
 2. Add a new photo to the application by using the following information:
 
     - Title of the photo: **Fall Fungi**
-    - Navigation path to upload the photo: **Allfiles(D):\Mod01\Labfiles\Pictures\fungi.jpg**
+    - Navigation path to upload the photo: **Allfiles\Mod01\Labfiles\Pictures\fungi.jpg**
     - Description: **Sample Text**
 
 3. Verify the description details of the newly added photo.
