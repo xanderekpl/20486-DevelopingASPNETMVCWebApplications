@@ -81,7 +81,7 @@ The main tasks for this exercise are as follows:
 
 1. Log off from the application, and then attempt to add a comment for the Fall Fungi image.
 2. Attempt to add a new photo to the Photo Index page.
-3. Close the Internet Explorer window and the Visual Studio application.
+3. Close the Microsoft Edge window and the Visual Studio application.
 
 >**Results**: At the end of this exercise, you will be able to understand the functionality of a photo sharing application, and implement the required application structure in the Adventure Works photo sharing application.
 
