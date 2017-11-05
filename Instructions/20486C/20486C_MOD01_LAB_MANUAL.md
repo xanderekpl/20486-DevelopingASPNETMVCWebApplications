@@ -167,13 +167,12 @@ The main tasks for this exercise are as follows:
 
 1. Start Visual Studio 2017 and create a new Web Forms project, **TestWebFormsApplication**, by using the ASP.NET Web Forms Application template.
 2. Run the new Web Forms application in Internet Explorer and examine the **Contact** page.
-3. Stop debugging by closing Internet Explorer.
+3. Stop debugging by closing Microsoft Edge.
 
 #### Task 2: Explore the application structure.
 
-1. Open the Web.config file and verify that **System.Data.SqlClient** is the database provider that the application uses.
-2. Verify that the ~/Site.Master file contains a common layout for all the pages on the site. Also verify that the **Default.aspx** and **Contact.aspx** pages are linked to the same layout.
-3. Verify that the Site.css file is used to apply styles to all pages on the website. Note that the Site.Master file uses bundle reference to package the CSS files.
+1. Verify that the ~/Site.Master file contains a common layout for all the pages on the site. Also verify that the **Default.aspx** and **Contact.aspx** pages are linked to the same layout.
+2. Verify that the Site.css file is used to apply styles to all pages on the website. Note that the Site.Master file uses bundle reference to package the CSS files.
 
 #### Task 3: Add simple functionality.
 
@@ -192,7 +191,7 @@ The main tasks for this exercise are as follows:
     - Content: **Test Page**
     - End tag: **&lt;/a&gt;**
 
-4. Run the website in Internet Explorer and view the newly added Web Form page.
+4. Run the website in Microsoft Edge and view the newly added Web Form page.
 
 #### Task 4: Apply the master page.
 
@@ -234,9 +233,9 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Create an MVC 5 application.
 
-1. Start Visual Studio 2017 and create a new **MVC** project by using the **ASP.NET MVC 5 Web Application** template. Choose the **Internet Application** template.
+1. Start Visual Studio 2017 and create a new **MVC** project by using the **ASP.NET Web Application** template. Choose the **Internet Application** template.
 2. Run the new MVC application in Internet Explorer, and explore the **Contact** page.
-3. Stop debugging by closing Internet Explorer.
+3. Stop debugging by closing Microsoft Edge.
 
 #### Task 2: Explore the application structure.
 
@@ -272,7 +271,7 @@ The main tasks for this exercise are as follows:
 
 5. Save all the changes.
 6. Run the website and view the page you added.
-7. Stop debugging by closing Internet Explorer.
+7. Stop debugging by closing Microsoft Edge.
 
 #### Task 4: Apply the site layout.
 
