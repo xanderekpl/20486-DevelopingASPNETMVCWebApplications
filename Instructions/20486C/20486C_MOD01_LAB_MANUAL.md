@@ -132,7 +132,7 @@ The main tasks for this exercise are as follows:
 
 4. Save all the changes.
 5. Run the website, and view the page you added.
-6. Stop debugging by closing Internet Explorer.
+6. Stop debugging by closing Microsoft Edge.
 
 #### Task 4: Apply the site layout.
 
