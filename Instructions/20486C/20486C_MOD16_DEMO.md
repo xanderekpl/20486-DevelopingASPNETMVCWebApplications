@@ -27,7 +27,7 @@
 9. In the **Location** drop down, select a location near you.
 10. In the **Pricing tier**, select **D1 Shared**, and then click **OK**.
 
-11. Click the **SQL Database** box of the **Web App + SQL Create** page, and then click **Create new database**.
+11. Click the **SQL Database** box of the **Web App + SQL Create** page, and then click **Create a new database**.
 12. In the **Name** text box, type **OperasDB**.
 13. Click **Target server**, and then click **Create a new server**.
 14. In the **Server name** box, type a unique name.
