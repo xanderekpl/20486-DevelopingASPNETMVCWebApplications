@@ -261,7 +261,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 5: Retest the All Photo page with GetImage caching.
 
-1. Start the application in debugging mode and configure the browser to always refresh the page from the server, by using the Internet Explorer developer tools.
+1. Start the application in debugging mode and configure the browser to always refresh the page from the server, by using the Microsoft Edge developer tools.
 
 2. Capture the traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
 3. Record the time taken by the server to render the **/Photo/GetImage/1** request.
