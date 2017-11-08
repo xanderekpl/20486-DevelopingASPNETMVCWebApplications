@@ -219,7 +219,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Test the All Photos page with no caching.
 
-1. Start the application in debugging mode and configure the browser to always refresh the **page** from the server by using the Internet Explorer developer tools.
+1. Start the application in debugging mode and configure the browser to always refresh the **page** from the server by using the Microsoft Edge developer tools.
 
 2. Capture traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
 3. Record the time taken by the server to render the **/Photo** page and return the page to the browser. This value is the **Request** duration, which you can find on the **Timings** tab.
