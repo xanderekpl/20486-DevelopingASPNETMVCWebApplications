@@ -95,7 +95,8 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
     >**Note** : The Opera is created with the mentioned values.
 
 21. In the Windows Internet Explorer window, click **Close**.
-22. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
+22. In the **OperasWebSite - Microsoft Visual Studio** window, click Stop Debugging
+23. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved. 
 
