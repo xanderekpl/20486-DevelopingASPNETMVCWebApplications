@@ -24,7 +24,7 @@
 
    >**Note**: The time taken by the server to render the **/Opera** page and return the page to the browser is similar to the time taken by the server in the first instance. The page is not cached.
 
-9. In the Windows Internet Explorer window, click **Close**.
+9. In the Windows Microsoft Edge window, click **Close**.
 10. In the Solution Explorer pane of the **OperasWebsites – Microsoft Visual Studio** window, expand **OperasWebsites**, expand  **Controllers**, and then click **OperaController.cs**.
 11. In the OperaController.cs code window, locate the following code.
 
