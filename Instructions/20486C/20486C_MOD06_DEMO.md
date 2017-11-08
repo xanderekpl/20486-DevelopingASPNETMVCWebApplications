@@ -8,7 +8,7 @@
 
 1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. 
 https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
-2. Go to **Allfiles/20486C/Mod06/DemoCode/OperasWebsites**.
+2. Go to **Allfiles\20486c\Mod06\Democode\OperasWebsites_06_begin**.
 3. Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
@@ -23,7 +23,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 8. In the **NuGet: OperasWebsitesTests** window, click **Browse**, type **MVC** in the **Search** box, and then press Enter.
 9. Select **Microsoft.AspNet.Mvc** version **v5.2.3**.
 10. Click **Install**.
-11. If a **Preview** dialog box appears, click **OK**.
+11. If a **Preview Changes** dialog box appears, click **OK**.
 12. To install MVC version 5, click **I Accept**.
 13. Close the **NuGet: OperasWebsitesTests** window.
 
