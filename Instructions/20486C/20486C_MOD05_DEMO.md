@@ -14,7 +14,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 
 #### Demonstration Steps
 
-1. In the Solution Explorer pane of the **OperasWebsites - Microsoft Visual Studio** window, expand **Controllers**, and then click  **OperaController.cs**.
+1. In the Solution Explorer pane of the **"OperasWebsites - Microsoft Visual Studio"** window, expand **Controllers**, and then click  **OperaController.cs**.
 2. In the **OperaController.cs** code window, locate the following code, right-click the code, and then click **Add View**.
 
   ```cs
