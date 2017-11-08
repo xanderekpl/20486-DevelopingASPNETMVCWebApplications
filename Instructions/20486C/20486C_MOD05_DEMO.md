@@ -72,7 +72,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
   ```cs
 		@Html.ActionLink("Back to List", "Index")
 ```
-14. On the **DEBUG** menu of the **OperasWebSite - Microsoft Visual Studio** window, click **Start Debugging**.
+14. On the **DEBUG** menu of the **"OperasWebsites - Microsoft Visual Studio"** window, click **Start Debugging**.
 
     >**Note** : The Operas I Have Seen page is displayed.
 
@@ -95,8 +95,8 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
     >**Note** : The Opera is created with the mentioned values.
 
 21. In the Windows Internet Explorer window, click **Close**.
-22. In the **OperasWebSite - Microsoft Visual Studio** window, click Stop Debugging
-23. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
+22. In the **"OperasWebsites - Microsoft Visual Studio"** window, click Stop Debugging
+23. In the **"OperasWebsites - Microsoft Visual Studio"** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved. 
 
