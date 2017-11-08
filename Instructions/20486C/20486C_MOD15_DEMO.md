@@ -60,7 +60,7 @@
 ```
   >**Note:** The **Send()** method sends any received message back to all the clients that are connected to the hub. You need to define the **broadcastMessage()** method in the client-side code to receive messages. The client-side code must also call the **Send()** method to broadcast messages.
 
-12. In the **Solution Explorer** pane, right click **OperasWebsites** project, click **Add**, and then click **New class**.
+12. In the **Solution Explorer** pane, right click **OperasWebsites** project, click **Add**, and then click **Class**.
 13. Name the class **Startup.cs** and click **Add**.
 14. Locate ```using System.Web;``` and add the following using statements just after it.
   ```cs
