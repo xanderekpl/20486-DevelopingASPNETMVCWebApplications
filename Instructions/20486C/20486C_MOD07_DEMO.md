@@ -21,20 +21,21 @@
    >**Note:** This URL indicates that the controller is **Opera**, the action is **Details**, and the ID is **1**.
 
 5. In the **Internet Explorer** window, click **Close**.
-6. In the **Solution Explorer** pane, expand **OperasWebsites**, expand **Controllers**, and then click **OperaController.cs**.
-7. In the **OperaController.cs** code window, place the mouse cursor at the end of the **Details** action code block, press Enter twice, and then type the following code.
+6. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Stop Debugging**.
+7. In the **Solution Explorer** pane, expand **OperasWebsites**, expand **Controllers**, and then click **OperaController.cs**.
+8. In the **OperaController.cs** code window, place the mouse cursor at the end of the **Details** action code block, press Enter twice, and then type the following code.
 
   ```cs
        public ActionResult DetailsByTitle(string title)
        {
        }
 ```
-8. In the **DetailsByTitle** action code block, type the following code, and then press Enter.
+9. In the **DetailsByTitle** action code block, type the following code, and then press Enter.
 
   ```cs
        Opera opera = (Opera)(from o in contextDB.Operas where o.Title == title select o).FirstOrDefault();      
 ```
-9. In the **DetailsByTitle** action code block, after the code that you just typed, type the following code.
+10. In the **DetailsByTitle** action code block, after the code that you just typed, type the following code.
 
   ```cs
        if (opera == null)
@@ -43,26 +44,27 @@
        }
        return View("Details", opera);
 ```
-10. In the **Solution Explorer** pane, under OperasWebsites, expand **App_Start**, and then click **RouteConfig.cs**.
-11. In the **RouteConfig.cs** code window, locate the following code.
+11. In the **Solution Explorer** pane, under OperasWebsites, expand **App_Start**, and then click **RouteConfig.cs**.
+12. In the **RouteConfig.cs** code window, locate the following code.
 
   ```cs
         routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 ```
-12. Place the mouse cursor at the end of the call to the **IgnoreRoute()** method, press Enter twice, and then type the following code.
+13. Place the mouse cursor at the end of the call to the **IgnoreRoute()** method, press Enter twice, and then type the following code.
 
   ```cs
        routes.MapRoute(name: "OperaTitleRoute",url: "opera/title/{title}",defaults: new { controller = "Opera", action ="DetailsByTitle" });     
 ```
-13. On the **FILE** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Save All**.
-14. On the **DEBUG** menu of **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
-15. On the Operas I Have Seen page, click **operas I&#39;ve seen**.
-16. In the Address bar of the **Internet Explorer** window, change the existing URL to **http://localhost:[port]/opera/title/Cosi Fan Tutte**, and then click **Go**.
+14. On the **FILE** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Save All**.
+15. On the **DEBUG** menu of **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
+16. On the Operas I Have Seen page, click **operas I&#39;ve seen**.
+17. In the Address bar of the **Internet Explorer** window, change the existing URL to **http://localhost:[port]/opera/title/Cosi Fan Tutte**, and then click **Go**.
 
    >**Note:** The details of the **Cosi Fan Tutte** opera are displayed.
 
-17. In the **Internet Explorer** window, click **Close**.
-18. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
+18. In the **Internet Explorer** window, click **Close**.
+19. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
+20. In the **Microsoft Visual Studio** dialog box, click **Yes**.
 
 # Lesson 3: Creating a Navigation Structure
 
@@ -122,21 +124,21 @@
 
     >**Note:** On the **Operas I Have Seen** page, ensure that a menu is added.
 
-15. On the **Operas I Have Seen** page, under **Menu**, click **All Operas**.
-16. On the **Index** page, note that the **Main Opera List** is displayed.
+15. On the **Index** page, note that the **Main Opera List** is displayed.
 
     >**Note:** On the **Index** page, you can also view the menu.
 
-17. In the **Breadcrumb Trail** section of the Index page, click **Home**.
+16. In the **Breadcrumb Trail** section of the Index page, click **Home**.
 
     >**Note:** The **Operas I Have Seen** page is displayed.
 
-18. On the **Operas I Have Seen** page, under **Menu**, click **About**.
+17. On the **Operas I Have Seen** page, under **Menu**, click **About**.
 
     >**Note:** The **About** page of the web application is displayed.
 
-19. In the **Internet Explorer** window, click **Close**.
-20. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
+18. In the **Internet Explorer** window, click **Close**.
+19. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
+20. In the **Microsoft Visual Studio** dialog box, click **Yes**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
