@@ -38,13 +38,13 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Create a new MVC project.
 
-1. Open Visual Studio 2017 and create a new ASP.NET MVC 5 web application by using the following information:
+1. Open Visual Studio 2017 and create a new ASP.NET Web Application by using the following information:
 
     - Name: **PhotoSharingApplication**
-    - Location: **Allfiles(D):\Mod03\Labfiles**
+    - Location: **Allfiles\Mod03\Labfiles**
     - Solution name: **PhotoSharingApplication**
     - Create directory for solution: True
-    - Project template: **Empty**
+    - Project template: **MVC**
 
 #### Task 2: Add a new MVC model.
 
@@ -241,7 +241,7 @@ The main tasks for this exercise are as follows:
 1. Add a new class named **PhotoSharingInitializer** to the **Models** folder and ensure that the new class inherits the **DropCreateDatabaseAlways&lt;PhotoSharingContext&gt;** class.
 2. Open the getFileBytes.txt file from the following location and add all the text of the file as a new method to the PhotoSharingInitializer class:
 
-   - File path: **Allfiles(D):\Mod03\Labfiles\CodeSnippets**
+   - File path: **Allfiles\Mod03\Labfiles\CodeSnippets**
 
 3. Override the **Seed** method in the **PhotoSharingInitializer** class.
 4. Create a new list of **Photo** objects in the **Seed** method. The list should contain one photo object with the following properties:
@@ -249,7 +249,7 @@ The main tasks for this exercise are as follows:
    - Title: **Test Photo**
    - Description: _&lt;A description of your choice&gt;_
    - UserName: **NaokiSato**
-   - PhotoFile: **getFileBytes(&quot;\\Images\\flower.jpg&quot;)**
+   - PhotoFile: **getFileBytes(&quot;\\\Images\\\flower.jpg&quot;)**
    - ImageMimeType: **image/jpeg**
    - CreatedDate: &lt;_Today&#39;s date&gt;_
 
@@ -272,10 +272,9 @@ The main tasks for this exercise are as follows:
 1. Add a new controller to the **PhotoSharingApplication** project by using the following information:
 
    - Name **: PhotoController**
-   - Template: **MVC Controller with read/write actions and views, using Entity Framework**
-   - Model class: **Photo**
-   - Data context class : **PhotoSharingContext**
-   - Views: **Razor(CSHTML)**
+   - Template: **MVC 5 Controller with views, using Entity Framework**
+   - Model class: **Photo (PhotoSharingApplication.Models)**
+   - Data context class : **PhotoSharingContext (PhotoSharingApplication.Models)**
 
 #### Task 4: Create a Microsoft Azure SQL database and obtain a connection string.
 
@@ -283,12 +282,12 @@ The main tasks for this exercise are as follows:
 
 2. Add a parameterless constructor to the **PhotoSharingContext** class. In the constructor set the value of the **Database.CommandTimeout** property to **180**.
 
-3. Sign in to the Microsoft Azure portal by using the portal address: **https://manage.windowsazure.com**
+3. Sign in to the Microsoft Azure portal by using the portal address: **https://portal.azure.com/**
 
 4. Create a new database server and a new database by using the following information:
 
    - Database name: **PhotoSharingDB**
-   - Database server: **New SQL Database Server**
+   - Database server: **Create a new server**
    - Login name: &lt;_your first name&gt;_
    - Login password: **Pa$$w0rd**
    - Login password confirmation: **Pa$$w0rd**
@@ -323,7 +322,7 @@ The main tasks for this exercise are as follows:
 
    - New folder name: **Images**
    - Image to be copied: **flower.JPG**
-   - Location of the image: **Allfiles(D):\Mod03\Labfiles\Images**
+   - Location of the image: **Allfiles\Mod03\Labfiles\Images**
 
 2. Run the application by debugging, and access the following relative path:
 
