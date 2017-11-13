@@ -104,7 +104,7 @@ The main tasks for this exercise are as follows:
 #### Task 1: Create a Web Pages application.
 
 1. Start Visual Studio 2017 and create a new Web Pages project by using the **ASP.NET Web Site (Razor v3)** C# template.
-2. Run the new Web Pages application in Internet Explorer and review the **Contact** page.
+2. Run the new Web Pages application in Microsoft Edge and review the **Contact** page.
 3. Stop debugging by closing Microsoft Edge.
 
 #### Task 2: Explore the application structure.
@@ -166,7 +166,7 @@ The main tasks for this exercise are as follows:
 #### Task 1: Create a Web Forms application.
 
 1. Start Visual Studio 2017 and create a new Web Forms project, **TestWebFormsApplication**, by using the ASP.NET Web Forms Application template.
-2. Run the new Web Forms application in Internet Explorer and examine the **Contact** page.
+2. Run the new Web Forms application in Microsoft Edge and examine the **Contact** page.
 3. Stop debugging by closing Microsoft Edge.
 
 #### Task 2: Explore the application structure.
@@ -234,7 +234,7 @@ The main tasks for this exercise are as follows:
 #### Task 1: Create an MVC 5 application.
 
 1. Start Visual Studio 2017 and create a new **MVC** project by using the **ASP.NET Web Application** template. Choose the **Internet Application** template.
-2. Run the new MVC application in Internet Explorer, and explore the **Contact** page.
+2. Run the new MVC application in Microsoft Edge, and explore the **Contact** page.
 3. Stop debugging by closing Microsoft Edge.
 
 #### Task 2: Explore the application structure.
