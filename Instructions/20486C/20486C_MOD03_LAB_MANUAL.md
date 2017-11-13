@@ -41,7 +41,7 @@ The main tasks for this exercise are as follows:
 1. Open Visual Studio 2017 and create a new ASP.NET Web Application by using the following information:
 
     - Name: **PhotoSharingApplication**
-    - Location: **Allfiles\Mod03\Labfiles**
+    - Location: **Allfiles/Mod03/Labfiles**
     - Solution name: **PhotoSharingApplication**
     - Create directory for solution: True
     - Project template: **MVC**
@@ -241,7 +241,7 @@ The main tasks for this exercise are as follows:
 1. Add a new class named **PhotoSharingInitializer** to the **Models** folder and ensure that the new class inherits the **DropCreateDatabaseAlways&lt;PhotoSharingContext&gt;** class.
 2. Open the getFileBytes.txt file from the following location and add all the text of the file as a new method to the PhotoSharingInitializer class:
 
-   - File path: **Allfiles\Mod03\Labfiles\CodeSnippets**
+   - File path: **Allfiles/Mod03/Labfiles/CodeSnippets**
 
 3. Override the **Seed** method in the **PhotoSharingInitializer** class.
 4. Create a new list of **Photo** objects in the **Seed** method. The list should contain one photo object with the following properties:
@@ -322,7 +322,7 @@ The main tasks for this exercise are as follows:
 
    - New folder name: **Images**
    - Image to be copied: **flower.JPG**
-   - Location of the image: **Allfiles\Mod03\Labfiles\Images**
+   - Location of the image: **Allfiles/20486C/Mod03/Labfiles/Images**
 
 2. Run the application by debugging, and access the following relative path:
 
