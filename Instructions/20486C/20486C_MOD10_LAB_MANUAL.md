@@ -4,7 +4,7 @@
 
 #### Scenario
 
-You have been asked to add a slideshow page to the web application that will show all the photos in the database. Unlike the **All Photos** gallery, which shows thumbnail images, the slideshow will display each photo in a large size. However, the slideshow will display only one photo at a time, and cycle through all the photos in the order of ID.
+You have been asked to add a slideshow page to the web application that will show all the photos in the database. Unlike the **All Photos** gallery, which shows thumbnail images, the slideshow will display each photo in a large size. However, the slideshow will display only one photo at a time, and cycle through all the photosin the order of ID.
 
 You want to use jQuery to create this slideshow because you want to cycle through the photos in the browser, without reloading the page each time. You also want to animate slide transitions and show a progress bar that illustrates the position of the current photo in the complete list. You will use jQueryUI to generate the progress bar.
 
@@ -84,7 +84,7 @@ The main tasks for this exercise are as follows:
    - Selector: **#slide-show DIV.last-active-card**
    - z-index: **9**
 
-4. Start debugging, and then clear the Internet Explorer browser cache to ensure that the style sheet is reloaded.
+4. Start debugging, and then clear the Microsoft Edge browser cache to ensure that the style sheet is reloaded.
 5. Navigate to the **Slideshow** view and examine the results.
 6. Stop debugging.
 
