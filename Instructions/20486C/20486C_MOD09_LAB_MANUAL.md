@@ -45,21 +45,14 @@ The main tasks for this exercise are as follows:
 
 #### Task 1: Import the Comment controller and Delete view.
 
-1. Open the **PhotoSharingApplication.sln** file from the following location:
-
-	- File location: **Allfiles(D):\Mod09\Labfiles\Starter\PhotoSharingApplication**
-
-2. Create a new folder in the **Views** folder by using the following information:
-
-	- Name of the new folder: **Comment**
-
-3. Add an existing item to the new **Comment** folder by using the following information:
-
-	- File location of the existing item: **Allfiles(D):\Mod09\Labfiles\Comment Components\Delete.cshtml**
-
-4. Add an existing item to the **Controller** folder by using the following information:
-
-	- File location of the existing item: **Allfiles(D):\Mod09\Labfiles\Comment Components\CommentController.cs**
+1. On the taskbar, click the **File Explorer** icon.
+2. In the Libraries window, navigate to **Allfiles/20486C/Mod09/Labfiles/PhotoSharingApplication_09_begin**, and then double-click **PhotoSharingApplication.sln.**
+3. In the Solution Explorer pane of the **PhotoSharingApplication - Microsoft Visual Studio** window, expand  **PhotoSharingApplication**, right-click **Views**, point to **Add**, and then click **New Folder**.
+4. In the Solution Explorer pane, rename **New Folder1** as **Comment**, and then press Enter.
+5. In the Solution Explorer pane, under Views, right-click **Comment**, point to **Add**, and then click **Existing Item**.
+6. In the **Add Existing Item - PhotoSharingApplication** dialog box, navigate to **Allfiles/20486C/Mod09/Labfiles/Comment Components**, click **Delete.cshtml**, and then click **Add**.
+7. In the Solution Explorer pane, right-click **Controllers**, point to **Add**, and then click **Existing Item**.
+8. In the **Add Existing Item - PhotoSharingApplication** dialog box, navigate to **Allfiles/20486C/Mod09/Labfiles/Comment Components**, click **CommentController.cs**, and then click **Add**.
 
 #### Task 2: Add the _CommentsForPhoto action and view.
 
