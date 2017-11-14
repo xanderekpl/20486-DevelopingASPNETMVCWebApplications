@@ -20,10 +20,10 @@
 
 4. In the left pane of the **Microsoft Azure** page, click **New**.
 5. In the **Search the Marketplace** box, search for **Web App + SQL**, and click **Create**.
-6. In the **App name** box of the **Web Ap + SQL Create** dialog box, type _&lt;your username&gt;_ **operas**.
+6. In the **App name** box of the **Web App + SQL Create** dialog box, type _&lt;your username&gt;_ **operas**.
 
-7. From the **APP SERVICE PLAN** drop-down list on the **Create Web App** page, select **Create new App Service plan**, and then click **Create New**.
-8. In the **App Service plan** box, type a unique name.
+7. From the **App Service Plan/Location** drop-down list on the **App Service Plan** page, select **Create new**.
+8. In the **New App Service plan** box, type a unique name.
 9. In the **Location** drop down, select a location near you.
 10. In the **Pricing tier**, select **D1 Shared**, and then click **OK**.
 
@@ -34,11 +34,12 @@
 15. In the **Server admin login** box, type _&lt;your first name&gt;_.
 16. In the **Password** and **Confirm password** text boxes, type **Pa$$w0rd**, and then to create the new server, click **Select**.
 17. In the **SQL Database** dialog box, click **Select**.
-18. To create the web app, in the **Web App + SQL Create** dialog, click **Create**.
+18. In the **Location** box, select your closest Location.
+19. To create the web app, in the **Web App + SQL Create** dialog, click **Create**.
 
   >**Note:** Microsoft Azure creates the new web app and database to support the Operas web app.
 
-19. In the Internet Explorer window, click **Close**.
+20. In the Internet Explorer window, click **Close**.
 
 # Lesson 2: Deploying an ASP.NET MVC 5 Web Application
 
