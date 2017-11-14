@@ -20,7 +20,7 @@
 5. On the **Network** tab of the developer window, click **Start profiling session**.
 6. On the Operas I Have Seen page, click **All Operas**.
 7. When the page is fully loaded, in the developer window, click **Stop profiling session**.
-8. In the **Name/Path** column of the developer window, locate **http://localhost:[port]/**.
+8. In the **Name/Path** column of the developer Microsoft Edge window, locate **http://localhost:[port]/**.
 9. In the **Time** column, note the value displayed.
 
    >**Note**: The time taken by the server to render the **/Opera** page and return the page to the browser is similar to the time taken by the server in the first instance. The page is not cached.
