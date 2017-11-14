@@ -15,8 +15,6 @@
 
 1. In the **Solution Explorer** pane of the **OperasWebsites - Microsoft Visual Studio** window, expand **OperasWebsites**.
 
-   >**Note:** There is no folder named **Scripts** at the top level of the project.
-
 2. In the **Solution Explorer** pane, expand **Content**.
 
    >**Note:** The **Content** folder has only one file named **Site.css**, and there are no sub-folders.
@@ -83,13 +81,14 @@
 3. In the **Main Opera List** section, click **Details** corresponding to **Cosi Fan Tutte**.
 4. Under **Reviews**, note that there are three opera reviews displayed for **Cosi Fan Tutte**, simultaneously.
 5. In the **Internet Explorer** window, click **Close**.
-6. In the **Solution Explorer** pane of the **OperasWebsites – Microsoft Visual Studio** window, under **Shared**, click **_ReviewsForOpera.cshtml**.
-7. In the **_ReviewsForOpera.cshtml** code window, locate the following code.
+6. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Stop Debugging**.
+7. In the **Solution Explorer** pane of the **OperasWebsites – Microsoft Visual Studio** window, under **Shared**, click **_ReviewsForOpera.cshtml**.
+8. In the **_ReviewsForOpera.cshtml** code window, locate the following code.
 
   ```cs
     <h3>Reviews</h3>
 ```
-8. Place the mouse cursor immediately before the located code, type the following code, and then press Enter.
+9. Place the mouse cursor immediately before the located code, type the following code, and then press Enter.
 
   ```cs
     <script>
@@ -98,15 +97,15 @@
         });
     </script>
 ```
-9. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-10. On the **Operas I Have Seen** page, click **All Operas**.
-11. In the **Main Opera List** section, click **Details** corresponding to **Cosi Fan Tutte**.
-12. Under **Reviews**, note that there are three expandable sections, and each section contains a review.
+10. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
+11. On the **Operas I Have Seen** page, click **All Operas**.
+12. In the **Main Opera List** section, click **Details** corresponding to **Cosi Fan Tutte**.
+13. Under **Reviews**, note that there are three expandable sections, and each section contains a review.
 
      >**Note:** You can expand each section and then read the review content. 
 
-13. In the **Internet Explorer** window, click **Close**.
-14. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
+14. In the **Internet Explorer** window, click **Close**.
+15. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.  
 
