@@ -105,7 +105,7 @@ The main tasks for this exercise are as follows:
 	- *PhotoId parameter: **Model.PhotoID**
 
 15. Run the application in debugging mode and browse to **Sample Photo 1**. Observe the display of comments on the page.
-16. Close Internet Explorer.
+16. Close Microsoft Edge.
 
 #### Task 3: Add the _Create Action and the _CreateAComment views.
 
@@ -240,7 +240,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 3: Retest the All Photos page with Index caching.
 
-1. Start the application in debugging mode, and configure the browser to always refresh the page from the server, by using the Internet Explorer developer tools.
+1. Start the application in debugging mode, and configure the browser to always refresh the page from the server, by using the Microsoft Edge developer tools.
 
 2. Capture the traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
 3. Record the time taken by the server to render the **/Photo** page and return the page to the browser. This value is the **Request** duration, which you can find on the **Timings** tab.
