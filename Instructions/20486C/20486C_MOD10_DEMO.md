@@ -104,7 +104,7 @@
 
      >**Note:** You can expand each section and then read the review content. 
 
-14. In the **Internet Explorer** window, click **Close**.
+14. In the **Microsoft Edge** window, click **Close**.
 15. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.  
