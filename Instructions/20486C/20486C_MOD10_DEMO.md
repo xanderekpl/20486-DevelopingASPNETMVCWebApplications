@@ -80,7 +80,7 @@
 2. On the **Operas I Have Seen** page, click **All Operas**.
 3. In the **Main Opera List** section, click **Details** corresponding to **Cosi Fan Tutte**.
 4. Under **Reviews**, note that there are three opera reviews displayed for **Cosi Fan Tutte**, simultaneously.
-5. In the **Internet Explorer** window, click **Close**.
+5. In the **Microsoft Edge** window, click **Close**.
 6. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Stop Debugging**.
 7. In the **Solution Explorer** pane of the **OperasWebsites – Microsoft Visual Studio** window, under **Shared**, click **_ReviewsForOpera.cshtml**.
 8. In the **_ReviewsForOpera.cshtml** code window, locate the following code.
