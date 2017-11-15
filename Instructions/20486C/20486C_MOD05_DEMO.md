@@ -10,7 +10,7 @@
 https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
 2. Start **File Explorer**.
 3. Navigate to **Allfiles/20486C/Mod05/DemoCode/OperasWebsites**.
-4. Open the **OperasWebSite.sln** project.
+4. Open the **OperasWebSites.sln** project.
 
 #### Demonstration Steps
 
@@ -94,7 +94,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 
     >**Note** : The Opera is created with the mentioned values.
 
-21. In the Windows Internet Explorer window, click **Close**.
+21. In the Windows Microsoft Edge window, click **Close**.
 22. In the **"OperasWebsites - Microsoft Visual Studio"** window, click **Stop Debugging**.
 23. In the **"OperasWebsites - Microsoft Visual Studio"** window, click **Close**.
 
