@@ -152,7 +152,7 @@
 35. In the **Enter your name** box of the **localhost needs some info from you** dialog box, type **Elisa Graceffo**, and then click **OK**.
 36. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
 37. On the taskbar, click the first instance of the Internet Explorer window. Note that the message from **Elisa Graceffo** is displayed because both users are connected to the same hub.
-38. Close all the Internet Explorer windows.
+38. Close all the Microsoft Edge windows.
 39. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 39. In the **Microsoft Visual Studio** window, click **Yes**.
 
