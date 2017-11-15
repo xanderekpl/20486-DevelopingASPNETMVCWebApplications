@@ -8,7 +8,7 @@
 
 1.	Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
 2.  Open **File Explorer**.
-3.	Go to **Allfiles/20486C/Mod12/Democode/OperasWebsites**.
+3.	Go to **Allfiles\20486c\Mod12\Democode\OperasWebsites_12_begin**.
 4.	Double-click **OperasWebsites.sln**.
 
 #### Demonstration Steps
@@ -76,7 +76,7 @@
            Choose a background color:
         </p>
 ```
-12. Place the mouse cursor at the end of the text in the **P** element, press Enter, and then type the following code.
+12. Place the mouse cursor at the end of the text in the **</P>** element, press Enter, and then type the following code.
 
   ```cs
         @Html.ActionLink("Pink", "SetBackground", new { color = "#dc9797"})
