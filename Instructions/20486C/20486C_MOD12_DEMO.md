@@ -116,9 +116,6 @@
 24. On the **Operas I Have Seen** page, click **All Operas**.
 25. On the **Index of Operas** page, click **Details** corresponding to the title, **Cosi Fan Tutte**.
 26. On the **Cosi Fan Tutte** page, note that the pink background color has been applied to the page.
-
-    >**Note:** The pink background preference is applied to all pages of the application.
-
 27. In the **Internet Explorer** window, click **Close**.
 28. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 29. If the message **Do you want to stop debugging?** is displayed, click **Yes**.
