@@ -9,7 +9,7 @@
 1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. 
 https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles
 2. Start **File Explorer**.
-3. Navigate to **Allfiles/20486C/Mod05/DemoCode/OperasWebsites**.
+3. Navigate to **Allfiles/20486C/Mod05/DemoCode/OperasWebsites_05_begin**.
 4. Open the **OperasWebSites.sln** project.
 
 #### Demonstration Steps
