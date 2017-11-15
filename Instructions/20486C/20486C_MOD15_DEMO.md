@@ -147,7 +147,7 @@
   >**Note:** SignalR sends the message you typed to the hub. The hub broadcasts the message to all connected clients.
 
 32. On the taskbar, right-click the **Microsoft Edge** icon, and then click **Microsoft Edge**.
-33. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/**, and then press Enter.
+33. In the Address bar of the Microsoft Edge window, type **http://localhost:[port]/**, and then press Enter.
 34. On the **Operas I Have Seen** page, click **Enter the Operas Chat Room**.
 35. In the **Enter your name** box of the **localhost needs some info from you** dialog box, type **Elisa Graceffo**, and then click **OK**.
 36. In the **Message** box of the **Operas I Have Seen** page, type a message of your choice, and then click **Send**.
