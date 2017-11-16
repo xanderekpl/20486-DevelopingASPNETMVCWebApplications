@@ -26,30 +26,31 @@
    >**Note:** On the localhost page, the details of the opera are displayed. The main heading, the menu list, and the breadcrumb controls are not displayed. 
 
 4. In the Internet Explorer window, click **Close**.
-5. In the Solution Explorer pane, expand **OperasWebsites**, and then expand **Views**.
-6. In the Solution Explorer pane, under Views, right-click **Shared**, point to **Add**, and then click **View**.
-7. In the **View name** box of the **Add View** dialog box, type **_SiteTemplate**.
-8. In the **Template** box, ensure that the value is **Empty (without model)**.
-9. In the **Add View** dialog box, clear the **Use a layout page** check box, and then click **Add**.
-10. In the **_SiteTemplate.cshtml** code window, locate the following code, select the code, and then press Delete.
+5. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Stop Debugging**.
+6. In the Solution Explorer pane, expand **OperasWebsites**, and then expand **Views**.
+7. In the Solution Explorer pane, under Views, right-click **Shared**, point to **Add**, and then click **View**.
+8. In the **View name** box of the **Add View** dialog box, type **_SiteTemplate**.
+9. In the **Template** box, ensure that the value is **Empty (without model)**.
+10. In the **Add View** dialog box, clear the **Use a layout page** check box, and then click **Add**.
+11. In the **_SiteTemplate.cshtml** code window, locate the following code, select the code, and then press Delete.
 
   ```cs
         @{
             Layout = null;
         }
 ```
-11. In the **_SiteTemplate.cshtml** code window, locate the following code.
+12. In the **_SiteTemplate.cshtml** code window, locate the following code.
 
   ```cs
 		<title>_SiteTemplate</title>
 ```
-12. Replace the **TITLE** element with the following code.
+13. Replace the **TITLE** element with the following code.
 
   ```cs
 		<title>@ViewBag.Title</title>
 ```
-13. In the Solution Explorer pane, under Views, expand **Home**, and then click **Index.cshtml**.
-14. In the **Index.cshtml** code window, locate the following code, and then select the code.
+14. In the Solution Explorer pane, under Views, expand **Home**, and then click **Index.cshtml**.
+15. In the **Index.cshtml** code window, locate the following code, and then select the code.
 
   ```cs
         <h1>Operas I Have Seen</h1>
@@ -61,34 +62,34 @@
            Breadcrumb Trail: @Html.MvcSiteMap().SiteMapPath()
         </div>
 ```
-15. On the **EDIT** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Cut**.
-16. In the Solution Explorer pane, under Shared, click **_SiteTemplate.cshtml**.
-17. In the **_SiteTemplate.cshtml** code window, place the cursor in the **DIV** element.
-18. On the **EDIT** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Paste**.
-19. In the **_SiteTemplate.cshtml** code window, place the cursor at the end of the code you just pasted, press Enter, and then type the following code.
+16. On the **EDIT** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Cut**.
+17. In the Solution Explorer pane, under Shared, click **_SiteTemplate.cshtml**.
+18. In the **_SiteTemplate.cshtml** code window, place the cursor in the **DIV** element.
+19. On the **EDIT** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Paste**.
+20. In the **_SiteTemplate.cshtml** code window, place the cursor at the end of the code you just pasted, press Enter, and then type the following code.
 
   ```cs
         <div>
            @RenderBody()
         </div>
 ```
-20. Place the cursor after the **&lt;/title&gt;** tag, press Enter, and then type the following code.
+21. Place the cursor after the **&lt;/title&gt;** tag, press Enter, and then type the following code.
 
   ```cs
 		<link type="text/css" rel="stylesheet" href="~/content/OperasStyles.css" />
 ```
-21. In the Solution Explorer pane, under Home, click **Index.cshtml**.
-22. In the Razor code block of the **Index.cshtml** code window, locate the following code, select the code, and then press Delete.
+22. In the Solution Explorer pane, under Home, click **Index.cshtml**.
+23. In the Razor code block of the **Index.cshtml** code window, locate the following code, select the code, and then press Delete.
 
   ```cs
 		Layout = null;
 ```
-23. In the Razor code block, type the following code.
+24. In the Razor code block, type the following code.
 
   ```cs
 		ViewBag.Title = "Operas I Have Seen";
 ```
-24. In the **Index.cshtml** code window, locate the following code, select the code, and then press Delete.
+25. In the **Index.cshtml** code window, locate the following code, select the code, and then press Delete.
 
   ```cs
         <!DOCTYPE html>
@@ -100,39 +101,39 @@
         <body>
            <div>
 ```
-25. In the **Index.cshtml** code window, locate the following code, select the code, and then press Delete.
+26. In the **Index.cshtml** code window, locate the following code, select the code, and then press Delete.
 
   ```cs
 		   </div>
         </body>
         </html>
 ```
-26. In the Solution Explorer pane, right-click **Views**, point to **Add**, and then click **View**.
-27. In the **View name** box of the **Add View** dialog box, type **_ViewStart**.
-28. In the **Add View** dialog box, ensure that the **Use a layout page** check box is cleared, and then click **Add**.
-29. In the **_ViewStart.cshtml** code window, locate the following code.
+27. In the Solution Explorer pane, right-click **Views**, point to **Add**, and then click **View**.
+28. In the **View name** box of the **Add View** dialog box, type **_ViewStart**.
+29. In the **Add View** dialog box, ensure that the **Use a layout page** check box is cleared, and then click **Add**.
+30. In the **_ViewStart.cshtml** code window, locate the following code.
 
   ```cs
 		Layout = null;
 ```
-30. Replace the code with the following code.
+31. Replace the code with the following code.
 
   ```cs
 		Layout = "~/Views/Shared/_SiteTemplate.cshtml";
 ```
-31. In the **_ViewStart.cshtml** code window, locate the following code.
+32. In the **_ViewStart.cshtml** code window, locate the following code.
 
   ```cs
 		<!DOCTYPE html>
 ```
-32. In the **_ViewStart.cshtml** code window, select from the code located to the end tag of the HTML element, and then press Delete.
-33. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
-34. On the **Operas I Have Seen** page, note the main heading, the menu list, and the breadcrumb control.
-35. On the **Operas I Have Seen** page, click **All Operas**, and then, on the **Index of Operas** page, note that the main heading, the menu list, and the breadcrumb controls are displayed.
-36. On the **Index of Operas** page, click **Details** corresponding to any opera, and then note that the main heading, the menu list, and the breadcrumb controls are displayed along with the details of the opera.
-37. In the Internet Explorer window, click **Close**.
-38. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
-39. In the **Microsoft Visual Studio** dialog box, click **Yes**.
+33. In the **_ViewStart.cshtml** code window, select from the code located to the end tag of the HTML element, and then press Delete.
+34. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
+35. On the **Operas I Have Seen** page, note the main heading, the menu list, and the breadcrumb control.
+36. On the **Operas I Have Seen** page, click **All Operas**, and then, on the **Index of Operas** page, note that the main heading, the menu list, and the breadcrumb controls are displayed.
+37. On the **Index of Operas** page, click **Details** corresponding to any opera, and then note that the main heading, the menu list, and the breadcrumb controls are displayed along with the details of the opera.
+38. In the Internet Explorer window, click **Close**.
+39. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
+40. In the **Microsoft Visual Studio** dialog box, click **Yes**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
