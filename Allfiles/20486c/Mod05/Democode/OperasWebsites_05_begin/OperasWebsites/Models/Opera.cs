@@ -11,10 +11,14 @@ namespace OperasWebsites.Models
         [Required]
         public int OperaID { get; set; }
         [StringLength(200)]
+        [CheckValidTitle]
+        [Required]
         public string Title { get; set; }
         [CheckValidYear]
         [Required]
         public int Year { get; set; }
+        [CheckValidComposer]
+        [Required]
         public string Composer { get; set; }
     }
 
@@ -36,6 +40,46 @@ namespace OperasWebsites.Models
         public CheckValidYear()
         {
             ErrorMessage = "The earliest opera is Daphne, 1598, by Corsi, Peri, and Rinuccini";
+        }
+    }
+
+    public class CheckValidTitle : ValidationAttribute
+    {
+        public override bool IsValid(object value)
+        {
+            string title = (string)value;
+            if (title.Length < 3)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        public CheckValidTitle()
+        {
+            ErrorMessage = "The title must contain at least 3 characters";
+        }
+    }
+
+    public class CheckValidComposer : ValidationAttribute
+    {
+        public override bool IsValid(object value)
+        {
+            string composer = (string)value;
+            if (composer.Length < 4)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        public CheckValidComposer()
+        {
+            ErrorMessage = "The composer must contain at least 4 characters";
         }
     }
 }
