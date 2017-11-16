@@ -59,8 +59,8 @@
 
     >**Note** : Note that the time taken by the server to render the **/Opera** page and return the page to the browser is significantly less than the time taken by the server in the first instance.
 
-25. On the **File** menu of the developer window, click **Exit**.
-26. In the Windows Microsoft Edge window, click **Close**.
+25. On the **File** menu of the developer window, click **Close**.
+26. In the Microsoft Edge window, click **Close**.
 27. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 28. In the **Microsoft Visual Studio** window, click **Yes**.
 
