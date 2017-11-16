@@ -41,7 +41,7 @@ The main tasks for this exercise are as follows:
 1. Open Visual Studio 2017 and create a new ASP.NET Web Application by using the following information:
 
     - Name: **PhotoSharingApplication**
-    - Location: **Allfiles/Mod03/Labfiles**
+    - Location: **Allfiles/20486C/Mod03/Labfiles/CodeSnippets**
     - Solution name: **PhotoSharingApplication**
     - Create directory for solution: True
     - Project template: **MVC**
