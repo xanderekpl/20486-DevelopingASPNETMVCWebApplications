@@ -193,7 +193,7 @@ You have been asked to configure the ASP.NET caches in the Photo Sharing applica
 In this exercise, you will:
 
 - Configure the output cache to store the photo index view.
-- Use the developer tools in Internet Explorer to examine the speed at which image files and pages render with and without caching.
+- Use the developer tools in Microsoft Edge to examine the speed at which image files and pages render with and without caching.
 - Configure the output cache to store the results of the GetImage action so that image files can be returned from the cache.
 
 Complete this exercise if time permits.
