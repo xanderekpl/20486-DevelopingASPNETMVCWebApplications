@@ -103,7 +103,8 @@
   >**Note:** jQuery calls the web service and displays a quote on the home page. Note that you need not reload the page to display the quote.
 
 17. In the **Microsoft Edge** window, click **Close**.
-18. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
+18. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Stop Debugging**.
+19. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
