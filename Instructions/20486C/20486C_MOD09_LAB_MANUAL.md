@@ -116,8 +116,7 @@ The main tasks for this exercise are as follows:
 
 	- Parent folder: **Views/Shared**
 	- View name: **_CreateAComment**
-	- View type: **Strong**
-	- Model class: **Comment**
+	- Model class: **Comment (PhotoSharingApplication.Models)**
 	- Create partial view: **Yes**
 
 6. In the **_CreateAComment** view, render validation messages by using the **Html.ValidationSummary()** helper. For the **excludePropertyErrors** parameter, pass **true**.
