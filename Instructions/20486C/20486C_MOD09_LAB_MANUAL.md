@@ -75,8 +75,7 @@ The main tasks for this exercise are as follows:
 
 	- Parent folder: **Views/Shared**
 	- View name: **_CommentsForPhoto**
-	- View type: **Strong**.
-	- Model class: **Comment**
+	- Model class: **Comment.(PhotoSharingApplication.Models)**
 	- Create partial view: **Yes**.
 
 6. Bind the **_CommentsForPhoto.cshtml** view to an enumerable collection of comments.
