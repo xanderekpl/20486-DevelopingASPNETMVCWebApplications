@@ -19,7 +19,7 @@
 
    >**Note:** The **Create an Opera** page is displayed without signing in to the application. This enables anonymous users to create new operas.
 
-4. In the Windows Internet Explorer window, click **Close**.
+4. In the Windows Microsoft Edge window, click **Close**.
 5. In the Solution Explorer pane of the **OperasWebsites - Microsoft Visual Studio** window, expand **OperasWebsites**, expand **Controllers**, and then click **OperaController.cs**.
 6. In the OperaController.cs code window, locate the following code.
 
@@ -57,7 +57,7 @@
 
    >**Note:** The **Add an Opera** page is displayed because the request is authenticated.
 
-19. In the Windows Internet Explorer window, click **Close**.
+19. In the Windows Microsoft Edge window, click **Close**.
 20. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
 
 
@@ -110,7 +110,7 @@
 
    >**Note:** On the ResetPassword page, the message, **Your password has been changed.** is displayed.
 
-13. In the Windows Internet Explorer window, click **Close**.
+13. In the Windows Microsoft Edge window, click **Close**.
 14. In the OperasWebsites – Microsoft Visual Studio window, click **Close**.
 15. If the Microsoft Visual Studio warning message appears, click **Yes**.
 
