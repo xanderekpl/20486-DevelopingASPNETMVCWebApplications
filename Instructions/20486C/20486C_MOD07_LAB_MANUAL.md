@@ -93,7 +93,8 @@ The main tasks for this exercise are as follows:
     - That **routeData** is not null
     - That the **controller** value in **routeData** is &quot;ControllerName&quot;
     - That the **action** value in **routeData**  is &quot;Index&quot;
-
+    - That the **id** value in **routeData**  is &quot;UrlParameter.Optional&quot;
+    
 11. Add a new test to the **RoutingTests** class named, **Test_Photo_Route_With_PhotoID**.
 12. In the **Test_Photo_Route_With_PhotoID()** test method, create a new **var** by using the following information:
 
