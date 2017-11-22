@@ -19,7 +19,7 @@
 
    >**Note:** The **Create an Opera** page is displayed without signing in to the application. This enables anonymous users to create new operas.
 
-4. In the Windows Microsoft Edge window, click **Close**.
+4. In the Windows Microsoft Edge window, click **Close**, and on the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Stop Debugging**.
 5. In the Solution Explorer pane of the **OperasWebsites - Microsoft Visual Studio** window, expand **OperasWebsites**, expand **Controllers**, and then click **OperaController.cs**.
 6. In the OperaController.cs code window, locate the following code.
 
