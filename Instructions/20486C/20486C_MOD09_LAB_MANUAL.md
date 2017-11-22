@@ -215,7 +215,7 @@ The main tasks for this exercise are as follows:
 2. Capture traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
 3. Record the time taken by the server to render the **/Photo** page and return the page to the browser. This value is the **Request** duration, which you can find on the **Timings** tab.
 4. Clear the first network capture, and capture a second request to the **All Photos** page.
-5. Record the second instance of time taken by the server to render the **/Photo** page and return the page to the browser. Observe if the duration is more or less than the first instance.
+5. Record the second instance of time taken by the server to render the **/Photo** page and return the page to the browser. Observe if the duration is less than the first instance.
 6. Stop debugging.
 
 #### Task 2: Configure caching for the Index action.
@@ -224,7 +224,7 @@ The main tasks for this exercise are as follows:
 2. Configure the **Index** action to use the output cache by using the following information:
 
 	- Duration: **10 minutes**
-	- Location: **Server**
+	- Location: **OutputCacheLocation.Server**
 	- Vary by parameters: **None**
 
 3. Save all your changes.
@@ -236,7 +236,7 @@ The main tasks for this exercise are as follows:
 2. Capture the traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
 3. Record the time taken by the server to render the **/Photo** page and return the page to the browser. This value is the **Request** duration, which you can find on the **Timings** tab.
 4. Clear the first network capture, and capture a second request to the **All Photos** page.
-5. Record the second instance of the time taken by the server to render the **/Photo** page and return the page to the browser. Observe if the duration is more or less than the first instance.
+5. Record the second instance of the time taken by the server to render the **/Photo** page and return the page to the browser. Observe if the duration is less than the first instance.
 6. Record the time taken by the server to render the **/Photo/GetImage/1** request.
 7. Stop debugging.
 
@@ -245,7 +245,7 @@ The main tasks for this exercise are as follows:
 1. In the **PhotoController**, configure the **GetImage** action to use the output cache, by using the following information:
 
 	- Duration: **10 minutes**.
-	- Location: **Server**
+	- Location: **OutputCacheLocation.Server**
 	- Vary by parameters: **id**
 
 2. Save all your changes.
