@@ -230,7 +230,7 @@ The main tasks for this exercise are as follows:
 
 #### Task 3: Render menus and breadcrumb trails.
 
-1. Render a site menu on the **Home Index** view by using the following information:
+1. Render a site menu on the **Index** view by using the following information:
 
     - Helper: **Html.MvcSiteMap()**
     - Method: **Menu**
@@ -238,12 +238,12 @@ The main tasks for this exercise are as follows:
     - Starting Node in Child Level: **False**
     - Show Starting Node: **True**
 
-2. Render a breadcrumb trail on the **Home** view by using the following information:
+2. Render a breadcrumb trail on the **Index** view by using the following information:
 
     - Helper: **Html.MvcSiteMap()**
     - Method: **SiteMapPath**
 
-3. Render a site menu on the **Photo Index** view by using the following information:
+3. Render a site menu on the **Index** view by using the following information:
 
     - Helper: **Html.MvcSiteMap()**
     - Method: **Menu**
@@ -251,7 +251,7 @@ The main tasks for this exercise are as follows:
     - Starting Node in Child Level: **False**
     - Show Starting Node: **True**
 
-4. Render a breadcrumb trail on the **Photo Index** view by using the following information:
+4. Render a breadcrumb trail on the **Index** view by using the following information:
 
     - Helper: **Html.MvcSiteMap()**
     - Method: **SiteMapPath**
