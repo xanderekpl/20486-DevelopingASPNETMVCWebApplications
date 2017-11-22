@@ -257,7 +257,12 @@ The main tasks for this exercise are as follows:
 2. Capture the traffic between the browser and the server when the **All Photos** page is loaded, by using the Network tools.
 3. Record the time taken by the server to render the **/Photo/GetImage/1** request.
 4. Clear the first network capture, and capture a second request to the **All Photos** page.
-5. Record the second instance of the time taken by the server to render the **/Photo/GetImage/1** request and return the page to the browser.
+5. Record the second instance of the time taken by the server is less than first instance to render the **/Photo/GetImage/1** request and return the page to the browser.
+If the latest duration wasn’t reduced, then please re-try this task from step 1 by deleting your browser Cache.
+  * To delete the browser cache:
+  * Open **Microsoft Edge** window and then click **Ellipsis** and then click **Settings**.
+  * Under **Clear Browsing** data, click **Choose what to clear**.
+  * Ensure that **Cached data and files** checkbox is selected and then click **Clear**.
 6. Close the developer tools, stop debugging, and close Visual Studio.
 
    >**Results** : At the end of this exercise, you will create a Photo Sharing application with the Output Cache configured for caching photos.
