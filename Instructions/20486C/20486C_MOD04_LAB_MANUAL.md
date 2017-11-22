@@ -54,19 +54,18 @@ The main tasks for this exercise are as follows:
 #### Task 1: Create a photo controller.
 
 1. Open the PhotoSharingApplication.sln file from the following location:
-2. File path: **Allfiles(D):\Mod04\Labfiles\Starter\PhotoSharingApplication**
+2. File path: **Allfiles\20486C\Mod10\Labfiles\Starter\PhotoSharingApplication_10_begin**
 3. Create a new controller for handling **photo** objects by using the following information:
 
    - Controller name: **PhotoController**
    - Template: **MVC 5 controller - Empty**
 
-5. Add **using** statements to the controller for the following namespaces:
+4. Add **using** statements to the controller for the following namespaces:
 
-   - **System.Collections.Generic**
    - **System.Globalization**
    - **PhotoSharingApplication.Models**
 
-6. In the PhotoController class, create a new private object by using the following information:
+5. In the PhotoController class, create a new private object by using the following information:
 
    - Scope: **private**
    - Class: **PhotoSharingContext**
@@ -115,7 +114,7 @@ The main tasks for this exercise are as follows:
    - Second parameter: an **HttpPostedFileBase** object called **image**.
 
 5. Add code to the **Create** action that sets the **photo.CreatedDate** property to today&#39;s date.
-6. If the **ModelState** is not valid, pass the **photo** object to the **Create** view. Else, if the image parameter is not null, set the **photo.ImageMimeType** property to the value of **image.ContentType** , set the **photo.PhotoFile** property to be a new byte array of length, **image.ContextLength** , and then save the file that the user posted to the **photo.PhotoFile** property by using the **image.InputStream.Read()** method.
+6. If the **ModelState** is not valid, pass the **photo** object to the **Create** view. Else, if the image parameter is not null, set the **photo.ImageMimeType** property to the value of **image.ContentType** , set the **photo.PhotoFile** property to be a new byte array of length, **image.ContentLength** , and then save the file that the user posted to the **photo.PhotoFile** property by using the **image.InputStream.Read()** method.
 7. Add the **photo** object to the context, save the changes, and then redirect to the **Index** action.
 
 #### Task 5: Create the Delete actions for GET and POST HTTP verbs
