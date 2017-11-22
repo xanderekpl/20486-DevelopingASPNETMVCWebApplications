@@ -56,7 +56,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication** solution from the following location:
 
-    - File location: **Allfiles(D):\Mod07\Labfiles\Starter\PhotoSharingApplication**
+    - File location: **Allfiles\20486c\Mod07\LabFiles\PhotoSharingApplication_07_begin**
 
 2. Add an existing code file to the **Photo Sharing Tests** project, which contains test doubles for HTTP objects, by using the following information:
 
