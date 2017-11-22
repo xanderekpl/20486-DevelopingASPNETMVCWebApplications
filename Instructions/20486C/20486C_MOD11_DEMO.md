@@ -49,7 +49,7 @@
 
    >**Note:** The **Login** view is now displayed and this prevents anonymous users from creating new operas.
 
-14. On the **Index of Operas** page, click **Register**.
+14. On the **Login** page, click **Register**.
 15. In the **User name** text box of the **Register** page, type **David Johnson**.
 16. In the **Password** text box, type **Pa$$w0rd**, in the **Confirm password** text box, type **Pa$$w0rd**, and then click **Register**.
 17. On the **Operas I Have Seen** page, click **All Operas**.
@@ -59,7 +59,7 @@
 
 19. In the Windows Microsoft Edge window, click **Close**.
 20. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
-
+21. If the Microsoft Visual Studio warning message appears, click **Yes**.
 
 ## Lesson 2: Assigning Roles and Membership
 
