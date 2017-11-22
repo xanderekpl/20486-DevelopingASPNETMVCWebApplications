@@ -61,7 +61,7 @@ The main tasks for this exercise are as follows:
 2. Add an existing code file to the **Photo Sharing Tests** project, which contains test doubles for HTTP objects, by using the following information:
 
     - Destination folder: **Doubles**
-    - Source folder: **Allfiles(D):\Mod07\Labfiles\Fake Http Classes**
+    - Source folder: **Allfiles\20486c\Mod07\LabFiles\Fake Http Classes**
     - Code file: **FakeHttpClasses.cs**
 
 3. Add a reference from the **Photo Sharing Tests** project to the **System.Web** assembly.
@@ -217,19 +217,16 @@ The main tasks for this exercise are as follows:
 
 #### Task 2: Configure the MVC site map provider.
 
-1. Open the **Web.config** file in the **PhotoSharingApplication** project.
-2. Configure the **MvcSiteMapProvider** to disable localization.
-3. Save the changes made to the **Web.config** file.
-4. Open the **Mvc.sitemap** file and remove the **&lt;mvcSiteMapNode&gt;** element with the title, **About**.
-5. Add an **&lt;mvcSiteMapNode&gt;** element within the **Home** node by using the following information:
+1. Open the **Mvc.sitemap** file and remove the **&lt;mvcSiteMapNode&gt;** element with the title, **About**.
+2. Add an **&lt;mvcSiteMapNode&gt;** element within the **Home** node by using the following information:
 
     - Title: **All Photos**
     - Controller: **Photo**
     - Action: **Index**
     - Key: **AllPhotos**
 
-6. Save the changes made to the **Mvc.sitemap** file.
-7. Build the solution.
+3. Save the changes made to the **Mvc.sitemap** file.
+4. Build the solution.
 
 #### Task 3: Render menus and breadcrumb trails.
 
