@@ -43,18 +43,16 @@ The main tasks for this exercise are as follows:
 
 1. Open the **Photo Sharing Application** solution from the following location:
 
-   - File location: **Allfiles(D):\Mod05\Labfiles\Starter\PhotoSharingApplication**
+   - File location: **Allfiles\20486C\Mod05\Labfiles\Starter\PhotoSharingApplication**
 
 2. Open the **PhotoController.cs** code window.
 3. Build the solution
 4. Add a new view to the **Display** action in the **PhotoController** by using the following information:
 
    - Name: **Display**
-   - View engine: **Razor (CSHTML)**
-   - View type: **Strongly typed**
-   - Model class: **Photo**
+   - Model class: **Photo(PhotoSharingApplication.Models)**
    - Scaffold template: **Empty**
-   - Layout or master page: **None**
+   - Use a layout page: **None**
 
 #### Task 2: Complete the photo display view.
 
@@ -122,12 +120,10 @@ The main tasks for this exercise are as follows:
 - Create a new view for the **Create** action of the **PhotoController** class by using the following information:
 
    - Name: **Create**
-   - View: **Razor (CSHTML)**
-   - View type: **Strongly Typed**
-   - Model class: **Photo**
+   - Model class: **Photo(PhotSharingApplication.Models)**
    - Scaffold template: **Empty**
    - Partial view: **None**
-   - Layout or master page: **None**
+   - Use a layout page: **None**
 
 #### Task 2: Complete the photo create view.
 
@@ -232,10 +228,8 @@ The main tasks for this exercise are as follows:
 1. Create a new partial view for the **_PhotoGallery** action in the PhotoController.cs file by using the following information:
 
    - Name: **_PhotoGallery**
-   - View type: **Strongly Typed**
    - Model class: **Photo**
    - Scaffold template: **Empty**
-   - Layout or master page: **None**
 
 2. Create a new folder in the **PhotoSharingApplication** project by using the following information:
 
@@ -272,8 +266,7 @@ The main tasks for this exercise are as follows:
 2. Create a view for the **Index** action in the PhotoController.cs file by using the following information:
 
    - Name: **Index**
-   - View type: **Not strongly typed**
-   - Layout or master page: **None**
+   - Use a layout page: **None**
 
 3. In the **Index.cshtml** file, change the title to **All Photos**.
 4. Add an **H2** element to the page body to display the heading as **All Photos**
@@ -344,9 +337,9 @@ The main tasks for this exercise are as follows:
 
    - Title: **My First Photo**
    - Description: **This is the first test of the Create photo view**.
-   - File path: **Allfiles(D):\Mod05\Labfiles\SamplePhotos**
+   - File path: **Allfiles\20486C\Mod05\Labfiles\SamplePhotos**
 
-6. Close Internet Explorer and Microsoft Visual Studio.
+6. Close **Microsoft Edge** and **Microsoft Visual Studio**.
 
 >**Results**: After completing this exercise, you will be able to create a web application in which users can upload and view the photos.
 
