@@ -54,7 +54,7 @@ The main tasks for this exercise are as follows:
 #### Task 1: Create a photo controller.
 
 1. Open the PhotoSharingApplication.sln file from the following location:
-2. File path: **Allfiles\20486C\Mod4\Labfiles\Starter\PhotoSharingApplication_4_begin**
+2. File path: **Allfiles\20486C\Mod04\Labfiles\PhotoSharingApplication_4_begin**
 3. Create a new controller for handling **photo** objects by using the following information:
 
    - Controller name: **PhotoController**
