@@ -32,7 +32,7 @@
 13. Click **Target server**, and then click **Create a new server**.
 14. In the **Server name** box, type a unique name.
 15. In the **Server admin login** box, type _&lt;your first name&gt;_.
-16. In the **Password** and **Confirm password** text boxes, type **Pa$$w0rd**, and then to create the new server, click **Select**.
+16. In the **Password** and **Confirm password** text boxes, type **Pa$$w0rd**, Then choose a location from the **Location** drop-down and then to create the new server, click **Select**.
 17. In the **SQL Database** dialog box, click **Select**.
 18. In the **Location** box, select your closest Location.
 19. To create the web app, in the **Web App + SQL Create** dialog, click **Create**.
@@ -49,15 +49,16 @@
 
 1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles 
 2. Navigate to **Allfiles/20486C/Mod16/Democode/OperasWebsites_16_begin**.
-3. Open the **OperasWebSite.sln** project.
-4. In the Solution Explorer pane, under **OperasWebSite\App\_Data**, delete the **aspnetdb.mdf** file. Also, delete the **aspnetdb\_log.ldf** file, if present.
+3. Open the **OperasWebSites.sln** project.
+4. In the Solution Explorer pane, under **OperasWebSites\App\_Data**, delete the **aspnetdb.mdf** file. Also, delete the **aspnetdb\_log.ldf** file, if present.
 
 #### Demonstration Steps
 
 1. On the taskbar, click the **Microsoft Visual Studio** icon.
-2. In the Solution Explorer pane of the OperasWebSite - Microsoft Visual Studio window, right-click **OperasWebsites**, and then click **Publish**.
+2. In the Solution Explorer pane of the **OperasWebSites - Microsoft Visual Studio** window, right-click **OperasWebsites**, and then click **Publish**.
 3. In the **Publish** dialog box, ensure that **Microsoft Azure App Service** is selected.
 4. Select **Select Existing**, and then click **Publish**.
+5. Click the **Add an Account** drop-down and then click **Add an account**.
 5. Log in to your Microsoft Account.
 6. In the **Subscription** drop down, ensure that **Azure Pass** is selected.
 7. Locate  _&lt;your username&gt;_ **operas** and select it, then click **OK**.
