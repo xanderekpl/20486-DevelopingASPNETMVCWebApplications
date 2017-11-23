@@ -240,6 +240,8 @@ The main tasks for this exercise are as follows:
 
    - Folder: **Views/Photo**
    - Name: **Index**
+   - Model class: **Photo (PhotoSharingApplication.Models)**
+   - Scaffold template: **List**
 
 3. Add a new view to the **Display** action method of the **PhotoController** class by using the following information:
 
