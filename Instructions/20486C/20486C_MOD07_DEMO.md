@@ -16,11 +16,11 @@
 1. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 2. On the **Operas I Have Seen** page, click **operas I&#39;ve seen**.
 3. On the **Index** page, click **Details** corresponding to **Cosi Fan Tutte**.
-4. In the Address bar of the **Internet Explorer** window, note that the URL is **http://localhost:[port]/**.
+4. In the Address bar of the **Microsoft Edge** window, note that the URL is **http://localhost:[port]/**.
 
    >**Note:** This URL indicates that the controller is **Opera**, the action is **Details**, and the ID is **1**.
 
-5. In the **Internet Explorer** window, click **Close**.
+5. In the **Microsoft Edge** window, click **Close**.
 6. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Stop Debugging**.
 7. In the **Solution Explorer** pane, expand **OperasWebsites**, expand **Controllers**, and then click **OperaController.cs**.
 8. In the **OperaController.cs** code window, place the mouse cursor at the end of the **Details** action code block, press Enter twice, and then type the following code.
@@ -58,11 +58,11 @@
 14. On the **FILE** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Save All**.
 15. On the **DEBUG** menu of **OperasWebsites - Microsoft Visual Studio** window, click **Start Debugging**.
 16. On the Operas I Have Seen page, click **operas I&#39;ve seen**.
-17. In the Address bar of the **Internet Explorer** window, change the existing URL to **http://localhost:[port]/opera/title/Cosi Fan Tutte**, and then click **Go**.
+17. In the Address bar of the **Microsoft Edge** window, change the existing URL to **http://localhost:[port]/opera/title/Cosi Fan Tutte**, and then click **Go**.
 
    >**Note:** The details of the **Cosi Fan Tutte** opera are displayed.
 
-18. In the **Internet Explorer** window, click **Close**.
+18. In the **Microsoft Edge** window, click **Close**.
 19. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
 20. In the **Microsoft Visual Studio** dialog box, click **Yes**.
 
@@ -136,7 +136,7 @@
 
     >**Note:** The **About** page of the web application is displayed.
 
-18. In the **Internet Explorer** window, click **Close**.
+18. In the **Microsoft Edge** window, click **Close**.
 19. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
 20. In the **Microsoft Visual Studio** dialog box, click **Yes**.
 
