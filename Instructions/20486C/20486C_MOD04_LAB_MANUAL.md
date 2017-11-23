@@ -54,7 +54,7 @@ The main tasks for this exercise are as follows:
 #### Task 1: Create a photo controller.
 
 1. Open the PhotoSharingApplication.sln file from the following location:
-2. File path: **Allfiles\20486C\Mod10\Labfiles\Starter\PhotoSharingApplication_10_begin**
+2. File path: **Allfiles\20486C\Mod4\Labfiles\Starter\PhotoSharingApplication_4_begin**
 3. Create a new controller for handling **photo** objects by using the following information:
 
    - Controller name: **PhotoController**
@@ -205,8 +205,9 @@ The main tasks for this exercise are as follows:
 #### Task 3: Add a handler for the OnActionExecuting event.
 
 1. In the **ValueReporter** action filter, override the **OnActionExecuting** event handler.
-2. In the **OnActionExecuting** event handler, call the **logValues** method, and pass the **filterContext.RouteData** object.
-3. Save the file.
+2. Delete the **base.OnActionExecuting** code block
+3. In the **OnActionExecuting** event handler, call the **logValues** method, and pass the **filterContext.RouteData** object.
+4. Save the file.
 
 #### Task 4: Register the Action Filter with the Photo Controller.
 
@@ -239,17 +240,17 @@ The main tasks for this exercise are as follows:
 
    - Folder: **Views/Photo**
    - Name: **Index**
-   - View type: **Strong**
-   - Model class: **Photo**
-   - Scaffold template: **List**
 
 3. Add a new view to the **Display** action method of the **PhotoController** class by using the following information:
 
    - Folder: **Views/Photo**
    - Name: **Display**
-   - View type: **Strong**
-   - Model class: **Photo**
+   - Model class: **Photo(PhotoSharingapplication.Models)**
    - Scaffold template: **Details**
+4. Locate the folowing code:
+```@Html.ActionLink("Details", "Details", new {id=item.PhotoID})```
+5. replace the code you located with the following code
+```@Html.ActionLink("Display", "Display", new {id=item.PhotoID})```
 
 #### Task 2: Use the GetImage action in the Display view
 
