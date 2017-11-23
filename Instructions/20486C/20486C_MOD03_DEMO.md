@@ -201,7 +201,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 		@section Scripts {@Script.Render("~/bundles/jqueryval")}
 ```
 31. On the **DEBUG** menu of the **OperasWebSites - Microsoft Visual** Studio window, click **Start Debugging**
-32. In the Address bar of the **Internet Explorer** window, replace the existing URL with **opera/index**, and then click **Go to**.
+32. In the Address bar of the **Microsoft Edge** window, replace the existing URL with **opera/index**, and then click **Go to**.
 33. On the **Index** page, click **Create New**.
 34. In the **Title** text box of the result page, type **Carmen**, and then, in the **Year** text box, type **1475**.
 35. In the **Composer** text box, type **Bizet**, and then click **Create**.
@@ -209,7 +209,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
    >**Note:** An error message is displayed by the custom validator.
 
 36. In the **Year** text box, type **1875**, and then click **Create**.
-37. In the **Internet Explorer** window, click **Close**.
+37. In the **Microsoft Edge** window, click **Close**.
 38. In the **OperasWebSites - Microsoft Visual Studio** window, click **Close**.
 39. In the **Microsoft Visual Studio** dialog box, click **Yes** to stop the debugging.
 
