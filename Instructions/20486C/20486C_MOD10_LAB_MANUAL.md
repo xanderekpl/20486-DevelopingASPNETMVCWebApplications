@@ -47,11 +47,11 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication.sln** file from the following location:
 
-   - File location: **Allfiles(D):\Mod10\Labfiles\Starter\PhotoSharingApplication**
+   - File location: **Allfiles\20486C\Mod10\Labfiles\Starter\PhotoSharingApplication_10_begin**
 
 2. Add the **SlideShow.cshtml** view file to the **Photo** folder, from the following location:
 
-   - File location: **Allfiles(D):\Mod10\Labfiles\Slide Show View**
+   - File location: **Allfiles\20486C\Mod10\Labfiles\Slide Show View**
 
 3. In the **PhotoController.cs** file, edit the **SlideShow** action method. Instead of throwing an exception, return the **SlideShow** view you just added. Pass a list of all the photos in the **context** object as the model.
 4. Add a new site map node to the **Mvc.sitemap** file to link to the **SlideShow** action by using the following information:
