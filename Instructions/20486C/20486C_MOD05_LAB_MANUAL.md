@@ -43,7 +43,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **Photo Sharing Application** solution from the following location:
 
-   - File location: **Allfiles\20486C\Mod05\Labfiles\Starter\PhotoSharingApplication**
+   - File location: **Allfiles\20486C\Mod05\Labfiles\PhotoSharingApplication_05_begin**
 
 2. Open the **PhotoController.cs** code window.
 3. Build the solution
