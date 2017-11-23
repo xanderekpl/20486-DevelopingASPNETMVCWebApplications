@@ -14,7 +14,9 @@ namespace OperasWebsites.Controllers
 
         public IEnumerable<Opera> GetOperas()
         {
-            return contextDB.Operas.AsEnumerable();
+            var operas = contextDB.Operas.ToList();
+
+            return operas;
         }
 
         public Opera GetOperas(int id)
