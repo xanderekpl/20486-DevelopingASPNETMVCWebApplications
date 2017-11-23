@@ -42,7 +42,8 @@
 9. Place the cursor in the **GetOperas** action code block, and then type the following code.
 
   ```cs
-       return contextDB.Operas.AsEnumerable();
+       var operas = contextDB.Operas.ToList();
+       return operas;
 ```
 10. Place the cursor at the end of the **GetOperas** action code block, press Enter twice, and then type the following code.
 
@@ -72,14 +73,12 @@
 14. On the **FILE** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Save All**.
 15. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
 16. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/api/OperasApi**, and then click **Go to**.
-17. In the Navigation bar, click **Open**.
-18. If the &quot;How do you want to open this type of file (.json)?&quot; message displays, click **More options**, and then click **Microsoft Visual Studio Version Selector**.
-19. On the **EDIT** menu of the **OperasApi.json – Microsoft Visual Studio** window, point to **Find and Replace**, and then click **Quick Find**.
-20. In the **Search Item** box of the **Quick Find** dialog box, type **Rigoletto**, and then click **Find Next**.
+17. In the **Microsoft Edge** windows that displays the JSON response of the previous step, enter CTRL+F to search content within the page.
+18. in the Search box, type: **Rigoletto**
 21. In the **Microsoft Visual Studio** dialog box, click **OK**.
 22. In the **Quick Find** dialog box, click **Close**.
 
-    >**Note:** Visual Studio finds the JSON data for the **Rigoletto** opera. Note that this is just one entry in the JSON data, which includes all operas in the web application.
+    >**Note:** **Microsoft Edge** finds the JSON data for the **Rigoletto** opera. Note that this is just one entry in the JSON data, which includes all operas in the web application.
 
 23. In the **OperasApi.json – Microsoft Visual Studio** window, click **Close**.
 24. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/api/OperasApi/3**, and then click **Go to**.
