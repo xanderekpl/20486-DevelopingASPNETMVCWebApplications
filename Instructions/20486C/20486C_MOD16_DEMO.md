@@ -10,9 +10,9 @@
 
 #### Demonstration Steps
 
-1. On the taskbar, click the **Internet Explorer** icon.
+1. On the taskbar, click the **Microsoft Edge** icon.
 
-2. In the Address bar of the Internet Explorer window, type **https://portal.azure.com**, and then press Enter.
+2. In the Address bar of the Microsoft Edge window, type **https://portal.azure.com**, and then press Enter.
 3. If a page appears, prompting you to enter your email address, type your email address, and then click **Continue**. Wait for the **Sign In** page to appear, type your email address and password, and then click **Sign In**.
 
   >**Note:** During the sign-in process, if a page appears prompting you to choose from a list of previously used accounts, select the account that you previously used, and then continue to type your credentials.
