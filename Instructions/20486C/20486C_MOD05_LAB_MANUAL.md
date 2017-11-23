@@ -309,8 +309,7 @@ The main tasks for this exercise are as follows:
 2. Add a new view to the **Index** action in **HomeController** by using the following information:
 
    - View name: **Index**
-   - View type: **Not strongly typed**
-   - Layout or master page: **None**
+   - Use a layout page: **None**
 
 3. Change the title of the page to **Welcome to Adventure Works Photo Sharing**.
 4. Add the following text to the home page:
