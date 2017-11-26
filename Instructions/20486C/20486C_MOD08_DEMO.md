@@ -25,7 +25,7 @@
 
    >**Note:** On the localhost page, the details of the opera are displayed. The main heading, the menu list, and the breadcrumb controls are not displayed. 
 
-4. In the Internet Explorer window, click **Close**.
+4. In the **Microsoft Edge** window, click **Close**.
 5. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Stop Debugging**.
 6. In the Solution Explorer pane, expand **OperasWebsites**, and then expand **Views**.
 7. In the Solution Explorer pane, under Views, right-click **Shared**, point to **Add**, and then click **View**.
@@ -131,7 +131,7 @@
 35. On the **Operas I Have Seen** page, note the main heading, the menu list, and the breadcrumb control.
 36. On the **Operas I Have Seen** page, click **All Operas**, and then, on the **Index of Operas** page, note that the main heading, the menu list, and the breadcrumb controls are displayed.
 37. On the **Index of Operas** page, click **Details** corresponding to any opera, and then note that the main heading, the menu list, and the breadcrumb controls are displayed along with the details of the opera.
-38. In the Internet Explorer window, click **Close**.
+38. In the **Microsoft Edge** window, click **Close**.
 39. In the **OperasWebsites - Microsoft Visual Studio** window, click **Close**.
 40. In the **Microsoft Visual Studio** dialog box, click **Yes**.
 
