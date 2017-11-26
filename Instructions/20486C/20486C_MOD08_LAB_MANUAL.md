@@ -197,7 +197,7 @@ The main tasks for this exercise are as follows:
 
 2. Go to the **All Photos** webpage and verify the layout of the page.
 3. Go to the details of any photo and verify the layout of the page.
-4. Close Internet Explorer.
+4. Close **Microsoft Edge**.
 
 #### Task 2: Import the styles and graphics.
 
