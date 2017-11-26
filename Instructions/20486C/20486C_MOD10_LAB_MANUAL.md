@@ -54,7 +54,7 @@ The main tasks for this exercise are as follows:
    - File location: **Allfiles\20486C\Mod10\Labfiles\Slide Show View**
 
 3. In the **PhotoController.cs** file, edit the **SlideShow** action method. Instead of throwing an exception, return the **SlideShow** view you just added. Pass a list of all the photos in the **context** object as the model.
-4. Add a new site map node to the **Mvc.sitemap** file to link to the **SlideShow** action by using the following information:
+4. Add a new site map node under Create action to the **Mvc.sitemap** file to link to the **SlideShow** action by using the following information:
 
    - Tag: **&lt;mvcSiteMapNode&gt;**
    - Title: **Slideshow**
