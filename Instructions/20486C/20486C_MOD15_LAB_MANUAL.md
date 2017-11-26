@@ -234,14 +234,14 @@ The main tasks for this exercise are as follows:
 
 2. Browse to the chat page for **Sample Photo 1**.
 3. Send a message of your choice and observe the results.
-4. Start a new instance of Internet Explorer, and browse to the Photo Sharing application home page.
+4. Start a new instance of **Microsoft Edge**, and browse to the Photo Sharing application home page.
 5. Register a new user account with the following credentials:
 
    - User name: **Mark Steele**
    - Password: **Pa$$w0rd**
 
 6. Browse to the chat page for **Sample Photo 1**, and then send a message of your choice.
-7. Switch to the first instance of Internet Explorer, and then send a second message of your choice. Observe the messages sent between the two users.
+7. Switch to the first instance of **Microsoft Edge**, and then send a second message of your choice. Observe the messages sent between the two users.
 8. Stop debugging and close Visual Studio.
 
    >**Results** : After completing this exercise, you should have successfully created MVC controller actions and views to display a user interface for the SignalR functionality, linked to the JScript libraries that SignalR requires, and used JScript to connect to a SignalR hub and send messages.
