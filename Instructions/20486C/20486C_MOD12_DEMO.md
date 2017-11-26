@@ -76,7 +76,7 @@
            Choose a background color:
         </p>
 ```
-12. Place the mouse cursor at the end of the text in the **</P>** element, press Enter, and then type the following code.
+12. Place the mouse cursor at the end of the text in the ** </P> ** element, press Enter, and then type the following code.
 
   ```cs
         @Html.ActionLink("Pink", "SetBackground", new { color = "#dc9797"})
