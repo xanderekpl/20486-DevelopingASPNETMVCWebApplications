@@ -69,14 +69,14 @@
        return View("Index");
 ```
 10. In the **Solution Explorer** pane, expand **Views**, expand **Home**, and then click **Index.cshtml**.
-11. In the **Index.cshtml** code window, place the mouse cursor at the end of the &lt;/P&rt; element, press Enter twice, and then type the following code.
+11. In the **Index.cshtml** code window, place the mouse cursor at the end of the **&lt;/P>;** element, press Enter twice, and then type the following code.
 
   ```cs
         <p>
            Choose a background color:
         </p>
 ```
-12. Place the mouse cursor at the end of the text in the ** </P> ** element, press Enter, and then type the following code.
+12. Place the mouse cursor at the end of the text in the **&lt;/P>** element, press Enter, and then type the following code.
 
   ```cs
         @Html.ActionLink("Pink", "SetBackground", new { color = "#dc9797"})
