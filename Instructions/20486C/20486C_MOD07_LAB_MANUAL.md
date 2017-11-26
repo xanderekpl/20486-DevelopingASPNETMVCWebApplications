@@ -38,7 +38,7 @@ In this exercise, you will:
 
 - Create unit tests for the routes you wish to create.
 - Add routes to the application that satisfy your tests.
-- Try out routes by typing URLs in the Internet Explorer Address bar.
+- Try out routes by typing URLs in the Microsoft Edge Address bar.
 
 This approach conforms to the principles of Test Driven Development (TDD).
 
