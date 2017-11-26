@@ -300,11 +300,11 @@ The main tasks for this exercise are as follows:
 #### Task 4: Raise errors
 
 1. Start debugging and display **Sample Photo 5**.
-2. In the Internet Explorer window, request the relative URL and view the error details.
+2. In the **Microsoft Edge** window, request the relative URL and view the error details.
 
    - URL: **/Photo/Display/malformedID**
 
-3. In the Internet Explorer window, request the relative URL.
+3. In the **Microsoft Edge** window, request the relative URL.
 
    - URL: **/Photo/SlideShow**
 
