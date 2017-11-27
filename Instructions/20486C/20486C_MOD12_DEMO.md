@@ -69,7 +69,7 @@
        return View("Index");
 ```
 10. In the **Solution Explorer** pane, expand **Views**, expand **Home**, and then click **Index.cshtml**.
-11. In the **Index.cshtml** code window, place the mouse cursor at the end of the **&lt;/P>;** element, press Enter twice, and then type the following code.
+11. In the **Index.cshtml** code window, place the mouse cursor at the end of the **&lt;/P>** element, press Enter twice, and then type the following code.
 
   ```cs
         <p>
