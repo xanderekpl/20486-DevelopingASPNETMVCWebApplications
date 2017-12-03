@@ -49,7 +49,7 @@ namespace OperasWebsites.Models
         public override bool IsValid(object value)
         {
             string title = (string)value;
-            if (title.Length < 3)
+            if ((title == null) && (title.Length < 3))
             {
                 return false;
             }
@@ -69,7 +69,7 @@ namespace OperasWebsites.Models
         public override bool IsValid(object value)
         {
             string composer = (string)value;
-            if (composer.Length < 4)
+            if ((composer == null) || (composer.Length < 4))
             {
                 return false;
             }
