@@ -1,4 +1,4 @@
-# Module 16: Deploying ASP.NET MVC 5 Web Applications
+# Module 15: Deploying ASP.NET MVC 5 Web Applications
 
 # Lesson 1: Deploying a Web Application
 
@@ -52,7 +52,7 @@
 #### Preparation Steps
 
 1. Ensure that you have cloned the 20486C directory from GitHub. It contains the code segments for this course's labs and demos. https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tree/master/Allfiles 
-2. Navigate to **Allfiles/20486C/Mod16/Democode/OperasWebsites_16_begin**.
+2. Navigate to **Allfiles/20486C/Mod15/Democode/OperasWebsites_15_begin**.
 3. Open the **OperasWebSites.sln** project.
 4. In the Solution Explorer pane, under **OperasWebSites\App\_Data**, delete the **aspnetdb.mdf** file. Also, delete the **aspnetdb\_log.ldf** file, if present.
 
