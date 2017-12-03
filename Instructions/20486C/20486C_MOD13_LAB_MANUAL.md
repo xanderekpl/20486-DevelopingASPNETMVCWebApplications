@@ -1,4 +1,4 @@
-# Module 14: Implementing Web APIs in ASP.NET MVC 5 Web Applications
+# Module 13: Implementing Web APIs in ASP.NET MVC 5 Web Applications
 
 # Lab: Implementing APIs in ASP.NET MVC 5 Web Applications
 
@@ -44,7 +44,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication** solution from the following location:
 
-    - File location: **Allfiles(D):\Mod14\Labfiles\Starter\PhotoSharingApplication**
+    - File location: **Allfiles(D):\Mod13\Labfiles\Starter\PhotoSharingApplication**
 
 2. Add a new API controller to the **PhotoSharingApplication** project by using the following information:
 
@@ -209,7 +209,7 @@ The main tasks for this exercise are as follows:
 
 12. Add the **MapDisplay.js** JavaScript file to the **Scripts** folder from the following location:
 
-    - **Allfiles(D):\Mod14\Labfiles\Bing Maps Script**
+    - **Allfiles\20486C\Mod13\Labfiles\Bing Maps Script**
 
 13. Add a new node to the site map by using the following information:
 
