@@ -1,4 +1,4 @@
-## Module 15: Handling Requests in ASP.NET MVC 5 Web Applications
+## Module 14: Handling Requests in ASP.NET MVC 5 Web Applications
 
 ## Lab: Handling Requests in ASP.NET MVC 5 Web Applications
 
@@ -43,7 +43,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the PhotoSharingApplication.sln file from the following location:
 
-   - File location: **Allfiles(D):\Mod15\Labfiles\Starter\PhotoSharingApplication**
+   - File location: **Allfiles\20486C\Mod14\Labfiles\Starter\PhotoSharingApplication**
 
 2. Use **NuGet Package Manager Console** to install the following package in the **PhotoSharingApplication** project:
 
@@ -147,7 +147,7 @@ The main tasks for this exercise are as follows:
 4. At the end of the action, return the **Chat** view and pass the **photo** object as the model class.
 5. Add the following view file to the **Views/Photo** folder:
 
-   - **Allfiles(D):\Mod15\Labfiles\Chat View\Chat.cshtml**
+   - **Allfiles\20486C\Mod14\Labfiles\Chat View\Chat.cshtml**
 
 6. Save all the changes.
 
