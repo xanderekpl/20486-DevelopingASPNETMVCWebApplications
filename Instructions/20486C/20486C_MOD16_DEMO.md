@@ -66,19 +66,19 @@
 
   >**Note:** Visual Studio publishes the website. This process can take several minutes. When the publish operation is complete, the website is displayed in the Internet Explorer window.
 
-19. If the **Certificate Error** dialog box appears, click **Accept**.
-20. In the Internet Explorer window, if the **Server Error in &#39;/&#39; Application** error displays, click **Refresh**.
+9. If the **Certificate Error** dialog box appears, click **Accept**.
+10. In the Internet Explorer window, if the **Server Error in &#39;/&#39; Application** error displays, click **Refresh**.
 
   >**Note:** If the **Operas I Have Seen** page does not appear, you need to re-publish the **OperasWebSite** project.
 
-21. On the **Operas I Have Seen** page, click **All Operas**.
-22. In the Navigation bar, if the message **Intranet settings are turned off by default.** is displayed, click **Turn on Intranet settings**.
-23. If the message **Are you sure you want to turn on intranet-level security settings?** appears, click **Yes**.
-24. On the **Index of Operas** page, click **Details** corresponding to **Cosi Fan Tutte**.
-25. On the **Opera: Cosi Fan Tutte** page, click **Back to List**.
-26. On the **Index of Operas** page, click **Details** corresponding to **Nixon in China**.
-27. In the Internet Explorer window, click **Close**.
-28. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
+11. On the **Operas I Have Seen** page, click **All Operas**.
+12. In the Navigation bar, if the message **Intranet settings are turned off by default.** is displayed, click **Turn on Intranet settings**.
+13. If the message **Are you sure you want to turn on intranet-level security settings?** appears, click **Yes**.
+14. On the **Index of Operas** page, click **Details** corresponding to **Cosi Fan Tutte**.
+15. On the **Opera: Cosi Fan Tutte** page, click **Back to List**.
+16. On the **Index of Operas** page, click **Details** corresponding to **Nixon in China**.
+17. In the Internet Explorer window, click **Close**.
+18. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
