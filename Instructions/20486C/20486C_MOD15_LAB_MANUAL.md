@@ -1,4 +1,4 @@
-## Module 16: Deploying ASP.NET MVC 5 Web Applications
+## Module 15: Deploying ASP.NET MVC 5 Web Applications
 
 ## Lab: Deploying ASP.NET MVC 5 Web Applications
 
@@ -41,7 +41,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the Photo Sharing application solution from the following location:
 
-	- File location: **Allfiles(D):\Mod16\Labfiles\Starter\PhotoSharingApplication**.
+	- File location: **Allfiles\20486C\Mod15\Labfiles\Starter\PhotoSharingApplication**.
 
 2. In the **Build** properties of the **PhotoSharingApplication** project, select the **Release** configuration.
 
@@ -101,7 +101,7 @@ The main tasks for this exercise are as follows:
 2. Add a new photo to the web application by using the following information:
 
 	- Title: **Test New Photo**
-	- Photo: **Allfiles(D):\Mod16\Labfiles\Sample Photos\track.JPG**
+	- Photo: **Allfiles\20486C\Mod15\Labfiles\Sample Photos\track.JPG**
 	- Description: **This is the first photo added to the deployed web application**
 
 3. Display the new photo and check if the data is displayed correctly.
