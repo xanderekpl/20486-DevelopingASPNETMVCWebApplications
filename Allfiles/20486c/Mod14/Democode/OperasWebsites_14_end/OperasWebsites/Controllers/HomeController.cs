@@ -39,5 +39,10 @@ namespace OperasWebsites.Controllers
             Session["BackgroundColor"] = color;
             return View("Index");
         }
+
+        public ActionResult Chat(string color)
+        {
+            return View();
+        }
     }
 }

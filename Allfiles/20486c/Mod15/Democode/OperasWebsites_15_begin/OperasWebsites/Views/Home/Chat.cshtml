@@ -16,6 +16,23 @@
 <script src="@Url.Content("~/signalr/hubs")"></script>
 <!--Add script to update the page and send messages.-->
 <script type="text/javascript">
+    $(function () {
+        var chat = $.connection.chatHub;
 
+        chat.client.broadcastMessage = function (name, message) {
+            var listItem = '<li>' + name + ': ' + message + '</li>';
+            $('#discussion').append(listItem);
+        };
+
+        var displayname = prompt('Enter your name:', '');
+        $('#chat-message').focus();
+
+        $.connection.hub.start().done(function () {
+            $('#sendmessage').click(function () {
+                chat.server.send(displayname, $('#chat-message').val());
+                $('#chat-message').val('').focus();
+            });
+        });
+    });
 
 </script>
