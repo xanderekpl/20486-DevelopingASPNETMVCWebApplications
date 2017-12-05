@@ -54,6 +54,7 @@ The main tasks for this exercise are as follows:
 
     - Database name: **PhotoAppServices**
     - Database server: **New SQL Database Server**
+    - Resource group: **Create New**
     - Logon name: _&lt;your first name&gt;_
     - Logon password: **Pa$$w0rd**
     - Logon password confirmation: **Pa$$w0rd**
@@ -69,7 +70,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication.sln** file from the following location:
 
-    - File location: **Allfiles(D):\Mod11\Labfiles\Starter\PhotoSharingApplication**
+    - File location: **Allfiles\20486C\Mod11\Labfiles\PhotoSharingApplication_11_begin**
 
 2. Install the **Microsoft ASP.NET Universal Providers** package in the **PhotoSharingApplication** project by using the NuGet Package Manager.
 
@@ -281,11 +282,11 @@ The main tasks for this exercise are as follows:
 1. Add a new folder named **Account** to the **Views** folder.
 2. Add the **Login.cshtml** file to the **Account** folder from the following location:
 
-    - File location: **Allfiles(D):\Mod11\Labfiles\Account Views**
+    - File location: **Allfiles\20486C\Mod11\Labfiles\Account Views**
 
 3. Add the **Register.cshtml** file to the **Account** folder from the following location:
 
-    - File location: **Allfiles(D):\Mod11\Labfiles\Account Views**
+    - File location: **Allfiles\20486C\Mod11\Labfiles\Account Views**
 
 #### Task 4: Add authentication controls to the Template view
 
@@ -511,7 +512,7 @@ The main tasks for this exercise are as follows:
 
 - Add the **ResetPassword.cshtml** file to the **Views/Account** folder from the following location:
 
-  - **Allfiles(D):\Mod11\Labfiles\Account Views**
+  - **Allfiles\20486C\Mod11\Labfiles\Account Views**
 
 #### Task 4: Add a link to the reset password view.
 
