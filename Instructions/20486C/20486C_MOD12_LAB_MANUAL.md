@@ -43,7 +43,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication.sln** file from the following location:
 
-    - File location: **Allfiles(D):\Mod12\Labfiles\Starter\PhotoSharingApplication**
+    - File location: **Allfiles\20486C\Mod12\Labfiles\PhotoSharingApplication_12_begin**
 
 2. In the **PhotoController.cs** code file, add a new action by using the following information:
 
@@ -148,7 +148,7 @@ The main tasks for this exercise are as follows:
 
 1. Start the web application in debugging mode.
 2. Add three photos of your choice to your favorite photos.
-3. Go to the home page and click the Favorite Photos link.
+3. Go to the home page and click the **Favorite Photos** link.
 4. Stop debugging and close Visual Studio.
 
 >**Results**: After completing this exercise, you will be able to:
