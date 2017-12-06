@@ -159,7 +159,7 @@ The main tasks for this exercise are as follows:
 
 2. Add a new constructor to the **PhotoController** class. In the controller, instantiate **context** to be a new  **PhotoSharingContext** object.
 3. Add a second constructor to the **PhotoController** class that accepts an **IPhotoSharingContext** implementation named **Context**  as a parameter. In the constructor, instantiate **context** to be the **Context** object.
-4. In the PhotoController Display action, replace the call to context.Photos.Find() with a similar call to context.FindPhotoById().
+4. In the PhotoController Display action, replace the call to **context.Photos.Find()** with a similar call to **context.FindPhotoById()**.
 5. In the **PhotoController Create** action for the POST verb, replace the call to **context.Photos.Add()** with a similar call to  **context.Add&lt;Photo&gt;**.
 6. In the **PhotoController Delete** action, replace the call to **context.Photos.Find()** with a similar call to  **context.FindPhotoById()**.
 7. In the **PhotoController DeleteConfirmed** action, replace the call to **context.Photos.Find()** with a similar call to  **context.FindPhotoById()**.
