@@ -47,7 +47,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication.sln** file from the following location:
 
-   - File location: **Allfiles\20486C\Mod10\Labfiles\Starter\PhotoSharingApplication_10_begin**
+   - File location: **Allfiles\20486C\Mod10\Labfiles\PhotoSharingApplication_10_begin**
 
 2. Add the **SlideShow.cshtml** view file to the **Photo** folder, from the following location:
 
