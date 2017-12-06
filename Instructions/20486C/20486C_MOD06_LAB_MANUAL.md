@@ -56,7 +56,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication** solution from the following location:
 
-   - File location: **Allfiles(D):\Mod06\Labfiles\Starter\PhotoSharingApplication**
+   - File location: **Allfiles\20486C\Mod06\LabFiles\PhotoSharingApplication_06_begin**
 
 3. Add a new project to the solution for unit tests by using the following information:
 
