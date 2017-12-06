@@ -173,7 +173,7 @@ The main tasks for this exercise are as follows:
 
 2. Add the FakePhotoSharingContext.cs existing file to the Doubles folder from the following location:
 
-   - **Allfiles(D):\Mod06\Labfiles\Fake Repository\FakePhotoSharingContext.cs**
+   - **Allfiles\20486C\Mod06\Labfiles\Fake Repository\FakePhotoSharingContext.cs**
 
    >**Note:** This class will be used as a test double for the Entity Framework context.
 
