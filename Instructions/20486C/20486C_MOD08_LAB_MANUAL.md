@@ -193,7 +193,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the mockup web application and verify the layout of the home page by using the following information:
 
-	- File path: **Allfiles(D):\Mod08\Labfiles\Expression Web Mock Up\default.html**
+	- File path: **Allfiles\20486C\Mod08\Labfiles\Expression Web Mock Up\default.html**
 
 2. Go to the **All Photos** webpage and verify the layout of the page.
 3. Go to the details of any photo and verify the layout of the page.
