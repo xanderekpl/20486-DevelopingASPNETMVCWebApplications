@@ -51,7 +51,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication** solution from the following location:
 
-	- File location: **Allfiles(D):\Mod08\Labfiles\Starter\PhotoSharingApplication**
+	- File location: **Allfiles\20486C\Mod08\Labfiles\PhotoSharingApplication_08_begin**
 
 2. Start the web application in the debugging mode and verify that the menu and the breadcrumb trail are available on the home page.
 3. Go to the **All Photos** webpage and verify that the menu and the breadcrumb trail are not available on the page.
