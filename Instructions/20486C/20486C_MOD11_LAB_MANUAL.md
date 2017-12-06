@@ -512,7 +512,7 @@ The main tasks for this exercise are as follows:
 
 - Add the **ResetPassword.cshtml** file to the **Views/Account** folder from the following location:
 
-  - **Allfiles\20486C\Mod11\Labfiles\Account Views**
+  - **Allfiles/20486C/Mod11/Labfiles/Account**
 
 #### Task 4: Add a link to the reset password view.
 
