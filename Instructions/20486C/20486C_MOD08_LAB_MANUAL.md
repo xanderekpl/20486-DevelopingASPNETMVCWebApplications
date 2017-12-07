@@ -51,7 +51,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication** solution from the following location:
 
-	- File location: **Allfiles(D):\Mod08\Labfiles\Starter\PhotoSharingApplication**
+	- File location: **Allfiles\20486C\Mod08\Labfiles\PhotoSharingApplication_08_begin**
 
 2. Start the web application in the debugging mode and verify that the menu and the breadcrumb trail are available on the home page.
 3. Go to the **All Photos** webpage and verify that the menu and the breadcrumb trail are not available on the page.
@@ -193,7 +193,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the mockup web application and verify the layout of the home page by using the following information:
 
-	- File path: **Allfiles(D):\Mod08\Labfiles\Expression Web Mock Up\default.html**
+	- File path: **Allfiles\20486C\Mod08\Labfiles\Expression Web Mock Up\default.html**
 
 2. Go to the **All Photos** webpage and verify the layout of the page.
 3. Go to the details of any photo and verify the layout of the page.
@@ -205,7 +205,7 @@ The main tasks for this exercise are as follows:
 
 	- Name of the folder: **Content**
 
-2. Go to **Allfiles(D):\Mod08\Labfiles\Expression Web Mock Up\Content**, and add the following existing files to the new folder:
+2. Go to **Allfiles\20486C\\Mod08\Labfiles\Expression Web Mock Up\Content**, and add the following existing files to the new folder:
 
 	- **PhotoSharingStyles.css**
 	- **BackgroundGradient.jpg**
@@ -277,14 +277,29 @@ The main tasks for this exercise are as follows:
 
 #### Task 2: Add a new mobile layout.
 
-1. Create a copy of the **_MainLayout.cshtml** file in the **Views/Shared** folder and rename the file as **_MainLayout.Mobile.cshtml**.
+1. Create a copy of the **_MainLayout.cshtml** file from the **Views/Shared** folder and then paste it under DisplayTemplates and then rename the file as **_MainLayout.Mobile.cshtml**.
 
 2. In the **_MainLayout.Mobile.cshtml** file, in the main page heading, place a **&lt;br /&gt;** tag after the words **Adventure Works**.
-3. After the **H1** element, add an **H2** element.
+
+3. In the **_MainLayout.Mobile.cshtml** code window, locate the following code.
+
+  ```cs
+       <h1 class="site-page-title">Adventure Works Photo Sharing</h1>
+```
+4. Replace the code with the following code.
+
+  ```cs
+       <h1 class="site-page-title">
+          Adventure Works <br />
+          Photo Sharing
+       </h1>
+```
+
+5. After the **H1** element, add an **H2** element.
 
 	- Content: **Mobile Site**
 
-4. Save the _MainLayout.Mobile.cshtml mobile view.
+6. Save the _MainLayout.Mobile.cshtml mobile view.
 
 #### Task 3: Add a media query to the style sheet.
 
