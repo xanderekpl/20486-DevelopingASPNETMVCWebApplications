@@ -72,25 +72,24 @@
 ```
 14. On the **FILE** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Save All**.
 15. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-16. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/api/OperasApi**, and then click **Go to**.
-17. In the **Microsoft Edge** windows that displays the JSON response of the previous step, enter CTRL+F to search content within the page.
+16. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/api/OperasApi**, and then press **Enter**.
+17. In the **Microsoft Edge** window that displays the JSON response of the previous step, enter **CTRL+F** to search content within the page.
 18. in the Search box, type: **Rigoletto**
-21. In the **Microsoft Visual Studio** dialog box, click **OK**.
-22. In the **Quick Find** dialog box, click **Close**.
+19. In the **Find on page** box, click **Close**.
 
     >**Note:** **Microsoft Edge** finds the JSON data for the **Rigoletto** opera. Note that this is just one entry in the JSON data, which includes all operas in the web application.
 
-23. In the **OperasApi.json – Microsoft Visual Studio** window, click **Close**.
-24. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/api/OperasApi/3**, and then click **Go to**.
-25. In the Navigation bar, click **Open**.
-26. If the &quot;How do you want to open this type of file (.json)?&quot; message displays, click **More options**, and then click **Microsoft Visual Studio Version Selector**.
-27. In the **3.json - Microsoft Visual Studio** window, note that only the information relating to the **Nixon in China** opera is displayed.
+20. In the Address bar of the **Microsoft Edge** window, type **http://localhost:[port]/api/OperasApi/3**, and then press **Enter**.
 
-    >**Note:** The value for the **OperasID** parameter corresponding to the **Nixon in China** opera is **3**.
+21. Note that only the information relating to the Nixon in China opera is displayed.
 
-28. In the **3.json - Microsoft Visual Studio** window, click **Close**.
-29. In the Internet Explorer window, click **Close**.
-30. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
+>**Note:** The value for the **OperasID** parameter corresponding to the **Nixon in China** opera is 3.
+
+22. In the **Microsoft Edge** window, click **Close**.
+
+23. In the **OperasWebsites(Running) – Microsoft Visual Studio** window, click **Close** and then click **Yes** on **Microsoft Visual Studio** warning box.
+
+24. In the Internet Explorer window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
