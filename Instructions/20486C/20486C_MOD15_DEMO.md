@@ -37,7 +37,7 @@
 18. To create the web app, in the **Web App + SQL Create** dialog, click **Create**.
 19. Wait for the creation of the application and the database to complete. 
 20. In the left pane of the **Microsoft Azure** page, click **App Services**
-21. Click on the name if the newly created app service.
+21. Click on the name of the newly created app service.
 22. On the **App Service** menu, under **Settings**, Click **Application Settings**.
 23. Scroll down to the **Connection String** section and verify the connection string name is set to **OperasDB**
 
