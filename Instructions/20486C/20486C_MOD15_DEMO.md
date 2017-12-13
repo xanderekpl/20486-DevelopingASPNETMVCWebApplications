@@ -25,7 +25,7 @@
 7. From the **App Service Plan/Location** drop-down list on the **App Service Plan** page, select **Create new**.
 8. In the **New App Service plan** box, type a unique name.
 9. In the **Location** drop down, select a location near you.
-10. In the **Pricing tier**, select **D1 Shared**, and then click **OK**.
+10. In the **Pricing tier**, select **D1 Shared**, click **select** and then click **OK**.
 
 11. Click the **SQL Database** box of the **Web App + SQL Create** page, and then click **Create a new database**.
 12. In the **Name** text box, type **OperasDB**.
