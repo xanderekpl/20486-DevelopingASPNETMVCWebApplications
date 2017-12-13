@@ -32,18 +32,17 @@
 13. Click **Target server**, and then click **Create a new server**.
 14. In the **Server name** box, type a unique name.
 15. In the **Server admin login** box, type _&lt;your first name&gt;_.
-16. In the **Password** and **Confirm password** text boxes, type **Pa$$w0rd**, Then choose a location from the **Location** drop-down and then to create the new server, click **Select**.
+16. In the **Password** and **Confirm password** text boxes, type **Pa$$w0rd**, then choose a location from the **Location** drop-down and then to create the new server, click **Select**.
 17. In the **SQL Database** dialog box, click **Select**.
-18. In the **Location** box, select your closest Location.
-19. To create the web app, in the **Web App + SQL Create** dialog, click **Create**.
-20. In the left pane of the **Microsoft Azure** page, click **App Services**
-21. Click on the name if the newly created app service.
-22. On the **App Service** menu, under **Settings**, Click **Application Settings**.
-23. Scroll down to the **Connection String** section and verify the connection string name is set to **OperasDB**
+18. To create the web app, in the **Web App + SQL Create** dialog, click **Create**.
+19. In the left pane of the **Microsoft Azure** page, click **App Services**
+20. Click on the name if the newly created app service.
+21. On the **App Service** menu, under **Settings**, Click **Application Settings**.
+22. Scroll down to the **Connection String** section and verify the connection string name is set to **OperasDB**
 
   >**Note:** Microsoft Azure creates the new web app and database to support the Operas web app.
 
-24. In the Microsoft Edge window, click **Close**.
+23. In the Microsoft Edge window, click **Close**.
 
 # Lesson 2: Deploying an ASP.NET MVC 5 Web Application
 
