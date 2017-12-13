@@ -40,9 +40,6 @@
 21. Click on the name of the newly created app service.
 22. On the **App Service** menu, under **Settings**, Click **Application Settings**.
 23. Scroll down to the **Connection String** section, change the connection string name to **OperasDB** and then click **Save**.
-
-  >**Note:** Microsoft Azure creates the new web app and database to support the Operas web app.
-
 24. In the Microsoft Edge window, click **Close**.
 
 # Lesson 2: Deploying an ASP.NET MVC 5 Web Application
