@@ -157,11 +157,13 @@ The main tasks for this exercise are as follows:
 
 2. Create a map action, a view, and a script file.
 
-3. Configure the Bing Maps Key
+3. Create a Bing Maps developer account.
 
-4. Obtain and display photos.
+4. Configure the Bing Maps Key.
 
-5. Test the Bing Maps control.
+5. Obtain and display photos.
+
+6. Test the Bing Maps control.
 
 #### Task 1: Create a new template view.
 
@@ -220,24 +222,37 @@ The main tasks for this exercise are as follows:
 
 14. Save all the changes.
 
-#### Task 3: Configure the Bing Maps Key
+#### Task 3: Create a Bing Maps developer account.
 
 1. Go to the following webpage:
 
-    - **https://www.bingmapsportal.com**.
+   - **https://www.bingmapsportal.com**
 
-2. Sign in to your Microsoft account by using the following credentials:
+2. Create a new Microsoft account  by using the following credentials:
 
-    - User name: _&lt;Your Windows Live account name&gt;_
-    - Password: &lt;_Your Windows Live account password_&gt;
+   - User name: _&lt;Your Windows Live account name&gt;_
+   - Password: &lt;_Your Windows Live account password_&gt;
 
-3. From the **Bing Maps Account Center** page, copy the key you created for the Photo Sharing application in the previous lab.
+3. Register a new Bing Maps developer account by using the following information:
+
+   - Account Name: _&lt;Your account name&gt;_
+   - Email Address: _&lt;Your Windows Live account name&gt;_
+
+#### Task 4: Configure the Bing Maps Key
+
+1. Create a new Bing Maps key in the Photo Sharing application by using the following information:
+
+   - Application name: **Photo Sharing Application**
+   - Key type: **Basic**
+   - Application type: **Public website**
+
+3. From the **Bing Maps Account Center** page, copy the key you created for the Photo Sharing application.
 4. In the **MapDisplay.js** file, paste the key that was copied from the **Bing Maps Account Center** page as a value for **Credentials**.
 5. Save all the changes.
 6. Start the web application in the debugging mode and browse to the **Map** page.
 7. Stop debugging.
 
-#### Task 4: Obtain and display photos.
+#### Task 5: Obtain and display photos.
 
 1. In the **MapDisplay.js** script file, add a new function by using the following information:
 
@@ -289,7 +304,7 @@ The main tasks for this exercise are as follows:
 14. At the end of the **GetMap** function, call the **GetPhotos** function and pass the **webApiUrl** variable.
 15. Save all the changes.
 
-#### Task 5: Test the Bing Maps control.
+#### Task 6: Test the Bing Maps control.
 
 1. Start the web application in the debugging mode and browse to the **Map** page to check the map control.
 2. Click a pin of your choice.
