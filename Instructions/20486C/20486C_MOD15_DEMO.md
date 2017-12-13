@@ -35,14 +35,15 @@
 16. In the **Password** and **Confirm password** text boxes, type **Pa$$w0rd**, then choose a location from the **Location** drop-down and then to create the new server, click **Select**.
 17. In the **SQL Database** dialog box, click **Select**.
 18. To create the web app, in the **Web App + SQL Create** dialog, click **Create**.
-19. In the left pane of the **Microsoft Azure** page, click **App Services**
-20. Click on the name if the newly created app service.
-21. On the **App Service** menu, under **Settings**, Click **Application Settings**.
-22. Scroll down to the **Connection String** section and verify the connection string name is set to **OperasDB**
+19. Wait for the creation of the application and the database to complete. 
+20. In the left pane of the **Microsoft Azure** page, click **App Services**
+21. Click on the name if the newly created app service.
+22. On the **App Service** menu, under **Settings**, Click **Application Settings**.
+23. Scroll down to the **Connection String** section and verify the connection string name is set to **OperasDB**
 
   >**Note:** Microsoft Azure creates the new web app and database to support the Operas web app.
 
-23. In the Microsoft Edge window, click **Close**.
+24. In the Microsoft Edge window, click **Close**.
 
 # Lesson 2: Deploying an ASP.NET MVC 5 Web Application
 
