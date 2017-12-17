@@ -1201,7 +1201,6 @@ D:\temp\20486github2\Allfiles\20486C\Mod14\LabFiles\PhotoSharingApplication_14_b
 D:\temp\20486github2\Allfiles\20486C\Mod14\LabFiles\PhotoSharingApplication_14_begin\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.csproj.CoreCompileInputs.cache
 D:\temp\20486github2\Allfiles\20486C\Mod14\LabFiles\PhotoSharingApplication_14_begin\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.dll
 D:\temp\20486github2\Allfiles\20486C\Mod14\LabFiles\PhotoSharingApplication_14_begin\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.pdb
-D:\temp\20486github3\Allfiles\20486C\Mod14\LabFiles\PhotoSharingApplication_14_begin\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.csprojResolveAssemblyReference.cache
 D:\temp\20486github3\Allfiles\20486C\Mod14\LabFiles\PhotoSharingApplication_14_begin\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.csproj.CoreCompileInputs.cache
 D:\temp\20486github3\Allfiles\20486C\Mod14\LabFiles\PhotoSharingApplication_14_begin\PhotoSharingApplication\bin\roslyn\csc.exe.config
 D:\temp\20486github3\Allfiles\20486C\Mod14\LabFiles\PhotoSharingApplication_14_begin\PhotoSharingApplication\bin\roslyn\csc.rsp
