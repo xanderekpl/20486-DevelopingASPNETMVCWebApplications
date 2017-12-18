@@ -22,7 +22,7 @@
 5. In the **Search the Marketplace** box, search for **Web App + SQL**, and click **Create**.
 6. In the **App name** box of the **Web App + SQL Create** dialog box, type _&lt;your username&gt;_ **operas**.
 
-7. From the **App Service Plan/Location** drop-down list on the **App Service Plan** page, select **Create new**.
+7. Click **App Service Plan/Location** box and then in the **App Service Plan** page, select **Create new**.
 8. In the **New App Service plan** box, type a unique name.
 9. In the **Location** drop down, select a location near you.
 10. In the **Pricing tier**, select **D1 Shared**, click **select** and then click **OK**.
@@ -39,7 +39,7 @@
 20. In the left pane of the **Microsoft Azure** page, click **App Services**.
 21. Click on the name of the newly created app service.
 22. On the **App Service** menu, under **Settings**, Click **Application Settings**.
-23. Scroll down to the **Connection String** section, change the connection string name to **OperasDB** and then click **Save**.
+23. Scroll down to the **Connection String** section, change the default connection string name to **OperasDB** and then click **Save**.
 24. In the Microsoft Edge window, click **Close**.
 
 # Lesson 2: Deploying an ASP.NET MVC 5 Web Application
@@ -62,13 +62,13 @@
 5. Click the **Add an Account** drop-down and then click **Add an account**.
 5. Log in to your Microsoft Account.
 6. In the **Subscription** drop down, ensure that **Azure Pass** is selected.
-7. Locate  _&lt;your username&gt;_ **operas** and select it, then click **OK**.
+7. Locate and expand  _&lt;your username&gt;_ **operas** and select _&lt;your username&gt;_ **operas**, then click **OK**.
 8. Wait for the publish process to finish.
 
-  >**Note:** Visual Studio publishes the website. This process can take several minutes. When the publish operation is complete, the website is displayed in the Internet Explorer window.
+  >**Note:** Visual Studio publishes the website. This process can take several minutes. When the publish operation is complete, the website is displayed in the Microsoft Edge window.
 
 9. If the **Certificate Error** dialog box appears, click **Accept**.
-10. In the Internet Explorer window, if the **Server Error in &#39;/&#39; Application** error displays, click **Refresh**.
+10. In the Microsoft Edge window, if the **Server Error in &#39;/&#39; Application** error displays, click **Refresh**.
 
   >**Note:** If the **Operas I Have Seen** page does not appear, you need to re-publish the **OperasWebSite** project.
 
@@ -78,7 +78,7 @@
 14. On the **Index of Operas** page, click **Details** corresponding to **Cosi Fan Tutte**.
 15. On the **Opera: Cosi Fan Tutte** page, click **Back to List**.
 16. On the **Index of Operas** page, click **Details** corresponding to **Nixon in China**.
-17. In the Internet Explorer window, click **Close**.
+17. In the Microsoft Edge window, click **Close**.
 18. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
