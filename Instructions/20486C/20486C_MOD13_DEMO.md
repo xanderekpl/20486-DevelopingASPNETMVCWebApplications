@@ -89,7 +89,6 @@
 
 23. In the **OperasWebsites(Running) – Microsoft Visual Studio** window, click **Close** and then click **Yes** on **Microsoft Visual Studio** warning box.
 
-24. In the Internet Explorer window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
