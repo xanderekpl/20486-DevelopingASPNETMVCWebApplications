@@ -18,6 +18,7 @@ After completing this lab, you will be able to:
 #### Lab Setup
 
 Estimated Time: **60 minutes**
+>**Note:** This lab is dependent on the successful execution of the lab of Module 11. If you have not executed Module 11's lab, this lab will not function properly.
 
 ### Exercise 1: Creating a SignalR Hub
 
