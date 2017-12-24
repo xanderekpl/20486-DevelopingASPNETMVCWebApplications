@@ -44,12 +44,12 @@ The main tasks for this exercise are as follows:
 
 1. Open the **PhotoSharingApplication** solution from the following location:
 
-    - File location: **Allfiles(D):\Mod13\Labfiles\Starter\PhotoSharingApplication**
+    - File location: **Allfiles\20486C\Mod13\Labfiles\PhotoSharingApplication_13_begin**
 
 2. Add a new API controller to the **PhotoSharingApplication** project by using the following information:
 
     - Name: **PhotoApiController**
-    - Template: **Web API Controller - Empty**
+    - Template: **Web API 2 Controller - Empty**
 
 3. In **PhotoApiController.cs**, add a **using** statement for the following namespace:
 
@@ -131,8 +131,7 @@ The main tasks for this exercise are as follows:
 1. Start that web application in the debugging mode.
 2. Request the photo with ID 4 by using the Web API. Display the returned JSON file by using Visual Studio and check that the **Title** property is **Sample Photo 4**.
 3. Request the photo with title **Sample Photo 5** by using the Web API. Display the returned JSON file by using Visual Studio and check that the **Title** property is **Sample Photo 5**.
-4. Request all photos by using the Web API. Display the returned JSON file by using Visual Studio, and check that both **Sample Photo 9** and **Sample Photo 13** are present.
-5. Close Visual Studio and stop debugging.
+4. Close Visual Studio and stop debugging.
 
 >**Results**: After completing this exercise, you should have successfully created a simple Web API for an ASP.NET MVC 5 web application.
 
