@@ -51,7 +51,6 @@ The main tasks for this exercise are as follows:
 #### Task 2: Plan the photo model class.
 
 1. Open the **DetailedPlanningDocument** document and locate the MVC Model section.
-
 2. Based on your reading of the **InitialInvestigation** document, add and describe a model class for photos in **Table 1: MVC Model**.
 3. Add properties to the model class you created in **Table 1: MVC Model**. The model class will have many properties
 4. Add data types to the photo properties. Each property will have one and only one data type.
@@ -67,7 +66,6 @@ The main tasks for this exercise are as follows:
 #### Task 3: Plan the comment model class.
 
 1. Open the **DetailedPlanningDocument** document and locate the MVC Model section.
-
 2. Based on your reading of the **InitialInvestigation** document, add and describe a model class for photos in **Table 1: MVC Model**.
 3. Add properties to the model class you created in **Table 1: MVC Model**.
 4. Add data types to the comment properties.
@@ -75,8 +73,7 @@ The main tasks for this exercise are as follows:
 6. Add a new Class shape to model comments in the UML diagram.
 7. Add attributes to the new Class shape for each of the properties you planned for comments.
 8. In the UML diagram, connect the two class shapes.
-9. Hide the end names for the connector.
-10. Set multiplicity for the ends of the connector, and save the diagram.
+9. Set multiplicity for the ends of the connector, and save the diagram.
 
    >**Results** : After completing this exercise, you will be able to create proposals for a model, and configure the properties and data types of the model classes.
 
