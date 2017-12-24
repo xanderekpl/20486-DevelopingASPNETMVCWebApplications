@@ -56,12 +56,12 @@ The main tasks for this exercise are as follows:
 3. Add properties to the model class you created in **Table 1: MVC Model**. The model class will have many properties
 4. Add data types to the photo properties. Each property will have one and only one data type.
 5. Merge the rows in the **Model Class** and **Description** columns and save the document.
-6. Create a new UML Logical Data Model diagram in Visio.
+6. Create a new **UML Class** diagram in Visio.
 7. Add a new Class shape to model photos in the UML diagram.
 8. Add attributes to the new Class shape for each of the properties you planned for the photos.
 9. Save the created diagram by using the following information:
 
-   - Folder path: **Allfiles(D):\Mod02\Labfiles**
+   - Folder path: **Allfiles\20486C\Mod02\Labfiles**
    - File name: **PhotoSharingLDM**
 
 #### Task 3: Plan the comment model class.
