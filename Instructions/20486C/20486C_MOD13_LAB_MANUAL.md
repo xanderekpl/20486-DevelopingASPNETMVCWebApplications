@@ -192,7 +192,6 @@ The main tasks for this exercise are as follows:
 3. Add a new view for the **Map** action by using the following information:
 
     - View name: **Map**
-    - Type: Do not create a strongly-typed view
     - Layout: **_MapLayout.cshtml**
 
 4. Remove the **H2** element from the **Map.cshmtl** view.
