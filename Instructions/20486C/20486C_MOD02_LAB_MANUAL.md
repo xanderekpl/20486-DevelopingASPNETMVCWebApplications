@@ -133,7 +133,7 @@ The main tasks for this exercise are as follows:
 8. Add a panel for the photo to the wireframe diagram.
 9. Save the diagram by using the following information:
 
-   - File location: **Allfiles(D):\Mod02\Labfiles**
+   - File location: **Allfiles\20486C\Mod02\Labfiles**
    - File name: **SinglePhotoWireframe**
 
 #### Task 2: Plan the gallery view.
@@ -145,7 +145,7 @@ The main tasks for this exercise are as follows:
 4. Add multiple panels to the photo to the wireframe diagram.
 5. Save the diagram by using the following information:
 
-   - File location: **Allfiles(D):\Mod02\Labfiles**
+   - File location: **Allfiles\20486C\Mod02\Labfiles**
    - File name: **PhotoGalleryWireframe**
 
    >**Results** : After completing this exercise, you will create proposals for views and their layouts.
