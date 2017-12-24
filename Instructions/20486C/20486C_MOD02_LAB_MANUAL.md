@@ -40,7 +40,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the **InitialInvestigation** document by using the following information:
 
-   - File location: **Allfiles(D):\Mod02\Labfiles**
+   - File location: **Allfiles\20486C\Mod02\Labfiles**
 
 2. Enable the **Navigation Pane** feature.
 3. Read the contents of the Introduction section.
