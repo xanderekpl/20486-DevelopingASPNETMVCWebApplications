@@ -44,7 +44,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the PhotoSharingApplication.sln file from the following location:
 
-   - File location: **Allfiles\20486C\Mod14\Labfiles\Starter\PhotoSharingApplication**
+   - File location: **Allfiles\20486C\Mod14\Labfiles\PhotoSharingApplication_14_begin**
 
 2. Use **NuGet Package Manager Console** to install the following package in the **PhotoSharingApplication** project:
 
