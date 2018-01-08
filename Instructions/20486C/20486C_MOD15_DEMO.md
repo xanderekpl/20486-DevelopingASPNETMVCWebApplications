@@ -60,26 +60,26 @@
 3. In the **Publish** dialog box, ensure that **Microsoft Azure App Service** is selected.
 4. Select **Select Existing**, and then click **Publish**.
 5. Click the **Add an Account** drop-down and then click **Add an account**.
-5. Log in to your Microsoft Account.
-6. In the **Subscription** drop down, ensure that **Azure Pass** is selected.
-7. Locate and expand  _&lt;your username&gt;_ **operas** and select _&lt;your username&gt;_ **operas**, then click **OK**.
-8. Wait for the publish process to finish.
+6. Log in to your Microsoft Account.
+7. In the **Subscription** drop down, ensure that **Azure Pass** is selected.
+8. Locate and expand  _&lt;your username&gt;_ **operas** and select _&lt;your username&gt;_ **operas**, then click **OK**.
+9. Wait for the publish process to finish.
 
   >**Note:** Visual Studio publishes the website. This process can take several minutes. When the publish operation is complete, the website is displayed in the Microsoft Edge window.
 
-9. If the **Certificate Error** dialog box appears, click **Accept**.
-10. In the Microsoft Edge window, if the **Server Error in &#39;/&#39; Application** error displays, click **Refresh**.
+10. If the **Certificate Error** dialog box appears, click **Accept**.
+11. In the Microsoft Edge window, if the **Server Error in &#39;/&#39; Application** error displays, click **Refresh**.
 
   >**Note:** If the **Operas I Have Seen** page does not appear, you need to re-publish the **OperasWebSite** project.
 
-11. On the **Operas I Have Seen** page, click **All Operas**.
-12. In the Navigation bar, if the message **Intranet settings are turned off by default.** is displayed, click **Turn on Intranet settings**.
-13. If the message **Are you sure you want to turn on intranet-level security settings?** appears, click **Yes**.
-14. On the **Index of Operas** page, click **Details** corresponding to **Cosi Fan Tutte**.
-15. On the **Opera: Cosi Fan Tutte** page, click **Back to List**.
-16. On the **Index of Operas** page, click **Details** corresponding to **Nixon in China**.
-17. In the Microsoft Edge window, click **Close**.
-18. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
+12. On the **Operas I Have Seen** page, click **All Operas**.
+13. In the Navigation bar, if the message **Intranet settings are turned off by default.** is displayed, click **Turn on Intranet settings**.
+14. If the message **Are you sure you want to turn on intranet-level security settings?** appears, click **Yes**.
+15. On the **Index of Operas** page, click **Details** corresponding to **Cosi Fan Tutte**.
+16. On the **Opera: Cosi Fan Tutte** page, click **Back to List**.
+17. On the **Index of Operas** page, click **Details** corresponding to **Nixon in China**.
+18. In the Microsoft Edge window, click **Close**.
+19. In the **OperasWebSite - Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
