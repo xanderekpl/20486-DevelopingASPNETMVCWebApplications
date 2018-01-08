@@ -100,12 +100,12 @@ The main tasks for this exercise are as follows:
 
 #### Task 3: Map SignalR hubs to the app builder pipeline.
 
-1. In the **Global.asax** code-behind file, add a reference to the **Microsoft.AspNet.SignalR** namespace.
+1. Add a new class file named **Startup.cs** to **PhotoSharingApplication**.
+2. In the **Startup.cs** code-behind file, add a reference to the **Owin** and **Microsoft.Owin** namespaces.
+3. In the **Configuration** method, call the **app.MapSignalR()** method.
+4. Save all the changes.
 
-2. In the **Application\_Start()** method, immediately after the **RegisterAllAreas()** code, call the **RouteTable.Routes.MapHubs()** method.
-3. Save all the changes.
-
-  >**Results** : After completing this exercise, you should have successfully installed SignalR in an MVC 5 web application, configured routes for SignalR, and created a hub to receive and forward simple text messages.
+  >**Results** : After completing this exercise, you should have successfully installed SignalR in an MVC 5 web application, and created a hub to receive and forward simple text messages.
 
 ### Exercise 2: Creating a Photo Chat View
 
