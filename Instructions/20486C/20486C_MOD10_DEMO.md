@@ -105,7 +105,8 @@
      >**Note:** You can expand each section and then read the review content. 
 
 14. In the **Microsoft Edge** window, click **Close**.
-15. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
+15. On the **DEBUG** menu of the **OperasWebsites - Microsoft Visual Studio** window, click **Stop Debugging**.
+16. In the **OperasWebsites – Microsoft Visual Studio** window, click **Close**.
 
 ©2016 Microsoft Corporation. All rights reserved.  
 
