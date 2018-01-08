@@ -43,7 +43,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the Photo Sharing application solution from the following location:
 
-	- File location: **Allfiles\20486C\Mod15\Labfiles\Starter\PhotoSharingApplication**.
+	- File location: **Allfiles\20486C\Mod15\Labfiles\PhotoSharingApplication_15_begin**.
 
 2. In the **Build** properties of the **PhotoSharingApplication** project, select the **Release** configuration.
 
