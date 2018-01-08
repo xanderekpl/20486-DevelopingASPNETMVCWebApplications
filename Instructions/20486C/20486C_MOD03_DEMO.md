@@ -93,7 +93,7 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 
 #### Demonstration Steps
 
-1. Open the **OperasWebsites.sln** file from Allfiles\20486c\Mod03\Democode\OperasWebSites_03_end
+1. Open the **OperasWebsites.sln** file from **Allfiles\20486c\Mod03\Democode\OperasWebSites**
 2. On the **Tools** menu of the **OperasWebSites - Microsoft Visual Studio** window, point to **NuGet Package Manager**, and then click **Package Manager Console**.
 3. In **Package Manager Console** window, type the following command, and then press Enter.
 
