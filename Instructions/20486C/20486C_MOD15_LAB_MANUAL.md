@@ -74,10 +74,10 @@ The main tasks for this exercise are as follows:
 
 #### Task 3: Deploy the Photo Sharing application.
 
-1. In Windows Internet Explorer, download the publish profile for the _&lt;your username&gt;_ **PhotoSharing** web application.
+1. In Microsoft Edge, download the publish profile for the _&lt;your username&gt;_ **PhotoSharing** web application.
 
 2. In Microsoft Visual Studio, start the Publish Web wizard and import the publish profile you just downloaded.
-3. Preview the files that require changes, and then publish the web application.
+3. Publish the web application.
 
   >**Results** : After completing this exercise, you will be able to prepare an ASP.NET MVC web application for production deployment, create a web application in Microsoft Azure, and deploy an MVC web application to Microsoft Azure.
 
