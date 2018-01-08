@@ -38,7 +38,7 @@ The main tasks for this exercise are as follows:
 
 3. Configure media-type formatters.
 
-4. Test the Web API with Internet Explorer.
+4. Test the Web API with Microsoft Edge.
 
 #### Task 1: Add a Photo API controller.
 
