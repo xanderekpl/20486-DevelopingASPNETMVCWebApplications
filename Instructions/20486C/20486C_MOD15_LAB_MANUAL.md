@@ -47,28 +47,30 @@ The main tasks for this exercise are as follows:
 
 	- Sign in to the Microsoft Azure portal by using the following URL: **https://portal.azure.com**
 
+3. In the **Microsoft Azure** page, create a database named **PhotoSharingDB** if it doesn't exist.
 4. Copy the **ADO.NET** connection string for the **PhotoSharingDB** to the clipboard.
-5. In the Web.config file, paste the connection string into the **connectionString** attribute of the **PhotoSharingDB** connection string. Set the password in the pasted connection string to **Pa$$w0rd**.
-6. Log on to the Bing Maps Account Center web application by using the following information:
+5. In the Web.config file, paste the connection string into the **connectionString** attribute of the **PhotoSharingContext** connection string. Set the username in the pasted connection string to [your first name], and set the password in the pasted connection string to **Pa$$w0rd**.
+6. Copy the **ADO.NET** connection string for the **PhotoAppServices** to the clipboard.
+7. In the Web.config file, paste the connection string into the **connectionString** attribute of the **PhotoAppServices** connection string. Set the username in the pasted connection string to [your first name], and set the password in the pasted connection string to **Pa$$w0rd**.
+8. Log on to the Bing Maps Account Center web application by using the following information:
 
 	- URL: **https://www.bingmapsportal.com**
 	- User name: _&lt;Your Windows Live account name&gt;_
 	- Password: _&lt;Your Windows Live account password&gt;_
 
-7. Copy the Bing Maps key.
-8. Replace the text, **{Your Bing Key}**, in the MapDisplay.js file, with the copied key.
-9. Save all the changes.
+9. Copy the Bing Maps key.
+10. Replace the text, **{Your Bing Key}**, in the MapDisplay.js file, with the copied key.
+11. Save all the changes.
 
 #### Task 2: Create a new web app in Microsoft Azure.
 
 - In Microsoft Azure, create a new web app by using the following information:
 
-	- URL: _&lt;your username&gt;_ **PhotoSharing**
-	- Region: _&lt;a region near you&gt;_
-	- Database: **PhotoSharingDB**
-	- Database connection string name: **PhotoSharingDB**.
-	- Database user: _&lt;Your first name&gt;_
-	- Password: **Pa$$w0rd**
+	- App name: _&lt;your username&gt;_ **PhotoSharing**
+	- Resource Group: Main
+	- App Service plan: _&lt;your first name&gt;_ **PhotoSharing**
+	- Location: _&lt;a location close to you&gt;_
+	- Pricing tier: **D1 Shared**
 
 #### Task 3: Deploy the Photo Sharing application.
 
