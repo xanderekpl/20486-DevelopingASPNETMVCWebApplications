@@ -26,7 +26,7 @@ In this lab, you will create a web application in Microsoft Azure that runs in F
 In this exercise, you will:
 
 - Reconfigure the Photo Sharing application for release deployment.
-- Configurare the connection strings and bing key.
+- Configure the connection strings and bing key of the photo sharing application.
 - Create a new web application in Microsoft Azure and deploy the Photo Sharing application to the new site.
 
 The main tasks for this exercise are as follows:
