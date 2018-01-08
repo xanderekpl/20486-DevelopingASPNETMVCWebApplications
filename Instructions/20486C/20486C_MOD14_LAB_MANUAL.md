@@ -105,7 +105,7 @@ The main tasks for this exercise are as follows:
 3. In the **Configuration** method, call the **app.MapSignalR()** method.
 4. Save all the changes.
 
-  >**Results** : After completing this exercise, you should have successfully installed SignalR in an MVC 5 web application, and created a hub to receive and forward simple text messages.
+  >**Results** : After completing this exercise, you should have successfully installed SignalR in an MVC 5 web application, created a hub to receive and forward simple text messages, and mapped the SignalR hubs to the app builder pipeline.
 
 ### Exercise 2: Creating a Photo Chat View
 
