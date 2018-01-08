@@ -19,6 +19,8 @@ Estimated Time: **45 minutes**
 
 In this lab, you will create a web application in Microsoft Azure that runs in Free mode. Free mode is an excellent tool for testing and running small, non-intensive web applications. However, there is a limit of data transfer per day on the Free mode tool. After completing Exercise 2, you are encouraged to further test the deployed web application. However, if you do a lot of extra testing, you may encounter the limit and the application may become unavailable.
 
+>**Note:** This lab is dependent on the successful execution of the lab of Modules 11 and 13. If you have not executed labs of Modules 11 and 13, this lab will not function properly.
+
 ### Exercise 1: Deploying a Web Application to Microsoft Azure
 
 #### Scenario
