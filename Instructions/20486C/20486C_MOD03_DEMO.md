@@ -94,16 +94,16 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 #### Demonstration Steps
 
 1. Open the **OperasWebsites.sln** file from Allfiles\20486c\Mod03\Democode\OperasWebSites_03_end
-1. On the **Tools** menu of the **OperasWebSites - Microsoft Visual Studio** window, point to **NuGet Package Manager**, and then click **Package Manager Console**.
-2. In **Package Manager Console** window, type the following command, and then press Enter.
+2. On the **Tools** menu of the **OperasWebSites - Microsoft Visual Studio** window, point to **NuGet Package Manager**, and then click **Package Manager Console**.
+3. In **Package Manager Console** window, type the following command, and then press Enter.
 
   ```cs
 		Install-Package EntityFramework -Version 6.1.3
 ```
 
-3. In the **Solution Explorer** pane of the **OperasWebSites - Microsoft Visual Studio** window, click **web.config**.
+4. In the **Solution Explorer** pane of the **OperasWebSites - Microsoft Visual Studio** window, click **web.config**.
 
-4. In the **web.config** code window, place the mouse cursor at the end of the **&lt;/appsettings&gt;** tag, press Enter, and then type the following code.
+5. In the **web.config** code window, place the mouse cursor at the end of the **&lt;/appsettings&gt;** tag, press Enter, and then type the following code.
 
   ```cs
 	<connectionStrings>
@@ -112,57 +112,57 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
 	providerName="System.Data.SqlClient" />
 	</connectionStrings>
 ```
-5. In **Microsoft Visual Studio** dialog box, click **No** to keep your changes to **web.config**.
-6. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
-7. In the **Name** text box of the **Add New Item - OperasWebSites** dialog box, type **OperasDB**, and then click **Add**.
-8. In the **OperasDB.cs** code window, locate the following code.
+6. In **Microsoft Visual Studio** dialog box, click **No** to keep your changes to **web.config**.
+7. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
+8. In the **Name** text box of the **Add New Item - OperasWebSites** dialog box, type **OperasDB**, and then click **Add**.
+9. In the **OperasDB.cs** code window, locate the following code.
 
   ```cs
 		using System.Web;
 ```
-9. Place the mouse cursor at the end of the located code, press Enter, and then type the following code.
+10. Place the mouse cursor at the end of the located code, press Enter, and then type the following code.
 
   ```cs
 		using System.Data.Entity;
 ```
-10. In the **OperasDB.cs** code window, locate the following code.
+11. In the **OperasDB.cs** code window, locate the following code.
 
   ```cs
 		public class OperasDB
 ```
-11. Append the following code to the existing line of code.
+12. Append the following code to the existing line of code.
 
   ```cs
 		: DbContext
 ```
-12. In the **OperasDB** class, type the following code.
+13. In the **OperasDB** class, type the following code.
 
   ```cs		
         public DbSet<Opera> Operas{ get; set; }
 ```
-13. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
-14. In the **Name** text box of the **Add New Item - OperasWebSites** dialog box, type **OperasInitializer**, and then click **Add**.
-15. In the **OperasInitializer.cs** code window, place the mouse cursor at the end of the **System.web** namespace code, press Enter, and then type the following code.
+14. In the **Solution Explorer** pane, right-click **Models**, point to **Add**, and then click **Class**.
+15. In the **Name** text box of the **Add New Item - OperasWebSites** dialog box, type **OperasInitializer**, and then click **Add**.
+16. In the **OperasInitializer.cs** code window, place the mouse cursor at the end of the **System.web** namespace code, press Enter, and then type the following code.
 
   ```cs
 		using System.Data.Entity;
 ```
-16. In the **OperasInitializer.cs** code window, locate the following code.
+17. In the **OperasInitializer.cs** code window, locate the following code.
 
   ```cs
 		public class OperasInitializer
 ```
-17. Append the following code to the existing line of code.
+18. Append the following code to the existing line of code.
 
   ```cs
 		: DropCreateDatabaseAlways<OperasDB>
 ```
-18. In the **OperasInitializer** class code block, type the following code, press Spacebar, and then click, **Seed(OperasDB context)**.
+19. In the **OperasInitializer** class code block, type the following code, press Spacebar, and then click, **Seed(OperasDB context)**.
 
   ```cs
 		override
 ```
-19. In the **Seed** method, place the mouse cursor after the call to **base.Seed**, press Enter, and then type the following code.
+20. In the **Seed** method, place the mouse cursor after the call to **base.Seed**, press Enter, and then type the following code.
 
   ```cs
         var operas = new List<Opera>
@@ -176,42 +176,42 @@ https://github.com/MicrosoftLearning/20486-DevelopingASPNETMVCWebApplications/tr
         operas.ForEach(s =>context.Operas.Add(s));
         context.SaveChanges();
 ```
-20. In the **Solution Explorer** pane, click **Global.asax**.
-21. In the **Global.asax** code window, place the cursor at the end of the **System.Web.Routing** namespace, press Enter, and then type the following code.
+21. In the **Solution Explorer** pane, click **Global.asax**.
+22. In the **Global.asax** code window, place the cursor at the end of the **System.Web.Routing** namespace, press Enter, and then type the following code.
 
   ```cs
 	   using System.Data.Entity;
        using OperasWebSites.Models;
 ```
-22. In the **Application\_Start** method code block, type the following code.
+23. In the **Application\_Start** method code block, type the following code.
 
   ```cs
 		Database.SetInitializer<OperasDB>(new OperasInitializer());           
 ```
-23. On the **Build** menu of the **OperasWebSites - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
-24. In the **Solution Explorer** pane, right-click **Controllers**, click **Add**, and then click **Controller**.
-25. In the **Scaffold** dialog box, click **MVC 5 controller with views, using Entity Framework**, and then click **Add**. 
-26. In the **Controller Name** box, type **OperaController**.
-27. In the **Model Class** box, click **Opera (OperasWebSite.Models)**.
-28. In the **Data context class** box, click **OperasDB (OperasWebSite.Models)**, and then click **Add**.
-29. In the **Solution Explorer** pane, in the **Views/Opera** folder, double-click **Create.cshtml**.
-30. In the **Create.cshtml** code window, locate and delete the following code.
+24. On the **Build** menu of the **OperasWebSites - Microsoft Visual Studio** window, click **Build Solution**, and then note that the application is built successfully.
+25. In the **Solution Explorer** pane, right-click **Controllers**, click **Add**, and then click **Controller**.
+26. In the **Scaffold** dialog box, click **MVC 5 controller with views, using Entity Framework**, and then click **Add**. 
+27. In the **Controller Name** box, type **OperaController**.
+28. In the **Model Class** box, click **Opera (OperasWebSite.Models)**.
+29. In the **Data context class** box, click **OperasDB (OperasWebSite.Models)**, and then click **Add**.
+30. In the **Solution Explorer** pane, in the **Views/Opera** folder, double-click **Create.cshtml**.
+31. In the **Create.cshtml** code window, locate and delete the following code.
 
   ```cs
 		@section Scripts {@Script.Render("~/bundles/jqueryval")}
 ```
-31. On the **DEBUG** menu of the **OperasWebSites - Microsoft Visual** Studio window, click **Start Debugging**
-32. In the Address bar of the **Microsoft Edge** window, replace the existing URL with **opera/index**, and then click **Go to**.
-33. On the **Index** page, click **Create New**.
-34. In the **Title** text box of the result page, type **Carmen**, and then, in the **Year** text box, type **1475**.
-35. In the **Composer** text box, type **Bizet**, and then click **Create**.
+32. On the **DEBUG** menu of the **OperasWebSites - Microsoft Visual** Studio window, click **Start Debugging**
+33. In the Address bar of the **Microsoft Edge** window, replace the existing URL with **opera/index**, and then click **Go to**.
+34. On the **Index** page, click **Create New**.
+35. In the **Title** text box of the result page, type **Carmen**, and then, in the **Year** text box, type **1475**.
+36. In the **Composer** text box, type **Bizet**, and then click **Create**.
 
    >**Note:** An error message is displayed by the custom validator.
 
-36. In the **Year** text box, type **1875**, and then click **Create**.
-37. In the **Microsoft Edge** window, click **Close**.
-38. In the **OperasWebSites - Microsoft Visual Studio** window, click **Close**.
-39. In the **Microsoft Visual Studio** dialog box, click **Yes** to stop the debugging.
+37. In the **Year** text box, type **1875**, and then click **Create**.
+38. In the **Microsoft Edge** window, click **Close**.
+39. In the **OperasWebSites - Microsoft Visual Studio** window, click **Close**.
+40. In the **Microsoft Visual Studio** dialog box, click **Yes** to stop the debugging.
 
 ©2016 Microsoft Corporation. All rights reserved.
 
