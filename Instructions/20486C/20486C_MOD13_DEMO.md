@@ -72,7 +72,7 @@
 ```
 14. On the **FILE** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Save All**.
 15. On the **DEBUG** menu of the **OperasWebsites – Microsoft Visual Studio** window, click **Start Debugging**.
-16. In the Address bar of the Internet Explorer window, type **http://localhost:[port]/api/OperasApi**, and then press **Enter**.
+16. In the Address bar of the Microsoft Edge window, type **http://localhost:[port]/api/OperasApi**, and then press **Enter**.
 17. In the **Microsoft Edge** window that displays the JSON response of the previous step, enter **CTRL+F** to search content within the page.
 18. in the Search box, type: **Rigoletto**
 19. In the **Find on page** box, click **Close**.
