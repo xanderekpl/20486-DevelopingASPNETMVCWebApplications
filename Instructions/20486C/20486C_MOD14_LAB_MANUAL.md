@@ -44,7 +44,7 @@ The main tasks for this exercise are as follows:
 
 1. Open the PhotoSharingApplication.sln file from the following location:
 
-   - File location: **Allfiles\20486C\Mod14\Labfiles\Starter\PhotoSharingApplication**
+   - File location: **Allfiles\20486C\Mod14\Labfiles\PhotoSharingApplication_14_begin**
 
 2. Use **NuGet Package Manager Console** to install the following package in the **PhotoSharingApplication** project:
 
@@ -216,7 +216,7 @@ The main tasks for this exercise are as follows:
 3. In the new function, create a variable named **encodedMessage**, and use jQuery to set this variable to a new **&lt;div&gt;** with the **message** parameter as its HTML content.
 4. Create a new variable named **listItem**. Set the value of this variable to an HTML **LI** element that includes the **encodedName** and **encodedMessage** variables.
 5. Append the **listItem** element to the page element with the ID **discussion**.
-6. In the function that runs when the **client.server.join()** method is done, create an anonymous function that runs when the button with the ID **sendmessage** is clicked.
+6. In the function that runs when the **chat.server.join()** method is done, create an anonymous function that runs when the button with the ID **sendmessage** is clicked.
 7. In the new anonymous function, call the **chat.server.send()** method by using the following information:
 
    - User name: **username**

@@ -169,6 +169,7 @@ The main tasks for this exercise are as follows:
 #### Task 2: Choose a data store.
 
 - Based on your reading of the **InitialInvestigation** document, add a description of the database server arrangements that are suited to host the photo sharing application.
+- Close Both **Word** and **Visio** documents.
 
    >**Results**: After completing this exercise, you will be able to create proposals for hosting arrangements.
 
