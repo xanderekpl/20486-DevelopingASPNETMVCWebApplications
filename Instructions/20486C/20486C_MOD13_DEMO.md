@@ -2,7 +2,7 @@
 
 # Lesson 1: Developing a Web API
 
-### Demonstration: How to Explore a Web API by Using Internet Explorer
+### Demonstration: How to Explore a Web API by Using Microsoft Edge
 
 #### Preparation Steps
 
