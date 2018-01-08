@@ -26,7 +26,7 @@ In this lab, you will create a web application in Microsoft Azure that runs in F
 In this exercise, you will:
 
 - Reconfigure the Photo Sharing application for release deployment.
-- Configure the **Entity Framework initializer** class, which fills the database with initial data, and ensure that the build configuration and connection strings are correct.
+- Configurare the connection strings bing key.
 - Create a new web application in Microsoft Azure and deploy the Photo Sharing application to the new site.
 
 The main tasks for this exercise are as follows:
