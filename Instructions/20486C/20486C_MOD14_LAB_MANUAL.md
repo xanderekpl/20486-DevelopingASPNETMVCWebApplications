@@ -98,7 +98,7 @@ The main tasks for this exercise are as follows:
 
 10. Save all the changes.
 
-#### Task 3: Configure SignalR routes.
+#### Task 3: Map SignalR hubs to the app builder pipeline.
 
 1. In the **Global.asax** code-behind file, add a reference to the **Microsoft.AspNet.SignalR** namespace.
 
