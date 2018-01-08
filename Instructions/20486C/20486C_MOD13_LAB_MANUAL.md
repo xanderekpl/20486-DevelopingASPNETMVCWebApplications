@@ -28,7 +28,7 @@ In this exercise, you will:
 
 - Add a Web API controller for the Photo model class.
 - Configure formatters and routes to support the Web API.
-- Test the API by using Internet Explorer.
+- Test the API by using Microsoft Edge.
 
 The main tasks for this exercise are as follows:
 
@@ -126,7 +126,7 @@ The main tasks for this exercise are as follows:
 3. Remove the **XmlFormatter** object from the **config.Formatters** collection.
 4. Save all the changes.
 
-#### Task 4: Test the Web API with Internet Explorer.
+#### Task 4: Test the Web API with Microsoft Edge.
 
 1. Start that web application in the debugging mode.
 2. Request the photo with ID 4 by using the Web API. Display the returned JSON file by using Visual Studio and check that the **Title** property is **Sample Photo 4**.
