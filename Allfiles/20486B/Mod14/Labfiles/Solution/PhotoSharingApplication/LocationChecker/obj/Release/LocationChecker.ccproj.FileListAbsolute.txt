@@ -1,2 +1,0 @@
-C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\LocationChecker\bin\Release\ServiceConfiguration.cscfg
-C:\AllFiles\Mod13\Labfiles\Solution\PhotoSharingApplication\LocationChecker\bin\Release\ServiceDefinition.csdef
