@@ -8,6 +8,8 @@ namespace mvc2.Controllers
 {
     public class HomeController : Controller
     {
+
+        [Authorize(Users = "DESKTOP-3856HQR\\student")]
         public void Info()
         {
             var homeInfo = typeof(HomeController);
