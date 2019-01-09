@@ -82,3 +82,8 @@ C:\work2\git\Allfiles\20486C\Mod03\Labfiles\PhotoSharingApplication\PhotoSharing
 C:\work2\git\Allfiles\20486C\Mod03\Labfiles\PhotoSharingApplication\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.csproj.CopyComplete
 C:\work2\git\Allfiles\20486C\Mod03\Labfiles\PhotoSharingApplication\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.dll
 C:\work2\git\Allfiles\20486C\Mod03\Labfiles\PhotoSharingApplication\PhotoSharingApplication\obj\Debug\PhotoSharingApplication.pdb
+C:\work2\git\Allfiles\20486C\Mod03\Labfiles\PhotoSharingApplication\PhotoSharingApplication\bin\Glimpse.Ado.dll
+C:\work2\git\Allfiles\20486C\Mod03\Labfiles\PhotoSharingApplication\PhotoSharingApplication\bin\Glimpse.AspNet.dll
+C:\work2\git\Allfiles\20486C\Mod03\Labfiles\PhotoSharingApplication\PhotoSharingApplication\bin\Glimpse.Core.dll
+C:\work2\git\Allfiles\20486C\Mod03\Labfiles\PhotoSharingApplication\PhotoSharingApplication\bin\Glimpse.EF6.dll
+C:\work2\git\Allfiles\20486C\Mod03\Labfiles\PhotoSharingApplication\PhotoSharingApplication\bin\Glimpse.Mvc5.dll
